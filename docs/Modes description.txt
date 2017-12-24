@@ -1,0 +1,120 @@
+Power-up
+-
+Display code version "1.0"
+L | R held down <go to Self test>
+- or -
+wait 1 second then <go to Time mode>
+
+_________________
+Self test mode
+_________________
+Display "Test"
+- cycle R, G, B pixels (mostly to check for bad pixels)
+
+L | R - <go to Time mode>
+
+
+_________________
+Time mode
+_________________
+L - go to Seconds mode
+R - Colour++
+R held - go to Colour/Group select mode
+
+L & R held - go to Time Set mode
+
+_________________
+Seconds mode
+_________________
+L - go to Temperature mode
+
+
+_________________
+Temperature mode
+_________________
+L - go to Time mode
+L held - toggle between deg F and deg C
+
+_________________
+Colour/Group select mode
+_________________
+R - colour ++
+R held - group ++
+no button for 1 sec - go to Time mode
+
+Display <Group><Colour/Speed>, e.g. "A0" for White, "A2" for Red, "B1" for solid colour fade w/ 500ms delay
+(Remember last colour/speed shown when switching groups)
+
+Group A - Solid colours
+	0-White
+	1-Pink
+	2-Red
+	3-Orange
+	4-Yellow
+	5-Green
+	6-Blue
+	7-Purple
+	<repeat>
+
+
+Group B - Solid colours
+	0-White
+	1-Hot pink
+	2-Blood orange
+	3-Lemon lime
+	4-Neon green
+	5-Teal
+	6-Turquois
+	7-Light purple
+	<repeat>
+
+Group C - Solid colour fade
+	Speed 1 - delay 500
+	Speed 2 - delay 200
+	Speed 3 - delay 100
+	Speed 4 - delay 50
+	Speed 5 - delay 10
+	<repeat>
+
+Group D	- Rainbow colour fade
+	Speed 1 - delay 500
+	Speed 2 - delay 200
+	Speed 3 - delay 100
+	Speed 4 - delay 50
+	Speed 5 - delay 10
+	<repeat>
+
+Group E - Randomly coloured letters
+	Speed 0 - colours only change when words change
+	Speed 1 - colours change once per minute
+	Speed 2 - colours change every 15 seconds
+	Speed 3 - colours change every 5 seconds
+	Speed 4 - colours change every second
+	Speed 5 - delay 100ms
+	Speed 6 - delay 10ms
+	<repeat>
+
+Group F	- Simulated fire
+
+
+<back to Group A>
+
+
+_________________
+Time set mode
+_________________
+L - enter
+R - selection ++
+
+Display "Set"
+Display "Hour"
+Display current hour from RTC
+R - Hour ++ (0 - 23, repeating)
+<hour is selected>
+L - 
+Display "Min"
+Display current minute from RTC
+R - Minute ++ (0-59, repeating)
+L - 
+Display "OK" for 1 second
+<Return to Time mode>
