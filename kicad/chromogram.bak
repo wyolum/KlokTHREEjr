@@ -1,10 +1,11 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 2
+LIBS:power
 LIBS:chromogram-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 10
+Sheet 1 11
 Title "Chromogram"
 Date "2017-12-26"
 Rev "rev 1"
@@ -515,10 +516,6 @@ E4 23 8F 3C 52 B0 F1 D9 2E 76 F1 FF 03 17 ED 19 47 28 92 59 FB 00 00 00 00 49 45
 82 
 EndData
 $EndBitmap
-Text GLabel 850  7250 0    40   Input ~ 0
-GND
-Text GLabel 3300 6700 2    40   Input ~ 0
-5V
 $Sheet
 S 7600 1050 850  450 
 U 511688A7
@@ -531,17 +528,6 @@ F5 "CI_A" I L 7600 1450 40
 F6 "CI_B" O R 8450 1450 40 
 F7 "DI_B" O R 8450 1300 40 
 $EndSheet
-$Comp
-L chromogram:GND #PWR01
-U 1 1 50E7FAEA
-P 2250 7325
-F 0 "#PWR01" H 2250 7325 30  0001 C CNN
-F 1 "GND" H 2250 7255 30  0001 C CNN
-F 2 "" H 2250 7325 60  0001 C CNN
-F 3 "" H 2250 7325 60  0001 C CNN
-	1    2250 7325
-	1    0    0    -1  
-$EndComp
 Text Label 7200 1150 0    40   ~ 0
 5V
 Text Label 8850 1150 2    40   ~ 0
@@ -632,70 +618,10 @@ F7 "DO_H" O R 8450 6200 40
 $EndSheet
 Text Notes 6900 550  0    40   ~ 8
 16 x 8 pixel matrix
-Text Notes 750  6325 0    40   ~ 8
-RTC
-Text Notes 875  7400 0    40   ~ 8
-Power supply
-$Comp
-L chromogram:CAP_NP C22
-U 1 1 542B4ECC
-P 1125 5325
-F 0 "C22" H 1200 5425 40  0000 C CNN
-F 1 "100n" H 1225 5250 40  0000 C CNN
-F 2 "chromogram_libs:c_0805" H 1125 5325 60  0001 C CNN
-F 3 "" H 1125 5325 60  0000 C CNN
-	1    1125 5325
-	1    0    0    -1  
-$EndComp
-$Comp
-L chromogram:R R8
-U 1 1 542B797A
-P 1475 4875
-F 0 "R8" H 1525 4675 40  0000 C CNN
-F 1 "4K7" V 1482 4876 40  0000 C CNN
-F 2 "chromogram_libs:r_0805" V 1405 4875 30  0001 C CNN
-F 3 "~" H 1475 4875 30  0000 C CNN
-	1    1475 4875
-	1    0    0    -1  
-$EndComp
 Text Label 3775 2475 0    40   ~ 0
 SCL
-$Comp
-L chromogram:GND #PWR03
-U 1 1 542BA28D
-P 2625 6300
-F 0 "#PWR03" H 2625 6300 30  0001 C CNN
-F 1 "GND" H 2625 6230 30  0001 C CNN
-F 2 "" H 2625 6300 60  0000 C CNN
-F 3 "" H 2625 6300 60  0000 C CNN
-	1    2625 6300
-	1    0    0    -1  
-$EndComp
 Text Label 3775 2375 0    40   ~ 0
 SDA
-Text Label 1725 5550 0    40   ~ 0
-SDA
-Text Label 1725 5650 0    40   ~ 0
-SCL
-$Comp
-L chromogram:C_POL_1 C24
-U 1 1 542D4A8B
-P 2475 6950
-F 0 "C24" H 2475 7050 40  0000 L CNN
-F 1 "47u" H 2475 6850 40  0000 L CNN
-F 2 "chromogram_libs:c_2917" H 2475 6900 50  0001 C CNN
-F 3 "" H 2475 6950 60  0001 C CNN
-F 4 "CAP ALUM 47UF 8V 20% SMD" H 2475 7150 60  0001 L CNN "Field4"
-F 5 "47u,8V" H 2475 7250 60  0001 L CNN "Field5"
-F 6 "2917 (7343 Metric)" H 2475 7350 60  0001 L CNN "Field6"
-F 7 "Panasonic Electronic Components" H 2475 7450 60  0001 L CNN "Field7"
-F 8 "EEF-CD0K470R" H 2475 7550 60  0001 L CNN "Field8"
-F 9 "Digikey" H 2475 7650 60  0001 L CNN "Field9"
-F 10 "PCE3606CT-ND" H 2475 7750 60  0001 L CNN "Field10"
-F 11 "http://www.digikey.com/product-detail/en/EEF-CD0K470R/PCE3606CT-ND/614442" H 2475 7850 60  0001 L CNN "Field11"
-	1    2475 6950
-	1    0    0    -1  
-$EndComp
 Text Label 7125 1300 0    40   ~ 0
 DI_A
 $Comp
@@ -755,63 +681,6 @@ F 3 "" H 4975 2175 60  0000 C CNN
 $EndComp
 Text Notes 4900 2575 0    40   ~ 8
 ICSP Header
-$Comp
-L chromogram:CAP_NP C28
-U 1 1 542C2DFC
-P 3225 6975
-F 0 "C28" H 3300 7075 39  0000 C CNN
-F 1 "100n" H 3375 7000 39  0000 C CNN
-F 2 "chromogram_libs:c_0805" H 3225 6975 60  0001 C CNN
-F 3 "" H 3225 6975 60  0000 C CNN
-	1    3225 6975
-	1    0    0    -1  
-$EndComp
-$Comp
-L chromogram:R R6
-U 1 1 542C917C
-P 3600 4675
-F 0 "R6" H 3650 4475 40  0000 C CNN
-F 1 "10K" V 3607 4676 40  0000 C CNN
-F 2 "chromogram_libs:r_0805" V 3530 4675 30  0001 C CNN
-F 3 "~" H 3600 4675 30  0000 C CNN
-	1    3600 4675
-	1    0    0    -1  
-$EndComp
-$Comp
-L chromogram:R R7
-U 1 1 542C9223
-P 3750 4675
-F 0 "R7" H 3800 4475 40  0000 C CNN
-F 1 "10K" V 3757 4676 40  0000 C CNN
-F 2 "chromogram_libs:r_0805" V 3680 4675 30  0001 C CNN
-F 3 "~" H 3750 4675 30  0000 C CNN
-	1    3750 4675
-	1    0    0    -1  
-$EndComp
-Text Label 3700 5125 2    40   ~ 0
-RESET
-$Comp
-L chromogram:PWR_FLAG #FLG04
-U 1 1 542A828E
-P 950 4450
-F 0 "#FLG04" H 950 4720 30  0001 C CNN
-F 1 "PWR_FLAG" H 950 4680 30  0000 C CNN
-F 2 "" H 950 4450 60  0000 C CNN
-F 3 "" H 950 4450 60  0000 C CNN
-	1    950  4450
-	1    0    0    -1  
-$EndComp
-$Comp
-L chromogram:DS3231N U130
-U 1 1 542B8235
-P 2625 5325
-F 0 "U130" H 2025 5950 40  0000 L CNN
-F 1 "DS3231N" H 2025 5875 40  0000 L CNN
-F 2 "chromogram_libs:DS3231" H 2625 5325 60  0001 C CNN
-F 3 "~" H 2625 5325 60  0000 C CNN
-	1    2625 5325
-	1    0    0    -1  
-$EndComp
 Text Label 3775 1575 0    40   ~ 0
 MOSI
 Text Label 3775 1675 0    40   ~ 0
@@ -820,112 +689,10 @@ Text Label 5075 1875 0    40   ~ 0
 MISO
 Text Label 5075 2075 0    40   ~ 0
 SCK
-$Comp
-L chromogram:PWR_FLAG #FLG05
-U 1 1 542C2187
-P 3225 6650
-F 0 "#FLG05" H 3225 6745 30  0001 C CNN
-F 1 "PWR_FLAG" H 3225 6830 30  0000 C CNN
-F 2 "" H 3225 6650 60  0000 C CNN
-F 3 "" H 3225 6650 60  0000 C CNN
-	1    3225 6650
-	1    0    0    -1  
-$EndComp
-$Comp
-L chromogram:PWR_FLAG #FLG06
-U 1 1 542C219E
-P 3375 7225
-F 0 "#FLG06" H 3375 7320 30  0001 C CNN
-F 1 "PWR_FLAG" H 3375 7405 30  0000 C CNN
-F 2 "" H 3375 7225 60  0000 C CNN
-F 3 "" H 3375 7225 60  0000 C CNN
-	1    3375 7225
-	1    0    0    -1  
-$EndComp
-$Comp
-L chromogram:R R9
-U 1 1 542C0EC2
-P 1625 4875
-F 0 "R9" H 1675 4675 40  0000 C CNN
-F 1 "4K7" V 1632 4876 40  0000 C CNN
-F 2 "chromogram_libs:r_0805" V 1555 4875 30  0001 C CNN
-F 3 "~" H 1625 4875 30  0000 C CNN
-	1    1625 4875
-	1    0    0    -1  
-$EndComp
-$Comp
-L chromogram:C_POL_1 C25
-U 1 1 54323DA9
-P 2650 6950
-F 0 "C25" H 2650 7050 40  0000 L CNN
-F 1 "47u" H 2650 6850 40  0000 L CNN
-F 2 "chromogram_libs:c_2917" H 2650 6900 50  0001 C CNN
-F 3 "" H 2650 6950 60  0001 C CNN
-F 4 "CAP ALUM 47UF 8V 20% SMD" H 2650 7150 60  0001 L CNN "Field4"
-F 5 "47u,8V" H 2650 7250 60  0001 L CNN "Field5"
-F 6 "2917 (7343 Metric)" H 2650 7350 60  0001 L CNN "Field6"
-F 7 "Panasonic Electronic Components" H 2650 7450 60  0001 L CNN "Field7"
-F 8 "EEF-CD0K470R" H 2650 7550 60  0001 L CNN "Field8"
-F 9 "Digikey" H 2650 7650 60  0001 L CNN "Field9"
-F 10 "PCE3606CT-ND" H 2650 7750 60  0001 L CNN "Field10"
-F 11 "http://www.digikey.com/product-detail/en/EEF-CD0K470R/PCE3606CT-ND/614442" H 2650 7850 60  0001 L CNN "Field11"
-	1    2650 6950
-	1    0    0    -1  
-$EndComp
-$Comp
-L chromogram:C_POL_1 C26
-U 1 1 54323DB7
-P 2825 6950
-F 0 "C26" H 2825 7050 40  0000 L CNN
-F 1 "47u" H 2825 6850 40  0000 L CNN
-F 2 "chromogram_libs:c_2917" H 2825 6950 60  0001 C CNN
-F 3 "" H 2825 6950 60  0000 C CNN
-F 4 "CAP ALUM 47UF 8V 20% SMD" H 2825 7150 60  0001 L CNN "Field4"
-F 5 "47u,8V" H 2825 7250 60  0001 L CNN "Field5"
-F 6 "2917 (7343 Metric)" H 2825 7350 60  0001 L CNN "Field6"
-F 7 "Panasonic Electronic Components" H 2825 7450 60  0001 L CNN "Field7"
-F 8 "EEF-CD0K470R" H 2825 7550 60  0001 L CNN "Field8"
-F 9 "Digikey" H 2825 7650 60  0001 L CNN "Field9"
-F 10 "PCE3606CT-ND" H 2825 7750 60  0001 L CNN "Field10"
-F 11 "http://www.digikey.com/product-detail/en/EEF-CD0K470R/PCE3606CT-ND/614442" H 2825 7850 60  0001 L CNN "Field11"
-	1    2825 6950
-	1    0    0    -1  
-$EndComp
-$Comp
-L chromogram:C_POL_1 C27
-U 1 1 54323DC5
-P 3000 6950
-F 0 "C27" H 3000 7050 40  0000 L CNN
-F 1 "47u" H 3000 6850 40  0000 L CNN
-F 2 "chromogram_libs:c_2917" H 3000 6900 50  0001 C CNN
-F 3 "" H 3000 6950 60  0001 C CNN
-F 4 "CAP ALUM 47UF 8V 20% SMD" H 3000 7150 60  0001 L CNN "Field4"
-F 5 "47u,8V" H 3000 7250 60  0001 L CNN "Field5"
-F 6 "2917 (7343 Metric)" H 3000 7350 60  0001 L CNN "Field6"
-F 7 "Panasonic Electronic Components" H 3000 7450 60  0001 L CNN "Field7"
-F 8 "EEF-CD0K470R" H 3000 7550 60  0001 L CNN "Field8"
-F 9 "Digikey" H 3000 7650 60  0001 L CNN "Field9"
-F 10 "PCE3606CT-ND" H 3000 7750 60  0001 L CNN "Field10"
-F 11 "http://www.digikey.com/product-detail/en/EEF-CD0K470R/PCE3606CT-ND/614442" H 3000 7850 60  0001 L CNN "Field11"
-	1    3000 6950
-	1    0    0    -1  
-$EndComp
 Text Label 3775 3375 0    40   ~ 0
 MARQUEE_DATA
 Text Label 3775 3475 0    40   ~ 0
 MARQUEE_SENSE
-$Comp
-L chromogram:Batt_RTC BT1
-U 1 1 54356384
-P 950 5325
-F 0 "BT1" V 850 5250 40  0000 C CNN
-F 1 "Batt_RTC" H 1100 5250 40  0000 C CNN
-F 2 "chromogram_libs:CR2032_SMD" H 950 5325 60  0001 C CNN
-F 3 "" H 950 5325 60  0000 C CNN
-F 4 "BU2032SM-HD-GCT-ND " H 1050 5625 60  0001 C CNN "Digikey"
-	1    950  5325
-	0    1    1    0   
-$EndComp
 Text Label 7200 1850 0    40   ~ 0
 5V
 Text Label 7200 6050 0    40   ~ 0
@@ -1014,28 +781,10 @@ Text Notes 3950 3225 0    40   ~ 0
 Push Buttons
 Text Notes 5300 5550 2    40   ~ 8
 Push Buttons
-Text Label 1025 4525 0    40   ~ 0
-BAT
 Text Label 5100 4250 0    40   ~ 0
 5V
-Text Label 1475 4350 0    40   ~ 0
-5V
-Text Label 1475 6225 0    40   ~ 0
-GND
 Text Label 5075 1975 0    40   ~ 0
 5V
-Wire Wire Line
-	3525 5375 3575 5375
-Connection ~ 1750 7250
-Wire Wire Line
-	1750 7250 1750 6900
-Wire Wire Line
-	1750 6800 1700 6800
-Wire Wire Line
-	850  7250 1175 7250
-Connection ~ 2250 7250
-Wire Wire Line
-	2625 4350 2625 4525
 Wire Wire Line
 	3550 2175 3775 2175
 Wire Wire Line
@@ -1060,15 +809,6 @@ Wire Wire Line
 	3550 1675 3775 1675
 Wire Wire Line
 	3550 1575 3775 1575
-Connection ~ 3600 4350
-Wire Wire Line
-	3600 4350 3600 4425
-Wire Wire Line
-	1475 4350 1625 4350
-Wire Wire Line
-	3750 4350 3750 4425
-Wire Wire Line
-	950  4450 950  4525
 Wire Wire Line
 	3775 3475 3550 3475
 Wire Wire Line
@@ -1077,8 +817,6 @@ Wire Wire Line
 	3775 3275 3550 3275
 Wire Wire Line
 	3775 3175 3550 3175
-Wire Wire Line
-	3700 5125 3525 5125
 Wire Wire Line
 	7200 1150 7600 1150
 Wire Wire Line
@@ -1175,69 +913,8 @@ Wire Wire Line
 	8850 5500 8850 5850
 Wire Notes Line
 	6900 550  11150 550 
-Wire Wire Line
-	3575 5375 3575 5475
-Wire Wire Line
-	3575 5775 3525 5775
-Connection ~ 3575 5775
-Wire Wire Line
-	3575 5675 3525 5675
-Connection ~ 3575 5675
-Wire Wire Line
-	3575 5575 3525 5575
-Connection ~ 3575 5575
-Wire Wire Line
-	3525 5475 3575 5475
-Connection ~ 3575 5475
-Wire Wire Line
-	950  4525 2375 4525
-Wire Wire Line
-	950  5525 950  5600
-Wire Wire Line
-	1125 4975 1125 5225
-Wire Wire Line
-	950  4975 1125 4975
-Connection ~ 950  4975
-Wire Wire Line
-	1125 5400 1125 5600
-Wire Wire Line
-	1125 5600 950  5600
-Connection ~ 950  5600
-Connection ~ 950  4525
-Wire Wire Line
-	950  6225 2625 6225
-Wire Wire Line
-	2625 6175 2625 6225
-Wire Wire Line
-	2825 6225 2825 6175
-Connection ~ 2625 6225
-Wire Wire Line
-	3025 6225 3025 6175
-Wire Wire Line
-	2925 6225 2925 6175
-Connection ~ 2825 6225
-Connection ~ 2925 6225
-Connection ~ 3025 6225
-Wire Wire Line
-	1475 4350 1475 4625
-Wire Wire Line
-	1625 4350 1625 4625
-Wire Wire Line
-	1625 5125 1625 5275
-Wire Wire Line
-	1625 5275 1725 5275
-Wire Wire Line
-	1475 5125 1475 5425
-Wire Wire Line
-	1475 5425 1725 5425
 Wire Notes Line
 	650  7425 6675 7425
-Wire Wire Line
-	1625 5550 1725 5550
-Connection ~ 1625 5275
-Wire Wire Line
-	1475 5650 1725 5650
-Connection ~ 1475 5425
 Wire Wire Line
 	7100 950  7100 1300
 Wire Wire Line
@@ -1266,56 +943,20 @@ Wire Wire Line
 	4975 1975 4975 2100
 Wire Wire Line
 	4975 2275 4975 2375
-Wire Wire Line
-	3225 6650 3225 6700
-Wire Wire Line
-	3225 7250 3225 7050
-Connection ~ 3225 7250
 Wire Notes Line
 	3900 7425 3900 4175
 Wire Wire Line
 	8850 3750 7100 3750
 Wire Wire Line
 	7100 4100 7600 4100
-Wire Wire Line
-	3525 4975 3600 4975
-Wire Wire Line
-	3600 4975 3600 4925
-Wire Wire Line
-	3750 4925 3750 5275
-Wire Wire Line
-	3750 5275 3525 5275
-Wire Wire Line
-	2475 6700 2475 6750
-Wire Wire Line
-	2650 6700 2650 6750
-Connection ~ 2650 6700
-Wire Wire Line
-	2825 6700 2825 6750
-Connection ~ 2825 6700
-Wire Wire Line
-	3000 6550 3000 6700
-Connection ~ 3000 6700
-Wire Wire Line
-	2475 7200 2475 7250
-Connection ~ 2475 7250
-Wire Wire Line
-	2650 7200 2650 7250
-Connection ~ 2650 7250
-Wire Wire Line
-	2825 7200 2825 7250
-Connection ~ 2825 7250
-Wire Wire Line
-	3000 7200 3000 7250
-Connection ~ 3000 7250
 Wire Notes Line
 	3900 5575 6675 5575
 Wire Notes Line
-	11150 5325 11150 550 
+	11150 550  11150 5325
 Wire Wire Line
-	5075 4875 5075 4900
+	5075 4875 5075 4925
 Wire Wire Line
-	5425 4875 5425 4900
+	5425 4875 5425 4925
 Wire Wire Line
 	5075 4900 5275 4900
 Connection ~ 5075 4900
@@ -1334,15 +975,8 @@ Wire Wire Line
 	5075 4250 5425 4250
 Wire Wire Line
 	5425 4250 5425 4275
-Connection ~ 1625 4350
-Connection ~ 2625 4350
 Wire Notes Line
 	3900 6375 650  6375
-Wire Wire Line
-	1700 6700 1750 6700
-Wire Wire Line
-	2175 6700 2250 6700
-Connection ~ 3225 6700
 Wire Notes Line
 	6675 1675 4375 1675
 $Comp
@@ -1376,7 +1010,7 @@ GND
 Wire Wire Line
 	4100 5825 4100 5950
 Wire Wire Line
-	4100 6450 4100 6500
+	4100 6450 4100 6550
 Wire Wire Line
 	4100 7050 4100 7175
 Wire Wire Line
@@ -1417,7 +1051,7 @@ GND
 Wire Wire Line
 	4600 5825 4600 5950
 Wire Wire Line
-	4600 6450 4600 6500
+	4600 6450 4600 6550
 Wire Wire Line
 	4600 7050 4600 7175
 Wire Wire Line
@@ -1460,7 +1094,7 @@ GND
 Wire Wire Line
 	5100 5825 5100 5950
 Wire Wire Line
-	5100 6450 5100 6500
+	5100 6450 5100 6550
 Wire Wire Line
 	5100 7050 5100 7175
 Wire Wire Line
@@ -1470,78 +1104,6 @@ Wire Wire Line
 	5100 5825 5225 5825
 Wire Wire Line
 	5100 7175 5250 7175
-$Comp
-L chromogram:CONN_3 P9
-U 1 1 54C50337
-P 1350 6800
-F 0 "P9" V 1300 6800 40  0000 C CNN
-F 1 "PWR_IN" V 1400 6800 40  0000 C CNN
-F 2 "chromogram_libs:Header_3x1_PWR" H 1350 6650 60  0001 C CNN
-F 3 "" H 1350 6650 60  0000 C CNN
-	1    1350 6800
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1700 6900 1750 6900
-Connection ~ 1750 6900
-$Comp
-L chromogram:CONN_3 P8
-U 1 1 54C53C4F
-P 775 6800
-F 0 "P8" V 725 6800 40  0000 C CNN
-F 1 "PWR_IN" V 825 6800 40  0000 C CNN
-F 2 "chromogram_libs:Header_3x1_PWR" H 775 6650 60  0001 C CNN
-F 3 "" H 775 6650 60  0000 C CNN
-	1    775  6800
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1125 6800 1175 6800
-Wire Wire Line
-	1175 6800 1175 6900
-Connection ~ 1175 7250
-Wire Wire Line
-	1125 6900 1175 6900
-Connection ~ 1175 6900
-Wire Wire Line
-	1125 6700 1175 6700
-Wire Wire Line
-	1175 6700 1175 6500
-Wire Wire Line
-	1175 6500 1750 6500
-Wire Wire Line
-	1750 6500 1750 6700
-Wire Wire Line
-	3375 7250 3375 7225
-$Comp
-L chromogram:DIODE_ZENER D1
-U 1 1 54C80AA6
-P 2250 6975
-F 0 "D1" V 2250 7075 50  0000 C CNN
-F 1 "SMBJ5339B" H 2250 6875 40  0000 C CNN
-F 2 "chromogram_libs:diode-DO214AA" H 2075 7000 60  0001 C CNN
-F 3 "" H 2075 7000 60  0000 C CNN
-	1    2250 6975
-	0    -1   -1   0   
-$EndComp
-$Comp
-L chromogram:FUSE F1
-U 1 1 54C80AE5
-P 1975 6700
-F 0 "F1" H 2000 6600 40  0000 C CNN
-F 1 "miniSMDC200F/16" H 2100 6800 40  0000 C CNN
-F 2 "chromogram_libs:f_1812" H 1975 6700 60  0001 C CNN
-F 3 "" H 1975 6700 60  0000 C CNN
-	1    1975 6700
-	1    0    0    -1  
-$EndComp
-Connection ~ 1750 6700
-Connection ~ 2475 6700
-Wire Wire Line
-	2250 7175 2250 7250
-Wire Wire Line
-	2250 6775 2250 6700
-Connection ~ 2250 6700
 $Comp
 L chromogram:VR LDR4
 U 1 1 5610021D
@@ -1573,7 +1135,7 @@ GND
 Wire Wire Line
 	5600 5825 5600 5950
 Wire Wire Line
-	5600 6450 5600 6500
+	5600 6450 5600 6550
 Wire Wire Line
 	5600 7050 5600 7175
 Wire Wire Line
@@ -1588,100 +1150,15 @@ LDR4_PIN
 $Comp
 L chromogram:ESP-wroom-32 U129
 U 1 1 5A41BC22
-P 2600 3475
-F 0 "U129" H 2600 5250 60  0000 C CNN
-F 1 "ESP-wroom-32" H 2600 5075 60  0000 C CNN
-F 2 "" H 2600 3475 60  0001 C CNN
-F 3 "" H 2600 3475 60  0001 C CNN
-	1    2600 3475
+P 2200 3450
+F 0 "U129" H 2200 5225 60  0000 C CNN
+F 1 "ESP-wroom-32" H 2200 5050 60  0000 C CNN
+F 2 "chromogram_libs:esp_wroom_32" H 2200 3450 60  0001 C CNN
+F 3 "" H 2200 3450 60  0001 C CNN
+F 4 "mfr_pn" H 2200 3450 60  0001 C CNN "manf#"
+	1    2200 3450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1750 7250 2250 7250
-Wire Wire Line
-	2250 7250 2250 7325
-Wire Wire Line
-	2250 7250 2475 7250
-Wire Wire Line
-	3600 4350 3750 4350
-Wire Wire Line
-	3575 5775 3575 6225
-Wire Wire Line
-	3575 5675 3575 5775
-Wire Wire Line
-	3575 5575 3575 5675
-Wire Wire Line
-	3575 5475 3575 5575
-Wire Wire Line
-	950  4975 950  5075
-Wire Wire Line
-	950  5600 950  6225
-Wire Wire Line
-	950  4525 950  4975
-Wire Wire Line
-	2625 6225 2825 6225
-Wire Wire Line
-	2625 6225 2625 6300
-Wire Wire Line
-	2825 6225 2925 6225
-Wire Wire Line
-	2925 6225 3025 6225
-Wire Wire Line
-	3025 6225 3575 6225
-Wire Wire Line
-	1625 5275 1625 5550
-Wire Wire Line
-	1475 5425 1475 5650
-Wire Wire Line
-	3225 7250 3375 7250
-Wire Wire Line
-	2650 6700 2825 6700
-Wire Wire Line
-	2825 6700 3000 6700
-Wire Wire Line
-	3000 6700 3000 6750
-Wire Wire Line
-	3000 6700 3225 6700
-Wire Wire Line
-	2475 7250 2650 7250
-Wire Wire Line
-	2650 7250 2825 7250
-Wire Wire Line
-	2825 7250 3000 7250
-Wire Wire Line
-	3000 7250 3225 7250
-Wire Wire Line
-	5075 4900 5075 4925
-Wire Wire Line
-	5425 4900 5425 4925
-Wire Wire Line
-	1625 4350 2625 4350
-Wire Wire Line
-	2625 4350 3600 4350
-Wire Wire Line
-	3225 6700 3225 6875
-Wire Wire Line
-	3225 6700 3300 6700
-Wire Wire Line
-	4100 6500 4100 6550
-Wire Wire Line
-	4600 6500 4600 6550
-Wire Wire Line
-	5100 6500 5100 6550
-Wire Wire Line
-	1750 6900 1750 6800
-Wire Wire Line
-	1175 7250 1750 7250
-Wire Wire Line
-	1175 6900 1175 7250
-Wire Wire Line
-	1750 6700 1775 6700
-Wire Wire Line
-	2475 6700 2650 6700
-Wire Wire Line
-	2250 6700 2475 6700
-Wire Wire Line
-	5600 6500 5600 6550
 Wire Notes Line
 	650  550  650  7425
 Wire Wire Line
@@ -1833,21 +1310,41 @@ Text Label 7125 6200 0    40   ~ 0
 DI_H
 Text Label 7125 6350 0    40   ~ 0
 CI_H
-$Comp
-L chromogram:VCC #PWR020
-U 1 1 5A4BA608
-P 3000 6550
-F 0 "#PWR020" H 3000 6650 30  0001 C CNN
-F 1 "VCC" H 2925 6600 30  0000 C CNN
-F 2 "" H 3000 6550 60  0000 C CNN
-F 3 "" H 3000 6550 60  0000 C CNN
-	1    3000 6550
-	1    0    0    -1  
-$EndComp
 $Sheet
 S 9725 725  1275 500 
 U 5A47432D
 F0 "mechanical" 40
 F1 "mechanical.sch" 40
 $EndSheet
+$Sheet
+S 9725 1450 1275 525 
+U 5A447BD8
+F0 "rtc_ds3231" 40
+F1 "rtc_ds3231.sch" 40
+F2 "5V" I L 9725 1525 40 
+F3 "GND" I L 9725 1600 40 
+F4 "RST" I L 9725 1675 40 
+F5 "SDA" I L 9725 1750 40 
+F6 "SCL" I L 9725 1825 40 
+$EndSheet
+Wire Wire Line
+	9725 1525 9525 1525
+Wire Wire Line
+	9525 1600 9725 1600
+Wire Wire Line
+	9725 1675 9525 1675
+Wire Wire Line
+	9525 1750 9725 1750
+Wire Wire Line
+	9725 1825 9525 1825
+Text Label 9525 1525 0    40   ~ 0
+5V
+Text Label 9525 1600 0    40   ~ 0
+GND
+Text Label 9525 1675 0    40   ~ 0
+RST
+Text Label 9525 1750 0    40   ~ 0
+SDA
+Text Label 9525 1825 0    40   ~ 0
+SCL
 $EndSCHEMATC

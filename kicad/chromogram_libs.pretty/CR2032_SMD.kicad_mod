@@ -36,7 +36,7 @@
     (clearance 1.016))
   (pad 2 smd circle (at 0 0) (size 12 12) (layers F.Cu F.Paste F.Mask)
     (solder_mask_margin 3) (clearance 1.016) (thermal_gap 1.016))
-  (model /home/anool/projects-git/ClockFOUR/KiCad/3d_modules/bat_2032_smd.wrl
+  (model bat_2032_smd.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -1,4 +1,4 @@
-update=Tue Dec 26 17:09:21 2017
+update=Wed Dec 27 23:42:50 2017
 version=1
 last_client=kicad
 [cvpcb]
@@ -26,8 +26,6 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
 BoardOutlineThickness=0.09999999999999999
 ModuleOutlineThickness=0.15
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -41,3 +39,5 @@ NetFmtName=
 SpiceAjustPassiveValues=0
 LabSize=40
 ERC_TestSimilarLabels=1
+[general]
+version=1
