@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name chromogram)(type Legacy)(uri ${KIPRJMOD}/chromogram_libs/chromogram.lib)(options "")(descr ""))
+  (lib (name ultim8x8_sym)(type Legacy)(uri ${KIPRJMOD}/chromogram_libs/ultim8x8_sym.lib)(options "")(descr ""))
+)
