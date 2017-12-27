@@ -1,6 +1,3 @@
 (fp_lib_table
-  (lib (name C4_Modules)(type Legacy)(uri ${KIPRJMOD}/ClockFOUR_Libs/ClockFOUR.mod)(options "")(descr ""))
-  (lib (name C4_Pretty)(type KiCad)(uri ${KIPRJMOD}/ClockFOUR_Libs.pretty)(options "")(descr ""))
-  (lib (name arthurc)(type Legacy)(uri ${KIPRJMOD}/ClockFOUR_Libs/arthurc.mod)(options "")(descr ""))
-  (lib (name BADGEr_fp)(type Legacy)(uri ${KIPRJMOD}/ClockFOUR_Libs/BADGEr_fp.mod)(options "")(descr ""))
+  (lib (name chromogram_libs)(type KiCad)(uri "$(KIPRJMOD)/chromogram_libs.pretty")(options "")(descr ""))
 )

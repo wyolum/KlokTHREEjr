@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 9
+Sheet 1 10
 Title "Chromogram"
 Date "2017-12-26"
 Rev "rev 1"
@@ -515,18 +515,6 @@ E4 23 8F 3C 52 B0 F1 D9 2E 76 F1 FF 03 17 ED 19 47 28 92 59 FB 00 00 00 00 49 45
 82 
 EndData
 $EndBitmap
-$Comp
-L ultim8x8_sym:LOGO_WL L2
-U 1 1 511CD9F5
-P 8200 6700
-F 0 "L2" H 8280 6700 40  0000 L CNN
-F 1 "Wyolum" H 8100 6775 30  0000 C CNN
-F 2 "C4_Pretty:Logo-WL3" H 8125 6775 30  0001 C CNN
-F 3 "" H 8200 6700 60  0001 C CNN
-F 4 "Value" H 8200 6700 50  0001 C CNN "manf#"
-	1    8200 6700
-	1    0    0    -1  
-$EndComp
 Text GLabel 850  7250 0    40   Input ~ 0
 GND
 Text GLabel 3300 6700 2    40   Input ~ 0
@@ -536,12 +524,12 @@ S 7600 1050 850  450
 U 511688A7
 F0 "Row_A" 40
 F1 "Row_A.sch" 40
-F3 "GND" I R 8450 1150 40 
-F4 "DI_A" I L 7600 1300 40 
-F5 "5V" I L 7600 1150 40 
-F6 "CI_A" I L 7600 1450 40 
-F7 "CI_B" O R 8450 1450 40 
-F8 "DI_B" O R 8450 1300 40 
+F2 "GND" I R 8450 1150 40 
+F3 "DI_A" I L 7600 1300 40 
+F4 "5V" I L 7600 1150 40 
+F5 "CI_A" I L 7600 1450 40 
+F6 "CI_B" O R 8450 1450 40 
+F7 "DI_B" O R 8450 1300 40 
 $EndSheet
 $Comp
 L chromogram:GND #PWR01
@@ -642,63 +630,30 @@ F5 "CI_H" I L 7600 6350 40
 F6 "CO_H" O R 8450 6350 40 
 F7 "DO_H" O R 8450 6200 40 
 $EndSheet
-Text Notes 9700 650  0    40   ~ 8
+Text Notes 6900 550  0    40   ~ 8
 16 x 8 pixel matrix
 Text Notes 750  6325 0    40   ~ 8
 RTC
 Text Notes 875  7400 0    40   ~ 8
 Power supply
 $Comp
-L chromogram:SW_PUSH SW1
-U 1 1 5429C7D9
-P 1350 3525
-F 0 "SW1" V 1225 3725 40  0000 C CNN
-F 1 "SW_RST" V 1300 3775 40  0000 C CNN
-F 2 "C4_Pretty:SW_SMD" H 1350 3525 60  0001 C CNN
-F 3 "~" H 1350 3525 60  0000 C CNN
-	1    1350 3525
-	0    -1   1    0   
-$EndComp
-$Comp
-L chromogram:R R?
-U 1 1 5429CE15
-P 1350 1025
-F 0 "R?" H 1400 825 40  0000 C CNN
-F 1 "10K" V 1357 1026 40  0000 C CNN
-F 2 "C4_Pretty:r_0805" V 1280 1025 30  0001 C CNN
-F 3 "~" H 1350 1025 30  0000 C CNN
-	1    1350 1025
-	1    0    0    -1  
-$EndComp
-$Comp
-L chromogram:GND #PWR02
-U 1 1 542A3CA4
-P 2600 3975
-F 0 "#PWR02" H 2600 3975 30  0001 C CNN
-F 1 "GND" H 2600 3905 30  0001 C CNN
-F 2 "" H 2600 3975 60  0000 C CNN
-F 3 "" H 2600 3975 60  0000 C CNN
-	1    2600 3975
-	1    0    0    -1  
-$EndComp
-$Comp
-L chromogram:CAP_NP C?
+L chromogram:CAP_NP C22
 U 1 1 542B4ECC
 P 1125 5325
-F 0 "C?" H 1200 5425 40  0000 C CNN
+F 0 "C22" H 1200 5425 40  0000 C CNN
 F 1 "100n" H 1225 5250 40  0000 C CNN
-F 2 "C4_Pretty:c_0805" H 1125 5325 60  0001 C CNN
+F 2 "chromogram_libs:c_0805" H 1125 5325 60  0001 C CNN
 F 3 "" H 1125 5325 60  0000 C CNN
 	1    1125 5325
 	1    0    0    -1  
 $EndComp
 $Comp
-L chromogram:R R?
+L chromogram:R R8
 U 1 1 542B797A
 P 1475 4875
-F 0 "R?" H 1525 4675 40  0000 C CNN
+F 0 "R8" H 1525 4675 40  0000 C CNN
 F 1 "4K7" V 1482 4876 40  0000 C CNN
-F 2 "C4_Pretty:r_0805" V 1405 4875 30  0001 C CNN
+F 2 "chromogram_libs:r_0805" V 1405 4875 30  0001 C CNN
 F 3 "~" H 1475 4875 30  0000 C CNN
 	1    1475 4875
 	1    0    0    -1  
@@ -723,12 +678,12 @@ SDA
 Text Label 1725 5650 0    40   ~ 0
 SCL
 $Comp
-L chromogram:C_POL_1 C?
+L chromogram:C_POL_1 C24
 U 1 1 542D4A8B
 P 2475 6950
-F 0 "C?" H 2475 7050 40  0000 L CNN
+F 0 "C24" H 2475 7050 40  0000 L CNN
 F 1 "47u" H 2475 6850 40  0000 L CNN
-F 2 "C4_Pretty:c_2917" H 2475 6900 50  0001 C CNN
+F 2 "chromogram_libs:c_2917" H 2475 6900 50  0001 C CNN
 F 3 "" H 2475 6950 60  0001 C CNN
 F 4 "CAP ALUM 47UF 8V 20% SMD" H 2475 7150 60  0001 L CNN "Field4"
 F 5 "47u,8V" H 2475 7250 60  0001 L CNN "Field5"
@@ -749,7 +704,7 @@ U 1 1 542DD0E5
 P 7750 650
 F 0 "R1" V 7700 850 40  0000 C CNN
 F 1 "470R" V 7757 651 40  0000 C CNN
-F 2 "C4_Pretty:r_0805" V 7680 650 30  0001 C CNN
+F 2 "chromogram_libs:r_0805" V 7680 650 30  0001 C CNN
 F 3 "~" H 7750 650 30  0000 C CNN
 	1    7750 650 
 	0    -1   -1   0   
@@ -764,40 +719,6 @@ Text Label 3775 2075 0    40   ~ 0
 LDR2_PIN
 Text Label 3775 2175 0    40   ~ 0
 LDR3_PIN
-Text Notes 725  4125 0    40   ~ 8
-Arduino
-$Comp
-L chromogram:CONN_6 P?
-U 1 1 542A968D
-P 6475 2125
-F 0 "P?" V 6425 2125 40  0000 C CNN
-F 1 "FTDI" V 6525 2125 40  0000 C CNN
-F 2 "C4_Pretty:Header_FTDI" H 6475 2125 60  0001 C CNN
-F 3 "" H 6475 2125 60  0000 C CNN
-	1    6475 2125
-	1    0    0    1   
-$EndComp
-$Comp
-L chromogram:CAP_NP C?
-U 1 1 542A987A
-P 6025 1875
-F 0 "C?" V 6175 1900 39  0000 C CNN
-F 1 "100n" V 6125 1875 39  0000 C CNN
-F 2 "C4_Pretty:c_0805" H 6025 1875 60  0001 C CNN
-F 3 "" H 6025 1875 60  0000 C CNN
-	1    6025 1875
-	0    -1   -1   0   
-$EndComp
-Text Label 5800 1875 0    40   ~ 0
-RESET
-Text Label 5800 1975 0    40   ~ 0
-TXD
-Text Label 5800 2075 0    40   ~ 0
-RXD
-Text Label 5800 2375 0    40   ~ 0
-GND
-Text Label 1650 1375 0    40   ~ 0
-RESET
 Text Label 3775 2875 0    40   ~ 0
 RXD
 Text Label 3775 2975 0    40   ~ 0
@@ -805,12 +726,12 @@ TXD
 Text Label 3775 1775 0    40   ~ 0
 SCK
 $Comp
-L chromogram:CONN_6 P?
+L chromogram:CONN_6 P5
 U 1 1 542AE017
 P 5575 2125
-F 0 "P?" V 5525 2125 40  0000 C CNN
+F 0 "P5" V 5525 2125 40  0000 C CNN
 F 1 "ICSP" V 5625 2125 40  0000 C CNN
-F 2 "C4_Pretty:ISP" H 5575 2125 60  0001 C CNN
+F 2 "chromogram_libs:ISP" H 5575 2125 60  0001 C CNN
 F 3 "" H 5575 2125 60  0000 C CNN
 	1    5575 2125
 	1    0    0    -1  
@@ -822,49 +743,47 @@ RESET
 Text Label 5075 2375 0    40   ~ 0
 GND
 $Comp
-L chromogram:CAP_NP C?
+L chromogram:CAP_NP C21
 U 1 1 542AF167
 P 4975 2175
-F 0 "C?" V 5025 2275 39  0000 C CNN
+F 0 "C21" V 5025 2275 39  0000 C CNN
 F 1 "100n" V 5025 2050 39  0000 C CNN
-F 2 "C4_Pretty:c_0805" H 4975 2175 60  0001 C CNN
+F 2 "chromogram_libs:c_0805" H 4975 2175 60  0001 C CNN
 F 3 "" H 4975 2175 60  0000 C CNN
 	1    4975 2175
 	-1   0    0    1   
 $EndComp
 Text Notes 4900 2575 0    40   ~ 8
 ICSP Header
-Text Notes 5725 2575 0    40   ~ 8
-FTDI Header
 $Comp
-L chromogram:CAP_NP C?
+L chromogram:CAP_NP C28
 U 1 1 542C2DFC
 P 3225 6975
-F 0 "C?" H 3300 7075 39  0000 C CNN
+F 0 "C28" H 3300 7075 39  0000 C CNN
 F 1 "100n" H 3375 7000 39  0000 C CNN
-F 2 "C4_Pretty:c_0805" H 3225 6975 60  0001 C CNN
+F 2 "chromogram_libs:c_0805" H 3225 6975 60  0001 C CNN
 F 3 "" H 3225 6975 60  0000 C CNN
 	1    3225 6975
 	1    0    0    -1  
 $EndComp
 $Comp
-L chromogram:R R?
+L chromogram:R R6
 U 1 1 542C917C
 P 3600 4675
-F 0 "R?" H 3650 4475 40  0000 C CNN
+F 0 "R6" H 3650 4475 40  0000 C CNN
 F 1 "10K" V 3607 4676 40  0000 C CNN
-F 2 "C4_Pretty:r_0805" V 3530 4675 30  0001 C CNN
+F 2 "chromogram_libs:r_0805" V 3530 4675 30  0001 C CNN
 F 3 "~" H 3600 4675 30  0000 C CNN
 	1    3600 4675
 	1    0    0    -1  
 $EndComp
 $Comp
-L chromogram:R R?
+L chromogram:R R7
 U 1 1 542C9223
 P 3750 4675
-F 0 "R?" H 3800 4475 40  0000 C CNN
+F 0 "R7" H 3800 4475 40  0000 C CNN
 F 1 "10K" V 3757 4676 40  0000 C CNN
-F 2 "C4_Pretty:r_0805" V 3680 4675 30  0001 C CNN
+F 2 "chromogram_libs:r_0805" V 3680 4675 30  0001 C CNN
 F 3 "~" H 3750 4675 30  0000 C CNN
 	1    3750 4675
 	1    0    0    -1  
@@ -883,12 +802,12 @@ F 3 "" H 950 4450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L chromogram:DS3231N U?
+L chromogram:DS3231N U130
 U 1 1 542B8235
 P 2625 5325
-F 0 "U?" H 2025 5950 40  0000 L CNN
+F 0 "U130" H 2025 5950 40  0000 L CNN
 F 1 "DS3231N" H 2025 5875 40  0000 L CNN
-F 2 "C4_Pretty:DS3231" H 2625 5325 60  0001 C CNN
+F 2 "chromogram_libs:DS3231" H 2625 5325 60  0001 C CNN
 F 3 "~" H 2625 5325 60  0000 C CNN
 	1    2625 5325
 	1    0    0    -1  
@@ -924,45 +843,23 @@ F 3 "" H 3375 7225 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L chromogram:CAP_NP C?
-U 1 1 542BB65A
-P 1550 1025
-F 0 "C?" H 1600 1125 39  0000 C CNN
-F 1 "100n" H 1650 950 39  0000 C CNN
-F 2 "C4_Pretty:c_0805" H 1550 1025 60  0001 C CNN
-F 3 "" H 1550 1025 60  0000 C CNN
-	1    1550 1025
-	1    0    0    -1  
-$EndComp
-$Comp
-L chromogram:VCC #PWR07
-U 1 1 542BE803
-P 3000 6550
-F 0 "#PWR07" H 3000 6650 30  0001 C CNN
-F 1 "VCC" H 3000 6650 30  0000 C CNN
-F 2 "" H 3000 6550 60  0000 C CNN
-F 3 "" H 3000 6550 60  0000 C CNN
-	1    3000 6550
-	1    0    0    -1  
-$EndComp
-$Comp
-L chromogram:R R?
+L chromogram:R R9
 U 1 1 542C0EC2
 P 1625 4875
-F 0 "R?" H 1675 4675 40  0000 C CNN
+F 0 "R9" H 1675 4675 40  0000 C CNN
 F 1 "4K7" V 1632 4876 40  0000 C CNN
-F 2 "C4_Pretty:r_0805" V 1555 4875 30  0001 C CNN
+F 2 "chromogram_libs:r_0805" V 1555 4875 30  0001 C CNN
 F 3 "~" H 1625 4875 30  0000 C CNN
 	1    1625 4875
 	1    0    0    -1  
 $EndComp
 $Comp
-L chromogram:C_POL_1 C?
+L chromogram:C_POL_1 C25
 U 1 1 54323DA9
 P 2650 6950
-F 0 "C?" H 2650 7050 40  0000 L CNN
+F 0 "C25" H 2650 7050 40  0000 L CNN
 F 1 "47u" H 2650 6850 40  0000 L CNN
-F 2 "C4_Pretty:c_2917" H 2650 6900 50  0001 C CNN
+F 2 "chromogram_libs:c_2917" H 2650 6900 50  0001 C CNN
 F 3 "" H 2650 6950 60  0001 C CNN
 F 4 "CAP ALUM 47UF 8V 20% SMD" H 2650 7150 60  0001 L CNN "Field4"
 F 5 "47u,8V" H 2650 7250 60  0001 L CNN "Field5"
@@ -976,12 +873,12 @@ F 11 "http://www.digikey.com/product-detail/en/EEF-CD0K470R/PCE3606CT-ND/614442"
 	1    0    0    -1  
 $EndComp
 $Comp
-L chromogram:C_POL_1 C?
+L chromogram:C_POL_1 C26
 U 1 1 54323DB7
 P 2825 6950
-F 0 "C?" H 2825 7050 40  0000 L CNN
+F 0 "C26" H 2825 7050 40  0000 L CNN
 F 1 "47u" H 2825 6850 40  0000 L CNN
-F 2 "C4_Pretty:c_2917" H 2825 6950 60  0001 C CNN
+F 2 "chromogram_libs:c_2917" H 2825 6950 60  0001 C CNN
 F 3 "" H 2825 6950 60  0000 C CNN
 F 4 "CAP ALUM 47UF 8V 20% SMD" H 2825 7150 60  0001 L CNN "Field4"
 F 5 "47u,8V" H 2825 7250 60  0001 L CNN "Field5"
@@ -995,12 +892,12 @@ F 11 "http://www.digikey.com/product-detail/en/EEF-CD0K470R/PCE3606CT-ND/614442"
 	1    0    0    -1  
 $EndComp
 $Comp
-L chromogram:C_POL_1 C?
+L chromogram:C_POL_1 C27
 U 1 1 54323DC5
 P 3000 6950
-F 0 "C?" H 3000 7050 40  0000 L CNN
+F 0 "C27" H 3000 7050 40  0000 L CNN
 F 1 "47u" H 3000 6850 40  0000 L CNN
-F 2 "C4_Pretty:c_2917" H 3000 6900 50  0001 C CNN
+F 2 "chromogram_libs:c_2917" H 3000 6900 50  0001 C CNN
 F 3 "" H 3000 6950 60  0001 C CNN
 F 4 "CAP ALUM 47UF 8V 20% SMD" H 3000 7150 60  0001 L CNN "Field4"
 F 5 "47u,8V" H 3000 7250 60  0001 L CNN "Field5"
@@ -1023,7 +920,7 @@ U 1 1 54356384
 P 950 5325
 F 0 "BT1" V 850 5250 40  0000 C CNN
 F 1 "Batt_RTC" H 1100 5250 40  0000 C CNN
-F 2 "C4_Pretty:CR2032_SMD2" H 950 5325 60  0001 C CNN
+F 2 "chromogram_libs:CR2032_SMD" H 950 5325 60  0001 C CNN
 F 3 "" H 950 5325 60  0000 C CNN
 F 4 "BU2032SM-HD-GCT-ND " H 1050 5625 60  0001 C CNN "Digikey"
 	1    950  5325
@@ -1058,92 +955,12 @@ GND
 Text Label 8850 5350 2    40   ~ 0
 GND
 $Comp
-L chromogram:CONN_4 P?
-U 1 1 543A343E
-P 6400 1150
-F 0 "P?" V 6350 1150 40  0000 C CNN
-F 1 "I2C_R" V 6450 1150 40  0000 C CNN
-F 2 "C4_Pretty:STACK-R" H 6400 1050 60  0001 C CNN
-F 3 "" H 6400 1050 60  0000 C CNN
-	1    6400 1150
-	1    0    0    1   
-$EndComp
-$Comp
-L chromogram:CONN_4 P?
-U 1 1 543A381B
-P 4650 1150
-F 0 "P?" V 4600 1150 40  0000 C CNN
-F 1 "I2C_L" V 4700 1150 40  0000 C CNN
-F 2 "C4_Pretty:STACK-L" H 4650 1050 60  0001 C CNN
-F 3 "" H 4650 1050 60  0000 C CNN
-	1    4650 1150
-	-1   0    0    -1  
-$EndComp
-Text Label 5050 1300 0    40   ~ 0
-GND
-Text Label 5050 675  0    40   ~ 0
-5V
-Text Label 5050 1100 0    40   ~ 0
-SCL
-Text Label 5050 1200 0    40   ~ 0
-SDA
-$Comp
-L chromogram:CAP_NP C?
-U 1 1 543AAC37
-P 5225 1475
-F 0 "C?" H 5325 1575 39  0000 C CNN
-F 1 "100n" H 5325 1400 39  0000 C CNN
-F 2 "C4_Pretty:c_0805" H 5225 1475 60  0001 C CNN
-F 3 "" H 5225 1475 60  0000 C CNN
-	1    5225 1475
-	1    0    0    -1  
-$EndComp
-$Comp
-L chromogram:CAP_NP C?
-U 1 1 543AAE8F
-P 5875 1475
-F 0 "C?" H 5975 1575 39  0000 C CNN
-F 1 "100n" H 5975 1400 39  0000 C CNN
-F 2 "C4_Pretty:c_0805" H 5875 1475 60  0001 C CNN
-F 3 "" H 5875 1475 60  0000 C CNN
-	1    5875 1475
-	1    0    0    -1  
-$EndComp
-$Comp
-L chromogram:R P?
-U 1 1 543ADC1C
-P 4750 875
-F 0 "P?" V 4800 675 40  0000 C CNN
-F 1 "5VEN_L" V 4750 875 40  0000 C CNN
-F 2 "C4_Pretty:r_0805" H 4750 875 60  0001 C CNN
-F 3 "" H 4750 875 60  0000 C CNN
-	1    4750 875 
-	0    1    -1   0   
-$EndComp
-$Comp
-L chromogram:R P?
-U 1 1 543ADCD7
-P 6300 875
-F 0 "P?" V 6275 1075 40  0000 C CNN
-F 1 "5VEN_R" V 6300 875 40  0000 C CNN
-F 2 "C4_Pretty:r_0805" H 6300 875 60  0001 C CNN
-F 3 "" H 6300 875 60  0000 C CNN
-	1    6300 875 
-	0    1    1    0   
-$EndComp
-Text Label 5050 875  0    40   ~ 0
-5V_L
-Text Label 5875 875  0    40   ~ 0
-5V_R
-Text Notes 4400 625  0    40   ~ 8
-I2C Connectors
-$Comp
 L chromogram:SW_PUSH SW2
 U 1 1 5438F2D3
 P 5075 4575
 F 0 "SW2" V 5050 4550 40  0000 C CNN
 F 1 "SW_L" V 5125 4525 40  0000 C CNN
-F 2 "C4_Pretty:SW_SMD" H 5075 4575 60  0001 C CNN
+F 2 "chromogram_libs:SW_SMD" H 5075 4575 60  0001 C CNN
 F 3 "~" H 5075 4575 60  0000 C CNN
 F 4 "Mode" H 5075 4700 40  0000 C CNN "Label"
 	1    5075 4575
@@ -1155,30 +972,30 @@ U 1 1 5438F629
 P 5425 4575
 F 0 "SW3" V 5400 4550 40  0000 C CNN
 F 1 "SW_R" V 5475 4525 40  0000 C CNN
-F 2 "C4_Pretty:SW_SMD" H 5425 4575 60  0001 C CNN
+F 2 "chromogram_libs:SW_SMD" H 5425 4575 60  0001 C CNN
 F 3 "~" H 5425 4575 60  0000 C CNN
 F 4 "Color" H 5425 4700 40  0000 C CNN "Label"
 	1    5425 4575
 	0    -1   1    0   
 $EndComp
 $Comp
-L chromogram:R R?
+L chromogram:R R10
 U 1 1 5438FC61
 P 5075 5175
-F 0 "R?" H 5125 4975 40  0000 C CNN
+F 0 "R10" H 5125 4975 40  0000 C CNN
 F 1 "10K" V 5082 5176 40  0000 C CNN
-F 2 "C4_Pretty:r_0805" V 5005 5175 30  0001 C CNN
+F 2 "chromogram_libs:r_0805" V 5005 5175 30  0001 C CNN
 F 3 "~" H 5075 5175 30  0000 C CNN
 	1    5075 5175
 	1    0    0    -1  
 $EndComp
 $Comp
-L chromogram:R R?
+L chromogram:R R11
 U 1 1 543901BD
 P 5425 5175
-F 0 "R?" H 5475 4975 40  0000 C CNN
+F 0 "R11" H 5475 4975 40  0000 C CNN
 F 1 "10K" V 5432 5176 40  0000 C CNN
-F 2 "C4_Pretty:r_0805" V 5355 5175 30  0001 C CNN
+F 2 "chromogram_libs:r_0805" V 5355 5175 30  0001 C CNN
 F 3 "~" H 5425 5175 30  0000 C CNN
 	1    5425 5175
 	1    0    0    -1  
@@ -1205,69 +1022,7 @@ Text Label 1475 4350 0    40   ~ 0
 5V
 Text Label 1475 6225 0    40   ~ 0
 GND
-Text Label 5800 2175 0    40   ~ 0
-5V
 Text Label 5075 1975 0    40   ~ 0
-5V
-Text Label 1400 700  0    40   ~ 0
-5V
-Text Label 750  3900 0    40   ~ 0
-GND
-$Comp
-L chromogram:CONN_4 P10
-U 1 1 543F01ED
-P 4725 5050
-F 0 "P10" V 4675 5050 40  0000 C CNN
-F 1 "Marquee" V 4775 5050 40  0000 C CNN
-F 2 "C4_Pretty:Header_4x1" H 4725 4900 60  0001 C CNN
-F 3 "" H 4725 4900 60  0000 C CNN
-	1    4725 5050
-	1    0    0    -1  
-$EndComp
-Text Label 3950 5100 0    40   ~ 0
-GND
-Text Label 3950 5200 0    40   ~ 0
-5V
-Text Label 3950 4300 0    40   ~ 0
-MARQUEE_DATA
-Text Notes 4525 5550 2    40   ~ 8
-Header for Marquee
-$Comp
-L chromogram:CAP_NP C?
-U 1 1 543F4031
-P 4225 5375
-F 0 "C?" H 4300 5475 39  0000 C CNN
-F 1 "100n" H 4325 5300 39  0000 C CNN
-F 2 "C4_Pretty:c_0805" H 4225 5375 60  0001 C CNN
-F 3 "" H 4225 5375 60  0000 C CNN
-	1    4225 5375
-	1    0    0    -1  
-$EndComp
-Text Label 3950 5000 0    40   ~ 0
-MARQUEE_SENSE
-$Comp
-L chromogram:R R?
-U 1 1 54C1E3AE
-P 4150 4650
-F 0 "R?" H 4200 4450 40  0000 C CNN
-F 1 "10K" V 4157 4651 40  0000 C CNN
-F 2 "C4_Pretty:r_0805" V 4080 4650 30  0001 C CNN
-F 3 "~" H 4150 4650 30  0000 C CNN
-	1    4150 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L chromogram:R R?
-U 1 1 54C1E727
-P 4325 4650
-F 0 "R?" H 4375 4450 40  0000 C CNN
-F 1 "470R" V 4332 4651 40  0000 C CNN
-F 2 "C4_Pretty:r_0805" V 4255 4650 30  0001 C CNN
-F 3 "~" H 4325 4650 30  0000 C CNN
-	1    4325 4650
-	1    0    0    -1  
-$EndComp
-Text Label 3950 4400 0    40   ~ 0
 5V
 Wire Wire Line
 	3525 5375 3575 5375
@@ -1289,21 +1044,6 @@ Wire Wire Line
 	3550 2475 3775 2475
 Wire Wire Line
 	7500 650  7050 650 
-Wire Wire Line
-	6125 2175 5800 2175
-Wire Wire Line
-	6125 2075 5800 2075
-Wire Wire Line
-	6125 1975 5800 1975
-Wire Wire Line
-	5925 1875 5800 1875
-Connection ~ 6050 2375
-Wire Wire Line
-	6050 2275 6050 2375
-Wire Wire Line
-	6125 2275 6050 2275
-Wire Wire Line
-	5800 2375 6050 2375
 Wire Wire Line
 	5225 2175 5075 2175
 Wire Wire Line
@@ -1407,21 +1147,6 @@ Wire Wire Line
 	7100 2350 7100 2700
 Wire Wire Line
 	7100 2700 7600 2700
-Wire Wire Line
-	750  3900 1350 3900
-Wire Wire Line
-	1350 1275 1350 1375
-Wire Wire Line
-	1350 3825 1350 3900
-Connection ~ 1350 3900
-Connection ~ 1550 3900
-Wire Wire Line
-	1650 1375 1350 1375
-Connection ~ 1350 1375
-Wire Wire Line
-	1350 775  1350 700 
-Wire Wire Line
-	1550 700  1550 925 
 Wire Wire Line
 	8850 2700 8850 3050
 Wire Wire Line
@@ -1585,42 +1310,8 @@ Wire Wire Line
 Connection ~ 3000 7250
 Wire Notes Line
 	3900 5575 6675 5575
-Wire Wire Line
-	6125 1875 6100 1875
 Wire Notes Line
 	11150 5325 11150 550 
-Wire Wire Line
-	5000 1100 6050 1100
-Wire Wire Line
-	6050 1200 5000 1200
-Wire Wire Line
-	5000 1300 5550 1300
-Wire Wire Line
-	5875 875  5875 1000
-Wire Wire Line
-	5225 875  5225 1000
-Wire Wire Line
-	5225 1550 5225 1625
-Wire Wire Line
-	5225 1625 5550 1625
-Wire Wire Line
-	5875 1625 5875 1550
-Wire Wire Line
-	5550 1625 5550 1300
-Connection ~ 5550 1300
-Connection ~ 5550 1625
-Wire Wire Line
-	5875 1000 6050 1000
-Wire Wire Line
-	5225 1000 5000 1000
-Wire Wire Line
-	5000 875  5225 875 
-Connection ~ 5225 1000
-Wire Wire Line
-	6050 875  5875 875 
-Connection ~ 5875 1000
-Wire Wire Line
-	4425 675  6600 675 
 Wire Wire Line
 	5075 4875 5075 4900
 Wire Wire Line
@@ -1643,14 +1334,6 @@ Wire Wire Line
 	5075 4250 5425 4250
 Wire Wire Line
 	5425 4250 5425 4275
-Wire Wire Line
-	4425 675  4425 875 
-Wire Wire Line
-	4425 875  4500 875 
-Wire Wire Line
-	6600 675  6600 875 
-Wire Wire Line
-	6600 875  6550 875 
 Connection ~ 1625 4350
 Connection ~ 2625 4350
 Wire Notes Line
@@ -1662,49 +1345,24 @@ Wire Wire Line
 Connection ~ 3225 6700
 Wire Notes Line
 	6675 1675 4375 1675
-Wire Wire Line
-	3950 5200 4150 5200
-Wire Wire Line
-	3950 5100 4225 5100
-Wire Wire Line
-	4225 5275 4225 5100
-Connection ~ 4225 5100
-Wire Wire Line
-	4225 5450 4150 5450
-Wire Wire Line
-	4150 5450 4150 5200
-Connection ~ 4150 5200
-Wire Wire Line
-	3950 5000 4150 5000
-Wire Wire Line
-	4325 4300 3950 4300
-Wire Wire Line
-	3950 4400 4150 4400
-Wire Wire Line
-	4150 4900 4150 5000
-Connection ~ 4150 5000
-Wire Wire Line
-	4325 4900 4375 4900
-Wire Wire Line
-	4325 4300 4325 4400
 $Comp
 L chromogram:VR LDR1
 U 1 1 54C265D2
 P 4100 6200
 F 0 "LDR1" H 4175 6025 40  0000 C TNN
 F 1 "LDR" V 4100 6200 40  0000 C CNN
-F 2 "C4_Pretty:r_0805_ldr" H 4100 6200 60  0001 C CNN
+F 2 "chromogram_libs:r_0805_ldr" H 4100 6200 60  0001 C CNN
 F 3 "~" H 4100 6200 60  0000 C CNN
 	1    4100 6200
 	1    0    0    -1  
 $EndComp
 $Comp
-L chromogram:R R?
+L chromogram:R R12
 U 1 1 54C265D8
 P 4100 6800
-F 0 "R?" H 4150 6600 40  0000 C CNN
+F 0 "R12" H 4150 6600 40  0000 C CNN
 F 1 "10K" V 4107 6801 40  0000 C CNN
-F 2 "C4_Pretty:r_0805" V 4030 6800 30  0001 C CNN
+F 2 "chromogram_libs:r_0805" V 4030 6800 30  0001 C CNN
 F 3 "~" H 4100 6800 30  0000 C CNN
 	1    4100 6800
 	1    0    0    -1  
@@ -1734,18 +1392,18 @@ U 1 1 54C28552
 P 4600 6200
 F 0 "LDR2" H 4675 6025 40  0000 C TNN
 F 1 "LDR" V 4600 6200 40  0000 C CNN
-F 2 "C4_Pretty:r_0805_ldr" H 4600 6200 60  0001 C CNN
+F 2 "chromogram_libs:r_0805_ldr" H 4600 6200 60  0001 C CNN
 F 3 "~" H 4600 6200 60  0000 C CNN
 	1    4600 6200
 	1    0    0    -1  
 $EndComp
 $Comp
-L chromogram:R R?
+L chromogram:R R13
 U 1 1 54C28558
 P 4600 6800
-F 0 "R?" H 4650 6600 40  0000 C CNN
+F 0 "R13" H 4650 6600 40  0000 C CNN
 F 1 "10K" V 4607 6801 40  0000 C CNN
-F 2 "C4_Pretty:r_0805" V 4530 6800 30  0001 C CNN
+F 2 "chromogram_libs:r_0805" V 4530 6800 30  0001 C CNN
 F 3 "~" H 4600 6800 30  0000 C CNN
 	1    4600 6800
 	1    0    0    -1  
@@ -1777,18 +1435,18 @@ U 1 1 54C1D9C9
 P 5100 6200
 F 0 "LDR3" H 5175 6025 40  0000 C TNN
 F 1 "LDR" V 5100 6200 40  0000 C CNN
-F 2 "C4_Pretty:r_0805_ldr" H 5100 6200 60  0001 C CNN
+F 2 "chromogram_libs:r_0805_ldr" H 5100 6200 60  0001 C CNN
 F 3 "~" H 5100 6200 60  0000 C CNN
 	1    5100 6200
 	1    0    0    -1  
 $EndComp
 $Comp
-L chromogram:R R?
+L chromogram:R R14
 U 1 1 54C1D9CF
 P 5100 6800
-F 0 "R?" H 5150 6600 40  0000 C CNN
+F 0 "R14" H 5150 6600 40  0000 C CNN
 F 1 "10K" V 5107 6801 40  0000 C CNN
-F 2 "C4_Pretty:r_0805" V 5030 6800 30  0001 C CNN
+F 2 "chromogram_libs:r_0805" V 5030 6800 30  0001 C CNN
 F 3 "~" H 5100 6800 30  0000 C CNN
 	1    5100 6800
 	1    0    0    -1  
@@ -1813,12 +1471,12 @@ Wire Wire Line
 Wire Wire Line
 	5100 7175 5250 7175
 $Comp
-L chromogram:CONN_3 P?
+L chromogram:CONN_3 P9
 U 1 1 54C50337
 P 1350 6800
-F 0 "P?" V 1300 6800 40  0000 C CNN
+F 0 "P9" V 1300 6800 40  0000 C CNN
 F 1 "PWR_IN" V 1400 6800 40  0000 C CNN
-F 2 "C4_Pretty:Header_3x1_PWR" H 1350 6650 60  0001 C CNN
+F 2 "chromogram_libs:Header_3x1_PWR" H 1350 6650 60  0001 C CNN
 F 3 "" H 1350 6650 60  0000 C CNN
 	1    1350 6800
 	-1   0    0    1   
@@ -1827,12 +1485,12 @@ Wire Wire Line
 	1700 6900 1750 6900
 Connection ~ 1750 6900
 $Comp
-L chromogram:CONN_3 P?
+L chromogram:CONN_3 P8
 U 1 1 54C53C4F
 P 775 6800
-F 0 "P?" V 725 6800 40  0000 C CNN
+F 0 "P8" V 725 6800 40  0000 C CNN
 F 1 "PWR_IN" V 825 6800 40  0000 C CNN
-F 2 "C4_Pretty:Header_3x1_PWR" H 775 6650 60  0001 C CNN
+F 2 "chromogram_libs:Header_3x1_PWR" H 775 6650 60  0001 C CNN
 F 3 "" H 775 6650 60  0000 C CNN
 	1    775  6800
 	-1   0    0    1   
@@ -1856,12 +1514,12 @@ Wire Wire Line
 Wire Wire Line
 	3375 7250 3375 7225
 $Comp
-L chromogram:DIODE_ZENER D?
+L chromogram:DIODE_ZENER D1
 U 1 1 54C80AA6
 P 2250 6975
-F 0 "D?" V 2250 7075 50  0000 C CNN
+F 0 "D1" V 2250 7075 50  0000 C CNN
 F 1 "SMBJ5339B" H 2250 6875 40  0000 C CNN
-F 2 "C4_Pretty:diode-DO214AA" H 2075 7000 60  0001 C CNN
+F 2 "chromogram_libs:diode-DO214AA" H 2075 7000 60  0001 C CNN
 F 3 "" H 2075 7000 60  0000 C CNN
 	1    2250 6975
 	0    -1   -1   0   
@@ -1872,7 +1530,7 @@ U 1 1 54C80AE5
 P 1975 6700
 F 0 "F1" H 2000 6600 40  0000 C CNN
 F 1 "miniSMDC200F/16" H 2100 6800 40  0000 C CNN
-F 2 "C4_Pretty:f_1812" H 1975 6700 60  0001 C CNN
+F 2 "chromogram_libs:f_1812" H 1975 6700 60  0001 C CNN
 F 3 "" H 1975 6700 60  0000 C CNN
 	1    1975 6700
 	1    0    0    -1  
@@ -1890,18 +1548,18 @@ U 1 1 5610021D
 P 5600 6200
 F 0 "LDR4" H 5675 6025 40  0000 C TNN
 F 1 "LDR" V 5600 6200 40  0000 C CNN
-F 2 "C4_Pretty:r_0805_ldr" H 5600 6200 60  0001 C CNN
+F 2 "chromogram_libs:r_0805_ldr" H 5600 6200 60  0001 C CNN
 F 3 "~" H 5600 6200 60  0000 C CNN
 	1    5600 6200
 	1    0    0    -1  
 $EndComp
 $Comp
-L chromogram:R R?
+L chromogram:R R15
 U 1 1 56100223
 P 5600 6800
-F 0 "R?" H 5650 6600 40  0000 C CNN
+F 0 "R15" H 5650 6600 40  0000 C CNN
 F 1 "10K" V 5607 6801 40  0000 C CNN
-F 2 "C4_Pretty:r_0805" V 5530 6800 30  0001 C CNN
+F 2 "chromogram_libs:r_0805" V 5530 6800 30  0001 C CNN
 F 3 "~" H 5600 6800 30  0000 C CNN
 	1    5600 6800
 	1    0    0    -1  
@@ -1928,14 +1586,14 @@ Wire Wire Line
 Text Label 3775 2275 0    40   ~ 0
 LDR4_PIN
 $Comp
-L chromogram:ESP-wroom-32 U?
+L chromogram:ESP-wroom-32 U129
 U 1 1 5A41BC22
-P 2600 3475
-F 0 "U?" H 2600 5250 60  0000 C CNN
-F 1 "ESP-wroom-32" H 2600 5075 60  0000 C CNN
-F 2 "" H 2600 3475 60  0001 C CNN
-F 3 "" H 2600 3475 60  0001 C CNN
-	1    2600 3475
+P 2200 3450
+F 0 "U129" H 2200 5225 60  0000 C CNN
+F 1 "ESP-wroom-32" H 2200 5050 60  0000 C CNN
+F 2 "" H 2200 3450 60  0001 C CNN
+F 3 "" H 2200 3450 60  0001 C CNN
+	1    2200 3450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1945,17 +1603,7 @@ Wire Wire Line
 Wire Wire Line
 	2250 7250 2475 7250
 Wire Wire Line
-	6050 2375 6125 2375
-Wire Wire Line
 	3600 4350 3750 4350
-Wire Wire Line
-	1350 3900 1550 3900
-Wire Wire Line
-	1350 1375 1350 3225
-Wire Wire Line
-	2600 3900 2600 3975
-Wire Wire Line
-	1350 700  1550 700 
 Wire Wire Line
 	3575 5775 3575 6225
 Wire Wire Line
@@ -2003,14 +1651,6 @@ Wire Wire Line
 Wire Wire Line
 	3000 7250 3225 7250
 Wire Wire Line
-	5550 1300 6050 1300
-Wire Wire Line
-	5550 1625 5875 1625
-Wire Wire Line
-	5225 1000 5225 1375
-Wire Wire Line
-	5875 1000 5875 1375
-Wire Wire Line
 	5075 4900 5075 4925
 Wire Wire Line
 	5425 4900 5425 4925
@@ -2022,12 +1662,6 @@ Wire Wire Line
 	3225 6700 3225 6875
 Wire Wire Line
 	3225 6700 3300 6700
-Wire Wire Line
-	4225 5100 4375 5100
-Wire Wire Line
-	4150 5200 4375 5200
-Wire Wire Line
-	4150 5000 4375 5000
 Wire Wire Line
 	4100 6500 4100 6550
 Wire Wire Line
@@ -2050,28 +1684,12 @@ Wire Wire Line
 	5600 6500 5600 6550
 Wire Notes Line
 	650  550  650  7425
-$Comp
-L ultim8x8_sym:OSHW L1
-U 1 1 511CD9F8
-P 10825 6975
-F 0 "L1" H 10905 6975 40  0000 L CNN
-F 1 "OSHW" H 10700 7050 30  0000 C CNN
-F 2 "C4_Pretty:Logo_silk_OSHW_6x6mm" H 10825 7130 30  0001 C CNN
-F 3 "" H 10825 6975 60  0001 C CNN
-F 4 "Value" H 10825 6975 50  0001 C CNN "manf#"
-	1    10825 6975
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8850 5850 7100 5850
 Wire Wire Line
 	7100 5850 7100 6200
 Wire Wire Line
 	7100 6200 7600 6200
-Wire Wire Line
-	1550 1100 1550 3900
-Wire Wire Line
-	1550 3900 2600 3900
 Wire Notes Line
 	650  4175 6675 4175
 Wire Notes Line
@@ -2166,7 +1784,7 @@ U 1 1 5A71F25C
 P 7750 800
 F 0 "R2" V 7700 1000 40  0000 C CNN
 F 1 "470R" V 7757 801 40  0000 C CNN
-F 2 "C4_Pretty:r_0805" V 7680 800 30  0001 C CNN
+F 2 "chromogram_libs:r_0805" V 7680 800 30  0001 C CNN
 F 3 "~" H 7750 800 30  0000 C CNN
 	1    7750 800 
 	0    -1   -1   0   
@@ -2215,4 +1833,21 @@ Text Label 7125 6200 0    40   ~ 0
 DI_H
 Text Label 7125 6350 0    40   ~ 0
 CI_H
+$Comp
+L chromogram:VCC #PWR020
+U 1 1 5A4BA608
+P 3000 6550
+F 0 "#PWR020" H 3000 6650 30  0001 C CNN
+F 1 "VCC" H 2925 6600 30  0000 C CNN
+F 2 "" H 3000 6550 60  0000 C CNN
+F 3 "" H 3000 6550 60  0000 C CNN
+	1    3000 6550
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 9725 725  1275 500 
+U 5A47432D
+F0 "mechanical" 40
+F1 "mechanical.sch" 40
+$EndSheet
 $EndSCHEMATC

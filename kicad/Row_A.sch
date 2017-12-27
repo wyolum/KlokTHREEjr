@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 9
+Sheet 2 10
 Title "Chromogram"
 Date "2017-12-26"
 Rev "rev 1"
@@ -15,12 +15,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ultim8x8_sym:C2 C1
+L chromogram:C2 C1
 U 1 1 5118AB57
 P 1800 2600
 F 0 "C1" H 1825 2700 40  0000 L CNB
 F 1 "100nF" H 1825 2500 40  0000 L CNN
-F 2 "ultim8x8_libs:c_0805" H 1800 2600 50  0001 C CNN
+F 2 "chromogram_libs:c_0805" H 1800 2600 50  0001 C CNN
 F 3 "" H 1800 2600 60  0001 C CNN
 F 4 "Value" H 1800 2600 60  0001 C CNN "manf#"
 	1    1800 2600
@@ -31,12 +31,12 @@ DI_A
 Text HLabel 950  2350 0    60   Input ~ 12
 GND
 $Comp
-L ultim8x8_sym:APA102 U1
+L chromogram:APA102 U1
 U 1 1 56C2E1C1
 P 1700 1600
 F 0 "U1" H 1700 1900 40  0000 C CNB
 F 1 "APA102" H 1700 1275 40  0000 C CNN
-F 2 "ultim8x8_libs:APA102" H 1600 2000 60  0001 C CNN
+F 2 "chromogram_libs:APA102" H 1600 2000 60  0001 C CNN
 F 3 "" H 1700 1600 60  0001 C CNN
 F 4 "mfr_pn" H 1700 1600 60  0001 C CNN "manf#"
 	1    1700 1600
@@ -76,84 +76,84 @@ Connection ~ 1150 2350
 Text HLabel 950  2850 0    60   Input ~ 12
 5V
 $Comp
-L ultim8x8_sym:APA102 U2
+L chromogram:APA102 U2
 U 1 1 56C2E1EC
 P 2900 1600
 F 0 "U2" H 2900 1900 40  0000 C CNB
 F 1 "APA102" H 2900 1275 40  0000 C CNN
-F 2 "ultim8x8_libs:APA102" H 2800 2000 60  0001 C CNN
+F 2 "chromogram_libs:APA102" H 2800 2000 60  0001 C CNN
 F 3 "" H 2900 1600 60  0001 C CNN
 F 4 "mfr_pn" H 2900 1600 60  0001 C CNN "manf#"
 	1    2900 1600
 	1    0    0    -1  
 $EndComp
 $Comp
-L ultim8x8_sym:APA102 U3
+L chromogram:APA102 U3
 U 1 1 56C2E1F4
 P 4100 1600
 F 0 "U3" H 4100 1900 40  0000 C CNB
 F 1 "APA102" H 4100 1275 40  0000 C CNN
-F 2 "ultim8x8_libs:APA102" H 4000 2000 60  0001 C CNN
+F 2 "chromogram_libs:APA102" H 4000 2000 60  0001 C CNN
 F 3 "" H 4100 1600 60  0001 C CNN
 F 4 "mfr_pn" H 4100 1600 60  0001 C CNN "manf#"
 	1    4100 1600
 	1    0    0    -1  
 $EndComp
 $Comp
-L ultim8x8_sym:APA102 U4
+L chromogram:APA102 U4
 U 1 1 56C2E1FC
 P 5300 1600
 F 0 "U4" H 5300 1900 40  0000 C CNB
 F 1 "APA102" H 5300 1275 40  0000 C CNN
-F 2 "ultim8x8_libs:APA102" H 5200 2000 60  0001 C CNN
+F 2 "chromogram_libs:APA102" H 5200 2000 60  0001 C CNN
 F 3 "" H 5300 1600 60  0001 C CNN
 F 4 "mfr_pn" H 5300 1600 60  0001 C CNN "manf#"
 	1    5300 1600
 	1    0    0    -1  
 $EndComp
 $Comp
-L ultim8x8_sym:APA102 U5
+L chromogram:APA102 U5
 U 1 1 56C2E204
 P 6500 1600
 F 0 "U5" H 6500 1900 40  0000 C CNB
 F 1 "APA102" H 6500 1275 40  0000 C CNN
-F 2 "ultim8x8_libs:APA102" H 6400 2000 60  0001 C CNN
+F 2 "chromogram_libs:APA102" H 6400 2000 60  0001 C CNN
 F 3 "" H 6500 1600 60  0001 C CNN
 F 4 "mfr_pn" H 6500 1600 60  0001 C CNN "manf#"
 	1    6500 1600
 	1    0    0    -1  
 $EndComp
 $Comp
-L ultim8x8_sym:APA102 U6
+L chromogram:APA102 U6
 U 1 1 56C2E20C
 P 7700 1600
 F 0 "U6" H 7700 1900 40  0000 C CNB
 F 1 "APA102" H 7700 1275 40  0000 C CNN
-F 2 "ultim8x8_libs:APA102" H 7600 2000 60  0001 C CNN
+F 2 "chromogram_libs:APA102" H 7600 2000 60  0001 C CNN
 F 3 "" H 7700 1600 60  0001 C CNN
 F 4 "mfr_pn" H 7700 1600 60  0001 C CNN "manf#"
 	1    7700 1600
 	1    0    0    -1  
 $EndComp
 $Comp
-L ultim8x8_sym:APA102 U7
+L chromogram:APA102 U7
 U 1 1 56C2E214
 P 8900 1600
 F 0 "U7" H 8900 1900 40  0000 C CNB
 F 1 "APA102" H 8900 1275 40  0000 C CNN
-F 2 "ultim8x8_libs:APA102" H 8800 2000 60  0001 C CNN
+F 2 "chromogram_libs:APA102" H 8800 2000 60  0001 C CNN
 F 3 "" H 8900 1600 60  0001 C CNN
 F 4 "mfr_pn" H 8900 1600 60  0001 C CNN "manf#"
 	1    8900 1600
 	1    0    0    -1  
 $EndComp
 $Comp
-L ultim8x8_sym:APA102 U8
+L chromogram:APA102 U8
 U 1 1 56C2E21C
 P 10100 1600
 F 0 "U8" H 10100 1900 40  0000 C CNB
 F 1 "APA102" H 10100 1275 40  0000 C CNN
-F 2 "ultim8x8_libs:APA102" H 10000 2000 60  0001 C CNN
+F 2 "chromogram_libs:APA102" H 10000 2000 60  0001 C CNN
 F 3 "" H 10100 1600 60  0001 C CNN
 F 4 "mfr_pn" H 10100 1600 60  0001 C CNN "manf#"
 	1    10100 1600
@@ -315,12 +315,12 @@ Wire Wire Line
 Wire Wire Line
 	9450 2850 10650 2850
 $Comp
-L ultim8x8_sym:C2 C2
+L chromogram:C2 C2
 U 1 1 5A48F6EA
 P 1800 4950
 F 0 "C2" H 1825 5050 40  0000 L CNB
 F 1 "100nF" H 1825 4850 40  0000 L CNN
-F 2 "ultim8x8_libs:c_0805" H 1800 4950 50  0001 C CNN
+F 2 "chromogram_libs:c_0805" H 1800 4950 50  0001 C CNN
 F 3 "" H 1800 4950 60  0001 C CNN
 F 4 "Value" H 1800 4950 60  0001 C CNN "manf#"
 	1    1800 4950
@@ -329,12 +329,12 @@ $EndComp
 Text HLabel 950  5450 0    60   Output ~ 12
 CI_B
 $Comp
-L ultim8x8_sym:APA102 U9
+L chromogram:APA102 U9
 U 1 1 5A48F6F4
 P 1700 3950
 F 0 "U9" H 1700 4250 40  0000 C CNB
 F 1 "APA102" H 1700 3625 40  0000 C CNN
-F 2 "ultim8x8_libs:APA102" H 1600 4350 60  0001 C CNN
+F 2 "chromogram_libs:APA102" H 1600 4350 60  0001 C CNN
 F 3 "" H 1700 3950 60  0001 C CNN
 F 4 "mfr_pn" H 1700 3950 60  0001 C CNN "manf#"
 	1    1700 3950
@@ -347,10 +347,10 @@ Text Label 950  5200 0    60   ~ 0
 Text Label 1075 5450 0    60   ~ 0
 CI_B
 $Comp
-L chromogram:GND #PWR?
+L chromogram:GND #PWR012
 U 1 1 5A48F6FE
 P 1150 4750
-F 0 "#PWR?" H 1150 4750 30  0001 C CNN
+F 0 "#PWR012" H 1150 4750 30  0001 C CNN
 F 1 "GND" H 1150 4680 30  0001 C CNN
 F 2 "" H 1150 4750 60  0001 C CNN
 F 3 "" H 1150 4750 60  0001 C CNN
@@ -376,84 +376,84 @@ Wire Wire Line
 	950  5200 1800 5200
 Connection ~ 1150 4700
 $Comp
-L ultim8x8_sym:APA102 U10
+L chromogram:APA102 U10
 U 1 1 5A48F710
 P 2900 3950
 F 0 "U10" H 2900 4250 40  0000 C CNB
 F 1 "APA102" H 2900 3625 40  0000 C CNN
-F 2 "ultim8x8_libs:APA102" H 2800 4350 60  0001 C CNN
+F 2 "chromogram_libs:APA102" H 2800 4350 60  0001 C CNN
 F 3 "" H 2900 3950 60  0001 C CNN
 F 4 "mfr_pn" H 2900 3950 60  0001 C CNN "manf#"
 	1    2900 3950
 	1    0    0    -1  
 $EndComp
 $Comp
-L ultim8x8_sym:APA102 U11
+L chromogram:APA102 U11
 U 1 1 5A48F717
 P 4100 3950
 F 0 "U11" H 4100 4250 40  0000 C CNB
 F 1 "APA102" H 4100 3625 40  0000 C CNN
-F 2 "ultim8x8_libs:APA102" H 4000 4350 60  0001 C CNN
+F 2 "chromogram_libs:APA102" H 4000 4350 60  0001 C CNN
 F 3 "" H 4100 3950 60  0001 C CNN
 F 4 "mfr_pn" H 4100 3950 60  0001 C CNN "manf#"
 	1    4100 3950
 	1    0    0    -1  
 $EndComp
 $Comp
-L ultim8x8_sym:APA102 U12
+L chromogram:APA102 U12
 U 1 1 5A48F71E
 P 5300 3950
 F 0 "U12" H 5300 4250 40  0000 C CNB
 F 1 "APA102" H 5300 3625 40  0000 C CNN
-F 2 "ultim8x8_libs:APA102" H 5200 4350 60  0001 C CNN
+F 2 "chromogram_libs:APA102" H 5200 4350 60  0001 C CNN
 F 3 "" H 5300 3950 60  0001 C CNN
 F 4 "mfr_pn" H 5300 3950 60  0001 C CNN "manf#"
 	1    5300 3950
 	1    0    0    -1  
 $EndComp
 $Comp
-L ultim8x8_sym:APA102 U13
+L chromogram:APA102 U13
 U 1 1 5A48F725
 P 6500 3950
 F 0 "U13" H 6500 4250 40  0000 C CNB
 F 1 "APA102" H 6500 3625 40  0000 C CNN
-F 2 "ultim8x8_libs:APA102" H 6400 4350 60  0001 C CNN
+F 2 "chromogram_libs:APA102" H 6400 4350 60  0001 C CNN
 F 3 "" H 6500 3950 60  0001 C CNN
 F 4 "mfr_pn" H 6500 3950 60  0001 C CNN "manf#"
 	1    6500 3950
 	1    0    0    -1  
 $EndComp
 $Comp
-L ultim8x8_sym:APA102 U14
+L chromogram:APA102 U14
 U 1 1 5A48F72C
 P 7700 3950
 F 0 "U14" H 7700 4250 40  0000 C CNB
 F 1 "APA102" H 7700 3625 40  0000 C CNN
-F 2 "ultim8x8_libs:APA102" H 7600 4350 60  0001 C CNN
+F 2 "chromogram_libs:APA102" H 7600 4350 60  0001 C CNN
 F 3 "" H 7700 3950 60  0001 C CNN
 F 4 "mfr_pn" H 7700 3950 60  0001 C CNN "manf#"
 	1    7700 3950
 	1    0    0    -1  
 $EndComp
 $Comp
-L ultim8x8_sym:APA102 U15
+L chromogram:APA102 U15
 U 1 1 5A48F733
 P 8900 3950
 F 0 "U15" H 8900 4250 40  0000 C CNB
 F 1 "APA102" H 8900 3625 40  0000 C CNN
-F 2 "ultim8x8_libs:APA102" H 8800 4350 60  0001 C CNN
+F 2 "chromogram_libs:APA102" H 8800 4350 60  0001 C CNN
 F 3 "" H 8900 3950 60  0001 C CNN
 F 4 "mfr_pn" H 8900 3950 60  0001 C CNN "manf#"
 	1    8900 3950
 	1    0    0    -1  
 $EndComp
 $Comp
-L ultim8x8_sym:APA102 U16
+L chromogram:APA102 U16
 U 1 1 5A48F73A
 P 10100 3950
 F 0 "U16" H 10100 4250 40  0000 C CNB
 F 1 "APA102" H 10100 3625 40  0000 C CNN
-F 2 "ultim8x8_libs:APA102" H 10000 4350 60  0001 C CNN
+F 2 "chromogram_libs:APA102" H 10000 4350 60  0001 C CNN
 F 3 "" H 10100 3950 60  0001 C CNN
 F 4 "mfr_pn" H 10100 3950 60  0001 C CNN "manf#"
 	1    10100 3950
