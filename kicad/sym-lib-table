@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name chromogram)(type Legacy)(uri ${KIPRJMOD}/chromogram_libs/chromogram.lib)(options "")(descr ""))
+  (lib (name wyolum_kicad_symbols)(type Legacy)(uri /home/anool/projects-git/wyolum_kicad_library/wyolum_kicad_symbols.lib)(options "")(descr ""))
 )

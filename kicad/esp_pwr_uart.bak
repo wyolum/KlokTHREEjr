@@ -242,30 +242,4 @@ Wire Wire Line
 Wire Wire Line
 	5700 3325 5700 3775
 NoConn ~ 5450 3425
-Wire Wire Line
-	5700 2575 5700 2450
-Text Label 5700 2450 2    40   ~ 0
-5V
-Wire Wire Line
-	9525 3825 9900 3825
-Wire Wire Line
-	9525 3125 9900 3125
-Wire Wire Line
-	8025 4325 7950 4325
-Wire Wire Line
-	7950 4325 7950 4425
-Wire Wire Line
-	7950 4425 8025 4425
-Wire Wire Line
-	8025 3125 7950 3125
-Wire Wire Line
-	7950 3125 7950 3225
-Wire Wire Line
-	7950 3225 8025 3225
-Wire Wire Line
-	8025 4125 7675 4125
-Wire Wire Line
-	8025 4025 7675 4025
-Wire Wire Line
-	8025 3925 7675 3925
 $EndSCHEMATC

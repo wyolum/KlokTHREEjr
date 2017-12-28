@@ -1,11 +1,10 @@
-EESchema Schematic File Version 2
-LIBS:power
+EESchema Schematic File Version 4
 LIBS:chromogram-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 11
+Sheet 9 12
 Title "Chromogram"
 Date "2017-12-26"
 Rev "rev 1"
@@ -48,10 +47,10 @@ F 4 "Value" H 1800 2600 60  0001 C CNN "manf#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L chromogram:GND #PWR021
+L chromogram:GND #PWR015
 U 1 1 5118AAB4
 P 1150 2400
-F 0 "#PWR021" H 1150 2400 30  0001 C CNN
+F 0 "#PWR015" H 1150 2400 30  0001 C CNN
 F 1 "GND" H 1150 2330 30  0001 C CNN
 F 2 "" H 1150 2400 60  0001 C CNN
 F 3 "" H 1150 2400 60  0001 C CNN
@@ -314,10 +313,10 @@ F 4 "Value" H 1800 4950 60  0001 C CNN "manf#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L chromogram:GND #PWR022
+L chromogram:GND #PWR016
 U 1 1 5A470153
 P 1150 4750
-F 0 "#PWR022" H 1150 4750 30  0001 C CNN
+F 0 "#PWR016" H 1150 4750 30  0001 C CNN
 F 1 "GND" H 1150 4680 30  0001 C CNN
 F 2 "" H 1150 4750 60  0001 C CNN
 F 3 "" H 1150 4750 60  0001 C CNN

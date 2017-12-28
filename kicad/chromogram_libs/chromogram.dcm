@@ -30,24 +30,25 @@ D ymbole general de connecteur
 K CONN
 $ENDCMP
 #
-$CMP DIODE_ZENER
-D Diode schottky
-K DEV DIODE
-$ENDCMP
-#
-$CMP R
-D Resistance
-K R DEV
-$ENDCMP
-#
-$CMP SW_PUSH
-D Push Button
-K Switch
+$CMP CP2102N-A01-GQFN28
+D USB to UART master bridge
+K USB UART bridge
+F http://www.silabs.com/support%20documents/technicaldocs/cp2102n-datasheet.pdf
 $ENDCMP
 #
 $CMP VR
 D VARISTANCE
 K VR  DEV
+$ENDCMP
+#
+$CMP diode_sch
+D Diode schottky
+K DEV DIODE
+$ENDCMP
+#
+$CMP diode_zener
+D Diode schottky
+K DEV DIODE
 $ENDCMP
 #
 #End Doc Library

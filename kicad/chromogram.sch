@@ -1,11 +1,10 @@
-EESchema Schematic File Version 2
-LIBS:power
+EESchema Schematic File Version 4
 LIBS:chromogram-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 11
+Sheet 1 12
 Title "Chromogram"
 Date "2017-12-26"
 Rev "rev 1"
@@ -629,7 +628,7 @@ L chromogram:R R1
 U 1 1 542DD0E5
 P 7750 650
 F 0 "R1" V 7700 850 40  0000 C CNN
-F 1 "470R" V 7757 651 40  0000 C CNN
+F 1 "470R" V 7750 650 40  0000 C CNN
 F 2 "chromogram_libs:r_0805" V 7680 650 30  0001 C CNN
 F 3 "~" H 7750 650 30  0000 C CNN
 	1    7750 650 
@@ -688,34 +687,10 @@ GND
 Text Label 8850 5350 2    40   ~ 0
 GND
 $Comp
-L chromogram:SW_PUSH SW2
-U 1 1 5438F2D3
-P 5075 4575
-F 0 "SW2" V 5050 4550 40  0000 C CNN
-F 1 "SW_L" V 5125 4525 40  0000 C CNN
-F 2 "chromogram_libs:SW_SMD" H 5075 4575 60  0001 C CNN
-F 3 "~" H 5075 4575 60  0000 C CNN
-F 4 "Mode" H 5075 4700 40  0000 C CNN "Label"
-	1    5075 4575
-	0    -1   1    0   
-$EndComp
-$Comp
-L chromogram:SW_PUSH SW3
-U 1 1 5438F629
-P 5425 4575
-F 0 "SW3" V 5400 4550 40  0000 C CNN
-F 1 "SW_R" V 5475 4525 40  0000 C CNN
-F 2 "chromogram_libs:SW_SMD" H 5425 4575 60  0001 C CNN
-F 3 "~" H 5425 4575 60  0000 C CNN
-F 4 "Color" H 5425 4700 40  0000 C CNN "Label"
-	1    5425 4575
-	0    -1   1    0   
-$EndComp
-$Comp
 L chromogram:R R10
 U 1 1 5438FC61
 P 5075 5175
-F 0 "R10" H 5125 4975 40  0000 C CNN
+F 0 "R10" H 5150 5025 40  0000 C CNN
 F 1 "10K" V 5082 5176 40  0000 C CNN
 F 2 "chromogram_libs:r_0805" V 5005 5175 30  0001 C CNN
 F 3 "~" H 5075 5175 30  0000 C CNN
@@ -726,7 +701,7 @@ $Comp
 L chromogram:R R11
 U 1 1 543901BD
 P 5425 5175
-F 0 "R11" H 5475 4975 40  0000 C CNN
+F 0 "R11" H 5500 5025 40  0000 C CNN
 F 1 "10K" V 5432 5176 40  0000 C CNN
 F 2 "chromogram_libs:r_0805" V 5355 5175 30  0001 C CNN
 F 3 "~" H 5425 5175 30  0000 C CNN
@@ -756,7 +731,7 @@ Wire Wire Line
 Wire Wire Line
 	3550 2475 3775 2475
 Wire Wire Line
-	7500 650  7050 650 
+	7600 650  7050 650 
 Wire Wire Line
 	3550 1675 3775 1675
 Wire Wire Line
@@ -870,7 +845,7 @@ Wire Wire Line
 Wire Wire Line
 	8850 950  7100 950 
 Wire Wire Line
-	8000 650  8850 650 
+	7900 650  8850 650 
 Wire Wire Line
 	8850 650  8850 950 
 Wire Wire Line
@@ -900,9 +875,9 @@ Wire Notes Line
 Wire Notes Line
 	11150 550  11150 5325
 Wire Wire Line
-	5075 4875 5075 4925
+	5075 4750 5075 4775
 Wire Wire Line
-	5425 4875 5425 4925
+	5425 4750 5425 4775
 Wire Wire Line
 	5075 4900 5275 4900
 Connection ~ 5075 4900
@@ -910,33 +885,22 @@ Wire Wire Line
 	5425 4900 5625 4900
 Connection ~ 5425 4900
 Wire Wire Line
-	5425 5425 5425 5450
+	5425 5325 5425 5450
 Wire Wire Line
 	5425 5450 5075 5450
 Wire Wire Line
-	5075 5450 5075 5425
+	5075 5450 5075 5325
 Wire Wire Line
-	5075 4275 5075 4250
+	5075 4450 5075 4425
 Wire Wire Line
 	5075 4250 5425 4250
 Wire Wire Line
-	5425 4250 5425 4275
-$Comp
-L chromogram:VR LDR1
-U 1 1 54C265D2
-P 4100 6200
-F 0 "LDR1" H 4175 6025 40  0000 C TNN
-F 1 "LDR" V 4100 6200 40  0000 C CNN
-F 2 "chromogram_libs:r_0805_ldr" H 4100 6200 60  0001 C CNN
-F 3 "~" H 4100 6200 60  0000 C CNN
-	1    4100 6200
-	1    0    0    -1  
-$EndComp
+	5425 4250 5425 4425
 $Comp
 L chromogram:R R12
 U 1 1 54C265D8
 P 4100 6800
-F 0 "R12" H 4150 6600 40  0000 C CNN
+F 0 "R12" H 4175 6650 40  0000 C CNN
 F 1 "10K" V 4107 6801 40  0000 C CNN
 F 2 "chromogram_libs:r_0805" V 4030 6800 30  0001 C CNN
 F 3 "~" H 4100 6800 30  0000 C CNN
@@ -950,11 +914,11 @@ Text Label 4225 5825 0    40   ~ 0
 Text Label 4250 7175 0    40   ~ 0
 GND
 Wire Wire Line
-	4100 5825 4100 5950
+	4100 5825 4100 6050
 Wire Wire Line
-	4100 6450 4100 6550
+	4100 6350 4100 6500
 Wire Wire Line
-	4100 7050 4100 7175
+	4100 6950 4100 7175
 Wire Wire Line
 	4100 6500 4200 6500
 Connection ~ 4100 6500
@@ -963,21 +927,10 @@ Wire Wire Line
 Wire Wire Line
 	4100 7175 4250 7175
 $Comp
-L chromogram:VR LDR2
-U 1 1 54C28552
-P 4600 6200
-F 0 "LDR2" H 4675 6025 40  0000 C TNN
-F 1 "LDR" V 4600 6200 40  0000 C CNN
-F 2 "chromogram_libs:r_0805_ldr" H 4600 6200 60  0001 C CNN
-F 3 "~" H 4600 6200 60  0000 C CNN
-	1    4600 6200
-	1    0    0    -1  
-$EndComp
-$Comp
 L chromogram:R R13
 U 1 1 54C28558
 P 4600 6800
-F 0 "R13" H 4650 6600 40  0000 C CNN
+F 0 "R13" H 4675 6650 40  0000 C CNN
 F 1 "10K" V 4607 6801 40  0000 C CNN
 F 2 "chromogram_libs:r_0805" V 4530 6800 30  0001 C CNN
 F 3 "~" H 4600 6800 30  0000 C CNN
@@ -991,11 +944,11 @@ Text Label 4725 5825 0    40   ~ 0
 Text Label 4750 7175 0    40   ~ 0
 GND
 Wire Wire Line
-	4600 5825 4600 5950
+	4600 5825 4600 6050
 Wire Wire Line
-	4600 6450 4600 6550
+	4600 6350 4600 6500
 Wire Wire Line
-	4600 7050 4600 7175
+	4600 6950 4600 7175
 Wire Wire Line
 	4600 6500 4700 6500
 Connection ~ 4600 6500
@@ -1006,21 +959,10 @@ Wire Wire Line
 Text Notes 3925 7400 0    40   ~ 8
 Light sensors (LDR)
 $Comp
-L chromogram:VR LDR3
-U 1 1 54C1D9C9
-P 5100 6200
-F 0 "LDR3" H 5175 6025 40  0000 C TNN
-F 1 "LDR" V 5100 6200 40  0000 C CNN
-F 2 "chromogram_libs:r_0805_ldr" H 5100 6200 60  0001 C CNN
-F 3 "~" H 5100 6200 60  0000 C CNN
-	1    5100 6200
-	1    0    0    -1  
-$EndComp
-$Comp
 L chromogram:R R14
 U 1 1 54C1D9CF
 P 5100 6800
-F 0 "R14" H 5150 6600 40  0000 C CNN
+F 0 "R14" H 5175 6650 40  0000 C CNN
 F 1 "10K" V 5107 6801 40  0000 C CNN
 F 2 "chromogram_libs:r_0805" V 5030 6800 30  0001 C CNN
 F 3 "~" H 5100 6800 30  0000 C CNN
@@ -1034,11 +976,11 @@ Text Label 5225 5825 0    40   ~ 0
 Text Label 5250 7175 0    40   ~ 0
 GND
 Wire Wire Line
-	5100 5825 5100 5950
+	5100 5825 5100 6050
 Wire Wire Line
-	5100 6450 5100 6550
+	5100 6350 5100 6500
 Wire Wire Line
-	5100 7050 5100 7175
+	5100 6950 5100 7175
 Wire Wire Line
 	5100 6500 5200 6500
 Connection ~ 5100 6500
@@ -1047,21 +989,10 @@ Wire Wire Line
 Wire Wire Line
 	5100 7175 5250 7175
 $Comp
-L chromogram:VR LDR4
-U 1 1 5610021D
-P 5600 6200
-F 0 "LDR4" H 5675 6025 40  0000 C TNN
-F 1 "LDR" V 5600 6200 40  0000 C CNN
-F 2 "chromogram_libs:r_0805_ldr" H 5600 6200 60  0001 C CNN
-F 3 "~" H 5600 6200 60  0000 C CNN
-	1    5600 6200
-	1    0    0    -1  
-$EndComp
-$Comp
 L chromogram:R R15
 U 1 1 56100223
 P 5600 6800
-F 0 "R15" H 5650 6600 40  0000 C CNN
+F 0 "R15" H 5675 6650 40  0000 C CNN
 F 1 "10K" V 5607 6801 40  0000 C CNN
 F 2 "chromogram_libs:r_0805" V 5530 6800 30  0001 C CNN
 F 3 "~" H 5600 6800 30  0000 C CNN
@@ -1075,11 +1006,11 @@ Text Label 5725 5825 0    40   ~ 0
 Text Label 5750 7175 0    40   ~ 0
 GND
 Wire Wire Line
-	5600 5825 5600 5950
+	5600 5825 5600 6050
 Wire Wire Line
-	5600 6450 5600 6550
+	5600 6350 5600 6500
 Wire Wire Line
-	5600 7050 5600 7175
+	5600 6950 5600 7175
 Wire Wire Line
 	5600 6500 5700 6500
 Connection ~ 5600 6500
@@ -1093,8 +1024,8 @@ $Comp
 L chromogram:ESP-wroom-32 U129
 U 1 1 5A41BC22
 P 2200 3450
-F 0 "U129" H 2200 5225 60  0000 C CNN
-F 1 "ESP-wroom-32" H 2200 5050 60  0000 C CNN
+F 0 "U129" H 2200 5225 60  0000 C CNB
+F 1 "ESP-wroom-32" H 2200 5050 60  0000 C CNB
 F 2 "chromogram_libs:esp_wroom_32" H 2200 3450 60  0001 C CNN
 F 3 "" H 2200 3450 60  0001 C CNN
 F 4 "mfr_pn" H 2200 3450 60  0001 C CNN "manf#"
@@ -1192,14 +1123,14 @@ L chromogram:R R2
 U 1 1 5A71F25C
 P 7750 800
 F 0 "R2" V 7700 1000 40  0000 C CNN
-F 1 "470R" V 7757 801 40  0000 C CNN
+F 1 "470R" V 7750 800 40  0000 C CNN
 F 2 "chromogram_libs:r_0805" V 7680 800 30  0001 C CNN
 F 3 "~" H 7750 800 30  0000 C CNN
 	1    7750 800 
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	8000 800  8800 800 
+	7900 800  8800 800 
 Wire Wire Line
 	8800 800  8800 900 
 Wire Wire Line
@@ -1209,7 +1140,7 @@ Wire Wire Line
 Wire Wire Line
 	7050 1450 7600 1450
 Wire Wire Line
-	7500 800  7050 800 
+	7600 800  7050 800 
 Text Label 7050 800  0    40   ~ 0
 CLK_IN
 Text Label 7125 1450 0    40   ~ 0
@@ -1284,5 +1215,209 @@ S 9725 2175 1275 525
 U 5A452227
 F0 "esp_pwr_uart" 40
 F1 "esp_pwr_uart.sch" 40
+F2 "GND" I L 9725 2325 40 
+F3 "5V" I L 9725 2250 40 
+F4 "3V3" I L 9725 2400 40 
 $EndSheet
+Wire Wire Line
+	5075 4900 5075 5025
+Wire Wire Line
+	5425 4900 5425 5025
+Wire Wire Line
+	4100 6500 4100 6650
+Wire Wire Line
+	4600 6500 4600 6650
+Wire Wire Line
+	5100 6500 5100 6650
+Wire Wire Line
+	5600 6500 5600 6650
+Wire Wire Line
+	9525 2250 9725 2250
+Wire Wire Line
+	9725 2325 9525 2325
+Wire Wire Line
+	9525 2400 9725 2400
+Text Label 9525 2250 0    40   ~ 0
+5V
+Text Label 9525 2325 0    40   ~ 0
+GND
+Text Label 9525 2400 0    40   ~ 0
+3V3
+Wire Wire Line
+	1350 1950 1075 1950
+Wire Wire Line
+	1075 2050 1350 2050
+Wire Wire Line
+	1350 2150 1075 2150
+Wire Wire Line
+	1075 2250 1350 2250
+Wire Wire Line
+	1350 2350 1075 2350
+Wire Wire Line
+	1075 2450 1350 2450
+Wire Wire Line
+	1350 2550 1075 2550
+Wire Wire Line
+	1350 2650 1075 2650
+Wire Wire Line
+	1075 2750 1350 2750
+Wire Wire Line
+	1350 2850 1075 2850
+Wire Wire Line
+	1075 2950 1350 2950
+Wire Wire Line
+	1350 3050 1075 3050
+Wire Wire Line
+	1075 3150 1350 3150
+Wire Wire Line
+	1350 3250 1075 3250
+Wire Wire Line
+	3325 1950 3050 1950
+Wire Wire Line
+	3050 2050 3325 2050
+Wire Wire Line
+	3325 2150 3050 2150
+Wire Wire Line
+	3050 2250 3325 2250
+Wire Wire Line
+	3325 2350 3050 2350
+Wire Wire Line
+	3050 2450 3325 2450
+Wire Wire Line
+	3325 2650 3050 2650
+Wire Wire Line
+	3050 2750 3325 2750
+Wire Wire Line
+	3325 2850 3050 2850
+Wire Wire Line
+	3050 2950 3325 2950
+Wire Wire Line
+	3325 3050 3050 3050
+Wire Wire Line
+	3050 3150 3325 3150
+Wire Wire Line
+	3325 3250 3050 3250
+Wire Wire Line
+	1750 3650 1750 3925
+Wire Wire Line
+	1850 3925 1850 3650
+Wire Wire Line
+	1950 3650 1950 3925
+Wire Wire Line
+	2050 3925 2050 3650
+Wire Wire Line
+	2150 3650 2150 3925
+Wire Wire Line
+	2250 3925 2250 3650
+Wire Wire Line
+	2350 3650 2350 3925
+Wire Wire Line
+	2450 3925 2450 3650
+Wire Wire Line
+	2550 3650 2550 3925
+Wire Wire Line
+	2650 3925 2650 3650
+Text Label 1075 1950 0    40   ~ 0
+GND
+Text Label 1075 2050 0    40   ~ 0
+3V3
+Text Label 1750 3925 1    40   ~ 0
+GND
+NoConn ~ 3050 2550
+Text Label 3325 1950 2    40   ~ 0
+GND
+$Comp
+L chromogram:LDR03 LDR1
+U 1 1 5A6352DB
+P 4100 6200
+F 0 "LDR1" H 4125 6050 40  0000 L CNN
+F 1 "LDR" V 4100 6150 40  0000 L CNN
+F 2 "Opto-Devices:Resistor_LDR_10x8.5_RM7.6" V 4275 6200 50  0001 C CNN
+F 3 "" H 4100 6150 50  0000 C CNN
+	1    4100 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L chromogram:LDR03 LDR2
+U 1 1 5A63595F
+P 4600 6200
+F 0 "LDR2" H 4625 6050 40  0000 L CNN
+F 1 "LDR" V 4600 6150 40  0000 L CNN
+F 2 "Opto-Devices:Resistor_LDR_10x8.5_RM7.6" V 4775 6200 50  0001 C CNN
+F 3 "" H 4600 6150 50  0000 C CNN
+	1    4600 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L chromogram:LDR03 LDR3
+U 1 1 5A635AFD
+P 5100 6200
+F 0 "LDR3" H 5125 6050 40  0000 L CNN
+F 1 "LDR" V 5100 6150 40  0000 L CNN
+F 2 "Opto-Devices:Resistor_LDR_10x8.5_RM7.6" V 5275 6200 50  0001 C CNN
+F 3 "" H 5100 6150 50  0000 C CNN
+	1    5100 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L chromogram:LDR03 LDR4
+U 1 1 5A635C9D
+P 5600 6200
+F 0 "LDR4" H 5625 6050 40  0000 L CNN
+F 1 "LDR" V 5600 6150 40  0000 L CNN
+F 2 "Opto-Devices:Resistor_LDR_10x8.5_RM7.6" V 5775 6200 50  0001 C CNN
+F 3 "" H 5600 6150 50  0000 C CNN
+	1    5600 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L chromogram:SW-SPST-M S1
+U 1 1 5A6C34AE
+P 5075 4600
+F 0 "S1" V 5150 4800 40  0000 R CNB
+F 1 "SW-L" V 4950 4800 40  0000 R CNB
+F 2 "" H 5075 4600 60  0000 C CNN
+F 3 "" H 5075 4600 60  0000 C CNN
+	1    5075 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L chromogram:SW-SPST-M S2
+U 1 1 5A6C3C89
+P 5475 4600
+F 0 "S2" V 5350 4650 40  0000 L CNB
+F 1 "SW-R" V 5600 4650 40  0000 L CNB
+F 2 "" H 5475 4600 60  0000 C CNN
+F 3 "" H 5475 4600 60  0000 C CNN
+	1    5475 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5125 4750 5125 4775
+Wire Wire Line
+	5125 4775 5075 4775
+Connection ~ 5075 4775
+Wire Wire Line
+	5075 4775 5075 4900
+Wire Wire Line
+	5475 4750 5475 4775
+Wire Wire Line
+	5475 4775 5425 4775
+Connection ~ 5425 4775
+Wire Wire Line
+	5425 4775 5425 4900
+Wire Wire Line
+	5475 4450 5475 4425
+Wire Wire Line
+	5475 4425 5425 4425
+Connection ~ 5425 4425
+Wire Wire Line
+	5425 4425 5425 4450
+Wire Wire Line
+	5125 4450 5125 4425
+Wire Wire Line
+	5125 4425 5075 4425
+Connection ~ 5075 4425
+Wire Wire Line
+	5075 4425 5075 4250
 $EndSCHEMATC
