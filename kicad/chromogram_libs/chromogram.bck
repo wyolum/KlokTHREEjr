@@ -41,6 +41,11 @@ D VARISTANCE
 K VR  DEV
 $ENDCMP
 #
+$CMP diode_sch
+D Diode schottky
+K DEV DIODE
+$ENDCMP
+#
 $CMP diode_zener
 D Diode schottky
 K DEV DIODE

@@ -1,4 +1,4 @@
-update=Wed Dec 27 23:42:50 2017
+update=Thu Dec 28 23:49:53 2017
 version=1
 last_client=kicad
 [cvpcb]
@@ -26,9 +26,6 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
 BoardOutlineThickness=0.09999999999999999
 ModuleOutlineThickness=0.15
-[eeschema]
-version=1
-LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -39,5 +36,11 @@ NetFmtName=
 SpiceAjustPassiveValues=0
 LabSize=40
 ERC_TestSimilarLabels=1
+[eeschema]
+version=1
+LibDir=
+[eeschema/libraries]
+LibName1=chromogram_libs/chromogram
+LibName2=/home/samata/projects-git/wyolum_kicad_library/wyolum_kicad_symbols
 [general]
 version=1
