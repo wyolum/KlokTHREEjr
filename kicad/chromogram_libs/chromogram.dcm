@@ -1,3 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Conn_01x01
+D Generic connector, single row, 01x01
+K connector
+F ~
+$ENDCMP
+#
+$CMP DDC114TU
+D Pre-Biased Bipolar Transistor (BJT) 2 NPN - Pre-Biased (Dual) 50V 100mA 250MHz 200mW Surface Mount SOT-363
+K NPN Transistor/NPN
+F https://www.diodes.com/assets/Datasheets/ds30345.pdf
+$ENDCMP
+#
 #End Doc Library

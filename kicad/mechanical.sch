@@ -1,8 +1,7 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 4
 LIBS:chromogram
-LIBS:wyolum_kicad_symbols
 LIBS:chromogram-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -206,7 +205,7 @@ F 2 "chromogram_libs:hole_baffle_2mm" H 2078 3363 60  0001 L CNN
 F 3 "" H 2000 3400 60  0000 C CNN
 F 4 "Value" H 2000 3400 50  0001 C CNN "manf#"
 	1    2000 3400
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L chromogram:SCREW HB17
@@ -218,7 +217,7 @@ F 2 "chromogram_libs:hole_baffle_2mm" H 2278 3363 60  0001 L CNN
 F 3 "" H 2200 3400 60  0000 C CNN
 F 4 "Value" H 2200 3400 50  0001 C CNN "manf#"
 	1    2200 3400
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L chromogram:SCREW HB18
@@ -230,7 +229,7 @@ F 2 "chromogram_libs:hole_baffle_2mm" H 2478 3363 60  0001 L CNN
 F 3 "" H 2400 3400 60  0000 C CNN
 F 4 "Value" H 2400 3400 50  0001 C CNN "manf#"
 	1    2400 3400
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L chromogram:SCREW HB19
@@ -242,7 +241,7 @@ F 2 "chromogram_libs:hole_baffle_2mm" H 2678 3363 60  0001 L CNN
 F 3 "" H 2600 3400 60  0000 C CNN
 F 4 "Value" H 2600 3400 50  0001 C CNN "manf#"
 	1    2600 3400
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L chromogram:SCREW HB20
@@ -254,7 +253,7 @@ F 2 "chromogram_libs:hole_baffle_2mm" H 2878 3363 60  0001 L CNN
 F 3 "" H 2800 3400 60  0000 C CNN
 F 4 "Value" H 2800 3400 50  0001 C CNN "manf#"
 	1    2800 3400
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L chromogram:SCREW HB21
@@ -266,7 +265,7 @@ F 2 "chromogram_libs:hole_baffle_2mm" H 3078 3363 60  0001 L CNN
 F 3 "" H 3000 3400 60  0000 C CNN
 F 4 "Value" H 3000 3400 50  0001 C CNN "manf#"
 	1    3000 3400
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L chromogram:SCREW HB22
@@ -278,7 +277,7 @@ F 2 "chromogram_libs:hole_baffle_2mm" H 3278 3363 60  0001 L CNN
 F 3 "" H 3200 3400 60  0000 C CNN
 F 4 "Value" H 3200 3400 50  0001 C CNN "manf#"
 	1    3200 3400
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L chromogram:SCREW HB23
@@ -290,7 +289,7 @@ F 2 "chromogram_libs:hole_baffle_2mm" H 3478 3363 60  0001 L CNN
 F 3 "" H 3400 3400 60  0000 C CNN
 F 4 "Value" H 3400 3400 50  0001 C CNN "manf#"
 	1    3400 3400
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L chromogram:SCREW HB24
@@ -302,7 +301,7 @@ F 2 "chromogram_libs:hole_baffle_2mm" H 3678 3363 60  0001 L CNN
 F 3 "" H 3600 3400 60  0000 C CNN
 F 4 "Value" H 3600 3400 50  0001 C CNN "manf#"
 	1    3600 3400
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L chromogram:SCREW HB25
@@ -314,7 +313,7 @@ F 2 "chromogram_libs:hole_baffle_2mm" H 3878 3363 60  0001 L CNN
 F 3 "" H 3800 3400 60  0000 C CNN
 F 4 "Value" H 3800 3400 50  0001 C CNN "manf#"
 	1    3800 3400
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L chromogram:SCREW HB26
@@ -326,7 +325,7 @@ F 2 "chromogram_libs:hole_baffle_2mm" H 4078 3363 60  0001 L CNN
 F 3 "" H 4000 3400 60  0000 C CNN
 F 4 "Value" H 4000 3400 50  0001 C CNN "manf#"
 	1    4000 3400
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L chromogram:SCREW HB27
@@ -338,7 +337,7 @@ F 2 "chromogram_libs:hole_baffle_2mm" H 4278 3363 60  0001 L CNN
 F 3 "" H 4200 3400 60  0000 C CNN
 F 4 "Value" H 4200 3400 50  0001 C CNN "manf#"
 	1    4200 3400
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L chromogram:SCREW HB28
@@ -350,7 +349,7 @@ F 2 "chromogram_libs:hole_baffle_2mm" H 4478 3363 60  0001 L CNN
 F 3 "" H 4400 3400 60  0000 C CNN
 F 4 "Value" H 4400 3400 50  0001 C CNN "manf#"
 	1    4400 3400
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L chromogram:SCREW HB29
@@ -362,7 +361,7 @@ F 2 "chromogram_libs:hole_baffle_2mm" H 4678 3363 60  0001 L CNN
 F 3 "" H 4600 3400 60  0000 C CNN
 F 4 "Value" H 4600 3400 50  0001 C CNN "manf#"
 	1    4600 3400
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L chromogram:SCREW HB30
@@ -374,7 +373,7 @@ F 2 "chromogram_libs:hole_baffle_2mm" H 4878 3363 60  0001 L CNN
 F 3 "" H 4800 3400 60  0000 C CNN
 F 4 "Value" H 4800 3400 50  0001 C CNN "manf#"
 	1    4800 3400
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L chromogram:SCREW HB31
@@ -386,7 +385,7 @@ F 2 "chromogram_libs:hole_baffle_2mm" H 1678 2063 60  0001 L CNN
 F 3 "" H 1600 2100 60  0000 C CNN
 F 4 "Value" H 1600 2100 50  0001 C CNN "manf#"
 	1    1600 2100
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L chromogram:SCREW HB32
@@ -398,7 +397,7 @@ F 2 "chromogram_libs:hole_baffle_2mm" H 1678 2263 60  0001 L CNN
 F 3 "" H 1600 2300 60  0000 C CNN
 F 4 "Value" H 1600 2300 50  0001 C CNN "manf#"
 	1    1600 2300
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L chromogram:SCREW HB33
@@ -410,7 +409,7 @@ F 2 "chromogram_libs:hole_baffle_2mm" H 1678 2463 60  0001 L CNN
 F 3 "" H 1600 2500 60  0000 C CNN
 F 4 "Value" H 1600 2500 50  0001 C CNN "manf#"
 	1    1600 2500
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L chromogram:SCREW HB34
@@ -422,7 +421,7 @@ F 2 "chromogram_libs:hole_baffle_2mm" H 1678 2663 60  0001 L CNN
 F 3 "" H 1600 2700 60  0000 C CNN
 F 4 "Value" H 1600 2700 50  0001 C CNN "manf#"
 	1    1600 2700
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L chromogram:SCREW HB35
@@ -434,7 +433,7 @@ F 2 "chromogram_libs:hole_baffle_2mm" H 1678 2863 60  0001 L CNN
 F 3 "" H 1600 2900 60  0000 C CNN
 F 4 "Value" H 1600 2900 50  0001 C CNN "manf#"
 	1    1600 2900
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L chromogram:SCREW HB36
@@ -446,7 +445,7 @@ F 2 "chromogram_libs:hole_baffle_2mm" H 1678 3063 60  0001 L CNN
 F 3 "" H 1600 3100 60  0000 C CNN
 F 4 "Value" H 1600 3100 50  0001 C CNN "manf#"
 	1    1600 3100
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L chromogram:SCREW HB37
@@ -458,7 +457,7 @@ F 2 "chromogram_libs:hole_baffle_2mm" H 1678 3263 60  0001 L CNN
 F 3 "" H 1600 3300 60  0000 C CNN
 F 4 "Value" H 1600 3300 50  0001 C CNN "manf#"
 	1    1600 3300
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L chromogram:SCREW HB38
@@ -546,4 +545,126 @@ F 4 "Value" H 5200 3300 50  0001 C CNN "manf#"
 $EndComp
 Text Notes 3150 2700 0    50   ~ 10
 Guide holes for\nBaffle mounting\n2 mm diameter\nnon-plated
+$Comp
+L chromogram:SCREW HB45
+U 1 1 5A4A80D0
+P 1675 4400
+F 0 "HB45" V 1675 4322 40  0000 R CNN
+F 1 "hole_baffle" H 1675 4500 40  0001 C CNN
+F 2 "chromogram_libs:MtgHole_3mm" H 1753 4363 60  0001 L CNN
+F 3 "" H 1675 4400 60  0000 C CNN
+F 4 "Value" H 1675 4400 50  0001 C CNN "manf#"
+	1    1675 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L chromogram:SCREW HB46
+U 1 1 5A4A8341
+P 3175 4400
+F 0 "HB46" V 3175 4322 40  0000 R CNN
+F 1 "hole_baffle" H 3175 4500 40  0001 C CNN
+F 2 "chromogram_libs:MtgHole_3mm" H 3253 4363 60  0001 L CNN
+F 3 "" H 3175 4400 60  0000 C CNN
+F 4 "Value" H 3175 4400 50  0001 C CNN "manf#"
+	1    3175 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L chromogram:SCREW HB51
+U 1 1 5A4A86FB
+P 1675 6400
+F 0 "HB51" V 1675 6322 40  0000 R CNN
+F 1 "hole_baffle" H 1675 6500 40  0001 C CNN
+F 2 "chromogram_libs:MtgHole_3mm" H 1753 6363 60  0001 L CNN
+F 3 "" H 1675 6400 60  0000 C CNN
+F 4 "Value" H 1675 6400 50  0001 C CNN "manf#"
+	1    1675 6400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L chromogram:SCREW HB52
+U 1 1 5A4A8702
+P 3175 6400
+F 0 "HB52" V 3175 6322 40  0000 R CNN
+F 1 "hole_baffle" H 3175 6500 40  0001 C CNN
+F 2 "chromogram_libs:MtgHole_3mm" H 3253 6363 60  0001 L CNN
+F 3 "" H 3175 6400 60  0000 C CNN
+F 4 "Value" H 3175 6400 50  0001 C CNN "manf#"
+	1    3175 6400
+	0    1    1    0   
+$EndComp
+$Comp
+L chromogram:SCREW HB47
+U 1 1 5A4A8811
+P 1725 4900
+F 0 "HB47" V 1725 4822 40  0000 R CNN
+F 1 "hole_baffle" H 1725 5000 40  0001 C CNN
+F 2 "chromogram_libs:MtgHole_3mm" H 1803 4863 60  0001 L CNN
+F 3 "" H 1725 4900 60  0000 C CNN
+F 4 "Value" H 1725 4900 50  0001 C CNN "manf#"
+	1    1725 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L chromogram:SCREW HB48
+U 1 1 5A4A8818
+P 3125 4900
+F 0 "HB48" V 3125 4822 40  0000 R CNN
+F 1 "hole_baffle" H 3125 5000 40  0001 C CNN
+F 2 "chromogram_libs:MtgHole_3mm" H 3203 4863 60  0001 L CNN
+F 3 "" H 3125 4900 60  0000 C CNN
+F 4 "Value" H 3125 4900 50  0001 C CNN "manf#"
+	1    3125 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L chromogram:SCREW HB49
+U 1 1 5A4A8943
+P 1725 5900
+F 0 "HB49" V 1725 5822 40  0000 R CNN
+F 1 "hole_baffle" H 1725 6000 40  0001 C CNN
+F 2 "chromogram_libs:MtgHole_3mm" H 1803 5863 60  0001 L CNN
+F 3 "" H 1725 5900 60  0000 C CNN
+F 4 "Value" H 1725 5900 50  0001 C CNN "manf#"
+	1    1725 5900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L chromogram:SCREW HB50
+U 1 1 5A4A894A
+P 3125 5900
+F 0 "HB50" V 3125 5822 40  0000 R CNN
+F 1 "hole_baffle" H 3125 6000 40  0001 C CNN
+F 2 "chromogram_libs:MtgHole_3mm" H 3203 5863 60  0001 L CNN
+F 3 "" H 3125 5900 60  0000 C CNN
+F 4 "Value" H 3125 5900 50  0001 C CNN "manf#"
+	1    3125 5900
+	0    1    1    0   
+$EndComp
+Text Notes 2275 4425 0    40   ~ 0
+<- 6.1" ->
+Text Notes 2275 4925 0    40   ~ 0
+<- 6.0" ->
+Text Notes 2275 5925 0    40   ~ 0
+<- 6.0" ->
+Text Notes 2275 6425 0    40   ~ 0
+<- 6.1" ->
+Text Notes 1750 5600 1    40   ~ 0
+<- 6.0" ->
+Text Notes 3150 5600 1    40   ~ 0
+<- 6.0" ->
+Text Notes 3225 5600 1    40   ~ 0
+<- 8.7" ->
+Text Notes 1675 5600 1    40   ~ 0
+<- 8.7" ->
+Wire Notes Line
+	1575 4300 3275 4300
+Wire Notes Line
+	3275 4300 3275 6500
+Wire Notes Line
+	3275 6500 1575 6500
+Wire Notes Line
+	1575 6500 1575 4300
+Text Notes 2150 5525 0    50   ~ 10
+Mounting holes for\nC3jr compatibility\n3 mm diameter\nplated
 $EndSCHEMATC

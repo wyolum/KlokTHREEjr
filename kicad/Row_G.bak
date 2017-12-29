@@ -1,8 +1,7 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 4
 LIBS:chromogram
-LIBS:wyolum_kicad_symbols
 LIBS:chromogram-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -49,13 +48,13 @@ F 4 "Value" H 1150 2400 50  0001 C CNN "manf#"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1150 1800 1150 2400
+	1150 1800 1150 2350
 Wire Wire Line
-	950  2350 9550 2350
+	950  2350 1150 2350
 Wire Wire Line
 	10800 3100 10800 1600
 Wire Wire Line
-	950  2850 10650 2850
+	950  2850 1800 2850
 Connection ~ 1150 2350
 Text HLabel 950  2850 0    60   Input ~ 12
 5V
@@ -297,15 +296,15 @@ F 4 "Value" H 1150 4750 50  0001 C CNN "manf#"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1150 4150 1150 4750
+	1150 4150 1150 4700
 Wire Wire Line
 	950  5450 10800 5450
 Wire Wire Line
-	950  4700 9550 4700
+	950  4700 1150 4700
 Wire Wire Line
 	10800 5450 10800 3950
 Wire Wire Line
-	950  5200 10650 5200
+	950  5200 1800 5200
 Connection ~ 1150 4700
 $Comp
 L chromogram:APA102 U106
@@ -517,37 +516,107 @@ Wire Wire Line
 Wire Wire Line
 	750  3950 1300 3950
 $Comp
-L chromogram:C2 C13
-U 1 1 5A9521F9
-P 1800 2600
-F 0 "C13" H 1893 2645 50  0000 L CNN
-F 1 "C2" H 1893 2555 50  0000 L CNN
-F 2 "chromogram_libs:c_0805" H 1800 2600 60  0001 C CNN
-F 3 "" H 1800 2600 60  0000 C CNN
-	1    1800 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L chromogram:C2 C14
+L chromogram:C_NP C14
 U 1 1 5A9522A9
 P 1800 4950
 F 0 "C14" H 1893 4995 50  0000 L CNN
 F 1 "100nF" H 1893 4905 50  0000 L CNN
 F 2 "chromogram_libs:c_0805" H 1800 4950 60  0001 C CNN
 F 3 "" H 1800 4950 60  0000 C CNN
+F 4 "Value" H 1800 4950 50  0001 C CNN "manf#"
 	1    1800 4950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1800 4700 1800 4750
+	1800 4700 1800 4800
 Connection ~ 1800 4700
 Wire Wire Line
-	1800 5200 1800 5150
+	1800 5200 1800 5100
 Connection ~ 1800 5200
 Wire Wire Line
-	1800 2850 1800 2800
+	1800 2850 1800 2750
 Connection ~ 1800 2850
 Wire Wire Line
-	1800 2350 1800 2400
+	1800 2350 1800 2450
 Connection ~ 1800 2350
+Wire Wire Line
+	1150 2350 1150 2400
+Wire Wire Line
+	1150 2350 1800 2350
+Wire Wire Line
+	2350 2350 3550 2350
+Wire Wire Line
+	2250 2850 3450 2850
+Wire Wire Line
+	3450 2850 4650 2850
+Wire Wire Line
+	3550 2350 4750 2350
+Wire Wire Line
+	4650 2850 5850 2850
+Wire Wire Line
+	4750 2350 5950 2350
+Wire Wire Line
+	5850 2850 7050 2850
+Wire Wire Line
+	5950 2350 7150 2350
+Wire Wire Line
+	7050 2850 8250 2850
+Wire Wire Line
+	7150 2350 8350 2350
+Wire Wire Line
+	8250 2850 9450 2850
+Wire Wire Line
+	8350 2350 9550 2350
+Wire Wire Line
+	9450 2850 10650 2850
+Wire Wire Line
+	1150 4700 1150 4750
+Wire Wire Line
+	1150 4700 1800 4700
+Wire Wire Line
+	2350 4700 3550 4700
+Wire Wire Line
+	2250 5200 3450 5200
+Wire Wire Line
+	3450 5200 4650 5200
+Wire Wire Line
+	3550 4700 4750 4700
+Wire Wire Line
+	4650 5200 5850 5200
+Wire Wire Line
+	4750 4700 5950 4700
+Wire Wire Line
+	5850 5200 7050 5200
+Wire Wire Line
+	5950 4700 7150 4700
+Wire Wire Line
+	7050 5200 8250 5200
+Wire Wire Line
+	7150 4700 8350 4700
+Wire Wire Line
+	8250 5200 9450 5200
+Wire Wire Line
+	8350 4700 9550 4700
+Wire Wire Line
+	9450 5200 10650 5200
+Wire Wire Line
+	1800 4700 2350 4700
+Wire Wire Line
+	1800 5200 2250 5200
+Wire Wire Line
+	1800 2850 2250 2850
+Wire Wire Line
+	1800 2350 2350 2350
+$Comp
+L chromogram:C_NP C13
+U 1 1 5A96AC0D
+P 1800 2600
+F 0 "C13" H 1893 2645 50  0000 L CNN
+F 1 "100nF" H 1893 2555 50  0000 L CNN
+F 2 "chromogram_libs:c_0805" H 1800 2600 60  0001 C CNN
+F 3 "" H 1800 2600 60  0000 C CNN
+F 4 "Value" H 1800 2600 50  0001 C CNN "manf#"
+	1    1800 2600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

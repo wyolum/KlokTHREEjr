@@ -1,54 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP ATMEGA328P
-D ATMEGA168A, TQFP32, 16k Flash, 1kB SRAM, 512B EEPROM
-K AVR 8bit Microcontroller MegaAVR
-F http://www.atmel.com/dyn/resources/prod_documents/doc8271.pdf
+$CMP Conn_01x01
+D Generic connector, single row, 01x01
+K connector
+F ~
 $ENDCMP
 #
-$CMP BARREL_JACK
-D DC Barrel Jack
-$ENDCMP
-#
-$CMP CONN_2
-D Symbole general de connecteur
-K CONN
-$ENDCMP
-#
-$CMP CONN_3
-D ymbole general de connecteur
-K CONN
-$ENDCMP
-#
-$CMP CONN_4
-D ymbole general de connecteur
-K CONN
-$ENDCMP
-#
-$CMP CONN_6
-D ymbole general de connecteur
-K CONN
-$ENDCMP
-#
-$CMP CP2102N-A01-GQFN28
-D USB to UART master bridge
-K USB UART bridge
-F http://www.silabs.com/support%20documents/technicaldocs/cp2102n-datasheet.pdf
-$ENDCMP
-#
-$CMP VR
-D VARISTANCE
-K VR  DEV
-$ENDCMP
-#
-$CMP diode_sch
-D Diode schottky
-K DEV DIODE
-$ENDCMP
-#
-$CMP diode_zener
-D Diode schottky
-K DEV DIODE
+$CMP DDC114TU
+D Pre-Biased Bipolar Transistor (BJT) 2 NPN - Pre-Biased (Dual) 50V 100mA 250MHz 200mW Surface Mount SOT-363
+K NPN Transistor/NPN
+F https://www.diodes.com/assets/Datasheets/ds30345.pdf
 $ENDCMP
 #
 #End Doc Library
