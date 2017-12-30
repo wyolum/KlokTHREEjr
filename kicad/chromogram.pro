@@ -1,4 +1,4 @@
-update=Sat Dec 30 01:30:33 2017
+update=Sat Dec 30 19:56:42 2017
 version=1
 last_client=kicad
 [cvpcb]
@@ -36,11 +36,10 @@ NetFmtName=
 SpiceAjustPassiveValues=0
 LabSize=40
 ERC_TestSimilarLabels=1
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
 [eeschema/libraries]
 LibName1=chromogram_libs/chromogram
-LibName2=/home/samata/projects-git/wyolum_kicad_library/wyolum_kicad_symbols
-[general]
-version=1

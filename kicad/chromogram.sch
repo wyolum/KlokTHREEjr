@@ -1103,7 +1103,6 @@ F0 "rtc_ds3231" 40
 F1 "rtc_ds3231.sch" 40
 F2 "5V" I L 2300 5950 40 
 F3 "GND" I L 2300 6025 40 
-F4 "RST" I L 2300 6100 40 
 F5 "SDA" I L 2300 6175 40 
 F6 "SCL" I L 2300 6250 40 
 $EndSheet
@@ -1112,8 +1111,6 @@ Wire Wire Line
 Wire Wire Line
 	2000 6025 2300 6025
 Wire Wire Line
-	2300 6100 2000 6100
-Wire Wire Line
 	2000 6175 2300 6175
 Wire Wire Line
 	2300 6250 2000 6250
@@ -1121,8 +1118,6 @@ Text Label 2000 5950 0    40   ~ 0
 5V
 Text Label 2000 6025 0    40   ~ 0
 GND
-Text Label 2000 6100 0    40   ~ 0
-RST
 Text Label 2000 6175 0    40   ~ 0
 SDA
 Text Label 2000 6250 0    40   ~ 0
@@ -1190,7 +1185,7 @@ Wire Wire Line
 Wire Wire Line
 	3800 3150 4050 3150
 Wire Wire Line
-	4075 3250 3800 3250
+	4050 3250 3800 3250
 Wire Wire Line
 	2500 3650 2500 3925
 Wire Wire Line
@@ -1302,7 +1297,7 @@ Text Label 3300 3925 1    40   ~ 0
 IO15
 Text Label 2600 3925 1    40   ~ 0
 IO13
-Text Label 4075 3250 2    40   ~ 0
+Text Label 4050 3250 2    40   ~ 0
 IO0
 Wire Wire Line
 	2300 5150 2000 5150

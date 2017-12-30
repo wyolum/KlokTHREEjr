@@ -37,33 +37,33 @@ F 3 "" H 3675 4175 60  0000 C CNN
 	1    3675 4175
 	1    0    0    -1  
 $EndComp
-Text Label 5250 4425 0    40   ~ 0
+Text Label 5500 4425 0    40   ~ 0
 SDA
-Text Label 5250 4550 0    40   ~ 0
+Text Label 5500 4550 0    40   ~ 0
 SCL
 $Comp
 L chromogram:R R6
 U 1 1 5A448933
-P 4650 2550
-F 0 "R6" H 4700 2350 40  0000 C CNN
-F 1 "10K" V 4657 2551 40  0000 C CNN
-F 2 "chromogram_libs:r_0805" V 4580 2550 30  0001 C CNN
-F 3 "~" H 4650 2550 30  0000 C CNN
-	1    4650 2550
+P 4900 2550
+F 0 "R6" H 4950 2350 40  0000 C CNN
+F 1 "10K" V 4907 2551 40  0000 C CNN
+F 2 "chromogram_libs:r_0805" V 4830 2550 30  0001 C CNN
+F 3 "~" H 4900 2550 30  0000 C CNN
+	1    4900 2550
 	1    0    0    -1  
 $EndComp
 $Comp
 L chromogram:R R7
 U 1 1 5A44893A
-P 4800 2550
-F 0 "R7" H 4850 2350 40  0000 C CNN
-F 1 "10K" V 4807 2551 40  0000 C CNN
-F 2 "chromogram_libs:r_0805" V 4730 2550 30  0001 C CNN
-F 3 "~" H 4800 2550 30  0000 C CNN
-	1    4800 2550
+P 5050 2550
+F 0 "R7" H 5100 2350 40  0000 C CNN
+F 1 "10K" V 5057 2551 40  0000 C CNN
+F 2 "chromogram_libs:r_0805" V 4980 2550 30  0001 C CNN
+F 3 "~" H 5050 2550 30  0000 C CNN
+	1    5050 2550
 	1    0    0    -1  
 $EndComp
-Text Label 5000 3000 2    40   ~ 0
+Text Label 4600 3000 0    40   ~ 0
 RESET
 $Comp
 L chromogram:PWR_FLAG #FLG018
@@ -120,17 +120,17 @@ Wire Wire Line
 	4575 3250 4625 3250
 Wire Wire Line
 	3675 2225 3675 2400
-Connection ~ 4650 2225
+Connection ~ 4900 2225
 Wire Wire Line
-	4650 2225 4650 2400
+	4900 2225 4900 2400
 Wire Wire Line
 	2525 2225 2675 2225
 Wire Wire Line
-	4800 2225 4800 2400
+	5050 2225 5050 2400
 Wire Wire Line
 	2000 2325 2000 2400
 Wire Wire Line
-	4575 3000 5575 3000
+	4575 3000 5600 3000
 Wire Wire Line
 	4625 3250 4625 3350
 Wire Wire Line
@@ -187,32 +187,30 @@ Wire Wire Line
 Wire Wire Line
 	2525 3300 2775 3300
 Wire Wire Line
-	2675 4425 5575 4425
+	2675 4425 5825 4425
 Connection ~ 2675 3150
 Wire Wire Line
-	2525 4550 5575 4550
+	2525 4550 5825 4550
 Connection ~ 2525 3300
 Wire Wire Line
-	4575 2850 4650 2850
+	4575 2850 4900 2850
 Wire Wire Line
-	4650 2850 4650 2700
+	4900 2850 4900 2700
 Wire Wire Line
-	4800 2700 4800 3150
+	5050 2700 5050 3150
 Wire Wire Line
-	4800 3150 4575 3150
+	5050 3150 4575 3150
 Connection ~ 2675 2225
 Connection ~ 3675 2225
-Connection ~ 4800 2225
+Connection ~ 5050 2225
 Connection ~ 4625 4100
-Text HLabel 5575 2225 2    40   Input ~ 0
+Text HLabel 5825 2225 2    40   Input ~ 0
 5V
-Text HLabel 5575 4100 2    40   Input ~ 0
+Text HLabel 5825 4100 2    40   Input ~ 0
 GND
-Text HLabel 5575 3000 2    40   Input ~ 0
-RST
-Text HLabel 5575 4425 2    40   Input ~ 0
+Text HLabel 5825 4425 2    40   Input ~ 0
 SDA
-Text HLabel 5575 4550 2    40   Input ~ 0
+Text HLabel 5825 4550 2    40   Input ~ 0
 SCL
 $Comp
 L chromogram:C_NP C22
@@ -226,7 +224,7 @@ F 3 "" H 2200 3175 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4650 2225 4800 2225
+	4900 2225 5050 2225
 Wire Wire Line
 	4625 3650 4625 4100
 Wire Wire Line
@@ -258,9 +256,24 @@ Wire Wire Line
 Wire Wire Line
 	2675 2225 3675 2225
 Wire Wire Line
-	3675 2225 4650 2225
+	3675 2225 4900 2225
 Wire Wire Line
-	4800 2225 5575 2225
+	5050 2225 5825 2225
 Wire Wire Line
-	4625 4100 5575 4100
+	4625 4100 5825 4100
+$Comp
+L chromogram:Conn_01x01 TP1
+U 1 1 5A48EA43
+P 5800 3000
+F 0 "TP1" H 5925 3100 50  0000 L CNN
+F 1 "~RST" H 5925 2950 50  0000 L CNN
+F 2 "chromogram_libs:BreakOutPad" H 5800 3000 50  0001 C CNN
+F 3 "~" H 5800 3000 50  0001 C CNN
+	1    5800 3000
+	1    0    0    -1  
+$EndComp
+Text Label 4600 2850 0    40   ~ 0
+SQR
+Text Label 4600 3150 0    40   ~ 0
+32kHz
 $EndSCHEMATC

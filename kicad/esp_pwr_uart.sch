@@ -27,38 +27,39 @@ F 3 "" H 1375 1550 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L regul:AP1117-15 U131
+L chromogram:AP1117-15 U131
 U 1 1 5A4518D4
 P 2175 1300
 F 0 "U131" H 2175 1540 50  0000 C CNN
 F 1 "AP1117-15" H 2175 1450 50  0000 C CNN
 F 2 "chromogram_libs:SOT-223-3_TabPin2" H 2175 1500 50  0001 C CNN
 F 3 "http://www.diodes.com/datasheets/AP1117.pdf" H 2275 1050 50  0001 C CNN
+F 4 "mfr_pn" H 2175 1300 50  0001 C CNN "manf#"
 	1    2175 1300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1225 1300 1875 1300
+	1225 1300 1375 1300
 Wire Wire Line
-	1375 1250 1375 1400
+	1375 1250 1375 1300
 Wire Wire Line
 	1675 1300 1675 1400
 Connection ~ 1675 1300
 Wire Wire Line
-	2475 1300 2950 1300
+	2475 1300 2625 1300
 Wire Wire Line
-	2625 1250 2625 1400
+	2625 1250 2625 1300
 Wire Wire Line
 	2625 2575 2625 1700
 Wire Wire Line
-	1225 2575 2775 2575
+	1225 2575 1375 2575
 Wire Wire Line
 	1375 1800 1375 1700
 Wire Wire Line
 	1675 2575 1675 1700
 Connection ~ 1675 2575
 Wire Wire Line
-	2175 1600 2175 2675
+	2175 1600 2175 2575
 Connection ~ 2175 2575
 Wire Wire Line
 	1375 2100 1375 2200
@@ -207,7 +208,7 @@ Wire Wire Line
 Wire Wire Line
 	1975 4550 1975 6025
 Wire Wire Line
-	4375 6025 1325 6025
+	4375 6025 3700 6025
 Wire Wire Line
 	4375 5250 4450 5250
 Wire Wire Line
@@ -219,11 +220,11 @@ Wire Wire Line
 	1325 6025 1325 4700
 Connection ~ 1975 6025
 Wire Wire Line
-	1875 4250 2750 4250
+	1875 4250 2325 4250
 Wire Wire Line
 	2325 4250 2325 4800
 Wire Wire Line
-	1875 4350 2850 4350
+	1875 4350 2125 4350
 Wire Wire Line
 	2125 4350 2125 4800
 NoConn ~ 1875 4450
@@ -238,9 +239,9 @@ Wire Wire Line
 Wire Wire Line
 	4450 5150 4375 5150
 Wire Wire Line
-	4375 5150 4375 6025
+	4375 5150 4375 5250
 Wire Wire Line
-	3025 3950 4450 3950
+	3025 3950 3250 3950
 Wire Wire Line
 	4375 3950 4375 4050
 Wire Wire Line
@@ -250,7 +251,7 @@ Wire Wire Line
 Wire Wire Line
 	2850 4850 4450 4850
 Wire Wire Line
-	3475 4750 4450 4750
+	3475 4750 3700 4750
 Text Label 7400 4650 2    40   ~ 0
 DCD
 Text Label 7400 3950 2    40   ~ 0
@@ -447,9 +448,9 @@ IO13
 Text Label 7400 4050 2    40   ~ 0
 IO15
 Wire Wire Line
-	6800 1350 7675 1350
+	6800 1350 7150 1350
 Wire Wire Line
-	6800 2250 7675 2250
+	6800 2250 7000 2250
 Wire Wire Line
 	7150 1350 7150 2000
 Wire Wire Line
@@ -467,9 +468,9 @@ Connection ~ 7000 2250
 Wire Wire Line
 	7975 2450 7975 2500
 Wire Wire Line
-	7975 2500 10350 2500
+	7975 2500 9250 2500
 Wire Wire Line
-	7975 1100 10350 1100
+	7975 1100 8925 1100
 Wire Wire Line
 	7975 1100 7975 1150
 Text Label 6800 1350 0    40   ~ 0
@@ -519,7 +520,7 @@ F 4 "Value" H 8925 1750 50  0001 C CNN "manf#"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8925 1000 8925 1600
+	8925 1000 8925 1100
 Connection ~ 8925 1100
 $Comp
 L chromogram:R R16
@@ -562,7 +563,7 @@ Wire Wire Line
 Wire Wire Line
 	9575 2000 9575 1900
 Wire Wire Line
-	8925 2000 9575 2000
+	8925 2000 9250 2000
 Wire Wire Line
 	8925 2000 8925 1900
 Wire Wire Line
@@ -572,11 +573,11 @@ Wire Wire Line
 	9525 2000 9525 1900
 Connection ~ 9525 2000
 Wire Wire Line
-	9250 1500 9250 1600
+	9250 1500 9250 1550
 Wire Wire Line
 	9575 1550 9575 1600
 Wire Wire Line
-	9250 1550 9575 1550
+	9250 1550 9525 1550
 Connection ~ 9250 1550
 Wire Wire Line
 	9525 1550 9525 1600
@@ -627,18 +628,18 @@ Wire Wire Line
 Wire Wire Line
 	9575 3400 9575 3300
 Wire Wire Line
-	9250 3400 9575 3400
+	9250 3400 9525 3400
 Wire Wire Line
 	9250 3300 9250 3400
 Wire Wire Line
 	9525 3400 9525 3300
 Connection ~ 9525 3400
 Wire Wire Line
-	9250 2900 9250 3000
+	9250 2900 9250 2950
 Wire Wire Line
 	9575 2950 9575 3000
 Wire Wire Line
-	9250 2950 9575 2950
+	9250 2950 9525 2950
 Connection ~ 9250 2950
 Wire Wire Line
 	9525 2950 9525 3000
@@ -719,4 +720,76 @@ F 3 "https://www.diodes.com/assets/Datasheets/ds30345.pdf" H 7875 2250 50  0001 
 	2    7875 2250
 	1    0    0    1   
 $EndComp
+Wire Wire Line
+	1675 1300 1875 1300
+Wire Wire Line
+	1675 2575 2175 2575
+Wire Wire Line
+	2175 2575 2175 2675
+Wire Wire Line
+	2175 2575 2625 2575
+Wire Wire Line
+	1375 2575 1675 2575
+Wire Wire Line
+	1375 1300 1675 1300
+Wire Wire Line
+	1375 1300 1375 1400
+Wire Wire Line
+	2625 1300 2950 1300
+Wire Wire Line
+	2625 1300 2625 1400
+Wire Wire Line
+	2125 6025 1975 6025
+Wire Wire Line
+	1975 6025 1325 6025
+Wire Wire Line
+	4375 5250 4375 6025
+Wire Wire Line
+	2325 6025 2125 6025
+Wire Wire Line
+	2125 4350 2850 4350
+Wire Wire Line
+	2325 4250 2750 4250
+Wire Wire Line
+	4375 3950 4450 3950
+Wire Wire Line
+	3025 6025 2325 6025
+Wire Wire Line
+	3250 6025 3025 6025
+Wire Wire Line
+	3475 6025 3250 6025
+Wire Wire Line
+	3700 6025 3475 6025
+Wire Wire Line
+	3250 3950 4375 3950
+Wire Wire Line
+	3700 4750 4450 4750
+Wire Wire Line
+	7150 1350 7675 1350
+Wire Wire Line
+	7000 2250 7675 2250
+Wire Wire Line
+	8925 1100 9250 1100
+Wire Wire Line
+	8925 1100 8925 1600
+Wire Wire Line
+	9250 2000 9525 2000
+Wire Wire Line
+	9525 2000 9575 2000
+Wire Wire Line
+	9250 1550 9250 1600
+Wire Wire Line
+	9525 1550 9575 1550
+Wire Wire Line
+	9250 1100 10350 1100
+Wire Wire Line
+	9525 3400 9575 3400
+Wire Wire Line
+	9250 2950 9250 3000
+Wire Wire Line
+	9525 2950 9575 2950
+Wire Wire Line
+	9250 2500 10350 2500
+Wire Wire Line
+	2625 2575 2775 2575
 $EndSCHEMATC

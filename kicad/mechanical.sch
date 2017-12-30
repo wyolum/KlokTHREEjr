@@ -706,7 +706,7 @@ L chromogram:Conn_01x01 J7
 U 1 1 5A487307
 P 5450 4375
 F 0 "J7" H 5275 4425 40  0000 L CNN
-F 1 "5V" H 5525 4400 50  0000 L CNN
+F 1 "5V" H 5525 4400 40  0000 L CNN
 F 2 "chromogram_libs:1pin" H 5450 4375 50  0001 C CNN
 F 3 "~" H 5450 4375 50  0001 C CNN
 	1    5450 4375
@@ -941,10 +941,10 @@ F 4 "Value" H 7950 5150 50  0001 C CNN "manf#"
 	1    7950 5150
 	0    1    1    0   
 $EndComp
-Text Notes 7400 5275 0    40   ~ 0
+Text Notes 7350 5250 0    40   ~ 0
 <- 2.8" ->
-Text Notes 6875 4950 1    40   ~ 0
-<- 4.45" ->
+Text Notes 7175 4950 1    40   ~ 0
+<- 2.8" ->
 Wire Notes Line
 	6700 3650 8400 3650
 Wire Notes Line
@@ -956,11 +956,13 @@ Wire Notes Line
 Text Notes 7200 5800 0    50   ~ 10
 Mechanical mounting holes\nfor LED matrix\n3 mm diameter\nplated
 Wire Notes Line
-	7450 4750 7650 4750
-Wire Notes Line
 	7550 4650 7550 4850
 Wire Notes Line
 	2350 4750 2550 4750
 Wire Notes Line
 	2450 4650 2450 4850
+Text Notes 8100 4775 1    40   ~ 0
+<- 0.575" ->
+Wire Notes Line
+	7450 4750 8025 4750
 $EndSCHEMATC
