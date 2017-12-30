@@ -1,4 +1,4 @@
-(module QFN-28-1EP_5x5mm_Pitch0.5mm (layer F.Cu) (tedit 5A4684D2)
+(module QFN-28-1EP_5x5mm_Pitch0.5mm (layer F.Cu) (tedit 5A478035)
   (descr "28-Lead Plastic Quad Flat, No Lead Package (MQ) - 5x5x0.9 mm Body [QFN or VQFN]; (see Microchip Packaging Specification 00000049BS.pdf)")
   (tags "QFN 0.5")
   (clearance 0.1)
@@ -66,7 +66,7 @@
   (pad 29 thru_hole circle (at 0.635 0.635) (size 0.762 0.762) (drill 0.254) (layers *.Cu *.Mask))
   (pad 29 thru_hole circle (at -0.635 0.635) (size 0.762 0.762) (drill 0.254) (layers *.Cu *.Mask))
   (pad 29 thru_hole circle (at 0 0) (size 0.762 0.762) (drill 0.254) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/Housings_DFN_QFN.3dshapes/QFN-28-1EP_5x5mm_Pitch0.5mm.wrl
+  (model ${KIPRJMOD}/3d_modules/QFN_28_1EP_5x5mm.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

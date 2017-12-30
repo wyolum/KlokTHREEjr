@@ -1,8 +1,7 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 4
 LIBS:chromogram
-LIBS:wyolum_kicad_symbols
 LIBS:chromogram-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -265,9 +264,9 @@ Wire Wire Line
 	2750 4250 2750 4950
 Connection ~ 2325 4250
 Text Label 4100 4850 0    40   ~ 0
-USB_DP
+USB_D+
 Text Label 4100 4950 0    40   ~ 0
-USB_DN
+USB_D-
 Connection ~ 4375 3950
 Text Label 4100 4750 0    40   ~ 0
 5V
