@@ -1,3 +1,5 @@
 (fp_lib_table
   (lib (name chromogram_libs)(type KiCad)(uri "$(KIPRJMOD)/chromogram_libs.pretty")(options "")(descr ""))
+  (lib (name ultim8x8_libs)(type KiCad)(uri /home/samata/projects-git/ultim8x8/kicad/ultim_8x8_v2/ultim8x8_libs.pretty)(options "")(descr ""))
+  (lib (name ultim_bus)(type KiCad)(uri /home/samata/projects-git/ultim8x8/kicad/ultim_bus_v5/ultim_bus.pretty)(options "")(descr ""))
 )

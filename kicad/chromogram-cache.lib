@@ -524,4 +524,23 @@ X K 2 150 0 100 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
+# ultim_bus:Mouse_Bite
+#
+DEF ~ultim_bus:Mouse_Bite P 0 30 N N 1 F N
+F0 "P" 0 -125 40 H V C CNN
+F1 "ultim_bus:Mouse_Bite" 0 125 30 H I C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+A -200 0 100 -899 899 0 1 0 N -200 -100 -200 100
+A 200 0 100 901 -901 0 1 0 N 200 100 200 -100
+C -75 -75 25 0 1 0 N
+C -75 75 25 0 1 0 N
+C 0 -75 25 0 1 0 N
+C 0 75 25 0 1 0 N
+C 75 -75 25 0 1 0 N
+C 75 75 25 0 1 0 N
+ENDDRAW
+ENDDEF
+#
 #End Library

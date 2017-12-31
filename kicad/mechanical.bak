@@ -638,331 +638,421 @@ Mounting holes for\nC3jr compatibility\n3 mm diameter\nplated
 $Comp
 L chromogram:Conn_01x01 J1
 U 1 1 5A4866AD
-P 4250 4375
-F 0 "J1" H 4075 4425 40  0000 L CNN
-F 1 "CLK_IN" H 4325 4400 40  0000 L CNN
-F 2 "chromogram_libs:1pin" H 4250 4375 50  0001 C CNN
-F 3 "~" H 4250 4375 50  0001 C CNN
-	1    4250 4375
+P 6800 1825
+F 0 "J1" H 6625 1875 40  0000 L CNN
+F 1 "CLK_IN" H 6875 1850 40  0000 L CNN
+F 2 "chromogram_libs:1pin" H 6800 1825 50  0001 C CNN
+F 3 "~" H 6800 1825 50  0001 C CNN
+	1    6800 1825
 	0    1    1    0   
 $EndComp
 $Comp
 L chromogram:Conn_01x01 J2
 U 1 1 5A486E6A
-P 4450 4375
-F 0 "J2" H 4275 4425 40  0000 L CNN
-F 1 "DAT_IN" H 4525 4400 40  0000 L CNN
-F 2 "chromogram_libs:1pin" H 4450 4375 50  0001 C CNN
-F 3 "~" H 4450 4375 50  0001 C CNN
-	1    4450 4375
+P 7000 1825
+F 0 "J2" H 6825 1875 40  0000 L CNN
+F 1 "DAT_IN" H 7075 1850 40  0000 L CNN
+F 2 "chromogram_libs:1pin" H 7000 1825 50  0001 C CNN
+F 3 "~" H 7000 1825 50  0001 C CNN
+	1    7000 1825
 	0    1    1    0   
 $EndComp
 $Comp
 L chromogram:Conn_01x01 J3
 U 1 1 5A486F0A
-P 4650 4375
-F 0 "J3" H 4475 4425 40  0000 L CNN
-F 1 "LDR1" H 4725 4400 40  0000 L CNN
-F 2 "chromogram_libs:1pin" H 4650 4375 50  0001 C CNN
-F 3 "~" H 4650 4375 50  0001 C CNN
-	1    4650 4375
+P 7200 1825
+F 0 "J3" H 7025 1875 40  0000 L CNN
+F 1 "LDR1" H 7275 1850 40  0000 L CNN
+F 2 "chromogram_libs:1pin" H 7200 1825 50  0001 C CNN
+F 3 "~" H 7200 1825 50  0001 C CNN
+	1    7200 1825
 	0    1    1    0   
 $EndComp
 $Comp
 L chromogram:Conn_01x01 J4
 U 1 1 5A486F90
-P 4850 4375
-F 0 "J4" H 4675 4425 50  0000 L CNN
-F 1 "LDR2" H 4925 4400 40  0000 L CNN
-F 2 "chromogram_libs:1pin" H 4850 4375 50  0001 C CNN
-F 3 "~" H 4850 4375 50  0001 C CNN
-	1    4850 4375
+P 7400 1825
+F 0 "J4" H 7225 1875 50  0000 L CNN
+F 1 "LDR2" H 7475 1850 40  0000 L CNN
+F 2 "chromogram_libs:1pin" H 7400 1825 50  0001 C CNN
+F 3 "~" H 7400 1825 50  0001 C CNN
+	1    7400 1825
 	0    1    1    0   
 $EndComp
 $Comp
 L chromogram:Conn_01x01 J5
 U 1 1 5A4872FB
-P 5050 4375
-F 0 "J5" H 4875 4425 40  0000 L CNN
-F 1 "LDR3" H 5125 4400 40  0000 L CNN
-F 2 "chromogram_libs:1pin" H 5050 4375 50  0001 C CNN
-F 3 "~" H 5050 4375 50  0001 C CNN
-	1    5050 4375
+P 7600 1825
+F 0 "J5" H 7425 1875 40  0000 L CNN
+F 1 "LDR3" H 7675 1850 40  0000 L CNN
+F 2 "chromogram_libs:1pin" H 7600 1825 50  0001 C CNN
+F 3 "~" H 7600 1825 50  0001 C CNN
+	1    7600 1825
 	0    1    1    0   
 $EndComp
 $Comp
 L chromogram:Conn_01x01 J6
 U 1 1 5A487301
-P 5250 4375
-F 0 "J6" H 5075 4425 40  0000 L CNN
-F 1 "LDR4" H 5325 4400 40  0000 L CNN
-F 2 "chromogram_libs:1pin" H 5250 4375 50  0001 C CNN
-F 3 "~" H 5250 4375 50  0001 C CNN
-	1    5250 4375
+P 7800 1825
+F 0 "J6" H 7625 1875 40  0000 L CNN
+F 1 "LDR4" H 7875 1850 40  0000 L CNN
+F 2 "chromogram_libs:1pin" H 7800 1825 50  0001 C CNN
+F 3 "~" H 7800 1825 50  0001 C CNN
+	1    7800 1825
 	0    1    1    0   
 $EndComp
 $Comp
 L chromogram:Conn_01x01 J7
 U 1 1 5A487307
-P 5450 4375
-F 0 "J7" H 5275 4425 40  0000 L CNN
-F 1 "5V" H 5525 4400 40  0000 L CNN
-F 2 "chromogram_libs:1pin" H 5450 4375 50  0001 C CNN
-F 3 "~" H 5450 4375 50  0001 C CNN
-	1    5450 4375
+P 8000 1825
+F 0 "J7" H 7825 1875 40  0000 L CNN
+F 1 "5V" H 8075 1850 40  0000 L CNN
+F 2 "chromogram_libs:1pin" H 8000 1825 50  0001 C CNN
+F 3 "~" H 8000 1825 50  0001 C CNN
+	1    8000 1825
 	0    1    1    0   
 $EndComp
 $Comp
 L chromogram:Conn_01x01 J8
 U 1 1 5A48730D
-P 5650 4375
-F 0 "J8" H 5475 4425 40  0000 L CNN
-F 1 "GND" H 5725 4400 40  0000 L CNN
-F 2 "chromogram_libs:1pin" H 5650 4375 50  0001 C CNN
-F 3 "~" H 5650 4375 50  0001 C CNN
-	1    5650 4375
+P 8200 1825
+F 0 "J8" H 8025 1875 40  0000 L CNN
+F 1 "GND" H 8275 1850 40  0000 L CNN
+F 2 "chromogram_libs:1pin" H 8200 1825 50  0001 C CNN
+F 3 "~" H 8200 1825 50  0001 C CNN
+	1    8200 1825
 	0    1    1    0   
 $EndComp
 $Comp
 L chromogram:Conn_01x01 J9
 U 1 1 5A4877A0
-P 4250 5000
-F 0 "J9" H 4075 5050 40  0000 L CNN
-F 1 "CLK_IN" H 4325 5025 40  0000 L CNN
-F 2 "chromogram_libs:1pin" H 4250 5000 50  0001 C CNN
-F 3 "~" H 4250 5000 50  0001 C CNN
-	1    4250 5000
+P 6800 2450
+F 0 "J9" H 6625 2500 40  0000 L CNN
+F 1 "CLK_IN" H 6875 2475 40  0000 L CNN
+F 2 "chromogram_libs:1pin" H 6800 2450 50  0001 C CNN
+F 3 "~" H 6800 2450 50  0001 C CNN
+	1    6800 2450
 	0    1    -1   0   
 $EndComp
 $Comp
 L chromogram:Conn_01x01 J10
 U 1 1 5A4877A6
-P 4450 5000
-F 0 "J10" H 4275 5050 40  0000 L CNN
-F 1 "DAT_IN" H 4525 5025 40  0000 L CNN
-F 2 "chromogram_libs:1pin" H 4450 5000 50  0001 C CNN
-F 3 "~" H 4450 5000 50  0001 C CNN
-	1    4450 5000
+P 7000 2450
+F 0 "J10" H 6825 2500 40  0000 L CNN
+F 1 "DAT_IN" H 7075 2475 40  0000 L CNN
+F 2 "chromogram_libs:1pin" H 7000 2450 50  0001 C CNN
+F 3 "~" H 7000 2450 50  0001 C CNN
+	1    7000 2450
 	0    1    -1   0   
 $EndComp
 $Comp
 L chromogram:Conn_01x01 J11
 U 1 1 5A4877AC
-P 4650 5000
-F 0 "J11" H 4475 5050 40  0000 L CNN
-F 1 "LDR1" H 4725 5025 40  0000 L CNN
-F 2 "chromogram_libs:1pin" H 4650 5000 50  0001 C CNN
-F 3 "~" H 4650 5000 50  0001 C CNN
-	1    4650 5000
+P 7200 2450
+F 0 "J11" H 7025 2500 40  0000 L CNN
+F 1 "LDR1" H 7275 2475 40  0000 L CNN
+F 2 "chromogram_libs:1pin" H 7200 2450 50  0001 C CNN
+F 3 "~" H 7200 2450 50  0001 C CNN
+	1    7200 2450
 	0    1    -1   0   
 $EndComp
 $Comp
 L chromogram:Conn_01x01 J12
 U 1 1 5A4877B2
-P 4850 5000
-F 0 "J12" H 4675 5050 40  0000 L CNN
-F 1 "LDR2" H 4925 5025 40  0000 L CNN
-F 2 "chromogram_libs:1pin" H 4850 5000 50  0001 C CNN
-F 3 "~" H 4850 5000 50  0001 C CNN
-	1    4850 5000
+P 7400 2450
+F 0 "J12" H 7225 2500 40  0000 L CNN
+F 1 "LDR2" H 7475 2475 40  0000 L CNN
+F 2 "chromogram_libs:1pin" H 7400 2450 50  0001 C CNN
+F 3 "~" H 7400 2450 50  0001 C CNN
+	1    7400 2450
 	0    1    -1   0   
 $EndComp
 $Comp
 L chromogram:Conn_01x01 J13
 U 1 1 5A4877B8
-P 5050 5000
-F 0 "J13" H 4875 5050 40  0000 L CNN
-F 1 "LDR3" H 5125 5025 40  0000 L CNN
-F 2 "chromogram_libs:1pin" H 5050 5000 50  0001 C CNN
-F 3 "~" H 5050 5000 50  0001 C CNN
-	1    5050 5000
+P 7600 2450
+F 0 "J13" H 7425 2500 40  0000 L CNN
+F 1 "LDR3" H 7675 2475 40  0000 L CNN
+F 2 "chromogram_libs:1pin" H 7600 2450 50  0001 C CNN
+F 3 "~" H 7600 2450 50  0001 C CNN
+	1    7600 2450
 	0    1    -1   0   
 $EndComp
 $Comp
 L chromogram:Conn_01x01 J14
 U 1 1 5A4877BE
-P 5250 5000
-F 0 "J14" H 5075 5050 40  0000 L CNN
-F 1 "LDR4" H 5325 5025 40  0000 L CNN
-F 2 "chromogram_libs:1pin" H 5250 5000 50  0001 C CNN
-F 3 "~" H 5250 5000 50  0001 C CNN
-	1    5250 5000
+P 7800 2450
+F 0 "J14" H 7625 2500 40  0000 L CNN
+F 1 "LDR4" H 7875 2475 40  0000 L CNN
+F 2 "chromogram_libs:1pin" H 7800 2450 50  0001 C CNN
+F 3 "~" H 7800 2450 50  0001 C CNN
+	1    7800 2450
 	0    1    -1   0   
 $EndComp
 $Comp
 L chromogram:Conn_01x01 J15
 U 1 1 5A4877C4
-P 5450 5000
-F 0 "J15" H 5275 5050 40  0000 L CNN
-F 1 "5V" H 5525 5025 40  0000 L CNN
-F 2 "chromogram_libs:1pin" H 5450 5000 50  0001 C CNN
-F 3 "~" H 5450 5000 50  0001 C CNN
-	1    5450 5000
+P 8000 2450
+F 0 "J15" H 7825 2500 40  0000 L CNN
+F 1 "5V" H 8075 2475 40  0000 L CNN
+F 2 "chromogram_libs:1pin" H 8000 2450 50  0001 C CNN
+F 3 "~" H 8000 2450 50  0001 C CNN
+	1    8000 2450
 	0    1    -1   0   
 $EndComp
 $Comp
 L chromogram:Conn_01x01 J16
 U 1 1 5A4877CA
-P 5650 5000
-F 0 "J16" H 5475 5050 40  0000 L CNN
-F 1 "GND" H 5725 5025 40  0000 L CNN
-F 2 "chromogram_libs:1pin" H 5650 5000 50  0001 C CNN
-F 3 "~" H 5650 5000 50  0001 C CNN
-	1    5650 5000
+P 8200 2450
+F 0 "J16" H 8025 2500 40  0000 L CNN
+F 1 "GND" H 8275 2475 40  0000 L CNN
+F 2 "chromogram_libs:1pin" H 8200 2450 50  0001 C CNN
+F 3 "~" H 8200 2450 50  0001 C CNN
+	1    8200 2450
 	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	4250 4175 4250 3925
+	6800 1625 6800 1375
 Wire Wire Line
-	4450 3925 4450 4175
+	7000 1375 7000 1625
 Wire Wire Line
-	4650 3925 4650 4175
+	7200 1375 7200 1625
 Wire Wire Line
-	4850 3925 4850 4175
+	7400 1375 7400 1625
 Wire Wire Line
-	5050 3925 5050 4175
+	7600 1375 7600 1625
 Wire Wire Line
-	5250 3925 5250 4175
+	7800 1375 7800 1625
 Wire Wire Line
-	5450 3925 5450 4175
+	8000 1375 8000 1625
 Wire Wire Line
-	5650 3925 5650 4175
-Text Label 4250 3925 3    40   ~ 0
+	8200 1375 8200 1625
+Text Label 6800 1375 3    40   ~ 0
 CLK_IN
-Text Label 4450 3925 3    40   ~ 0
+Text Label 7000 1375 3    40   ~ 0
 DAT_IN
-Text Label 4650 3925 3    40   ~ 0
+Text Label 7200 1375 3    40   ~ 0
 LDR1
-Text Label 4850 3925 3    40   ~ 0
+Text Label 7400 1375 3    40   ~ 0
 LDR2
-Text Label 5050 3925 3    40   ~ 0
+Text Label 7600 1375 3    40   ~ 0
 LDR3
-Text Label 5250 3925 3    40   ~ 0
+Text Label 7800 1375 3    40   ~ 0
 LDR4
-Text Label 5450 3925 3    40   ~ 0
+Text Label 8000 1375 3    40   ~ 0
 5V
-Text Label 5650 3925 3    40   ~ 0
+Text Label 8200 1375 3    40   ~ 0
 GND
 Wire Wire Line
-	4250 5450 4250 5200
+	6800 2900 6800 2650
 Wire Wire Line
-	4450 5200 4450 5450
+	7000 2650 7000 2900
 Wire Wire Line
-	4650 5200 4650 5450
+	7200 2650 7200 2900
 Wire Wire Line
-	4850 5200 4850 5450
+	7400 2650 7400 2900
 Wire Wire Line
-	5050 5200 5050 5450
+	7600 2650 7600 2900
 Wire Wire Line
-	5250 5200 5250 5450
+	7800 2650 7800 2900
 Wire Wire Line
-	5450 5200 5450 5450
+	8000 2650 8000 2900
 Wire Wire Line
-	5650 5200 5650 5450
-Text Label 4250 5450 1    40   ~ 0
+	8200 2650 8200 2900
+Text Label 6800 2900 1    40   ~ 0
 CLK_IN
-Text Label 4450 5450 1    40   ~ 0
+Text Label 7000 2900 1    40   ~ 0
 DAT_IN
-Text Label 4650 5450 1    40   ~ 0
+Text Label 7200 2900 1    40   ~ 0
 LDR1
-Text Label 4850 5450 1    40   ~ 0
+Text Label 7400 2900 1    40   ~ 0
 LDR2
-Text Label 5050 5450 1    40   ~ 0
+Text Label 7600 2900 1    40   ~ 0
 LDR3
-Text Label 5250 5450 1    40   ~ 0
+Text Label 7800 2900 1    40   ~ 0
 LDR4
-Text Label 5450 5450 1    40   ~ 0
+Text Label 8000 2900 1    40   ~ 0
 5V
-Text Label 5650 5450 1    40   ~ 0
+Text Label 8200 2900 1    40   ~ 0
 GND
-Text Notes 4525 6250 0    50   ~ 10
+Text Notes 7000 3400 0    50   ~ 10
 Mounting holes for\npiggy back attachment\nof "snap-off" control board.\nUse M3 HEX posts to connect\nLED board to control board
-Text HLabel 4250 3925 1    40   Input ~ 0
+Text HLabel 6800 1375 1    40   Input ~ 0
 CLK_IN
-Text HLabel 4450 3925 1    40   Input ~ 0
+Text HLabel 7000 1375 1    40   Input ~ 0
 DAT_IN
-Text HLabel 4650 3925 1    40   Input ~ 0
+Text HLabel 7200 1375 1    40   Input ~ 0
 LDR1
-Text HLabel 4850 3925 1    40   Input ~ 0
+Text HLabel 7400 1375 1    40   Input ~ 0
 LDR2
-Text HLabel 5250 3925 1    40   Input ~ 0
+Text HLabel 7800 1375 1    40   Input ~ 0
 LDR4
-Text HLabel 5050 3925 1    40   Input ~ 0
+Text HLabel 7600 1375 1    40   Input ~ 0
 LDR3
-Text HLabel 5450 3925 1    40   Input ~ 0
+Text HLabel 8000 1375 1    40   Input ~ 0
 5V
-Text HLabel 5650 3925 1    40   Input ~ 0
+Text HLabel 8200 1375 1    40   Input ~ 0
 GND
 $Comp
 L chromogram:SCREW HB51
 U 1 1 5A736F2B
-P 7150 4350
-F 0 "HB51" V 7150 4272 40  0000 R CNN
-F 1 "hole_baffle" H 7150 4450 40  0001 C CNN
-F 2 "chromogram_libs:MtgHole_3mm" H 7228 4313 60  0001 L CNN
-F 3 "" H 7150 4350 60  0000 C CNN
-F 4 "Value" H 7150 4350 50  0001 C CNN "manf#"
-	1    7150 4350
+P 4350 4350
+F 0 "HB51" V 4350 4272 40  0000 R CNN
+F 1 "hole_baffle" H 4350 4450 40  0001 C CNN
+F 2 "chromogram_libs:MtgHole_3mm" H 4428 4313 60  0001 L CNN
+F 3 "" H 4350 4350 60  0000 C CNN
+F 4 "Value" H 4350 4350 50  0001 C CNN "manf#"
+	1    4350 4350
 	0    -1   -1   0   
 $EndComp
 $Comp
 L chromogram:SCREW HB52
 U 1 1 5A736F32
-P 7950 4350
-F 0 "HB52" V 7950 4272 40  0000 R CNN
-F 1 "hole_baffle" H 7950 4450 40  0001 C CNN
-F 2 "chromogram_libs:MtgHole_3mm" H 8028 4313 60  0001 L CNN
-F 3 "" H 7950 4350 60  0000 C CNN
-F 4 "Value" H 7950 4350 50  0001 C CNN "manf#"
-	1    7950 4350
+P 5150 4350
+F 0 "HB52" V 5150 4272 40  0000 R CNN
+F 1 "hole_baffle" H 5150 4450 40  0001 C CNN
+F 2 "chromogram_libs:MtgHole_3mm" H 5228 4313 60  0001 L CNN
+F 3 "" H 5150 4350 60  0000 C CNN
+F 4 "Value" H 5150 4350 50  0001 C CNN "manf#"
+	1    5150 4350
 	0    1    1    0   
 $EndComp
 $Comp
 L chromogram:SCREW HB53
 U 1 1 5A736F39
-P 7150 5150
-F 0 "HB53" V 7150 5072 40  0000 R CNN
-F 1 "hole_baffle" H 7150 5250 40  0001 C CNN
-F 2 "chromogram_libs:MtgHole_3mm" H 7228 5113 60  0001 L CNN
-F 3 "" H 7150 5150 60  0000 C CNN
-F 4 "Value" H 7150 5150 50  0001 C CNN "manf#"
-	1    7150 5150
+P 4350 5150
+F 0 "HB53" V 4350 5072 40  0000 R CNN
+F 1 "hole_baffle" H 4350 5250 40  0001 C CNN
+F 2 "chromogram_libs:MtgHole_3mm" H 4428 5113 60  0001 L CNN
+F 3 "" H 4350 5150 60  0000 C CNN
+F 4 "Value" H 4350 5150 50  0001 C CNN "manf#"
+	1    4350 5150
 	0    -1   -1   0   
 $EndComp
 $Comp
 L chromogram:SCREW HB54
 U 1 1 5A736F40
-P 7950 5150
-F 0 "HB54" V 7950 5072 40  0000 R CNN
-F 1 "hole_baffle" H 7950 5250 40  0001 C CNN
-F 2 "chromogram_libs:MtgHole_3mm" H 8028 5113 60  0001 L CNN
-F 3 "" H 7950 5150 60  0000 C CNN
-F 4 "Value" H 7950 5150 50  0001 C CNN "manf#"
-	1    7950 5150
+P 5150 5150
+F 0 "HB54" V 5150 5072 40  0000 R CNN
+F 1 "hole_baffle" H 5150 5250 40  0001 C CNN
+F 2 "chromogram_libs:MtgHole_3mm" H 5228 5113 60  0001 L CNN
+F 3 "" H 5150 5150 60  0000 C CNN
+F 4 "Value" H 5150 5150 50  0001 C CNN "manf#"
+	1    5150 5150
 	0    1    1    0   
 $EndComp
-Text Notes 7350 5250 0    40   ~ 0
+Text Notes 4550 5250 0    40   ~ 0
 <- 2.8" ->
-Text Notes 7175 4950 1    40   ~ 0
+Text Notes 4375 4950 1    40   ~ 0
 <- 2.8" ->
 Wire Notes Line
-	6700 3650 8400 3650
+	3900 3650 5600 3650
 Wire Notes Line
-	8400 3650 8400 5850
+	5600 3650 5600 5850
 Wire Notes Line
-	8400 5850 6700 5850
+	5600 5850 3900 5850
 Wire Notes Line
-	6700 5850 6700 3650
-Text Notes 7200 5800 0    50   ~ 10
+	3900 5850 3900 3650
+Text Notes 4400 5800 0    50   ~ 10
 Mechanical mounting holes\nfor LED matrix\n3 mm diameter\nplated
 Wire Notes Line
-	7550 4650 7550 4850
+	4750 4650 4750 4850
 Wire Notes Line
 	2350 4750 2550 4750
 Wire Notes Line
 	2450 4650 2450 4850
-Text Notes 8100 4775 1    40   ~ 0
+Text Notes 5300 4775 1    40   ~ 0
 <- 0.575" ->
 Wire Notes Line
-	7450 4750 8025 4750
+	4650 4750 5225 4750
+$Comp
+L ultim_bus:Mouse_Bite BITE1
+U 1 1 5A49F376
+P 8100 4900
+F 0 "BITE1" H 8100 5050 40  0000 C CNN
+F 1 "Mouse_Bite" H 8100 5025 30  0001 C CNN
+F 2 "chromogram_libs:mouse-bite-2.54mm-slot" H 8100 4900 60  0001 C CNN
+F 3 "" H 8100 4900 60  0000 C CNN
+	1    8100 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L ultim_bus:Mouse_Bite BITE2
+U 1 1 5A4A147E
+P 8900 4900
+F 0 "BITE2" H 8900 5050 40  0000 C CNN
+F 1 "Mouse_Bite" H 8900 5025 30  0001 C CNN
+F 2 "chromogram_libs:mouse-bite-2.54mm-slot" H 8900 4900 60  0001 C CNN
+F 3 "" H 8900 4900 60  0000 C CNN
+	1    8900 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L ultim_bus:Mouse_Bite BITE5
+U 1 1 5A4A2BA0
+P 8100 5700
+F 0 "BITE5" H 8100 5850 40  0000 C CNN
+F 1 "Mouse_Bite" H 8100 5825 30  0001 C CNN
+F 2 "chromogram_libs:mouse-bite-2.54mm-slot" H 8100 5700 60  0001 C CNN
+F 3 "" H 8100 5700 60  0000 C CNN
+	1    8100 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L ultim_bus:Mouse_Bite BITE6
+U 1 1 5A4A2BA6
+P 8900 5700
+F 0 "BITE6" H 8900 5850 40  0000 C CNN
+F 1 "Mouse_Bite" H 8900 5825 30  0001 C CNN
+F 2 "chromogram_libs:mouse-bite-2.54mm-slot" H 8900 5700 60  0001 C CNN
+F 3 "" H 8900 5700 60  0000 C CNN
+	1    8900 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L ultim_bus:Mouse_Bite BITE7
+U 1 1 5A4A2F4F
+P 9700 5700
+F 0 "BITE7" H 9700 5850 40  0000 C CNN
+F 1 "Mouse_Bite" H 9700 5825 30  0001 C CNN
+F 2 "chromogram_libs:mouse-bite-2.54mm-slot" H 9700 5700 60  0001 C CNN
+F 3 "" H 9700 5700 60  0000 C CNN
+	1    9700 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L ultim_bus:Mouse_Bite BITE8
+U 1 1 5A4A2F55
+P 10500 5700
+F 0 "BITE8" H 10500 5850 40  0000 C CNN
+F 1 "Mouse_Bite" H 10500 5825 30  0001 C CNN
+F 2 "chromogram_libs:mouse-bite-2.54mm-slot" H 10500 5700 60  0001 C CNN
+F 3 "" H 10500 5700 60  0000 C CNN
+	1    10500 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L ultim_bus:Mouse_Bite BITE3
+U 1 1 5A4A335C
+P 6500 5700
+F 0 "BITE3" H 6500 5850 40  0000 C CNN
+F 1 "Mouse_Bite" H 6500 5825 30  0001 C CNN
+F 2 "chromogram_libs:mouse-bite-2.54mm-slot" H 6500 5700 60  0001 C CNN
+F 3 "" H 6500 5700 60  0000 C CNN
+	1    6500 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L ultim_bus:Mouse_Bite BITE4
+U 1 1 5A4A3362
+P 7300 5700
+F 0 "BITE4" H 7300 5850 40  0000 C CNN
+F 1 "Mouse_Bite" H 7300 5825 30  0001 C CNN
+F 2 "chromogram_libs:mouse-bite-2.54mm-slot" H 7300 5700 60  0001 C CNN
+F 3 "" H 7300 5700 60  0000 C CNN
+	1    7300 5700
+	1    0    0    -1  
+$EndComp
+Text Notes 8150 5350 0    50   ~ 10
+MOUSEBITES\nfor board separation
 $EndSCHEMATC
