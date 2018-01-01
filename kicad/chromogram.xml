@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/home/samata/projects-git/Chromogram/kicad/chromogram.sch</source>
-    <date>Sat Dec 30 23:08:23 2017</date>
-    <tool>Eeschema no-vcs-found-70f516b~61~ubuntu16.04.1</tool>
+    <source>/home/anool/projects-git/Chromogram/kicad/chromogram.sch</source>
+    <date>Mon Jan  1 16:55:07 2018</date>
+    <tool>Eeschema no-vcs-found-5ca5783~61~ubuntu16.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Chromogram</title>
@@ -2204,7 +2204,7 @@
     </comp>
     <comp ref="HB45">
       <value>hole_baffle</value>
-      <footprint>chromogram_libs:MtgHole_3mm</footprint>
+      <footprint>chromogram_libs:mtg_hole_3mm_vias_2</footprint>
       <fields>
         <field name="manf#">Value</field>
       </fields>
@@ -2214,7 +2214,7 @@
     </comp>
     <comp ref="HB46">
       <value>hole_baffle</value>
-      <footprint>chromogram_libs:MtgHole_3mm</footprint>
+      <footprint>chromogram_libs:mtg_hole_3mm_vias_2</footprint>
       <fields>
         <field name="manf#">Value</field>
       </fields>
@@ -2224,7 +2224,7 @@
     </comp>
     <comp ref="HB47">
       <value>hole_baffle</value>
-      <footprint>chromogram_libs:MtgHole_3mm</footprint>
+      <footprint>chromogram_libs:mtg_hole_3mm_vias_2</footprint>
       <fields>
         <field name="manf#">Value</field>
       </fields>
@@ -2234,7 +2234,7 @@
     </comp>
     <comp ref="HB48">
       <value>hole_baffle</value>
-      <footprint>chromogram_libs:MtgHole_3mm</footprint>
+      <footprint>chromogram_libs:mtg_hole_3mm_vias_2</footprint>
       <fields>
         <field name="manf#">Value</field>
       </fields>
@@ -2244,7 +2244,7 @@
     </comp>
     <comp ref="HB49">
       <value>hole_baffle</value>
-      <footprint>chromogram_libs:MtgHole_3mm</footprint>
+      <footprint>chromogram_libs:mtg_hole_3mm_vias_2</footprint>
       <fields>
         <field name="manf#">Value</field>
       </fields>
@@ -2254,7 +2254,7 @@
     </comp>
     <comp ref="HB50">
       <value>hole_baffle</value>
-      <footprint>chromogram_libs:MtgHole_3mm</footprint>
+      <footprint>chromogram_libs:mtg_hole_3mm_vias_2</footprint>
       <fields>
         <field name="manf#">Value</field>
       </fields>
@@ -2376,7 +2376,7 @@
     </comp>
     <comp ref="HB51">
       <value>hole_baffle</value>
-      <footprint>chromogram_libs:MtgHole_3mm</footprint>
+      <footprint>chromogram_libs:mtg_hole_3mm_vias_2</footprint>
       <fields>
         <field name="manf#">Value</field>
       </fields>
@@ -2386,7 +2386,7 @@
     </comp>
     <comp ref="HB52">
       <value>hole_baffle</value>
-      <footprint>chromogram_libs:MtgHole_3mm</footprint>
+      <footprint>chromogram_libs:mtg_hole_3mm_vias_2</footprint>
       <fields>
         <field name="manf#">Value</field>
       </fields>
@@ -2396,7 +2396,7 @@
     </comp>
     <comp ref="HB53">
       <value>hole_baffle</value>
-      <footprint>chromogram_libs:MtgHole_3mm</footprint>
+      <footprint>chromogram_libs:mtg_hole_3mm_vias_2</footprint>
       <fields>
         <field name="manf#">Value</field>
       </fields>
@@ -2406,7 +2406,7 @@
     </comp>
     <comp ref="HB54">
       <value>hole_baffle</value>
-      <footprint>chromogram_libs:MtgHole_3mm</footprint>
+      <footprint>chromogram_libs:mtg_hole_3mm_vias_2</footprint>
       <fields>
         <field name="manf#">Value</field>
       </fields>
@@ -2492,7 +2492,7 @@
       <tstamp>5A4518D4</tstamp>
     </comp>
     <comp ref="JP1">
-      <value>PWR_LED_EN</value>
+      <value>LED_PWR_EN</value>
       <footprint>chromogram_libs:R_0402</footprint>
       <libsource lib="chromogram" part="Jumper_NC_Small"/>
       <sheetpath names="/esp_pwr_uart/" tstamps="/5A452227/"/>
@@ -3127,7 +3127,7 @@
   </libparts>
   <libraries>
     <library logical="chromogram">
-      <uri>/home/samata/projects-git/Chromogram/kicad/chromogram_libs/chromogram.lib</uri>
+      <uri>/home/anool/projects-git/Chromogram/kicad/chromogram_libs/chromogram.lib</uri>
     </library>
   </libraries>
   <nets>

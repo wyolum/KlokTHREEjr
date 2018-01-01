@@ -551,7 +551,7 @@ U 1 1 5A4A80D0
 P 1700 3750
 F 0 "HB45" V 1700 3672 40  0000 R CNN
 F 1 "hole_baffle" H 1700 3850 40  0001 C CNN
-F 2 "chromogram_libs:MtgHole_3mm" H 1778 3713 60  0001 L CNN
+F 2 "chromogram_libs:mtg_hole_3mm_vias_2" H 1778 3713 60  0001 L CNN
 F 3 "" H 1700 3750 60  0000 C CNN
 F 4 "Value" H 1700 3750 50  0001 C CNN "manf#"
 	1    1700 3750
@@ -563,7 +563,7 @@ U 1 1 5A4A8341
 P 3200 3750
 F 0 "HB46" V 3200 3672 40  0000 R CNN
 F 1 "hole_baffle" H 3200 3850 40  0001 C CNN
-F 2 "chromogram_libs:MtgHole_3mm" H 3278 3713 60  0001 L CNN
+F 2 "chromogram_libs:mtg_hole_3mm_vias_2" H 3278 3713 60  0001 L CNN
 F 3 "" H 3200 3750 60  0000 C CNN
 F 4 "Value" H 3200 3750 50  0001 C CNN "manf#"
 	1    3200 3750
@@ -575,7 +575,7 @@ U 1 1 5A4A8811
 P 1750 4250
 F 0 "HB47" V 1750 4172 40  0000 R CNN
 F 1 "hole_baffle" H 1750 4350 40  0001 C CNN
-F 2 "chromogram_libs:MtgHole_3mm" H 1828 4213 60  0001 L CNN
+F 2 "chromogram_libs:mtg_hole_3mm_vias_2" H 1828 4213 60  0001 L CNN
 F 3 "" H 1750 4250 60  0000 C CNN
 F 4 "Value" H 1750 4250 50  0001 C CNN "manf#"
 	1    1750 4250
@@ -587,7 +587,7 @@ U 1 1 5A4A8818
 P 3150 4250
 F 0 "HB48" V 3150 4172 40  0000 R CNN
 F 1 "hole_baffle" H 3150 4350 40  0001 C CNN
-F 2 "chromogram_libs:MtgHole_3mm" H 3228 4213 60  0001 L CNN
+F 2 "chromogram_libs:mtg_hole_3mm_vias_2" H 3228 4213 60  0001 L CNN
 F 3 "" H 3150 4250 60  0000 C CNN
 F 4 "Value" H 3150 4250 50  0001 C CNN "manf#"
 	1    3150 4250
@@ -599,7 +599,7 @@ U 1 1 5A4A8943
 P 1750 5250
 F 0 "HB49" V 1750 5172 40  0000 R CNN
 F 1 "hole_baffle" H 1750 5350 40  0001 C CNN
-F 2 "chromogram_libs:MtgHole_3mm" H 1828 5213 60  0001 L CNN
+F 2 "chromogram_libs:mtg_hole_3mm_vias_2" H 1828 5213 60  0001 L CNN
 F 3 "" H 1750 5250 60  0000 C CNN
 F 4 "Value" H 1750 5250 50  0001 C CNN "manf#"
 	1    1750 5250
@@ -611,7 +611,7 @@ U 1 1 5A4A894A
 P 3150 5250
 F 0 "HB50" V 3150 5172 40  0000 R CNN
 F 1 "hole_baffle" H 3150 5350 40  0001 C CNN
-F 2 "chromogram_libs:MtgHole_3mm" H 3228 5213 60  0001 L CNN
+F 2 "chromogram_libs:mtg_hole_3mm_vias_2" H 3228 5213 60  0001 L CNN
 F 3 "" H 3150 5250 60  0000 C CNN
 F 4 "Value" H 3150 5250 50  0001 C CNN "manf#"
 	1    3150 5250
@@ -899,7 +899,7 @@ U 1 1 5A736F2B
 P 4350 4350
 F 0 "HB51" V 4350 4272 40  0000 R CNN
 F 1 "hole_baffle" H 4350 4450 40  0001 C CNN
-F 2 "chromogram_libs:MtgHole_3mm" H 4428 4313 60  0001 L CNN
+F 2 "chromogram_libs:mtg_hole_3mm_vias_2" H 4428 4313 60  0001 L CNN
 F 3 "" H 4350 4350 60  0000 C CNN
 F 4 "Value" H 4350 4350 50  0001 C CNN "manf#"
 	1    4350 4350
@@ -911,7 +911,7 @@ U 1 1 5A736F32
 P 5150 4350
 F 0 "HB52" V 5150 4272 40  0000 R CNN
 F 1 "hole_baffle" H 5150 4450 40  0001 C CNN
-F 2 "chromogram_libs:MtgHole_3mm" H 5228 4313 60  0001 L CNN
+F 2 "chromogram_libs:mtg_hole_3mm_vias_2" H 5228 4313 60  0001 L CNN
 F 3 "" H 5150 4350 60  0000 C CNN
 F 4 "Value" H 5150 4350 50  0001 C CNN "manf#"
 	1    5150 4350
@@ -923,7 +923,7 @@ U 1 1 5A736F39
 P 4350 5150
 F 0 "HB53" V 4350 5072 40  0000 R CNN
 F 1 "hole_baffle" H 4350 5250 40  0001 C CNN
-F 2 "chromogram_libs:MtgHole_3mm" H 4428 5113 60  0001 L CNN
+F 2 "chromogram_libs:mtg_hole_3mm_vias_2" H 4428 5113 60  0001 L CNN
 F 3 "" H 4350 5150 60  0000 C CNN
 F 4 "Value" H 4350 5150 50  0001 C CNN "manf#"
 	1    4350 5150
@@ -935,7 +935,7 @@ U 1 1 5A736F40
 P 5150 5150
 F 0 "HB54" V 5150 5072 40  0000 R CNN
 F 1 "hole_baffle" H 5150 5250 40  0001 C CNN
-F 2 "chromogram_libs:MtgHole_3mm" H 5228 5113 60  0001 L CNN
+F 2 "chromogram_libs:mtg_hole_3mm_vias_2" H 5228 5113 60  0001 L CNN
 F 3 "" H 5150 5150 60  0000 C CNN
 F 4 "Value" H 5150 5150 50  0001 C CNN "manf#"
 	1    5150 5150

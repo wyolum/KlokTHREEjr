@@ -1,4 +1,4 @@
 (sym_lib_table
   (lib (name chromogram)(type Legacy)(uri ${KIPRJMOD}/chromogram_libs/chromogram.lib)(options "")(descr ""))
-  (lib (name ultim_bus)(type Legacy)(uri /home/samata/projects-git/ultim8x8/kicad/ultim_bus_v5/ultimbus_libs/ultim_bus.lib)(options "")(descr ""))
+  (lib (name MAPPYDOT)(type Legacy)(uri ${KIPRJMOD}/chromogram_libs/MAPPYDOT.lib)(options "")(descr ""))
 )
