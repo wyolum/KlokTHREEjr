@@ -6,11 +6,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 12 12
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "Chromogram"
+Date "2017-12-26"
+Rev "rev 1"
+Comp "WyoLum"
+Comment1 "www.wyolum.com"
 Comment2 ""
 Comment3 ""
 Comment4 ""
