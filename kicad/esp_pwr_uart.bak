@@ -6,11 +6,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 12 12
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "Chromogram"
+Date "2017-12-26"
+Rev "rev 1"
+Comp "WyoLum"
+Comment1 "www.wyolum.com"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -20,7 +20,7 @@ L chromogram:R R4
 U 1 1 5A4511A4
 P 1375 1550
 F 0 "R4" H 1400 1400 40  0000 L CNN
-F 1 "2k" V 1375 1475 40  0000 L CNN
+F 1 "1k" V 1375 1475 40  0000 L CNN
 F 2 "chromogram_libs:r_0805" V 1305 1550 30  0001 C CNN
 F 3 "" H 1375 1550 30  0000 C CNN
 	1    1375 1550
@@ -31,7 +31,7 @@ L chromogram:AP1117-15 U131
 U 1 1 5A4518D4
 P 2175 1300
 F 0 "U131" H 2175 1540 50  0000 C CNN
-F 1 "AP1117-15" H 2175 1450 50  0000 C CNN
+F 1 "1117-33" H 2175 1450 50  0000 C CNN
 F 2 "chromogram_libs:SOT-223-3_TabPin2" H 2175 1500 50  0001 C CNN
 F 3 "http://www.diodes.com/datasheets/AP1117.pdf" H 2275 1050 50  0001 C CNN
 F 4 "mfr_pn" H 2175 1300 50  0001 C CNN "manf#"

@@ -6,11 +6,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 11 12
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "Chromogram"
+Date "2017-12-26"
+Rev "rev 1"
+Comp "WyoLum"
+Comment1 "www.wyolum.com"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -46,7 +46,7 @@ L chromogram:R R6
 U 1 1 5A448933
 P 4900 2550
 F 0 "R6" H 4950 2350 40  0000 C CNN
-F 1 "10K" V 4907 2551 40  0000 C CNN
+F 1 "10k" V 4907 2551 40  0000 C CNN
 F 2 "chromogram_libs:r_0805" V 4830 2550 30  0001 C CNN
 F 3 "~" H 4900 2550 30  0000 C CNN
 	1    4900 2550
@@ -57,7 +57,7 @@ L chromogram:R R7
 U 1 1 5A44893A
 P 5050 2550
 F 0 "R7" H 5100 2350 40  0000 C CNN
-F 1 "10K" V 5057 2551 40  0000 C CNN
+F 1 "10k" V 5057 2551 40  0000 C CNN
 F 2 "chromogram_libs:r_0805" V 4980 2550 30  0001 C CNN
 F 3 "~" H 5050 2550 30  0000 C CNN
 	1    5050 2550
@@ -104,7 +104,7 @@ U 1 1 5A448957
 P 2000 3200
 F 0 "BT1" V 1900 3125 40  0000 C CNN
 F 1 "Batt_RTC" H 2150 3125 40  0000 C CNN
-F 2 "chromogram_libs:CR2032_SMD" H 2000 3200 60  0001 C CNN
+F 2 "chromogram_libs:CR2032_SMD2" H 2000 3200 60  0001 C CNN
 F 3 "" H 2000 3200 60  0000 C CNN
 F 4 "BU2032SM-HD-GCT-ND " H 2100 3500 60  0001 C CNN "Digikey"
 	1    2000 3200

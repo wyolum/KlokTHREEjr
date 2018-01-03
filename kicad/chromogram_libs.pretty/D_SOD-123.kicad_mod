@@ -1,4 +1,4 @@
-(module D_SOD-123 (layer F.Cu) (tedit 5A478005)
+(module D_SOD-123 (layer F.Cu) (tedit 5A4CC18B)
   (descr SOD-123)
   (tags SOD-123)
   (attr smd)
@@ -29,8 +29,8 @@
   (fp_text user %R (at 0 -2) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (pad 2 smd rect (at 1.65 0) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask))
-  (pad 1 smd rect (at -1.65 0) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask))
+  (pad 1 smd rect (at 1.65 0) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at -1.65 0) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask))
   (model ${KIPRJMOD}/3d_modules/D_SOD_123.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))

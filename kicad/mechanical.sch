@@ -1063,4 +1063,40 @@ F 4 "mfr_pn" H 7300 5700 50  0001 C CNN "manf#"
 $EndComp
 Text Notes 8150 5350 0    50   ~ 10
 MOUSEBITES\nfor board separation
+$Comp
+L chromogram:KiCad G5
+U 1 1 5A50766D
+P 9350 6850
+F 0 "G5" H 9350 6582 60  0001 C CNN
+F 1 "KiCad" H 9350 7118 60  0001 C CNN
+F 2 "chromogram_libs:KiCad-Logo2_6mm_SilkScreen" H 9350 6850 60  0001 C CNN
+F 3 "" H 9350 6850 60  0001 C CNN
+F 4 "Value" H 9350 6850 50  0001 C CNN "manf#"
+	1    9350 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L chromogram:OSHW G6
+U 1 1 5A5077CE
+P 10800 7000
+F 0 "G6" H 10800 6950 40  0001 C CNN
+F 1 "OSHW" H 10800 7100 40  0001 C CNN
+F 2 "chromogram_libs:OSHW_6mm" H 10800 7000 60  0001 C CNN
+F 3 "" H 10800 7000 60  0000 C CNN
+F 4 "Value" H 10800 7000 50  0001 C CNN "manf#"
+	1    10800 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L chromogram:LOGO_WL G4
+U 1 1 5A5079CB
+P 8200 6750
+F 0 "G4" H 8200 6614 60  0001 C CNN
+F 1 "LOGO_WL" H 8200 6886 60  0001 C CNN
+F 2 "chromogram_libs:Logo-WL3" H 8200 6750 60  0001 C CNN
+F 3 "" H 8200 6750 60  0001 C CNN
+F 4 "Value" H 8200 6750 50  0001 C CNN "manf#"
+	1    8200 6750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

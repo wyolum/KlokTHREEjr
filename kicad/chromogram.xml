@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/anool/projects-git/Chromogram/kicad/chromogram.sch</source>
-    <date>Mon Jan  1 16:55:07 2018</date>
+    <date>Wed Jan  3 17:06:28 2018</date>
     <tool>Eeschema no-vcs-found-5ca5783~61~ubuntu16.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -123,12 +123,12 @@
     </sheet>
     <sheet number="10" name="/mechanical/" tstamps="/5A47432D/">
       <title_block>
-        <title/>
-        <company/>
-        <rev/>
-        <date/>
+        <title>Chromogram</title>
+        <company>WyoLum</company>
+        <rev>rev 1</rev>
+        <date>2017-12-26</date>
         <source>mechanical.sch</source>
-        <comment number="1" value=""/>
+        <comment number="1" value="www.wyolum.com"/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
@@ -136,12 +136,12 @@
     </sheet>
     <sheet number="11" name="/rtc_ds3231/" tstamps="/5A447BD8/">
       <title_block>
-        <title/>
-        <company/>
-        <rev/>
-        <date/>
+        <title>Chromogram</title>
+        <company>WyoLum</company>
+        <rev>rev 1</rev>
+        <date>2017-12-26</date>
         <source>rtc_ds3231.sch</source>
-        <comment number="1" value=""/>
+        <comment number="1" value="www.wyolum.com"/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
@@ -149,12 +149,12 @@
     </sheet>
     <sheet number="12" name="/esp_pwr_uart/" tstamps="/5A452227/">
       <title_block>
-        <title/>
-        <company/>
-        <rev/>
-        <date/>
+        <title>Chromogram</title>
+        <company>WyoLum</company>
+        <rev>rev 1</rev>
+        <date>2017-12-26</date>
         <source>esp_pwr_uart.sch</source>
-        <comment number="1" value=""/>
+        <comment number="1" value="www.wyolum.com"/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
@@ -170,42 +170,42 @@
       <tstamp>542DD0E5</tstamp>
     </comp>
     <comp ref="R24">
-      <value>10K</value>
+      <value>10k</value>
       <footprint>chromogram_libs:r_0805</footprint>
       <libsource lib="chromogram" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5438FC61</tstamp>
     </comp>
     <comp ref="R25">
-      <value>10K</value>
+      <value>10k</value>
       <footprint>chromogram_libs:r_0805</footprint>
       <libsource lib="chromogram" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>543901BD</tstamp>
     </comp>
     <comp ref="R12">
-      <value>10K</value>
+      <value>10k</value>
       <footprint>chromogram_libs:r_0805</footprint>
       <libsource lib="chromogram" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54C265D8</tstamp>
     </comp>
     <comp ref="R13">
-      <value>10K</value>
+      <value>10k</value>
       <footprint>chromogram_libs:r_0805</footprint>
       <libsource lib="chromogram" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54C28558</tstamp>
     </comp>
     <comp ref="R14">
-      <value>10K</value>
+      <value>10k</value>
       <footprint>chromogram_libs:r_0805</footprint>
       <libsource lib="chromogram" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54C1D9CF</tstamp>
     </comp>
     <comp ref="R15">
-      <value>10K</value>
+      <value>10k</value>
       <footprint>chromogram_libs:r_0805</footprint>
       <libsource lib="chromogram" part="R"/>
       <sheetpath names="/" tstamps="/"/>
@@ -281,14 +281,14 @@
       <tstamp>5A479D4B</tstamp>
     </comp>
     <comp ref="R10">
-      <value>10K</value>
+      <value>10k</value>
       <footprint>chromogram_libs:r_0805</footprint>
       <libsource lib="chromogram" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A47F363</tstamp>
     </comp>
     <comp ref="R11">
-      <value>10K</value>
+      <value>10k</value>
       <footprint>chromogram_libs:r_0805</footprint>
       <libsource lib="chromogram" part="R"/>
       <sheetpath names="/" tstamps="/"/>
@@ -321,6 +321,36 @@
       <libsource lib="chromogram" part="C_NP"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A7E9733</tstamp>
+    </comp>
+    <comp ref="G1">
+      <value>LOGO_WL</value>
+      <footprint>chromogram_libs:Logo-WL3</footprint>
+      <fields>
+        <field name="manf#">Value</field>
+      </fields>
+      <libsource lib="chromogram" part="LOGO_WL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A4DA853</tstamp>
+    </comp>
+    <comp ref="G3">
+      <value>OSHW</value>
+      <footprint>chromogram_libs:OSHW_6mm</footprint>
+      <fields>
+        <field name="manf#">Value</field>
+      </fields>
+      <libsource lib="chromogram" part="OSHW"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A4DB491</tstamp>
+    </comp>
+    <comp ref="G2">
+      <value>KiCad</value>
+      <footprint>chromogram_libs:KiCad-Logo2_6mm_SilkScreen</footprint>
+      <fields>
+        <field name="manf#">Value</field>
+      </fields>
+      <libsource lib="chromogram" part="KiCad"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5061ED</tstamp>
     </comp>
     <comp ref="C1">
       <value>100nF</value>
@@ -2414,6 +2444,116 @@
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A736F40</tstamp>
     </comp>
+    <comp ref="BITE1">
+      <value>Mouse_Bite</value>
+      <footprint>chromogram_libs:mouse-bite-2.54mm-slot</footprint>
+      <fields>
+        <field name="manf#">mfr_pn</field>
+      </fields>
+      <libsource lib="chromogram" part="Mouse_Bite"/>
+      <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
+      <tstamp>5A49F376</tstamp>
+    </comp>
+    <comp ref="BITE2">
+      <value>Mouse_Bite</value>
+      <footprint>chromogram_libs:mouse-bite-2.54mm-slot</footprint>
+      <fields>
+        <field name="manf#">mfr_pn</field>
+      </fields>
+      <libsource lib="chromogram" part="Mouse_Bite"/>
+      <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
+      <tstamp>5A4A147E</tstamp>
+    </comp>
+    <comp ref="BITE5">
+      <value>Mouse_Bite</value>
+      <footprint>chromogram_libs:mouse-bite-2.54mm-slot</footprint>
+      <fields>
+        <field name="manf#">mfr_pn</field>
+      </fields>
+      <libsource lib="chromogram" part="Mouse_Bite"/>
+      <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
+      <tstamp>5A4A2BA0</tstamp>
+    </comp>
+    <comp ref="BITE6">
+      <value>Mouse_Bite</value>
+      <footprint>chromogram_libs:mouse-bite-2.54mm-slot</footprint>
+      <fields>
+        <field name="manf#">mfr_pn</field>
+      </fields>
+      <libsource lib="chromogram" part="Mouse_Bite"/>
+      <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
+      <tstamp>5A4A2BA6</tstamp>
+    </comp>
+    <comp ref="BITE7">
+      <value>Mouse_Bite</value>
+      <footprint>chromogram_libs:mouse-bite-2.54mm-slot</footprint>
+      <fields>
+        <field name="manf#">mfr_pn</field>
+      </fields>
+      <libsource lib="chromogram" part="Mouse_Bite"/>
+      <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
+      <tstamp>5A4A2F4F</tstamp>
+    </comp>
+    <comp ref="BITE8">
+      <value>Mouse_Bite</value>
+      <footprint>chromogram_libs:mouse-bite-2.54mm-slot</footprint>
+      <fields>
+        <field name="manf#">mfr_pn</field>
+      </fields>
+      <libsource lib="chromogram" part="Mouse_Bite"/>
+      <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
+      <tstamp>5A4A2F55</tstamp>
+    </comp>
+    <comp ref="BITE3">
+      <value>Mouse_Bite</value>
+      <footprint>chromogram_libs:mouse-bite-2.54mm-slot</footprint>
+      <fields>
+        <field name="manf#">mfr_pn</field>
+      </fields>
+      <libsource lib="chromogram" part="Mouse_Bite"/>
+      <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
+      <tstamp>5A4A335C</tstamp>
+    </comp>
+    <comp ref="BITE4">
+      <value>Mouse_Bite</value>
+      <footprint>chromogram_libs:mouse-bite-2.54mm-slot</footprint>
+      <fields>
+        <field name="manf#">mfr_pn</field>
+      </fields>
+      <libsource lib="chromogram" part="Mouse_Bite"/>
+      <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
+      <tstamp>5A4A3362</tstamp>
+    </comp>
+    <comp ref="G5">
+      <value>KiCad</value>
+      <footprint>chromogram_libs:KiCad-Logo2_6mm_SilkScreen</footprint>
+      <fields>
+        <field name="manf#">Value</field>
+      </fields>
+      <libsource lib="chromogram" part="KiCad"/>
+      <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
+      <tstamp>5A50766D</tstamp>
+    </comp>
+    <comp ref="G6">
+      <value>OSHW</value>
+      <footprint>chromogram_libs:OSHW_6mm</footprint>
+      <fields>
+        <field name="manf#">Value</field>
+      </fields>
+      <libsource lib="chromogram" part="OSHW"/>
+      <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
+      <tstamp>5A5077CE</tstamp>
+    </comp>
+    <comp ref="G4">
+      <value>LOGO_WL</value>
+      <footprint>chromogram_libs:Logo-WL3</footprint>
+      <fields>
+        <field name="manf#">Value</field>
+      </fields>
+      <libsource lib="chromogram" part="LOGO_WL"/>
+      <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
+      <tstamp>5A5079CB</tstamp>
+    </comp>
     <comp ref="R8">
       <value>4K7</value>
       <footprint>chromogram_libs:r_0805</footprint>
@@ -2422,14 +2562,14 @@
       <tstamp>5A448924</tstamp>
     </comp>
     <comp ref="R6">
-      <value>10K</value>
+      <value>10k</value>
       <footprint>chromogram_libs:r_0805</footprint>
       <libsource lib="chromogram" part="R"/>
       <sheetpath names="/rtc_ds3231/" tstamps="/5A447BD8/"/>
       <tstamp>5A448933</tstamp>
     </comp>
     <comp ref="R7">
-      <value>10K</value>
+      <value>10k</value>
       <footprint>chromogram_libs:r_0805</footprint>
       <libsource lib="chromogram" part="R"/>
       <sheetpath names="/rtc_ds3231/" tstamps="/5A447BD8/"/>
@@ -2451,7 +2591,7 @@
     </comp>
     <comp ref="BT1">
       <value>Batt_RTC</value>
-      <footprint>chromogram_libs:CR2032_SMD</footprint>
+      <footprint>chromogram_libs:CR2032_SMD2</footprint>
       <fields>
         <field name="Digikey">BU2032SM-HD-GCT-ND </field>
       </fields>
@@ -2474,14 +2614,14 @@
       <tstamp>5A48EA43</tstamp>
     </comp>
     <comp ref="R4">
-      <value>2k</value>
+      <value>1k</value>
       <footprint>chromogram_libs:r_0805</footprint>
       <libsource lib="chromogram" part="R"/>
       <sheetpath names="/esp_pwr_uart/" tstamps="/5A452227/"/>
       <tstamp>5A4511A4</tstamp>
     </comp>
     <comp ref="U131">
-      <value>AP1117-15</value>
+      <value>1117-33</value>
       <footprint>chromogram_libs:SOT-223-3_TabPin2</footprint>
       <datasheet>http://www.diodes.com/datasheets/AP1117.pdf</datasheet>
       <fields>
@@ -2549,14 +2689,14 @@
     </comp>
     <comp ref="D3">
       <value>VESD05A1B</value>
-      <footprint>chromogram_libs:D_SOD-123</footprint>
+      <footprint>chromogram_libs:D_LLP1006-2L</footprint>
       <libsource lib="chromogram" part="diode_sch"/>
       <sheetpath names="/esp_pwr_uart/" tstamps="/5A452227/"/>
       <tstamp>5A73F3F4</tstamp>
     </comp>
     <comp ref="D4">
       <value>VESD05A1B</value>
-      <footprint>chromogram_libs:D_SOD-123</footprint>
+      <footprint>chromogram_libs:D_LLP1006-2L</footprint>
       <libsource lib="chromogram" part="diode_sch"/>
       <sheetpath names="/esp_pwr_uart/" tstamps="/5A452227/"/>
       <tstamp>5A73F4E3</tstamp>
@@ -3006,6 +3146,12 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="chromogram" part="KiCad">
+      <fields>
+        <field name="Reference">#G</field>
+        <field name="Value">KiCad</field>
+      </fields>
+    </libpart>
     <libpart lib="chromogram" part="LDR03">
       <footprints>
         <fp>Resistor*LDR*10x8.5*RM7.6*</fp>
@@ -3046,6 +3192,24 @@
         <pin num="1" name="A" type="passive"/>
         <pin num="2" name="K" type="passive"/>
       </pins>
+    </libpart>
+    <libpart lib="chromogram" part="LOGO_WL">
+      <fields>
+        <field name="Reference">#G</field>
+        <field name="Value">LOGO_WL</field>
+      </fields>
+    </libpart>
+    <libpart lib="chromogram" part="Mouse_Bite">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">Mouse_Bite</field>
+      </fields>
+    </libpart>
+    <libpart lib="chromogram" part="OSHW">
+      <fields>
+        <field name="Reference">#G</field>
+        <field name="Value">OSHW</field>
+      </fields>
     </libpart>
     <libpart lib="chromogram" part="R">
       <footprints>
