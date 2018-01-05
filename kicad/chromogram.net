@@ -1,8 +1,8 @@
 (export (version D)
   (design
     (source /home/anool/projects-git/Chromogram/kicad/chromogram.sch)
-    (date "Wed Jan  3 17:06:24 2018")
-    (tool "Eeschema no-vcs-found-5ca5783~61~ubuntu16.04.1")
+    (date "Fri Jan  5 11:45:49 2018")
+    (tool "Eeschema no-vcs-found-bf44d39~61~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title Chromogram)
@@ -1978,7 +1978,7 @@
       (tstamp 5A736F40))
     (comp (ref BITE1)
       (value Mouse_Bite)
-      (footprint chromogram_libs:mouse-bite-2.54mm-slot)
+      (footprint chromogram_libs:mouse-bite-2.54mm-slot_OSH)
       (fields
         (field (name manf#) mfr_pn))
       (libsource (lib chromogram) (part Mouse_Bite))
@@ -1986,7 +1986,7 @@
       (tstamp 5A49F376))
     (comp (ref BITE2)
       (value Mouse_Bite)
-      (footprint chromogram_libs:mouse-bite-2.54mm-slot)
+      (footprint chromogram_libs:mouse-bite-2.54mm-slot_OSH)
       (fields
         (field (name manf#) mfr_pn))
       (libsource (lib chromogram) (part Mouse_Bite))
@@ -1994,7 +1994,7 @@
       (tstamp 5A4A147E))
     (comp (ref BITE5)
       (value Mouse_Bite)
-      (footprint chromogram_libs:mouse-bite-2.54mm-slot)
+      (footprint chromogram_libs:mouse-bite-2.54mm-slot_OSH)
       (fields
         (field (name manf#) mfr_pn))
       (libsource (lib chromogram) (part Mouse_Bite))
@@ -2002,7 +2002,7 @@
       (tstamp 5A4A2BA0))
     (comp (ref BITE6)
       (value Mouse_Bite)
-      (footprint chromogram_libs:mouse-bite-2.54mm-slot)
+      (footprint chromogram_libs:mouse-bite-2.54mm-slot_OSH)
       (fields
         (field (name manf#) mfr_pn))
       (libsource (lib chromogram) (part Mouse_Bite))
@@ -2010,7 +2010,7 @@
       (tstamp 5A4A2BA6))
     (comp (ref BITE7)
       (value Mouse_Bite)
-      (footprint chromogram_libs:mouse-bite-2.54mm-slot)
+      (footprint chromogram_libs:mouse-bite-2.54mm-slot_OSH)
       (fields
         (field (name manf#) mfr_pn))
       (libsource (lib chromogram) (part Mouse_Bite))
@@ -2018,7 +2018,7 @@
       (tstamp 5A4A2F4F))
     (comp (ref BITE8)
       (value Mouse_Bite)
-      (footprint chromogram_libs:mouse-bite-2.54mm-slot)
+      (footprint chromogram_libs:mouse-bite-2.54mm-slot_OSH)
       (fields
         (field (name manf#) mfr_pn))
       (libsource (lib chromogram) (part Mouse_Bite))
@@ -2026,7 +2026,7 @@
       (tstamp 5A4A2F55))
     (comp (ref BITE3)
       (value Mouse_Bite)
-      (footprint chromogram_libs:mouse-bite-2.54mm-slot)
+      (footprint chromogram_libs:mouse-bite-2.54mm-slot_OSH)
       (fields
         (field (name manf#) mfr_pn))
       (libsource (lib chromogram) (part Mouse_Bite))
@@ -2034,7 +2034,7 @@
       (tstamp 5A4A335C))
     (comp (ref BITE4)
       (value Mouse_Bite)
-      (footprint chromogram_libs:mouse-bite-2.54mm-slot)
+      (footprint chromogram_libs:mouse-bite-2.54mm-slot_OSH)
       (fields
         (field (name manf#) mfr_pn))
       (libsource (lib chromogram) (part Mouse_Bite))

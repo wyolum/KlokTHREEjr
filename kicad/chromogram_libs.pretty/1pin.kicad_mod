@@ -1,4 +1,4 @@
-(module 1pin locked (layer F.Cu) (tedit 5A49DC6A)
+(module 1pin locked (layer F.Cu) (tedit 5A4F1AD1)
   (descr "module 1 pin (ou trou mecanique de percage)")
   (tags DEV)
   (clearance 0.8)
@@ -9,5 +9,5 @@
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
   (fp_circle (center 0 0) (end 2.9 0.1) (layer F.SilkS) (width 0.15))
-  (pad 1 thru_hole circle (at 0 0) (size 5.2 5.2) (drill 3.2) (layers *.Cu *.Mask F.SilkS))
+  (pad 1 thru_hole circle (at 0 0) (size 5.2 5.2) (drill 3.2) (layers *.Cu *.Mask))
 )
