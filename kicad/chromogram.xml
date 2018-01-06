@@ -2,8 +2,8 @@
 <export version="D">
   <design>
     <source>/home/anool/projects-git/Chromogram/kicad/chromogram.sch</source>
-    <date>Wed Jan  3 17:06:28 2018</date>
-    <tool>Eeschema no-vcs-found-5ca5783~61~ubuntu16.04.1</tool>
+    <date>Sat Jan  6 16:25:49 2018</date>
+    <tool>Eeschema no-vcs-found-bf44d39~61~ubuntu16.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Chromogram</title>
@@ -171,14 +171,14 @@
     </comp>
     <comp ref="R24">
       <value>10k</value>
-      <footprint>chromogram_libs:r_0805</footprint>
+      <footprint>chromogram_libs:r_0805_ldr</footprint>
       <libsource lib="chromogram" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5438FC61</tstamp>
     </comp>
     <comp ref="R25">
       <value>10k</value>
-      <footprint>chromogram_libs:r_0805</footprint>
+      <footprint>chromogram_libs:r_0805_ldr</footprint>
       <libsource lib="chromogram" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>543901BD</tstamp>
@@ -230,28 +230,28 @@
     </comp>
     <comp ref="LDR1">
       <value>LDR</value>
-      <footprint>chromogram_libs:r_0805_ldr</footprint>
+      <footprint>Opto-Devices:Resistor_LDR_10x8.5_RM7.6</footprint>
       <libsource lib="chromogram" part="LDR03"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A6352DB</tstamp>
     </comp>
     <comp ref="LDR2">
       <value>LDR</value>
-      <footprint>chromogram_libs:r_0805_ldr</footprint>
+      <footprint>Opto-Devices:Resistor_LDR_10x8.5_RM7.6</footprint>
       <libsource lib="chromogram" part="LDR03"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A63595F</tstamp>
     </comp>
     <comp ref="LDR3">
       <value>LDR</value>
-      <footprint>chromogram_libs:r_0805_ldr</footprint>
+      <footprint>Opto-Devices:Resistor_LDR_10x8.5_RM7.6</footprint>
       <libsource lib="chromogram" part="LDR03"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A635AFD</tstamp>
     </comp>
     <comp ref="LDR4">
       <value>LDR</value>
-      <footprint>chromogram_libs:r_0805_ldr</footprint>
+      <footprint>Opto-Devices:Resistor_LDR_10x8.5_RM7.6</footprint>
       <libsource lib="chromogram" part="LDR03"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A635C9D</tstamp>
@@ -2233,8 +2233,8 @@
       <tstamp>5A477952</tstamp>
     </comp>
     <comp ref="HB45">
-      <value>hole_baffle</value>
-      <footprint>chromogram_libs:mtg_hole_3mm_vias_2</footprint>
+      <value>mtg_hole_3mm_small</value>
+      <footprint>chromogram_libs:MountingHole_3.2mm_M3</footprint>
       <fields>
         <field name="manf#">Value</field>
       </fields>
@@ -2243,8 +2243,8 @@
       <tstamp>5A4A80D0</tstamp>
     </comp>
     <comp ref="HB46">
-      <value>hole_baffle</value>
-      <footprint>chromogram_libs:mtg_hole_3mm_vias_2</footprint>
+      <value>mtg_hole_3mm_small</value>
+      <footprint>chromogram_libs:MountingHole_3.2mm_M3</footprint>
       <fields>
         <field name="manf#">Value</field>
       </fields>
@@ -2253,8 +2253,8 @@
       <tstamp>5A4A8341</tstamp>
     </comp>
     <comp ref="HB47">
-      <value>hole_baffle</value>
-      <footprint>chromogram_libs:mtg_hole_3mm_vias_2</footprint>
+      <value>mtg_hole_3mm</value>
+      <footprint>chromogram_libs:MountingHole_3.2mm_M3_Pad_Via</footprint>
       <fields>
         <field name="manf#">Value</field>
       </fields>
@@ -2263,8 +2263,8 @@
       <tstamp>5A4A8811</tstamp>
     </comp>
     <comp ref="HB48">
-      <value>hole_baffle</value>
-      <footprint>chromogram_libs:mtg_hole_3mm_vias_2</footprint>
+      <value>mtg_hole_3mm</value>
+      <footprint>chromogram_libs:MountingHole_3.2mm_M3_Pad_Via</footprint>
       <fields>
         <field name="manf#">Value</field>
       </fields>
@@ -2273,8 +2273,8 @@
       <tstamp>5A4A8818</tstamp>
     </comp>
     <comp ref="HB49">
-      <value>hole_baffle</value>
-      <footprint>chromogram_libs:mtg_hole_3mm_vias_2</footprint>
+      <value>mtg_hole_3mm</value>
+      <footprint>chromogram_libs:MountingHole_3.2mm_M3_Pad_Via</footprint>
       <fields>
         <field name="manf#">Value</field>
       </fields>
@@ -2283,8 +2283,8 @@
       <tstamp>5A4A8943</tstamp>
     </comp>
     <comp ref="HB50">
-      <value>hole_baffle</value>
-      <footprint>chromogram_libs:mtg_hole_3mm_vias_2</footprint>
+      <value>mtg_hole_3mm</value>
+      <footprint>chromogram_libs:MountingHole_3.2mm_M3_Pad_Via</footprint>
       <fields>
         <field name="manf#">Value</field>
       </fields>
@@ -2405,8 +2405,8 @@
       <tstamp>5A4877CA</tstamp>
     </comp>
     <comp ref="HB51">
-      <value>hole_baffle</value>
-      <footprint>chromogram_libs:mtg_hole_3mm_vias_2</footprint>
+      <value>mtg_hole_3mm</value>
+      <footprint>chromogram_libs:MountingHole_3.2mm_M3_Pad_Via</footprint>
       <fields>
         <field name="manf#">Value</field>
       </fields>
@@ -2415,8 +2415,8 @@
       <tstamp>5A736F2B</tstamp>
     </comp>
     <comp ref="HB52">
-      <value>hole_baffle</value>
-      <footprint>chromogram_libs:mtg_hole_3mm_vias_2</footprint>
+      <value>mtg_hole_3mm</value>
+      <footprint>chromogram_libs:MountingHole_3.2mm_M3_Pad_Via</footprint>
       <fields>
         <field name="manf#">Value</field>
       </fields>
@@ -2425,8 +2425,8 @@
       <tstamp>5A736F32</tstamp>
     </comp>
     <comp ref="HB53">
-      <value>hole_baffle</value>
-      <footprint>chromogram_libs:mtg_hole_3mm_vias_2</footprint>
+      <value>mtg_hole_3mm</value>
+      <footprint>chromogram_libs:MountingHole_3.2mm_M3_Pad_Via</footprint>
       <fields>
         <field name="manf#">Value</field>
       </fields>
@@ -2435,8 +2435,8 @@
       <tstamp>5A736F39</tstamp>
     </comp>
     <comp ref="HB54">
-      <value>hole_baffle</value>
-      <footprint>chromogram_libs:mtg_hole_3mm_vias_2</footprint>
+      <value>mtg_hole_3mm</value>
+      <footprint>chromogram_libs:MountingHole_3.2mm_M3_Pad_Via</footprint>
       <fields>
         <field name="manf#">Value</field>
       </fields>
@@ -2446,7 +2446,7 @@
     </comp>
     <comp ref="BITE1">
       <value>Mouse_Bite</value>
-      <footprint>chromogram_libs:mouse-bite-2.54mm-slot</footprint>
+      <footprint>chromogram_libs:mouse-bite-2.54mm-slot_OSH</footprint>
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
@@ -2456,7 +2456,7 @@
     </comp>
     <comp ref="BITE2">
       <value>Mouse_Bite</value>
-      <footprint>chromogram_libs:mouse-bite-2.54mm-slot</footprint>
+      <footprint>chromogram_libs:mouse-bite-2.54mm-slot_OSH</footprint>
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
@@ -2466,7 +2466,7 @@
     </comp>
     <comp ref="BITE5">
       <value>Mouse_Bite</value>
-      <footprint>chromogram_libs:mouse-bite-2.54mm-slot</footprint>
+      <footprint>chromogram_libs:mouse-bite-2.54mm-slot_OSH</footprint>
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
@@ -2476,7 +2476,7 @@
     </comp>
     <comp ref="BITE6">
       <value>Mouse_Bite</value>
-      <footprint>chromogram_libs:mouse-bite-2.54mm-slot</footprint>
+      <footprint>chromogram_libs:mouse-bite-2.54mm-slot_OSH</footprint>
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
@@ -2486,7 +2486,7 @@
     </comp>
     <comp ref="BITE7">
       <value>Mouse_Bite</value>
-      <footprint>chromogram_libs:mouse-bite-2.54mm-slot</footprint>
+      <footprint>chromogram_libs:mouse-bite-2.54mm-slot_OSH</footprint>
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
@@ -2496,7 +2496,7 @@
     </comp>
     <comp ref="BITE8">
       <value>Mouse_Bite</value>
-      <footprint>chromogram_libs:mouse-bite-2.54mm-slot</footprint>
+      <footprint>chromogram_libs:mouse-bite-2.54mm-slot_OSH</footprint>
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
@@ -2506,7 +2506,7 @@
     </comp>
     <comp ref="BITE3">
       <value>Mouse_Bite</value>
-      <footprint>chromogram_libs:mouse-bite-2.54mm-slot</footprint>
+      <footprint>chromogram_libs:mouse-bite-2.54mm-slot_OSH</footprint>
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
@@ -2516,7 +2516,7 @@
     </comp>
     <comp ref="BITE4">
       <value>Mouse_Bite</value>
-      <footprint>chromogram_libs:mouse-bite-2.54mm-slot</footprint>
+      <footprint>chromogram_libs:mouse-bite-2.54mm-slot_OSH</footprint>
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>

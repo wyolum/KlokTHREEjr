@@ -1,7 +1,7 @@
-(module 1pin locked (layer F.Cu) (tedit 5A4F1AD1)
+(module 1pin locked (layer F.Cu) (tedit 5A50A75E)
   (descr "module 1 pin (ou trou mecanique de percage)")
   (tags DEV)
-  (clearance 0.8)
+  (clearance 1.0668)
   (fp_text reference J1 (at 0 -3.4) (layer F.SilkS) hide
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )

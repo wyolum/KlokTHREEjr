@@ -550,8 +550,8 @@ L chromogram:SCREW HB45
 U 1 1 5A4A80D0
 P 1700 3750
 F 0 "HB45" V 1700 3672 40  0000 R CNN
-F 1 "hole_baffle" H 1700 3850 40  0001 C CNN
-F 2 "chromogram_libs:mtg_hole_3mm_vias_2" H 1778 3713 60  0001 L CNN
+F 1 "mtg_hole_3mm_small" H 1700 3850 40  0001 C CNN
+F 2 "chromogram_libs:MountingHole_3.2mm_M3_Pad_Via" H 1778 3713 60  0001 L CNN
 F 3 "" H 1700 3750 60  0000 C CNN
 F 4 "Value" H 1700 3750 50  0001 C CNN "manf#"
 	1    1700 3750
@@ -562,8 +562,8 @@ L chromogram:SCREW HB46
 U 1 1 5A4A8341
 P 3200 3750
 F 0 "HB46" V 3200 3672 40  0000 R CNN
-F 1 "hole_baffle" H 3200 3850 40  0001 C CNN
-F 2 "chromogram_libs:mtg_hole_3mm_vias_2" H 3278 3713 60  0001 L CNN
+F 1 "mtg_hole_3mm_small" H 3200 3850 40  0001 C CNN
+F 2 "chromogram_libs:MountingHole_3.2mm_M3_Pad_Via" H 3278 3713 60  0001 L CNN
 F 3 "" H 3200 3750 60  0000 C CNN
 F 4 "Value" H 3200 3750 50  0001 C CNN "manf#"
 	1    3200 3750
@@ -574,8 +574,8 @@ L chromogram:SCREW HB47
 U 1 1 5A4A8811
 P 1750 4250
 F 0 "HB47" V 1750 4172 40  0000 R CNN
-F 1 "hole_baffle" H 1750 4350 40  0001 C CNN
-F 2 "chromogram_libs:mtg_hole_3mm_vias_2" H 1828 4213 60  0001 L CNN
+F 1 "mtg_hole_3mm" H 1750 4350 40  0001 C CNN
+F 2 "chromogram_libs:MountingHole_3.2mm_M3_Pad_Via" H 1828 4213 60  0001 L CNN
 F 3 "" H 1750 4250 60  0000 C CNN
 F 4 "Value" H 1750 4250 50  0001 C CNN "manf#"
 	1    1750 4250
@@ -586,8 +586,8 @@ L chromogram:SCREW HB48
 U 1 1 5A4A8818
 P 3150 4250
 F 0 "HB48" V 3150 4172 40  0000 R CNN
-F 1 "hole_baffle" H 3150 4350 40  0001 C CNN
-F 2 "chromogram_libs:mtg_hole_3mm_vias_2" H 3228 4213 60  0001 L CNN
+F 1 "mtg_hole_3mm" H 3150 4350 40  0001 C CNN
+F 2 "chromogram_libs:MountingHole_3.2mm_M3_Pad_Via" H 3228 4213 60  0001 L CNN
 F 3 "" H 3150 4250 60  0000 C CNN
 F 4 "Value" H 3150 4250 50  0001 C CNN "manf#"
 	1    3150 4250
@@ -598,8 +598,8 @@ L chromogram:SCREW HB49
 U 1 1 5A4A8943
 P 1750 5250
 F 0 "HB49" V 1750 5172 40  0000 R CNN
-F 1 "hole_baffle" H 1750 5350 40  0001 C CNN
-F 2 "chromogram_libs:mtg_hole_3mm_vias_2" H 1828 5213 60  0001 L CNN
+F 1 "mtg_hole_3mm" H 1750 5350 40  0001 C CNN
+F 2 "chromogram_libs:MountingHole_3.2mm_M3_Pad_Via" H 1828 5213 60  0001 L CNN
 F 3 "" H 1750 5250 60  0000 C CNN
 F 4 "Value" H 1750 5250 50  0001 C CNN "manf#"
 	1    1750 5250
@@ -610,8 +610,8 @@ L chromogram:SCREW HB50
 U 1 1 5A4A894A
 P 3150 5250
 F 0 "HB50" V 3150 5172 40  0000 R CNN
-F 1 "hole_baffle" H 3150 5350 40  0001 C CNN
-F 2 "chromogram_libs:mtg_hole_3mm_vias_2" H 3228 5213 60  0001 L CNN
+F 1 "mtg_hole_3mm" H 3150 5350 40  0001 C CNN
+F 2 "chromogram_libs:MountingHole_3.2mm_M3_Pad_Via" H 3228 5213 60  0001 L CNN
 F 3 "" H 3150 5250 60  0000 C CNN
 F 4 "Value" H 3150 5250 50  0001 C CNN "manf#"
 	1    3150 5250
@@ -898,8 +898,8 @@ L chromogram:SCREW HB51
 U 1 1 5A736F2B
 P 4350 4350
 F 0 "HB51" V 4350 4272 40  0000 R CNN
-F 1 "hole_baffle" H 4350 4450 40  0001 C CNN
-F 2 "chromogram_libs:mtg_hole_3mm_vias_2" H 4428 4313 60  0001 L CNN
+F 1 "mtg_hole_3mm" H 4350 4450 40  0001 C CNN
+F 2 "chromogram_libs:MountingHole_3.2mm_M3_Pad_Via" H 4428 4313 60  0001 L CNN
 F 3 "" H 4350 4350 60  0000 C CNN
 F 4 "Value" H 4350 4350 50  0001 C CNN "manf#"
 	1    4350 4350
@@ -910,8 +910,8 @@ L chromogram:SCREW HB52
 U 1 1 5A736F32
 P 5150 4350
 F 0 "HB52" V 5150 4272 40  0000 R CNN
-F 1 "hole_baffle" H 5150 4450 40  0001 C CNN
-F 2 "chromogram_libs:mtg_hole_3mm_vias_2" H 5228 4313 60  0001 L CNN
+F 1 "mtg_hole_3mm" H 5150 4450 40  0001 C CNN
+F 2 "chromogram_libs:MountingHole_3.2mm_M3_Pad_Via" H 5228 4313 60  0001 L CNN
 F 3 "" H 5150 4350 60  0000 C CNN
 F 4 "Value" H 5150 4350 50  0001 C CNN "manf#"
 	1    5150 4350
@@ -922,8 +922,8 @@ L chromogram:SCREW HB53
 U 1 1 5A736F39
 P 4350 5150
 F 0 "HB53" V 4350 5072 40  0000 R CNN
-F 1 "hole_baffle" H 4350 5250 40  0001 C CNN
-F 2 "chromogram_libs:mtg_hole_3mm_vias_2" H 4428 5113 60  0001 L CNN
+F 1 "mtg_hole_3mm" H 4350 5250 40  0001 C CNN
+F 2 "chromogram_libs:MountingHole_3.2mm_M3_Pad_Via" H 4428 5113 60  0001 L CNN
 F 3 "" H 4350 5150 60  0000 C CNN
 F 4 "Value" H 4350 5150 50  0001 C CNN "manf#"
 	1    4350 5150
@@ -934,8 +934,8 @@ L chromogram:SCREW HB54
 U 1 1 5A736F40
 P 5150 5150
 F 0 "HB54" V 5150 5072 40  0000 R CNN
-F 1 "hole_baffle" H 5150 5250 40  0001 C CNN
-F 2 "chromogram_libs:mtg_hole_3mm_vias_2" H 5228 5113 60  0001 L CNN
+F 1 "mtg_hole_3mm" H 5150 5250 40  0001 C CNN
+F 2 "chromogram_libs:MountingHole_3.2mm_M3_Pad_Via" H 5228 5113 60  0001 L CNN
 F 3 "" H 5150 5150 60  0000 C CNN
 F 4 "Value" H 5150 5150 50  0001 C CNN "manf#"
 	1    5150 5150
@@ -971,7 +971,7 @@ U 1 1 5A49F376
 P 8100 4900
 F 0 "BITE1" H 8100 5050 40  0000 C CNN
 F 1 "Mouse_Bite" H 8100 5025 30  0001 C CNN
-F 2 "chromogram_libs:mouse-bite-2.54mm-slot" H 8100 4900 60  0001 C CNN
+F 2 "chromogram_libs:mouse-bite-2.54mm-slot_OSH" H 8100 4900 60  0001 C CNN
 F 3 "" H 8100 4900 60  0000 C CNN
 F 4 "mfr_pn" H 8100 4900 50  0001 C CNN "manf#"
 	1    8100 4900
@@ -983,7 +983,7 @@ U 1 1 5A4A147E
 P 8900 4900
 F 0 "BITE2" H 8900 5050 40  0000 C CNN
 F 1 "Mouse_Bite" H 8900 5025 30  0001 C CNN
-F 2 "chromogram_libs:mouse-bite-2.54mm-slot" H 8900 4900 60  0001 C CNN
+F 2 "chromogram_libs:mouse-bite-2.54mm-slot_OSH" H 8900 4900 60  0001 C CNN
 F 3 "" H 8900 4900 60  0000 C CNN
 F 4 "mfr_pn" H 8900 4900 50  0001 C CNN "manf#"
 	1    8900 4900
@@ -995,7 +995,7 @@ U 1 1 5A4A2BA0
 P 8100 5700
 F 0 "BITE5" H 8100 5850 40  0000 C CNN
 F 1 "Mouse_Bite" H 8100 5825 30  0001 C CNN
-F 2 "chromogram_libs:mouse-bite-2.54mm-slot" H 8100 5700 60  0001 C CNN
+F 2 "chromogram_libs:mouse-bite-2.54mm-slot_OSH" H 8100 5700 60  0001 C CNN
 F 3 "" H 8100 5700 60  0000 C CNN
 F 4 "mfr_pn" H 8100 5700 50  0001 C CNN "manf#"
 	1    8100 5700
@@ -1007,7 +1007,7 @@ U 1 1 5A4A2BA6
 P 8900 5700
 F 0 "BITE6" H 8900 5850 40  0000 C CNN
 F 1 "Mouse_Bite" H 8900 5825 30  0001 C CNN
-F 2 "chromogram_libs:mouse-bite-2.54mm-slot" H 8900 5700 60  0001 C CNN
+F 2 "chromogram_libs:mouse-bite-2.54mm-slot_OSH" H 8900 5700 60  0001 C CNN
 F 3 "" H 8900 5700 60  0000 C CNN
 F 4 "mfr_pn" H 8900 5700 50  0001 C CNN "manf#"
 	1    8900 5700
@@ -1019,7 +1019,7 @@ U 1 1 5A4A2F4F
 P 9700 5700
 F 0 "BITE7" H 9700 5850 40  0000 C CNN
 F 1 "Mouse_Bite" H 9700 5825 30  0001 C CNN
-F 2 "chromogram_libs:mouse-bite-2.54mm-slot" H 9700 5700 60  0001 C CNN
+F 2 "chromogram_libs:mouse-bite-2.54mm-slot_OSH" H 9700 5700 60  0001 C CNN
 F 3 "" H 9700 5700 60  0000 C CNN
 F 4 "mfr_pn" H 9700 5700 50  0001 C CNN "manf#"
 	1    9700 5700
@@ -1031,7 +1031,7 @@ U 1 1 5A4A2F55
 P 10500 5700
 F 0 "BITE8" H 10500 5850 40  0000 C CNN
 F 1 "Mouse_Bite" H 10500 5825 30  0001 C CNN
-F 2 "chromogram_libs:mouse-bite-2.54mm-slot" H 10500 5700 60  0001 C CNN
+F 2 "chromogram_libs:mouse-bite-2.54mm-slot_OSH" H 10500 5700 60  0001 C CNN
 F 3 "" H 10500 5700 60  0000 C CNN
 F 4 "mfr_pn" H 10500 5700 50  0001 C CNN "manf#"
 	1    10500 5700
@@ -1043,7 +1043,7 @@ U 1 1 5A4A335C
 P 6500 5700
 F 0 "BITE3" H 6500 5850 40  0000 C CNN
 F 1 "Mouse_Bite" H 6500 5825 30  0001 C CNN
-F 2 "chromogram_libs:mouse-bite-2.54mm-slot" H 6500 5700 60  0001 C CNN
+F 2 "chromogram_libs:mouse-bite-2.54mm-slot_OSH" H 6500 5700 60  0001 C CNN
 F 3 "" H 6500 5700 60  0000 C CNN
 F 4 "mfr_pn" H 6500 5700 50  0001 C CNN "manf#"
 	1    6500 5700
@@ -1055,7 +1055,7 @@ U 1 1 5A4A3362
 P 7300 5700
 F 0 "BITE4" H 7300 5850 40  0000 C CNN
 F 1 "Mouse_Bite" H 7300 5825 30  0001 C CNN
-F 2 "chromogram_libs:mouse-bite-2.54mm-slot" H 7300 5700 60  0001 C CNN
+F 2 "chromogram_libs:mouse-bite-2.54mm-slot_OSH" H 7300 5700 60  0001 C CNN
 F 3 "" H 7300 5700 60  0000 C CNN
 F 4 "mfr_pn" H 7300 5700 50  0001 C CNN "manf#"
 	1    7300 5700
