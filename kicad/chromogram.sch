@@ -618,9 +618,9 @@ F7 "DO_H" O R 9725 6200 40
 $EndSheet
 Text Notes 8175 550  0    40   ~ 8
 16 x 8 pixel matrix
-Text Label 1850 2650 0    40   ~ 0
+Text Label 1850 2450 0    40   ~ 0
 SCL
-Text Label 1850 2750 0    40   ~ 0
+Text Label 1850 2550 0    40   ~ 0
 SDA
 Text Label 8400 1300 0    40   ~ 0
 DI_A
@@ -637,13 +637,13 @@ F 3 "" H 9025 650 30  0000 C CNN
 $EndComp
 Text Label 8325 650  0    40   ~ 0
 DAT_IN
-Text Label 1850 3150 0    40   ~ 0
-LDR1
-Text Label 4050 3150 2    40   ~ 0
-DAT_IN
-Text Label 1850 2850 0    40   ~ 0
-LDR2
 Text Label 1850 2950 0    40   ~ 0
+LDR1
+Text Label 4050 2950 2    40   ~ 0
+DAT_IN
+Text Label 1850 2650 0    40   ~ 0
+LDR2
+Text Label 1850 2750 0    40   ~ 0
 LDR3
 Text Label 8475 1850 0    40   ~ 0
 5V
@@ -931,7 +931,7 @@ Wire Wire Line
 Wire Wire Line
 	3650 6775 3750 6775
 Connection ~ 3650 6775
-Text Label 1850 3050 0    40   ~ 0
+Text Label 1850 2850 0    40   ~ 0
 LDR4
 $Comp
 L chromogram:ESP-wroom-32 U129
@@ -1155,23 +1155,27 @@ Wire Wire Line
 Wire Wire Line
 	2100 2150 1850 2150
 Wire Wire Line
+	2100 2650 1850 2650
+Wire Wire Line
+	1850 2750 2100 2750
+Wire Wire Line
 	2100 2850 1850 2850
 Wire Wire Line
 	1850 2950 2100 2950
 Wire Wire Line
-	2100 3050 1850 3050
+	2100 2450 1850 2450
 Wire Wire Line
-	1850 3150 2100 3150
-Wire Wire Line
-	2100 2650 1850 2650
-Wire Wire Line
-	1850 2750 2100 2750
+	1850 2550 2100 2550
 Wire Wire Line
 	4050 1950 3800 1950
 Wire Wire Line
 	3800 2250 4050 2250
 Wire Wire Line
 	4050 2350 3800 2350
+Wire Wire Line
+	4050 2450 3800 2450
+Wire Wire Line
+	3800 2550 4050 2550
 Wire Wire Line
 	4050 2650 3800 2650
 Wire Wire Line
@@ -1180,10 +1184,6 @@ Wire Wire Line
 	4050 2850 3800 2850
 Wire Wire Line
 	3800 2950 4050 2950
-Wire Wire Line
-	4050 3050 3800 3050
-Wire Wire Line
-	3800 3150 4050 3150
 Wire Wire Line
 	4050 3250 3800 3250
 Wire Wire Line
@@ -1198,7 +1198,7 @@ Text Label 1850 2050 0    40   ~ 0
 3V3
 Text Label 2500 3925 1    40   ~ 0
 GND
-NoConn ~ 3800 2550
+NoConn ~ 3800 3150
 Text Label 4050 1950 2    40   ~ 0
 GND
 $Comp
@@ -1327,7 +1327,7 @@ Text Label 5450 1925 0    40   ~ 0
 RXD0
 Text Label 5450 2000 0    40   ~ 0
 DTR
-Text Label 4050 3050 2    40   ~ 0
+Text Label 4050 2850 2    40   ~ 0
 CLK_IN
 $Comp
 L chromogram:CONN_2 P2
@@ -1439,37 +1439,37 @@ Connection ~ 3150 4525
 Connection ~ 2650 4525
 Connection ~ 3150 5725
 Connection ~ 2650 5725
-Text Label 4050 2650 2    40   ~ 0
+Text Label 4050 2450 2    40   ~ 0
 SW_E
-Text Label 4050 2750 2    40   ~ 0
+Text Label 4050 2550 2    40   ~ 0
 SW_I
-Text Label 4050 2850 2    40   ~ 0
+Text Label 4050 2650 2    40   ~ 0
 SW_D
-Text Label 4050 2950 2    40   ~ 0
+Text Label 4050 2750 2    40   ~ 0
 SW_M
 Wire Notes Line
-	4125 2650 4175 2650
+	4125 2450 4175 2450
 Wire Notes Line
-	4175 2650 4175 2950
+	4175 2450 4175 2750
+Wire Notes Line
+	4175 2750 4125 2750
+Wire Notes Line
+	4125 2850 4175 2850
+Wire Notes Line
+	4175 2850 4175 2950
 Wire Notes Line
 	4175 2950 4125 2950
 Wire Notes Line
-	4125 3050 4175 3050
+	1750 2450 1700 2450
 Wire Notes Line
-	4175 3050 4175 3150
+	1700 2450 1700 2550
 Wire Notes Line
-	4175 3150 4125 3150
-Wire Notes Line
-	1750 2650 1700 2650
-Wire Notes Line
-	1700 2650 1700 2750
-Wire Notes Line
-	1700 2750 1750 2750
-Text Notes 4175 2700 0    40   ~ 0
+	1700 2550 1750 2550
+Text Notes 4175 2500 0    40   ~ 0
 BUTTONS
-Text Notes 4175 3100 0    40   ~ 0
+Text Notes 4175 2900 0    40   ~ 0
 LED CLK/DAT
-Text Notes 1675 2700 2    40   ~ 0
+Text Notes 1675 2500 2    40   ~ 0
 I2C
 Wire Notes Line
 	4125 2250 4175 2250
@@ -1480,12 +1480,12 @@ Wire Notes Line
 Text Notes 4175 2300 0    40   ~ 0
 SERIAL
 Wire Notes Line
-	1750 3150 1700 3150
+	1750 2950 1700 2950
 Wire Notes Line
-	1700 3150 1700 2850
+	1700 2950 1700 2650
 Wire Notes Line
-	1700 2850 1750 2850
-Text Notes 1675 2900 2    40   ~ 0
+	1700 2650 1750 2650
+Text Notes 1675 2700 2    40   ~ 0
 LDR
 Connection ~ 2650 6175
 Connection ~ 3150 6175
@@ -1530,8 +1530,6 @@ Text Label 950  2725 0    40   ~ 0
 GND
 NoConn ~ 2100 2250
 NoConn ~ 2100 2350
-NoConn ~ 2100 2450
-NoConn ~ 2100 2550
 NoConn ~ 3400 3650
 NoConn ~ 3200 3650
 NoConn ~ 3100 3650
@@ -1541,7 +1539,7 @@ NoConn ~ 2800 3650
 NoConn ~ 2700 3650
 NoConn ~ 3800 2050
 NoConn ~ 3800 2150
-NoConn ~ 3800 2450
+NoConn ~ 3800 3050
 NoConn ~ 2100 3250
 Wire Wire Line
 	3800 1850 4050 1850
@@ -1665,4 +1663,38 @@ F 4 "Value" H 9550 6850 50  0001 C CNN "manf#"
 	1    9550 6850
 	1    0    0    -1  
 $EndComp
+NoConn ~ 2100 3150
+NoConn ~ 2100 3050
+Text Label 2100 2250 2    40   ~ 0
+SENSOR_VP
+Text Label 2100 2350 2    40   ~ 0
+SENSOR_VN
+Text Label 2100 3050 2    40   ~ 0
+IO27
+Text Label 2100 3150 2    40   ~ 0
+IO14
+Text Label 2100 3250 2    40   ~ 0
+IO12
+Text Label 2700 3650 3    40   ~ 0
+SD2
+Text Label 2800 3650 3    40   ~ 0
+SD3
+Text Label 2900 3650 3    40   ~ 0
+CMD
+Text Label 3000 3650 3    40   ~ 0
+CLK
+Text Label 3100 3650 3    40   ~ 0
+SDO
+Text Label 3200 3650 3    40   ~ 0
+SDI
+Text Label 3400 3650 3    40   ~ 0
+IO2
+Text Label 3800 3150 0    40   ~ 0
+IO4
+Text Label 3800 3050 0    40   ~ 0
+IO16
+Text Label 3800 2150 0    40   ~ 0
+IO22
+Text Label 3800 2050 0    40   ~ 0
+IO23
 $EndSCHEMATC
