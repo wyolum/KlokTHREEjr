@@ -551,7 +551,7 @@ U 1 1 5A4A80D0
 P 1700 3750
 F 0 "HB45" V 1700 3672 40  0000 R CNN
 F 1 "mtg_hole_3mm_small" H 1700 3850 40  0001 C CNN
-F 2 "chromogram_libs:MountingHole_3.2mm_M3_Pad_Via" H 1778 3713 60  0001 L CNN
+F 2 "chromogram_libs:MountingHole_3.2mm_M3" H 1778 3713 60  0001 L CNN
 F 3 "" H 1700 3750 60  0000 C CNN
 F 4 "Value" H 1700 3750 50  0001 C CNN "manf#"
 	1    1700 3750
@@ -563,7 +563,7 @@ U 1 1 5A4A8341
 P 3200 3750
 F 0 "HB46" V 3200 3672 40  0000 R CNN
 F 1 "mtg_hole_3mm_small" H 3200 3850 40  0001 C CNN
-F 2 "chromogram_libs:MountingHole_3.2mm_M3_Pad_Via" H 3278 3713 60  0001 L CNN
+F 2 "chromogram_libs:MountingHole_3.2mm_M3" H 3278 3713 60  0001 L CNN
 F 3 "" H 3200 3750 60  0000 C CNN
 F 4 "Value" H 3200 3750 50  0001 C CNN "manf#"
 	1    3200 3750
