@@ -1,9 +1,9 @@
 # KlokTHREEjr
 RGB LED matrix for text and animation display.
 
-![KlokTHREEjr](https://github.com/wyolum/KlokTHREEjr/kicad/3d_render/KlokTHREE01.png)
+![KlokTHREEjr](https://github.com/wyolum/KlokTHREEjr/blob/master/kicad/3d_render/KlokTHREEjr01.png)
 
-![KlokTHREEjr](https://github.com/wyolum/KlokTHREEjr/kicad/3d_render/KlokTHREEjr02.png)
+![KlokTHREEjr](https://github.com/wyolum/KlokTHREEjr/blob/master/kicad/3d_render/KlokTHREEjr02.png)
 
 License
 -------
