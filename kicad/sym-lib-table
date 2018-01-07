@@ -1,3 +1,3 @@
 (sym_lib_table
-  (lib (name chromogram)(type Legacy)(uri ${KIPRJMOD}/chromogram_libs/chromogram.lib)(options "")(descr ""))
+  (lib (name KlokTHREEjr)(type Legacy)(uri ${KIPRJMOD}/KlokTHREEjr_libs/KlokTHREEjr.lib)(options "")(descr ""))
 )

@@ -1,16 +1,16 @@
 EESchema Schematic File Version 4
-LIBS:chromogram
-LIBS:chromogram-cache
+LIBS:KlokTHREEjr
+LIBS:KlokTHREEjr-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 12
-Title "Chromogram"
+Title "KlokTHREEjr"
 Date "2017-12-26"
 Rev "rev 1"
-Comp "WyoLum"
-Comment1 "www.wyolum.com"
+Comp "www.wyolum.com"
+Comment1 "https://github.com/wyolum/KlokTHREEjr"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -20,14 +20,14 @@ DI_E
 Text HLabel 950  2350 0    60   Input ~ 12
 GND
 $Comp
-L chromogram:APA102 U65
+L KlokTHREEjr:APA102 U65
 U 1 1 56C24FAA
 P 1700 1600
 AR Path="/56C24FAA" Ref="U65"  Part="1" 
 AR Path="/54254DD3/56C24FAA" Ref="U65"  Part="1" 
 F 0 "U65" H 1700 1900 40  0000 C CNB
 F 1 "APA102" H 1700 1275 40  0000 C CNN
-F 2 "chromogram_libs:APA102" H 1600 2000 60  0001 C CNN
+F 2 "KlokTHREEjr_libs:APA102" H 1600 2000 60  0001 C CNN
 F 3 "" H 1700 1600 60  0001 C CNN
 F 4 "mfr_pn" H 1700 1600 60  0001 C CNN "manf#"
 	1    1700 1600
@@ -38,7 +38,7 @@ GND
 Text Label 1075 2850 0    60   ~ 0
 5V
 $Comp
-L chromogram:GND #PWR09
+L KlokTHREEjr:GND #PWR09
 U 1 1 56C24FC3
 P 1150 2400
 F 0 "#PWR09" H 1150 2400 30  0001 C CNN
@@ -61,98 +61,98 @@ Connection ~ 1150 2350
 Text HLabel 950  2850 0    60   Input ~ 12
 5V
 $Comp
-L chromogram:APA102 U66
+L KlokTHREEjr:APA102 U66
 U 1 1 56C24FD5
 P 2900 1600
 AR Path="/56C24FD5" Ref="U66"  Part="1" 
 AR Path="/54254DD3/56C24FD5" Ref="U66"  Part="1" 
 F 0 "U66" H 2900 1900 40  0000 C CNB
 F 1 "APA102" H 2900 1275 40  0000 C CNN
-F 2 "chromogram_libs:APA102" H 2800 2000 60  0001 C CNN
+F 2 "KlokTHREEjr_libs:APA102" H 2800 2000 60  0001 C CNN
 F 3 "" H 2900 1600 60  0001 C CNN
 F 4 "mfr_pn" H 2900 1600 60  0001 C CNN "manf#"
 	1    2900 1600
 	1    0    0    -1  
 $EndComp
 $Comp
-L chromogram:APA102 U67
+L KlokTHREEjr:APA102 U67
 U 1 1 56C24FDD
 P 4100 1600
 AR Path="/56C24FDD" Ref="U67"  Part="1" 
 AR Path="/54254DD3/56C24FDD" Ref="U67"  Part="1" 
 F 0 "U67" H 4100 1900 40  0000 C CNB
 F 1 "APA102" H 4100 1275 40  0000 C CNN
-F 2 "chromogram_libs:APA102" H 4000 2000 60  0001 C CNN
+F 2 "KlokTHREEjr_libs:APA102" H 4000 2000 60  0001 C CNN
 F 3 "" H 4100 1600 60  0001 C CNN
 F 4 "mfr_pn" H 4100 1600 60  0001 C CNN "manf#"
 	1    4100 1600
 	1    0    0    -1  
 $EndComp
 $Comp
-L chromogram:APA102 U68
+L KlokTHREEjr:APA102 U68
 U 1 1 56C24FE5
 P 5300 1600
 AR Path="/56C24FE5" Ref="U68"  Part="1" 
 AR Path="/54254DD3/56C24FE5" Ref="U68"  Part="1" 
 F 0 "U68" H 5300 1900 40  0000 C CNB
 F 1 "APA102" H 5300 1275 40  0000 C CNN
-F 2 "chromogram_libs:APA102" H 5200 2000 60  0001 C CNN
+F 2 "KlokTHREEjr_libs:APA102" H 5200 2000 60  0001 C CNN
 F 3 "" H 5300 1600 60  0001 C CNN
 F 4 "mfr_pn" H 5300 1600 60  0001 C CNN "manf#"
 	1    5300 1600
 	1    0    0    -1  
 $EndComp
 $Comp
-L chromogram:APA102 U69
+L KlokTHREEjr:APA102 U69
 U 1 1 56C24FED
 P 6500 1600
 AR Path="/56C24FED" Ref="U69"  Part="1" 
 AR Path="/54254DD3/56C24FED" Ref="U69"  Part="1" 
 F 0 "U69" H 6500 1900 40  0000 C CNB
 F 1 "APA102" H 6500 1275 40  0000 C CNN
-F 2 "chromogram_libs:APA102" H 6400 2000 60  0001 C CNN
+F 2 "KlokTHREEjr_libs:APA102" H 6400 2000 60  0001 C CNN
 F 3 "" H 6500 1600 60  0001 C CNN
 F 4 "mfr_pn" H 6500 1600 60  0001 C CNN "manf#"
 	1    6500 1600
 	1    0    0    -1  
 $EndComp
 $Comp
-L chromogram:APA102 U70
+L KlokTHREEjr:APA102 U70
 U 1 1 56C24FF5
 P 7700 1600
 AR Path="/56C24FF5" Ref="U70"  Part="1" 
 AR Path="/54254DD3/56C24FF5" Ref="U70"  Part="1" 
 F 0 "U70" H 7700 1900 40  0000 C CNB
 F 1 "APA102" H 7700 1275 40  0000 C CNN
-F 2 "chromogram_libs:APA102" H 7600 2000 60  0001 C CNN
+F 2 "KlokTHREEjr_libs:APA102" H 7600 2000 60  0001 C CNN
 F 3 "" H 7700 1600 60  0001 C CNN
 F 4 "mfr_pn" H 7700 1600 60  0001 C CNN "manf#"
 	1    7700 1600
 	1    0    0    -1  
 $EndComp
 $Comp
-L chromogram:APA102 U71
+L KlokTHREEjr:APA102 U71
 U 1 1 56C24FFD
 P 8900 1600
 AR Path="/56C24FFD" Ref="U71"  Part="1" 
 AR Path="/54254DD3/56C24FFD" Ref="U71"  Part="1" 
 F 0 "U71" H 8900 1900 40  0000 C CNB
 F 1 "APA102" H 8900 1275 40  0000 C CNN
-F 2 "chromogram_libs:APA102" H 8800 2000 60  0001 C CNN
+F 2 "KlokTHREEjr_libs:APA102" H 8800 2000 60  0001 C CNN
 F 3 "" H 8900 1600 60  0001 C CNN
 F 4 "mfr_pn" H 8900 1600 60  0001 C CNN "manf#"
 	1    8900 1600
 	1    0    0    -1  
 $EndComp
 $Comp
-L chromogram:APA102 U72
+L KlokTHREEjr:APA102 U72
 U 1 1 56C25005
 P 10100 1600
 AR Path="/56C25005" Ref="U72"  Part="1" 
 AR Path="/54254DD3/56C25005" Ref="U72"  Part="1" 
 F 0 "U72" H 10100 1900 40  0000 C CNB
 F 1 "APA102" H 10100 1275 40  0000 C CNN
-F 2 "chromogram_libs:APA102" H 10000 2000 60  0001 C CNN
+F 2 "KlokTHREEjr_libs:APA102" H 10000 2000 60  0001 C CNN
 F 3 "" H 10100 1600 60  0001 C CNN
 F 4 "mfr_pn" H 10100 1600 60  0001 C CNN "manf#"
 	1    10100 1600
@@ -282,14 +282,14 @@ CI_E
 Text HLabel 950  5450 0    60   Output ~ 12
 CI_F
 $Comp
-L chromogram:APA102 U73
+L KlokTHREEjr:APA102 U73
 U 1 1 5A50AD63
 P 1700 3950
 AR Path="/5A50AD63" Ref="U73"  Part="1" 
 AR Path="/54254DD3/5A50AD63" Ref="U73"  Part="1" 
 F 0 "U73" H 1700 4250 40  0000 C CNB
 F 1 "APA102" H 1700 3625 40  0000 C CNN
-F 2 "chromogram_libs:APA102" H 1600 4350 60  0001 C CNN
+F 2 "KlokTHREEjr_libs:APA102" H 1600 4350 60  0001 C CNN
 F 3 "" H 1700 3950 60  0001 C CNN
 F 4 "mfr_pn" H 1700 3950 60  0001 C CNN "manf#"
 	1    1700 3950
@@ -302,7 +302,7 @@ Text Label 950  5200 0    60   ~ 0
 Text Label 1075 5450 0    60   ~ 0
 CI_F
 $Comp
-L chromogram:GND #PWR010
+L KlokTHREEjr:GND #PWR010
 U 1 1 5A50AD6D
 P 1150 4750
 F 0 "#PWR010" H 1150 4750 30  0001 C CNN
@@ -325,98 +325,98 @@ Wire Wire Line
 	950  5200 10650 5200
 Connection ~ 1150 4700
 $Comp
-L chromogram:APA102 U74
+L KlokTHREEjr:APA102 U74
 U 1 1 5A50AD7B
 P 2900 3950
 AR Path="/5A50AD7B" Ref="U74"  Part="1" 
 AR Path="/54254DD3/5A50AD7B" Ref="U74"  Part="1" 
 F 0 "U74" H 2900 4250 40  0000 C CNB
 F 1 "APA102" H 2900 3625 40  0000 C CNN
-F 2 "chromogram_libs:APA102" H 2800 4350 60  0001 C CNN
+F 2 "KlokTHREEjr_libs:APA102" H 2800 4350 60  0001 C CNN
 F 3 "" H 2900 3950 60  0001 C CNN
 F 4 "mfr_pn" H 2900 3950 60  0001 C CNN "manf#"
 	1    2900 3950
 	1    0    0    -1  
 $EndComp
 $Comp
-L chromogram:APA102 U75
+L KlokTHREEjr:APA102 U75
 U 1 1 5A50AD82
 P 4100 3950
 AR Path="/5A50AD82" Ref="U75"  Part="1" 
 AR Path="/54254DD3/5A50AD82" Ref="U75"  Part="1" 
 F 0 "U75" H 4100 4250 40  0000 C CNB
 F 1 "APA102" H 4100 3625 40  0000 C CNN
-F 2 "chromogram_libs:APA102" H 4000 4350 60  0001 C CNN
+F 2 "KlokTHREEjr_libs:APA102" H 4000 4350 60  0001 C CNN
 F 3 "" H 4100 3950 60  0001 C CNN
 F 4 "mfr_pn" H 4100 3950 60  0001 C CNN "manf#"
 	1    4100 3950
 	1    0    0    -1  
 $EndComp
 $Comp
-L chromogram:APA102 U76
+L KlokTHREEjr:APA102 U76
 U 1 1 5A50AD89
 P 5300 3950
 AR Path="/5A50AD89" Ref="U76"  Part="1" 
 AR Path="/54254DD3/5A50AD89" Ref="U76"  Part="1" 
 F 0 "U76" H 5300 4250 40  0000 C CNB
 F 1 "APA102" H 5300 3625 40  0000 C CNN
-F 2 "chromogram_libs:APA102" H 5200 4350 60  0001 C CNN
+F 2 "KlokTHREEjr_libs:APA102" H 5200 4350 60  0001 C CNN
 F 3 "" H 5300 3950 60  0001 C CNN
 F 4 "mfr_pn" H 5300 3950 60  0001 C CNN "manf#"
 	1    5300 3950
 	1    0    0    -1  
 $EndComp
 $Comp
-L chromogram:APA102 U77
+L KlokTHREEjr:APA102 U77
 U 1 1 5A50AD90
 P 6500 3950
 AR Path="/5A50AD90" Ref="U77"  Part="1" 
 AR Path="/54254DD3/5A50AD90" Ref="U77"  Part="1" 
 F 0 "U77" H 6500 4250 40  0000 C CNB
 F 1 "APA102" H 6500 3625 40  0000 C CNN
-F 2 "chromogram_libs:APA102" H 6400 4350 60  0001 C CNN
+F 2 "KlokTHREEjr_libs:APA102" H 6400 4350 60  0001 C CNN
 F 3 "" H 6500 3950 60  0001 C CNN
 F 4 "mfr_pn" H 6500 3950 60  0001 C CNN "manf#"
 	1    6500 3950
 	1    0    0    -1  
 $EndComp
 $Comp
-L chromogram:APA102 U78
+L KlokTHREEjr:APA102 U78
 U 1 1 5A50AD97
 P 7700 3950
 AR Path="/5A50AD97" Ref="U78"  Part="1" 
 AR Path="/54254DD3/5A50AD97" Ref="U78"  Part="1" 
 F 0 "U78" H 7700 4250 40  0000 C CNB
 F 1 "APA102" H 7700 3625 40  0000 C CNN
-F 2 "chromogram_libs:APA102" H 7600 4350 60  0001 C CNN
+F 2 "KlokTHREEjr_libs:APA102" H 7600 4350 60  0001 C CNN
 F 3 "" H 7700 3950 60  0001 C CNN
 F 4 "mfr_pn" H 7700 3950 60  0001 C CNN "manf#"
 	1    7700 3950
 	1    0    0    -1  
 $EndComp
 $Comp
-L chromogram:APA102 U79
+L KlokTHREEjr:APA102 U79
 U 1 1 5A50AD9E
 P 8900 3950
 AR Path="/5A50AD9E" Ref="U79"  Part="1" 
 AR Path="/54254DD3/5A50AD9E" Ref="U79"  Part="1" 
 F 0 "U79" H 8900 4250 40  0000 C CNB
 F 1 "APA102" H 8900 3625 40  0000 C CNN
-F 2 "chromogram_libs:APA102" H 8800 4350 60  0001 C CNN
+F 2 "KlokTHREEjr_libs:APA102" H 8800 4350 60  0001 C CNN
 F 3 "" H 8900 3950 60  0001 C CNN
 F 4 "mfr_pn" H 8900 3950 60  0001 C CNN "manf#"
 	1    8900 3950
 	1    0    0    -1  
 $EndComp
 $Comp
-L chromogram:APA102 U80
+L KlokTHREEjr:APA102 U80
 U 1 1 5A50ADA5
 P 10100 3950
 AR Path="/5A50ADA5" Ref="U80"  Part="1" 
 AR Path="/54254DD3/5A50ADA5" Ref="U80"  Part="1" 
 F 0 "U80" H 10100 4250 40  0000 C CNB
 F 1 "APA102" H 10100 3625 40  0000 C CNN
-F 2 "chromogram_libs:APA102" H 10000 4350 60  0001 C CNN
+F 2 "KlokTHREEjr_libs:APA102" H 10000 4350 60  0001 C CNN
 F 3 "" H 10100 3950 60  0001 C CNN
 F 4 "mfr_pn" H 10100 3950 60  0001 C CNN "manf#"
 	1    10100 3950
@@ -548,24 +548,24 @@ Wire Wire Line
 Wire Wire Line
 	750  3950 1300 3950
 $Comp
-L chromogram:C_NP C9
+L KlokTHREEjr:C_NP C9
 U 1 1 5A913773
 P 1800 2600
 F 0 "C9" H 1893 2645 50  0000 L CNN
 F 1 "100nF" H 1893 2555 50  0000 L CNN
-F 2 "chromogram_libs:c_0805" H 1800 2600 60  0001 C CNN
+F 2 "KlokTHREEjr_libs:c_0805" H 1800 2600 60  0001 C CNN
 F 3 "" H 1800 2600 60  0000 C CNN
 F 4 "Value" H 1800 2600 50  0001 C CNN "manf#"
 	1    1800 2600
 	1    0    0    -1  
 $EndComp
 $Comp
-L chromogram:C_NP C10
+L KlokTHREEjr:C_NP C10
 U 1 1 5A9138EF
 P 1800 4950
 F 0 "C10" H 1893 4995 50  0000 L CNN
 F 1 "100nF" H 1893 4905 50  0000 L CNN
-F 2 "chromogram_libs:c_0805" H 1800 4950 60  0001 C CNN
+F 2 "KlokTHREEjr_libs:c_0805" H 1800 4950 60  0001 C CNN
 F 3 "" H 1800 4950 60  0000 C CNN
 F 4 "Value" H 1800 4950 50  0001 C CNN "manf#"
 	1    1800 4950
