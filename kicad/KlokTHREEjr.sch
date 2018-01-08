@@ -639,7 +639,7 @@ Text Label 8325 650  0    40   ~ 0
 DAT_IN
 Text Label 1850 2950 0    40   ~ 0
 LDR1
-Text Label 4050 2950 2    40   ~ 0
+Text Label 4050 3150 2    40   ~ 0
 DAT_IN
 Text Label 1850 2650 0    40   ~ 0
 LDR2
@@ -1173,10 +1173,6 @@ Wire Wire Line
 Wire Wire Line
 	4050 2350 3800 2350
 Wire Wire Line
-	4050 2450 3800 2450
-Wire Wire Line
-	3800 2550 4050 2550
-Wire Wire Line
 	4050 2650 3800 2650
 Wire Wire Line
 	3800 2750 4050 2750
@@ -1184,6 +1180,10 @@ Wire Wire Line
 	4050 2850 3800 2850
 Wire Wire Line
 	3800 2950 4050 2950
+Wire Wire Line
+	4050 3050 3800 3050
+Wire Wire Line
+	3800 3150 4050 3150
 Wire Wire Line
 	4050 3250 3800 3250
 Wire Wire Line
@@ -1198,7 +1198,6 @@ Text Label 1850 2050 0    40   ~ 0
 3V3
 Text Label 2500 3925 1    40   ~ 0
 GND
-NoConn ~ 3800 3150
 Text Label 4050 1950 2    40   ~ 0
 GND
 $Comp
@@ -1327,7 +1326,7 @@ Text Label 5450 1925 0    40   ~ 0
 RXD0
 Text Label 5450 2000 0    40   ~ 0
 DTR
-Text Label 4050 2850 2    40   ~ 0
+Text Label 4050 3050 2    40   ~ 0
 CLK_IN
 $Comp
 L KlokTHREEjr:CONN_2 P2
@@ -1439,35 +1438,35 @@ Connection ~ 3150 4525
 Connection ~ 2650 4525
 Connection ~ 3150 5725
 Connection ~ 2650 5725
-Text Label 4050 2450 2    40   ~ 0
-SW_E
-Text Label 4050 2550 2    40   ~ 0
-SW_I
 Text Label 4050 2650 2    40   ~ 0
-SW_D
+SW_E
 Text Label 4050 2750 2    40   ~ 0
+SW_I
+Text Label 4050 2850 2    40   ~ 0
+SW_D
+Text Label 4050 2950 2    40   ~ 0
 SW_M
 Wire Notes Line
-	4125 2450 4175 2450
+	4125 2650 4175 2650
 Wire Notes Line
-	4175 2450 4175 2750
-Wire Notes Line
-	4175 2750 4125 2750
-Wire Notes Line
-	4125 2850 4175 2850
-Wire Notes Line
-	4175 2850 4175 2950
+	4175 2650 4175 2950
 Wire Notes Line
 	4175 2950 4125 2950
+Wire Notes Line
+	4125 3050 4175 3050
+Wire Notes Line
+	4175 3050 4175 3150
+Wire Notes Line
+	4175 3150 4125 3150
 Wire Notes Line
 	1750 2450 1700 2450
 Wire Notes Line
 	1700 2450 1700 2550
 Wire Notes Line
 	1700 2550 1750 2550
-Text Notes 4175 2500 0    40   ~ 0
+Text Notes 4175 2700 0    40   ~ 0
 BUTTONS
-Text Notes 4175 2900 0    40   ~ 0
+Text Notes 4175 3100 0    40   ~ 0
 LED CLK/DAT
 Text Notes 1675 2500 2    40   ~ 0
 I2C
@@ -1539,7 +1538,6 @@ NoConn ~ 2800 3650
 NoConn ~ 2700 3650
 NoConn ~ 3800 2050
 NoConn ~ 3800 2150
-NoConn ~ 3800 3050
 NoConn ~ 2100 3250
 Wire Wire Line
 	3800 1850 4050 1850
@@ -1689,12 +1687,13 @@ Text Label 3200 3650 3    40   ~ 0
 SDI
 Text Label 3400 3650 3    40   ~ 0
 IO2
-Text Label 3800 3150 0    40   ~ 0
-IO4
-Text Label 3800 3050 0    40   ~ 0
-IO16
 Text Label 3800 2150 0    40   ~ 0
 IO22
 Text Label 3800 2050 0    40   ~ 0
 IO23
+NoConn ~ 3800 2450
+Text Label 3800 2450 0    40   ~ 0
+IO21
+Text Label 3800 2550 0    40   ~ 0
+NC
 $EndSCHEMATC
