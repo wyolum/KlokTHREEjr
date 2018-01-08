@@ -10,7 +10,7 @@ Title "KlokTHREEjr"
 Date "2017-12-26"
 Rev "rev 1"
 Comp "www.wyolum.com"
-Comment1 ""
+Comment1 "https://github.com/wyolum/KlokTHREEjr"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -1066,13 +1066,13 @@ MOUSEBITES\nfor board separation
 $Comp
 L KlokTHREEjr:KiCad G5
 U 1 1 5A50766D
-P 9550 6850
-F 0 "G5" H 9550 6582 60  0001 C CNN
-F 1 "KiCad" H 9550 7118 60  0001 C CNN
-F 2 "KlokTHREEjr_libs:KiCad-Logo2_6mm_SilkScreen" H 9550 6850 60  0001 C CNN
-F 3 "" H 9550 6850 60  0001 C CNN
-F 4 "Value" H 9550 6850 50  0001 C CNN "manf#"
-	1    9550 6850
+P 9700 6850
+F 0 "G5" H 9700 6582 60  0001 C CNN
+F 1 "KiCad" H 9700 7118 60  0001 C CNN
+F 2 "KlokTHREEjr_libs:KiCad-Logo2_6mm_SilkScreen" H 9700 6850 60  0001 C CNN
+F 3 "" H 9700 6850 60  0001 C CNN
+F 4 "Value" H 9700 6850 50  0001 C CNN "manf#"
+	1    9700 6850
 	1    0    0    -1  
 $EndComp
 $Comp
