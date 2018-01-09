@@ -120,4 +120,10 @@ K REGULATOR LDO 5V
 F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
 $ENDCMP
 #
+$CMP TXB0102DCU
+D 2-Bit Bidirectional Voltage-Level Translator in VSSOP Package With Auto Direction Sensing and ±15-kV ESD Protection
+K Level-Shifter CMOS-TTL-Translation
+F http://www.ti.com/lit/ds/symlink/txb0102.pdf
+$ENDCMP
+#
 #End Doc Library

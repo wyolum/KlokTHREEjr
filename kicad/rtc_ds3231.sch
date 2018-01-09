@@ -37,10 +37,10 @@ F 3 "" H 3675 4175 60  0000 C CNN
 	1    3675 4175
 	1    0    0    -1  
 $EndComp
-Text Label 5500 4425 0    40   ~ 0
-SDA
-Text Label 5500 4550 0    40   ~ 0
-SCL
+Text Label 5825 5225 0    40   ~ 0
+SDA_5V
+Text Label 5825 5025 0    40   ~ 0
+SCL_5V
 $Comp
 L KlokTHREEjr:R R6
 U 1 1 5A448933
@@ -130,7 +130,7 @@ Wire Wire Line
 Wire Wire Line
 	2000 2325 2000 2400
 Wire Wire Line
-	4575 3000 5600 3000
+	4575 3000 7550 3000
 Wire Wire Line
 	4625 3250 4625 3350
 Wire Wire Line
@@ -186,11 +186,7 @@ Wire Wire Line
 	2525 2900 2525 3300
 Wire Wire Line
 	2525 3300 2775 3300
-Wire Wire Line
-	2675 4425 5825 4425
 Connection ~ 2675 3150
-Wire Wire Line
-	2525 4550 5825 4550
 Connection ~ 2525 3300
 Wire Wire Line
 	4575 2850 4900 2850
@@ -204,13 +200,13 @@ Connection ~ 2675 2225
 Connection ~ 3675 2225
 Connection ~ 5050 2225
 Connection ~ 4625 4100
-Text HLabel 5825 2225 2    40   Input ~ 0
+Text HLabel 7775 2225 2    40   Input ~ 0
 5V
-Text HLabel 5825 4100 2    40   Input ~ 0
+Text HLabel 7775 4100 2    40   Input ~ 0
 GND
-Text HLabel 5825 4425 2    40   Input ~ 0
+Text HLabel 7775 5225 2    40   Input ~ 0
 SDA
-Text HLabel 5825 4550 2    40   Input ~ 0
+Text HLabel 7775 5025 2    40   Input ~ 0
 SCL
 $Comp
 L KlokTHREEjr:C_NP C22
@@ -250,30 +246,146 @@ Wire Wire Line
 Wire Wire Line
 	4075 4100 4625 4100
 Wire Wire Line
-	2675 3150 2675 4425
+	2675 3150 2675 5025
 Wire Wire Line
-	2525 3300 2525 4550
+	2525 3300 2525 5225
 Wire Wire Line
 	2675 2225 3675 2225
 Wire Wire Line
 	3675 2225 4900 2225
 Wire Wire Line
-	5050 2225 5825 2225
+	5050 2225 7775 2225
 Wire Wire Line
-	4625 4100 5825 4100
+	4625 4100 7775 4100
 $Comp
 L KlokTHREEjr:Conn_01x01 TP1
 U 1 1 5A48EA43
-P 5800 3000
-F 0 "TP1" H 5925 3100 50  0000 L CNN
-F 1 "~RST" H 5925 2950 50  0000 L CNN
-F 2 "KlokTHREEjr_libs:BreakOutPad" H 5800 3000 50  0001 C CNN
-F 3 "~" H 5800 3000 50  0001 C CNN
-	1    5800 3000
+P 7750 3000
+F 0 "TP1" H 7875 3100 50  0000 L CNN
+F 1 "~RST" H 7875 2950 50  0000 L CNN
+F 2 "KlokTHREEjr_libs:BreakOutPad" H 7750 3000 50  0001 C CNN
+F 3 "~" H 7750 3000 50  0001 C CNN
+	1    7750 3000
 	1    0    0    -1  
 $EndComp
 Text Label 4600 2850 0    40   ~ 0
 SQR
 Text Label 4600 3150 0    40   ~ 0
 32kHz
+$Comp
+L KlokTHREEjr:TXB0102DCU U133
+U 1 1 5A57AF6A
+P 6600 5125
+F 0 "U133" H 6950 4825 50  0000 L CNN
+F 1 "TXB0102DCU" H 6950 4750 50  0000 L CNN
+F 2 "KlokTHREEjr_libs:VSSOP-8_2.4x2.1mm_Pitch0.5mm" H 7600 4525 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/txb0102.pdf" H 6600 5095 50  0001 C CNN
+	1    6600 5125
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7775 5025 7000 5025
+Wire Wire Line
+	7000 5225 7775 5225
+Text Label 7050 5225 0    40   ~ 0
+SDA
+Text Label 7050 5025 0    40   ~ 0
+SCL
+Wire Wire Line
+	6500 4625 6500 4475
+Wire Wire Line
+	6700 4625 6700 4475
+Wire Wire Line
+	6700 4475 7300 4475
+Text Label 6425 4475 0    40   ~ 0
+5V
+Wire Wire Line
+	6600 5625 6600 5925
+Text Label 6600 6100 0    40   ~ 0
+GND
+Text Label 6700 4475 0    40   ~ 0
+3V3
+Text HLabel 7775 4475 2    40   Input ~ 0
+3V3
+Text Notes 6250 5725 2    50   ~ 10
+LEVEL TRANSLATOR\nFOR I2C 5V TO 3V3
+$Comp
+L KlokTHREEjr:R R5
+U 1 1 5A59C780
+P 7300 5675
+F 0 "R5" H 7350 5475 40  0000 C CNN
+F 1 "10k" V 7307 5676 40  0000 C CNN
+F 2 "KlokTHREEjr_libs:r_0805" V 7230 5675 30  0001 C CNN
+F 3 "~" H 7300 5675 30  0000 C CNN
+	1    7300 5675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 5425 7300 5425
+Wire Wire Line
+	7300 5425 7300 5525
+Wire Wire Line
+	7300 5825 7300 5925
+Wire Wire Line
+	7300 5925 6600 5925
+Connection ~ 6600 5925
+Wire Wire Line
+	6600 5925 6600 6100
+Wire Wire Line
+	7300 5425 7300 4475
+Connection ~ 7300 5425
+Connection ~ 7300 4475
+Wire Wire Line
+	7300 4475 7500 4475
+$Comp
+L KlokTHREEjr:C_NP C29
+U 1 1 5A5A129F
+P 5725 4650
+F 0 "C29" H 5828 4688 40  0000 L CNN
+F 1 "100nF" H 5828 4613 40  0000 L CNN
+F 2 "KlokTHREEjr_libs:c_0805" H 5725 4650 60  0001 C CNN
+F 3 "" H 5725 4650 60  0000 C CNN
+	1    5725 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L KlokTHREEjr:C_NP C30
+U 1 1 5A5A13BD
+P 7500 4650
+F 0 "C30" H 7603 4688 40  0000 L CNN
+F 1 "100nF" H 7603 4613 40  0000 L CNN
+F 2 "KlokTHREEjr_libs:c_0805" H 7500 4650 60  0001 C CNN
+F 3 "" H 7500 4650 60  0000 C CNN
+	1    7500 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 4500 7500 4475
+Connection ~ 7500 4475
+Wire Wire Line
+	7500 4475 7775 4475
+Wire Wire Line
+	5725 4475 5725 4500
+Wire Wire Line
+	5725 4475 6500 4475
+Wire Wire Line
+	5725 4800 5725 4900
+Wire Wire Line
+	7500 4900 7500 4800
+Text Label 5725 4900 0    40   ~ 0
+GND
+Text Label 7500 4900 0    40   ~ 0
+GND
+Wire Wire Line
+	6200 5025 5100 5025
+Wire Wire Line
+	5100 5225 6200 5225
+Wire Wire Line
+	5100 5225 4900 5025
+Wire Wire Line
+	4900 5025 2675 5025
+Wire Wire Line
+	5100 5025 4900 5225
+Wire Wire Line
+	4900 5225 2525 5225
 $EndSCHEMATC

@@ -2,16 +2,16 @@
 <export version="D">
   <design>
     <source>/home/samata/projects-git/KlokTHREEjr/kicad/KlokTHREEjr.sch</source>
-    <date>Sun Jan  7 20:54:20 2018</date>
+    <date>Tue Jan  9 23:20:36 2018</date>
     <tool>Eeschema no-vcs-found-bf44d39~61~ubuntu16.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>KlokTHREEjr</title>
-        <company>WyoLum</company>
+        <company>www.wyolum.com</company>
         <rev>rev 1</rev>
         <date>2017-12-26</date>
         <source>KlokTHREEjr.sch</source>
-        <comment number="1" value="www.wyolum.com"/>
+        <comment number="1" value="https://github.com/wyolum/KlokTHREEjr"/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
@@ -20,11 +20,11 @@
     <sheet number="2" name="/Row_A/" tstamps="/511688A7/">
       <title_block>
         <title>KlokTHREEjr</title>
-        <company>WyoLum</company>
+        <company>www.wyolum.com</company>
         <rev>rev 1</rev>
         <date>2017-12-26</date>
         <source>Row_A.sch</source>
-        <comment number="1" value="www.wyolum.com"/>
+        <comment number="1" value="https://github.com/wyolum/KlokTHREEjr"/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
@@ -33,11 +33,11 @@
     <sheet number="3" name="/Row_B/" tstamps="/54253F7B/">
       <title_block>
         <title>KlokTHREEjr</title>
-        <company>WyoLum</company>
+        <company>www.wyolum.com</company>
         <rev>rev 1</rev>
         <date>2017-12-26</date>
         <source>Row_B.sch</source>
-        <comment number="1" value="www.wyolum.com"/>
+        <comment number="1" value="https://github.com/wyolum/KlokTHREEjr"/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
@@ -46,11 +46,11 @@
     <sheet number="4" name="/Row_C/" tstamps="/542543F1/">
       <title_block>
         <title>KlokTHREEjr</title>
-        <company>WyoLum</company>
+        <company>www.wyolum.com</company>
         <rev>rev 1</rev>
         <date>2017-12-26</date>
         <source>Row_C.sch</source>
-        <comment number="1" value="www.wyolum.com"/>
+        <comment number="1" value="https://github.com/wyolum/KlokTHREEjr"/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
@@ -59,11 +59,11 @@
     <sheet number="5" name="/Row_D/" tstamps="/542543F9/">
       <title_block>
         <title>KlokTHREEjr</title>
-        <company>WyoLum</company>
+        <company>www.wyolum.com</company>
         <rev>rev 1</rev>
         <date>2017-12-26</date>
         <source>Row_D.sch</source>
-        <comment number="1" value="www.wyolum.com"/>
+        <comment number="1" value="https://github.com/wyolum/KlokTHREEjr"/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
@@ -72,11 +72,11 @@
     <sheet number="6" name="/Row_E/" tstamps="/54254DD3/">
       <title_block>
         <title>KlokTHREEjr</title>
-        <company>WyoLum</company>
+        <company>www.wyolum.com</company>
         <rev>rev 1</rev>
         <date>2017-12-26</date>
         <source>Row_E.sch</source>
-        <comment number="1" value="www.wyolum.com"/>
+        <comment number="1" value="https://github.com/wyolum/KlokTHREEjr"/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
@@ -85,11 +85,11 @@
     <sheet number="7" name="/Row_F/" tstamps="/54254DE3/">
       <title_block>
         <title>KlokTHREEjr</title>
-        <company>WyoLum</company>
+        <company>www.wyolum.com</company>
         <rev>rev 1</rev>
         <date>2017-12-26</date>
         <source>Row_F.sch</source>
-        <comment number="1" value="www.wyolum.com"/>
+        <comment number="1" value="https://github.com/wyolum/KlokTHREEjr"/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
@@ -98,11 +98,11 @@
     <sheet number="8" name="/Row_G/" tstamps="/54254DF1/">
       <title_block>
         <title>KlokTHREEjr</title>
-        <company>WyoLum</company>
+        <company>www.wyolum.com</company>
         <rev>rev 1</rev>
         <date>2017-12-26</date>
         <source>Row_G.sch</source>
-        <comment number="1" value="www.wyolum.com"/>
+        <comment number="1" value="https://github.com/wyolum/KlokTHREEjr"/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
@@ -111,11 +111,11 @@
     <sheet number="9" name="/Row_H/" tstamps="/54254DF9/">
       <title_block>
         <title>KlokTHREEjr</title>
-        <company>WyoLum</company>
+        <company>www.wyolum.com</company>
         <rev>rev 1</rev>
         <date>2017-12-26</date>
         <source>Row_H.sch</source>
-        <comment number="1" value="www.wyolum.com"/>
+        <comment number="1" value="https://github.com/wyolum/KlokTHREEjr"/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
@@ -124,11 +124,11 @@
     <sheet number="10" name="/mechanical/" tstamps="/5A47432D/">
       <title_block>
         <title>KlokTHREEjr</title>
-        <company>WyoLum</company>
+        <company>www.wyolum.com</company>
         <rev>rev 1</rev>
         <date>2017-12-26</date>
         <source>mechanical.sch</source>
-        <comment number="1" value="www.wyolum.com"/>
+        <comment number="1" value="https://github.com/wyolum/KlokTHREEjr"/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
@@ -137,11 +137,11 @@
     <sheet number="11" name="/rtc_ds3231/" tstamps="/5A447BD8/">
       <title_block>
         <title>KlokTHREEjr</title>
-        <company>WyoLum</company>
+        <company>www.wyolum.com</company>
         <rev>rev 1</rev>
         <date>2017-12-26</date>
         <source>rtc_ds3231.sch</source>
-        <comment number="1" value="www.wyolum.com"/>
+        <comment number="1" value="https://github.com/wyolum/KlokTHREEjr"/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
@@ -150,11 +150,11 @@
     <sheet number="12" name="/esp_pwr_uart/" tstamps="/5A452227/">
       <title_block>
         <title>KlokTHREEjr</title>
-        <company>WyoLum</company>
+        <company>www.wyolum.com</company>
         <rev>rev 1</rev>
         <date>2017-12-26</date>
         <source>esp_pwr_uart.sch</source>
-        <comment number="1" value="www.wyolum.com"/>
+        <comment number="1" value="https://github.com/wyolum/KlokTHREEjr"/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
@@ -165,49 +165,49 @@
     <comp ref="R1">
       <value>470R</value>
       <footprint>KlokTHREEjr_libs:r_0805</footprint>
-      <libsource lib="KlokTHREEjr-cache" part="R"/>
+      <libsource lib="KlokTHREEjr" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>542DD0E5</tstamp>
     </comp>
     <comp ref="R24">
       <value>10k</value>
       <footprint>KlokTHREEjr_libs:r_0805</footprint>
-      <libsource lib="KlokTHREEjr-cache" part="R"/>
+      <libsource lib="KlokTHREEjr" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5438FC61</tstamp>
     </comp>
     <comp ref="R25">
       <value>10k</value>
       <footprint>KlokTHREEjr_libs:r_0805</footprint>
-      <libsource lib="KlokTHREEjr-cache" part="R"/>
+      <libsource lib="KlokTHREEjr" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>543901BD</tstamp>
     </comp>
     <comp ref="R12">
       <value>10k</value>
       <footprint>KlokTHREEjr_libs:r_0805</footprint>
-      <libsource lib="KlokTHREEjr-cache" part="R"/>
+      <libsource lib="KlokTHREEjr" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54C265D8</tstamp>
     </comp>
     <comp ref="R13">
       <value>10k</value>
       <footprint>KlokTHREEjr_libs:r_0805</footprint>
-      <libsource lib="KlokTHREEjr-cache" part="R"/>
+      <libsource lib="KlokTHREEjr" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54C28558</tstamp>
     </comp>
     <comp ref="R14">
       <value>10k</value>
       <footprint>KlokTHREEjr_libs:r_0805</footprint>
-      <libsource lib="KlokTHREEjr-cache" part="R"/>
+      <libsource lib="KlokTHREEjr" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54C1D9CF</tstamp>
     </comp>
     <comp ref="R15">
       <value>10k</value>
       <footprint>KlokTHREEjr_libs:r_0805</footprint>
-      <libsource lib="KlokTHREEjr-cache" part="R"/>
+      <libsource lib="KlokTHREEjr" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>56100223</tstamp>
     </comp>
@@ -217,56 +217,56 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="ESP-wroom-32"/>
+      <libsource lib="KlokTHREEjr" part="ESP-wroom-32"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A41BC22</tstamp>
     </comp>
     <comp ref="R2">
       <value>470R</value>
       <footprint>KlokTHREEjr_libs:r_0805</footprint>
-      <libsource lib="KlokTHREEjr-cache" part="R"/>
+      <libsource lib="KlokTHREEjr" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A71F25C</tstamp>
     </comp>
     <comp ref="LDR1">
       <value>LDR</value>
       <footprint>KlokTHREEjr_libs:r_0805_ldr</footprint>
-      <libsource lib="KlokTHREEjr-cache" part="LDR03"/>
+      <libsource lib="KlokTHREEjr" part="LDR03"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A6352DB</tstamp>
     </comp>
     <comp ref="LDR2">
       <value>LDR</value>
       <footprint>KlokTHREEjr_libs:r_0805_ldr</footprint>
-      <libsource lib="KlokTHREEjr-cache" part="LDR03"/>
+      <libsource lib="KlokTHREEjr" part="LDR03"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A63595F</tstamp>
     </comp>
     <comp ref="LDR3">
       <value>LDR</value>
       <footprint>KlokTHREEjr_libs:r_0805_ldr</footprint>
-      <libsource lib="KlokTHREEjr-cache" part="LDR03"/>
+      <libsource lib="KlokTHREEjr" part="LDR03"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A635AFD</tstamp>
     </comp>
     <comp ref="LDR4">
       <value>LDR</value>
       <footprint>KlokTHREEjr_libs:r_0805_ldr</footprint>
-      <libsource lib="KlokTHREEjr-cache" part="LDR03"/>
+      <libsource lib="KlokTHREEjr" part="LDR03"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A635C9D</tstamp>
     </comp>
     <comp ref="S5">
       <value>SW-DEC</value>
       <footprint>KlokTHREEjr_libs:SW_SMD</footprint>
-      <libsource lib="KlokTHREEjr-cache" part="SW-SPST-M"/>
+      <libsource lib="KlokTHREEjr" part="SW-SPST-M"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A6C34AE</tstamp>
     </comp>
     <comp ref="S6">
       <value>SW-MODE</value>
       <footprint>KlokTHREEjr_libs:SW_SMD</footprint>
-      <libsource lib="KlokTHREEjr-cache" part="SW-SPST-M"/>
+      <libsource lib="KlokTHREEjr" part="SW-SPST-M"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A6C3C89</tstamp>
     </comp>
@@ -276,49 +276,49 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="CONN_2"/>
+      <libsource lib="KlokTHREEjr" part="CONN_2"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A479D4B</tstamp>
     </comp>
     <comp ref="R10">
       <value>10k</value>
       <footprint>KlokTHREEjr_libs:r_0805</footprint>
-      <libsource lib="KlokTHREEjr-cache" part="R"/>
+      <libsource lib="KlokTHREEjr" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A47F363</tstamp>
     </comp>
     <comp ref="R11">
       <value>10k</value>
       <footprint>KlokTHREEjr_libs:r_0805</footprint>
-      <libsource lib="KlokTHREEjr-cache" part="R"/>
+      <libsource lib="KlokTHREEjr" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A47F369</tstamp>
     </comp>
     <comp ref="S1">
       <value>SW-ENTER</value>
       <footprint>KlokTHREEjr_libs:SW_SMD</footprint>
-      <libsource lib="KlokTHREEjr-cache" part="SW-SPST-M"/>
+      <libsource lib="KlokTHREEjr" part="SW-SPST-M"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A47F37F</tstamp>
     </comp>
     <comp ref="S2">
       <value>SW-INC</value>
       <footprint>KlokTHREEjr_libs:SW_SMD</footprint>
-      <libsource lib="KlokTHREEjr-cache" part="SW-SPST-M"/>
+      <libsource lib="KlokTHREEjr" part="SW-SPST-M"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A47F385</tstamp>
     </comp>
     <comp ref="C27">
       <value>100uF/6V3</value>
       <footprint>KlokTHREEjr_libs:c_2917</footprint>
-      <libsource lib="KlokTHREEjr-cache" part="C_POL"/>
+      <libsource lib="KlokTHREEjr" part="C_POL"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A7E92E4</tstamp>
     </comp>
     <comp ref="C28">
       <value>1uF/10V</value>
       <footprint>KlokTHREEjr_libs:c_0805</footprint>
-      <libsource lib="KlokTHREEjr-cache" part="C_NP"/>
+      <libsource lib="KlokTHREEjr" part="C_NP"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A7E9733</tstamp>
     </comp>
@@ -328,7 +328,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="LOGO_WL"/>
+      <libsource lib="KlokTHREEjr" part="LOGO_WL"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A4DA853</tstamp>
     </comp>
@@ -338,7 +338,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="OSHW"/>
+      <libsource lib="KlokTHREEjr" part="OSHW"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A4DB491</tstamp>
     </comp>
@@ -348,7 +348,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="KiCad"/>
+      <libsource lib="KlokTHREEjr" part="KiCad"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A5061ED</tstamp>
     </comp>
@@ -358,7 +358,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="C_NP"/>
+      <libsource lib="KlokTHREEjr" part="C_NP"/>
       <sheetpath names="/Row_A/" tstamps="/511688A7/"/>
       <tstamp>5118AB57</tstamp>
     </comp>
@@ -368,7 +368,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_A/" tstamps="/511688A7/"/>
       <tstamp>56C2E1C1</tstamp>
     </comp>
@@ -378,7 +378,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_A/" tstamps="/511688A7/"/>
       <tstamp>56C2E1EC</tstamp>
     </comp>
@@ -388,7 +388,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_A/" tstamps="/511688A7/"/>
       <tstamp>56C2E1F4</tstamp>
     </comp>
@@ -398,7 +398,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_A/" tstamps="/511688A7/"/>
       <tstamp>56C2E1FC</tstamp>
     </comp>
@@ -408,7 +408,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_A/" tstamps="/511688A7/"/>
       <tstamp>56C2E204</tstamp>
     </comp>
@@ -418,7 +418,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_A/" tstamps="/511688A7/"/>
       <tstamp>56C2E20C</tstamp>
     </comp>
@@ -428,7 +428,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_A/" tstamps="/511688A7/"/>
       <tstamp>56C2E214</tstamp>
     </comp>
@@ -438,7 +438,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_A/" tstamps="/511688A7/"/>
       <tstamp>56C2E21C</tstamp>
     </comp>
@@ -448,7 +448,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="C_NP"/>
+      <libsource lib="KlokTHREEjr" part="C_NP"/>
       <sheetpath names="/Row_A/" tstamps="/511688A7/"/>
       <tstamp>5A48F6EA</tstamp>
     </comp>
@@ -458,7 +458,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_A/" tstamps="/511688A7/"/>
       <tstamp>5A48F6F4</tstamp>
     </comp>
@@ -468,7 +468,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_A/" tstamps="/511688A7/"/>
       <tstamp>5A48F710</tstamp>
     </comp>
@@ -478,7 +478,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_A/" tstamps="/511688A7/"/>
       <tstamp>5A48F717</tstamp>
     </comp>
@@ -488,7 +488,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_A/" tstamps="/511688A7/"/>
       <tstamp>5A48F71E</tstamp>
     </comp>
@@ -498,7 +498,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_A/" tstamps="/511688A7/"/>
       <tstamp>5A48F725</tstamp>
     </comp>
@@ -508,7 +508,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_A/" tstamps="/511688A7/"/>
       <tstamp>5A48F72C</tstamp>
     </comp>
@@ -518,7 +518,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_A/" tstamps="/511688A7/"/>
       <tstamp>5A48F733</tstamp>
     </comp>
@@ -528,7 +528,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_A/" tstamps="/511688A7/"/>
       <tstamp>5A48F73A</tstamp>
     </comp>
@@ -538,7 +538,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_B/" tstamps="/54253F7B/"/>
       <tstamp>56C2B784</tstamp>
     </comp>
@@ -548,7 +548,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_B/" tstamps="/54253F7B/"/>
       <tstamp>56C2B7AF</tstamp>
     </comp>
@@ -558,7 +558,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_B/" tstamps="/54253F7B/"/>
       <tstamp>56C2B7B7</tstamp>
     </comp>
@@ -568,7 +568,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_B/" tstamps="/54253F7B/"/>
       <tstamp>56C2B7BF</tstamp>
     </comp>
@@ -578,7 +578,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_B/" tstamps="/54253F7B/"/>
       <tstamp>56C2B7C7</tstamp>
     </comp>
@@ -588,7 +588,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_B/" tstamps="/54253F7B/"/>
       <tstamp>56C2B7CF</tstamp>
     </comp>
@@ -598,7 +598,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_B/" tstamps="/54253F7B/"/>
       <tstamp>56C2B7D7</tstamp>
     </comp>
@@ -608,7 +608,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_B/" tstamps="/54253F7B/"/>
       <tstamp>56C2B7DF</tstamp>
     </comp>
@@ -618,7 +618,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_B/" tstamps="/54253F7B/"/>
       <tstamp>5A4C8085</tstamp>
     </comp>
@@ -628,7 +628,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_B/" tstamps="/54253F7B/"/>
       <tstamp>5A4C809D</tstamp>
     </comp>
@@ -638,7 +638,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_B/" tstamps="/54253F7B/"/>
       <tstamp>5A4C80A4</tstamp>
     </comp>
@@ -648,7 +648,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_B/" tstamps="/54253F7B/"/>
       <tstamp>5A4C80AB</tstamp>
     </comp>
@@ -658,7 +658,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_B/" tstamps="/54253F7B/"/>
       <tstamp>5A4C80B2</tstamp>
     </comp>
@@ -668,7 +668,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_B/" tstamps="/54253F7B/"/>
       <tstamp>5A4C80B9</tstamp>
     </comp>
@@ -678,7 +678,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_B/" tstamps="/54253F7B/"/>
       <tstamp>5A4C80C0</tstamp>
     </comp>
@@ -688,7 +688,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_B/" tstamps="/54253F7B/"/>
       <tstamp>5A4C80C7</tstamp>
     </comp>
@@ -698,7 +698,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="C_NP"/>
+      <libsource lib="KlokTHREEjr" part="C_NP"/>
       <sheetpath names="/Row_B/" tstamps="/54253F7B/"/>
       <tstamp>5A8AB436</tstamp>
     </comp>
@@ -708,7 +708,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="C_NP"/>
+      <libsource lib="KlokTHREEjr" part="C_NP"/>
       <sheetpath names="/Row_B/" tstamps="/54253F7B/"/>
       <tstamp>5A8B903C</tstamp>
     </comp>
@@ -718,7 +718,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_C/" tstamps="/542543F1/"/>
       <tstamp>56C296A0</tstamp>
     </comp>
@@ -728,7 +728,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_C/" tstamps="/542543F1/"/>
       <tstamp>56C296CB</tstamp>
     </comp>
@@ -738,7 +738,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_C/" tstamps="/542543F1/"/>
       <tstamp>56C296D3</tstamp>
     </comp>
@@ -748,7 +748,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_C/" tstamps="/542543F1/"/>
       <tstamp>56C296DB</tstamp>
     </comp>
@@ -758,7 +758,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_C/" tstamps="/542543F1/"/>
       <tstamp>56C296E3</tstamp>
     </comp>
@@ -768,7 +768,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_C/" tstamps="/542543F1/"/>
       <tstamp>56C296EB</tstamp>
     </comp>
@@ -778,7 +778,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_C/" tstamps="/542543F1/"/>
       <tstamp>56C296F3</tstamp>
     </comp>
@@ -788,7 +788,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_C/" tstamps="/542543F1/"/>
       <tstamp>56C296FB</tstamp>
     </comp>
@@ -798,7 +798,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_C/" tstamps="/542543F1/"/>
       <tstamp>5A4DEB9E</tstamp>
     </comp>
@@ -808,7 +808,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_C/" tstamps="/542543F1/"/>
       <tstamp>5A4DEBB6</tstamp>
     </comp>
@@ -818,7 +818,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_C/" tstamps="/542543F1/"/>
       <tstamp>5A4DEBBD</tstamp>
     </comp>
@@ -828,7 +828,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_C/" tstamps="/542543F1/"/>
       <tstamp>5A4DEBC4</tstamp>
     </comp>
@@ -838,7 +838,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_C/" tstamps="/542543F1/"/>
       <tstamp>5A4DEBCB</tstamp>
     </comp>
@@ -848,7 +848,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_C/" tstamps="/542543F1/"/>
       <tstamp>5A4DEBD2</tstamp>
     </comp>
@@ -858,7 +858,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_C/" tstamps="/542543F1/"/>
       <tstamp>5A4DEBD9</tstamp>
     </comp>
@@ -868,7 +868,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_C/" tstamps="/542543F1/"/>
       <tstamp>5A4DEBE0</tstamp>
     </comp>
@@ -878,7 +878,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="C_NP"/>
+      <libsource lib="KlokTHREEjr" part="C_NP"/>
       <sheetpath names="/Row_C/" tstamps="/542543F1/"/>
       <tstamp>5A8CE0F0</tstamp>
     </comp>
@@ -888,7 +888,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="C_NP"/>
+      <libsource lib="KlokTHREEjr" part="C_NP"/>
       <sheetpath names="/Row_C/" tstamps="/542543F1/"/>
       <tstamp>5A8CE18F</tstamp>
     </comp>
@@ -898,7 +898,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_D/" tstamps="/542543F9/"/>
       <tstamp>56C2744C</tstamp>
     </comp>
@@ -908,7 +908,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_D/" tstamps="/542543F9/"/>
       <tstamp>56C27477</tstamp>
     </comp>
@@ -918,7 +918,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_D/" tstamps="/542543F9/"/>
       <tstamp>56C2747F</tstamp>
     </comp>
@@ -928,7 +928,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_D/" tstamps="/542543F9/"/>
       <tstamp>56C27487</tstamp>
     </comp>
@@ -938,7 +938,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_D/" tstamps="/542543F9/"/>
       <tstamp>56C2748F</tstamp>
     </comp>
@@ -948,7 +948,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_D/" tstamps="/542543F9/"/>
       <tstamp>56C27497</tstamp>
     </comp>
@@ -958,7 +958,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_D/" tstamps="/542543F9/"/>
       <tstamp>56C2749F</tstamp>
     </comp>
@@ -968,7 +968,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_D/" tstamps="/542543F9/"/>
       <tstamp>56C274A7</tstamp>
     </comp>
@@ -978,7 +978,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_D/" tstamps="/542543F9/"/>
       <tstamp>5A4F4C64</tstamp>
     </comp>
@@ -988,7 +988,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_D/" tstamps="/542543F9/"/>
       <tstamp>5A4F4C7C</tstamp>
     </comp>
@@ -998,7 +998,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_D/" tstamps="/542543F9/"/>
       <tstamp>5A4F4C83</tstamp>
     </comp>
@@ -1008,7 +1008,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_D/" tstamps="/542543F9/"/>
       <tstamp>5A4F4C8A</tstamp>
     </comp>
@@ -1018,7 +1018,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_D/" tstamps="/542543F9/"/>
       <tstamp>5A4F4C91</tstamp>
     </comp>
@@ -1028,7 +1028,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_D/" tstamps="/542543F9/"/>
       <tstamp>5A4F4C98</tstamp>
     </comp>
@@ -1038,7 +1038,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_D/" tstamps="/542543F9/"/>
       <tstamp>5A4F4C9F</tstamp>
     </comp>
@@ -1048,7 +1048,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_D/" tstamps="/542543F9/"/>
       <tstamp>5A4F4CA6</tstamp>
     </comp>
@@ -1058,7 +1058,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="C_NP"/>
+      <libsource lib="KlokTHREEjr" part="C_NP"/>
       <sheetpath names="/Row_D/" tstamps="/542543F9/"/>
       <tstamp>5A8F08D6</tstamp>
     </comp>
@@ -1068,7 +1068,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="C_NP"/>
+      <libsource lib="KlokTHREEjr" part="C_NP"/>
       <sheetpath names="/Row_D/" tstamps="/542543F9/"/>
       <tstamp>5A8F0986</tstamp>
     </comp>
@@ -1078,7 +1078,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_E/" tstamps="/54254DD3/"/>
       <tstamp>56C24FAA</tstamp>
     </comp>
@@ -1088,7 +1088,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_E/" tstamps="/54254DD3/"/>
       <tstamp>56C24FD5</tstamp>
     </comp>
@@ -1098,7 +1098,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_E/" tstamps="/54254DD3/"/>
       <tstamp>56C24FDD</tstamp>
     </comp>
@@ -1108,7 +1108,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_E/" tstamps="/54254DD3/"/>
       <tstamp>56C24FE5</tstamp>
     </comp>
@@ -1118,7 +1118,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_E/" tstamps="/54254DD3/"/>
       <tstamp>56C24FED</tstamp>
     </comp>
@@ -1128,7 +1128,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_E/" tstamps="/54254DD3/"/>
       <tstamp>56C24FF5</tstamp>
     </comp>
@@ -1138,7 +1138,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_E/" tstamps="/54254DD3/"/>
       <tstamp>56C24FFD</tstamp>
     </comp>
@@ -1148,7 +1148,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_E/" tstamps="/54254DD3/"/>
       <tstamp>56C25005</tstamp>
     </comp>
@@ -1158,7 +1158,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_E/" tstamps="/54254DD3/"/>
       <tstamp>5A50AD63</tstamp>
     </comp>
@@ -1168,7 +1168,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_E/" tstamps="/54254DD3/"/>
       <tstamp>5A50AD7B</tstamp>
     </comp>
@@ -1178,7 +1178,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_E/" tstamps="/54254DD3/"/>
       <tstamp>5A50AD82</tstamp>
     </comp>
@@ -1188,7 +1188,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_E/" tstamps="/54254DD3/"/>
       <tstamp>5A50AD89</tstamp>
     </comp>
@@ -1198,7 +1198,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_E/" tstamps="/54254DD3/"/>
       <tstamp>5A50AD90</tstamp>
     </comp>
@@ -1208,7 +1208,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_E/" tstamps="/54254DD3/"/>
       <tstamp>5A50AD97</tstamp>
     </comp>
@@ -1218,7 +1218,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_E/" tstamps="/54254DD3/"/>
       <tstamp>5A50AD9E</tstamp>
     </comp>
@@ -1228,7 +1228,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_E/" tstamps="/54254DD3/"/>
       <tstamp>5A50ADA5</tstamp>
     </comp>
@@ -1238,7 +1238,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="C_NP"/>
+      <libsource lib="KlokTHREEjr" part="C_NP"/>
       <sheetpath names="/Row_E/" tstamps="/54254DD3/"/>
       <tstamp>5A913773</tstamp>
     </comp>
@@ -1248,7 +1248,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="C_NP"/>
+      <libsource lib="KlokTHREEjr" part="C_NP"/>
       <sheetpath names="/Row_E/" tstamps="/54254DD3/"/>
       <tstamp>5A9138EF</tstamp>
     </comp>
@@ -1258,7 +1258,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_F/" tstamps="/54254DE3/"/>
       <tstamp>56C21E5C</tstamp>
     </comp>
@@ -1268,7 +1268,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_F/" tstamps="/54254DE3/"/>
       <tstamp>56C21E87</tstamp>
     </comp>
@@ -1278,7 +1278,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_F/" tstamps="/54254DE3/"/>
       <tstamp>56C21E8F</tstamp>
     </comp>
@@ -1288,7 +1288,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_F/" tstamps="/54254DE3/"/>
       <tstamp>56C21E97</tstamp>
     </comp>
@@ -1298,7 +1298,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_F/" tstamps="/54254DE3/"/>
       <tstamp>56C21E9F</tstamp>
     </comp>
@@ -1308,7 +1308,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_F/" tstamps="/54254DE3/"/>
       <tstamp>56C21EA7</tstamp>
     </comp>
@@ -1318,7 +1318,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_F/" tstamps="/54254DE3/"/>
       <tstamp>56C21EAF</tstamp>
     </comp>
@@ -1328,7 +1328,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_F/" tstamps="/54254DE3/"/>
       <tstamp>56C21EB7</tstamp>
     </comp>
@@ -1338,7 +1338,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_F/" tstamps="/54254DE3/"/>
       <tstamp>5A520EF3</tstamp>
     </comp>
@@ -1348,7 +1348,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_F/" tstamps="/54254DE3/"/>
       <tstamp>5A520F0B</tstamp>
     </comp>
@@ -1358,7 +1358,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_F/" tstamps="/54254DE3/"/>
       <tstamp>5A520F12</tstamp>
     </comp>
@@ -1368,7 +1368,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_F/" tstamps="/54254DE3/"/>
       <tstamp>5A520F19</tstamp>
     </comp>
@@ -1378,7 +1378,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_F/" tstamps="/54254DE3/"/>
       <tstamp>5A520F20</tstamp>
     </comp>
@@ -1388,7 +1388,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_F/" tstamps="/54254DE3/"/>
       <tstamp>5A520F27</tstamp>
     </comp>
@@ -1398,7 +1398,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_F/" tstamps="/54254DE3/"/>
       <tstamp>5A520F2E</tstamp>
     </comp>
@@ -1408,7 +1408,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_F/" tstamps="/54254DE3/"/>
       <tstamp>5A520F35</tstamp>
     </comp>
@@ -1418,7 +1418,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="C_NP"/>
+      <libsource lib="KlokTHREEjr" part="C_NP"/>
       <sheetpath names="/Row_F/" tstamps="/54254DE3/"/>
       <tstamp>5A935E60</tstamp>
     </comp>
@@ -1428,7 +1428,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="C_NP"/>
+      <libsource lib="KlokTHREEjr" part="C_NP"/>
       <sheetpath names="/Row_F/" tstamps="/54254DE3/"/>
       <tstamp>5A935F10</tstamp>
     </comp>
@@ -1438,7 +1438,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_G/" tstamps="/54254DF1/"/>
       <tstamp>56C1D372</tstamp>
     </comp>
@@ -1448,7 +1448,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_G/" tstamps="/54254DF1/"/>
       <tstamp>56C1D39D</tstamp>
     </comp>
@@ -1458,7 +1458,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_G/" tstamps="/54254DF1/"/>
       <tstamp>56C1D3A5</tstamp>
     </comp>
@@ -1468,7 +1468,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_G/" tstamps="/54254DF1/"/>
       <tstamp>56C1D3AD</tstamp>
     </comp>
@@ -1478,7 +1478,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_G/" tstamps="/54254DF1/"/>
       <tstamp>56C1D3B5</tstamp>
     </comp>
@@ -1488,7 +1488,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_G/" tstamps="/54254DF1/"/>
       <tstamp>56C1D3BD</tstamp>
     </comp>
@@ -1498,7 +1498,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_G/" tstamps="/54254DF1/"/>
       <tstamp>56C1D3C5</tstamp>
     </comp>
@@ -1508,7 +1508,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_G/" tstamps="/54254DF1/"/>
       <tstamp>56C1D3CD</tstamp>
     </comp>
@@ -1518,7 +1518,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_G/" tstamps="/54254DF1/"/>
       <tstamp>5A536E6F</tstamp>
     </comp>
@@ -1528,7 +1528,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_G/" tstamps="/54254DF1/"/>
       <tstamp>5A536E87</tstamp>
     </comp>
@@ -1538,7 +1538,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_G/" tstamps="/54254DF1/"/>
       <tstamp>5A536E8E</tstamp>
     </comp>
@@ -1548,7 +1548,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_G/" tstamps="/54254DF1/"/>
       <tstamp>5A536E95</tstamp>
     </comp>
@@ -1558,7 +1558,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_G/" tstamps="/54254DF1/"/>
       <tstamp>5A536E9C</tstamp>
     </comp>
@@ -1568,7 +1568,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_G/" tstamps="/54254DF1/"/>
       <tstamp>5A536EA3</tstamp>
     </comp>
@@ -1578,7 +1578,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_G/" tstamps="/54254DF1/"/>
       <tstamp>5A536EAA</tstamp>
     </comp>
@@ -1588,7 +1588,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_G/" tstamps="/54254DF1/"/>
       <tstamp>5A536EB1</tstamp>
     </comp>
@@ -1598,7 +1598,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="C_NP"/>
+      <libsource lib="KlokTHREEjr" part="C_NP"/>
       <sheetpath names="/Row_G/" tstamps="/54254DF1/"/>
       <tstamp>5A9522A9</tstamp>
     </comp>
@@ -1608,7 +1608,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="C_NP"/>
+      <libsource lib="KlokTHREEjr" part="C_NP"/>
       <sheetpath names="/Row_G/" tstamps="/54254DF1/"/>
       <tstamp>5A96AC0D</tstamp>
     </comp>
@@ -1618,7 +1618,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_H/" tstamps="/54254DF9/"/>
       <tstamp>5118ABBB</tstamp>
     </comp>
@@ -1628,7 +1628,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="C_NP"/>
+      <libsource lib="KlokTHREEjr" part="C_NP"/>
       <sheetpath names="/Row_H/" tstamps="/54254DF9/"/>
       <tstamp>51168961</tstamp>
     </comp>
@@ -1638,7 +1638,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_H/" tstamps="/54254DF9/"/>
       <tstamp>56C06E0E</tstamp>
     </comp>
@@ -1648,7 +1648,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_H/" tstamps="/54254DF9/"/>
       <tstamp>56C06E52</tstamp>
     </comp>
@@ -1658,7 +1658,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_H/" tstamps="/54254DF9/"/>
       <tstamp>56C06F1D</tstamp>
     </comp>
@@ -1668,7 +1668,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_H/" tstamps="/54254DF9/"/>
       <tstamp>56C06FBB</tstamp>
     </comp>
@@ -1678,7 +1678,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_H/" tstamps="/54254DF9/"/>
       <tstamp>56C07772</tstamp>
     </comp>
@@ -1688,7 +1688,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_H/" tstamps="/54254DF9/"/>
       <tstamp>56C077C2</tstamp>
     </comp>
@@ -1698,7 +1698,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_H/" tstamps="/54254DF9/"/>
       <tstamp>56C07914</tstamp>
     </comp>
@@ -1708,7 +1708,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_H/" tstamps="/54254DF9/"/>
       <tstamp>5A470142</tstamp>
     </comp>
@@ -1718,7 +1718,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="C_NP"/>
+      <libsource lib="KlokTHREEjr" part="C_NP"/>
       <sheetpath names="/Row_H/" tstamps="/54254DF9/"/>
       <tstamp>5A47014C</tstamp>
     </comp>
@@ -1728,7 +1728,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_H/" tstamps="/54254DF9/"/>
       <tstamp>5A470165</tstamp>
     </comp>
@@ -1738,7 +1738,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_H/" tstamps="/54254DF9/"/>
       <tstamp>5A47016C</tstamp>
     </comp>
@@ -1748,7 +1748,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_H/" tstamps="/54254DF9/"/>
       <tstamp>5A470173</tstamp>
     </comp>
@@ -1758,7 +1758,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_H/" tstamps="/54254DF9/"/>
       <tstamp>5A47017A</tstamp>
     </comp>
@@ -1768,7 +1768,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_H/" tstamps="/54254DF9/"/>
       <tstamp>5A470181</tstamp>
     </comp>
@@ -1778,7 +1778,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_H/" tstamps="/54254DF9/"/>
       <tstamp>5A470188</tstamp>
     </comp>
@@ -1788,7 +1788,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="APA102"/>
+      <libsource lib="KlokTHREEjr" part="APA102"/>
       <sheetpath names="/Row_H/" tstamps="/54254DF9/"/>
       <tstamp>5A47018F</tstamp>
     </comp>
@@ -1798,7 +1798,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="SCREW"/>
+      <libsource lib="KlokTHREEjr" part="SCREW"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A474511</tstamp>
     </comp>
@@ -1808,7 +1808,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="SCREW"/>
+      <libsource lib="KlokTHREEjr" part="SCREW"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A474601</tstamp>
     </comp>
@@ -1818,7 +1818,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="SCREW"/>
+      <libsource lib="KlokTHREEjr" part="SCREW"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A474623</tstamp>
     </comp>
@@ -1828,7 +1828,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="SCREW"/>
+      <libsource lib="KlokTHREEjr" part="SCREW"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A474670</tstamp>
     </comp>
@@ -1838,7 +1838,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="SCREW"/>
+      <libsource lib="KlokTHREEjr" part="SCREW"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A4747BA</tstamp>
     </comp>
@@ -1848,7 +1848,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="SCREW"/>
+      <libsource lib="KlokTHREEjr" part="SCREW"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A4747C1</tstamp>
     </comp>
@@ -1858,7 +1858,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="SCREW"/>
+      <libsource lib="KlokTHREEjr" part="SCREW"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A4747C8</tstamp>
     </comp>
@@ -1868,7 +1868,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="SCREW"/>
+      <libsource lib="KlokTHREEjr" part="SCREW"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A4747CF</tstamp>
     </comp>
@@ -1878,7 +1878,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="SCREW"/>
+      <libsource lib="KlokTHREEjr" part="SCREW"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A47540E</tstamp>
     </comp>
@@ -1888,7 +1888,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="SCREW"/>
+      <libsource lib="KlokTHREEjr" part="SCREW"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A475415</tstamp>
     </comp>
@@ -1898,7 +1898,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="SCREW"/>
+      <libsource lib="KlokTHREEjr" part="SCREW"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A47541C</tstamp>
     </comp>
@@ -1908,7 +1908,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="SCREW"/>
+      <libsource lib="KlokTHREEjr" part="SCREW"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A475423</tstamp>
     </comp>
@@ -1918,7 +1918,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="SCREW"/>
+      <libsource lib="KlokTHREEjr" part="SCREW"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A47542A</tstamp>
     </comp>
@@ -1928,7 +1928,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="SCREW"/>
+      <libsource lib="KlokTHREEjr" part="SCREW"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A475431</tstamp>
     </comp>
@@ -1938,7 +1938,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="SCREW"/>
+      <libsource lib="KlokTHREEjr" part="SCREW"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A475438</tstamp>
     </comp>
@@ -1948,7 +1948,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="SCREW"/>
+      <libsource lib="KlokTHREEjr" part="SCREW"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A47732A</tstamp>
     </comp>
@@ -1958,7 +1958,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="SCREW"/>
+      <libsource lib="KlokTHREEjr" part="SCREW"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A477331</tstamp>
     </comp>
@@ -1968,7 +1968,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="SCREW"/>
+      <libsource lib="KlokTHREEjr" part="SCREW"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A477338</tstamp>
     </comp>
@@ -1978,7 +1978,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="SCREW"/>
+      <libsource lib="KlokTHREEjr" part="SCREW"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A47733F</tstamp>
     </comp>
@@ -1988,7 +1988,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="SCREW"/>
+      <libsource lib="KlokTHREEjr" part="SCREW"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A477346</tstamp>
     </comp>
@@ -1998,7 +1998,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="SCREW"/>
+      <libsource lib="KlokTHREEjr" part="SCREW"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A47734D</tstamp>
     </comp>
@@ -2008,7 +2008,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="SCREW"/>
+      <libsource lib="KlokTHREEjr" part="SCREW"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A477354</tstamp>
     </comp>
@@ -2018,7 +2018,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="SCREW"/>
+      <libsource lib="KlokTHREEjr" part="SCREW"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A47735B</tstamp>
     </comp>
@@ -2028,7 +2028,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="SCREW"/>
+      <libsource lib="KlokTHREEjr" part="SCREW"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A477362</tstamp>
     </comp>
@@ -2038,7 +2038,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="SCREW"/>
+      <libsource lib="KlokTHREEjr" part="SCREW"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A477369</tstamp>
     </comp>
@@ -2048,7 +2048,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="SCREW"/>
+      <libsource lib="KlokTHREEjr" part="SCREW"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A477370</tstamp>
     </comp>
@@ -2058,7 +2058,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="SCREW"/>
+      <libsource lib="KlokTHREEjr" part="SCREW"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A477377</tstamp>
     </comp>
@@ -2068,7 +2068,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="SCREW"/>
+      <libsource lib="KlokTHREEjr" part="SCREW"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A47737E</tstamp>
     </comp>
@@ -2078,7 +2078,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="SCREW"/>
+      <libsource lib="KlokTHREEjr" part="SCREW"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A477385</tstamp>
     </comp>
@@ -2088,7 +2088,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="SCREW"/>
+      <libsource lib="KlokTHREEjr" part="SCREW"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A47738C</tstamp>
     </comp>
@@ -2098,7 +2098,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="SCREW"/>
+      <libsource lib="KlokTHREEjr" part="SCREW"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A4778F7</tstamp>
     </comp>
@@ -2108,7 +2108,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="SCREW"/>
+      <libsource lib="KlokTHREEjr" part="SCREW"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A4778FE</tstamp>
     </comp>
@@ -2118,7 +2118,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="SCREW"/>
+      <libsource lib="KlokTHREEjr" part="SCREW"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A477905</tstamp>
     </comp>
@@ -2128,7 +2128,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="SCREW"/>
+      <libsource lib="KlokTHREEjr" part="SCREW"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A47790C</tstamp>
     </comp>
@@ -2138,7 +2138,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="SCREW"/>
+      <libsource lib="KlokTHREEjr" part="SCREW"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A477913</tstamp>
     </comp>
@@ -2148,7 +2148,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="SCREW"/>
+      <libsource lib="KlokTHREEjr" part="SCREW"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A47791A</tstamp>
     </comp>
@@ -2158,7 +2158,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="SCREW"/>
+      <libsource lib="KlokTHREEjr" part="SCREW"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A477921</tstamp>
     </comp>
@@ -2168,7 +2168,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="SCREW"/>
+      <libsource lib="KlokTHREEjr" part="SCREW"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A477928</tstamp>
     </comp>
@@ -2178,7 +2178,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="SCREW"/>
+      <libsource lib="KlokTHREEjr" part="SCREW"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A47792F</tstamp>
     </comp>
@@ -2188,7 +2188,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="SCREW"/>
+      <libsource lib="KlokTHREEjr" part="SCREW"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A477936</tstamp>
     </comp>
@@ -2198,7 +2198,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="SCREW"/>
+      <libsource lib="KlokTHREEjr" part="SCREW"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A47793D</tstamp>
     </comp>
@@ -2208,7 +2208,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="SCREW"/>
+      <libsource lib="KlokTHREEjr" part="SCREW"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A477944</tstamp>
     </comp>
@@ -2218,7 +2218,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="SCREW"/>
+      <libsource lib="KlokTHREEjr" part="SCREW"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A47794B</tstamp>
     </comp>
@@ -2228,7 +2228,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="SCREW"/>
+      <libsource lib="KlokTHREEjr" part="SCREW"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A477952</tstamp>
     </comp>
@@ -2238,7 +2238,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="SCREW"/>
+      <libsource lib="KlokTHREEjr" part="SCREW"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A4A80D0</tstamp>
     </comp>
@@ -2248,7 +2248,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="SCREW"/>
+      <libsource lib="KlokTHREEjr" part="SCREW"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A4A8341</tstamp>
     </comp>
@@ -2258,7 +2258,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="SCREW"/>
+      <libsource lib="KlokTHREEjr" part="SCREW"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A4A8811</tstamp>
     </comp>
@@ -2268,7 +2268,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="SCREW"/>
+      <libsource lib="KlokTHREEjr" part="SCREW"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A4A8818</tstamp>
     </comp>
@@ -2278,7 +2278,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="SCREW"/>
+      <libsource lib="KlokTHREEjr" part="SCREW"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A4A8943</tstamp>
     </comp>
@@ -2288,119 +2288,119 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="SCREW"/>
+      <libsource lib="KlokTHREEjr" part="SCREW"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A4A894A</tstamp>
     </comp>
     <comp ref="J1">
       <value>CLK_IN</value>
       <footprint>KlokTHREEjr_libs:1pin</footprint>
-      <libsource lib="KlokTHREEjr-cache" part="Conn_01x01"/>
+      <libsource lib="KlokTHREEjr" part="Conn_01x01"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A4866AD</tstamp>
     </comp>
     <comp ref="J2">
       <value>DAT_IN</value>
       <footprint>KlokTHREEjr_libs:1pin</footprint>
-      <libsource lib="KlokTHREEjr-cache" part="Conn_01x01"/>
+      <libsource lib="KlokTHREEjr" part="Conn_01x01"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A486E6A</tstamp>
     </comp>
     <comp ref="J3">
       <value>LDR1</value>
       <footprint>KlokTHREEjr_libs:1pin</footprint>
-      <libsource lib="KlokTHREEjr-cache" part="Conn_01x01"/>
+      <libsource lib="KlokTHREEjr" part="Conn_01x01"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A486F0A</tstamp>
     </comp>
     <comp ref="J4">
       <value>LDR2</value>
       <footprint>KlokTHREEjr_libs:1pin</footprint>
-      <libsource lib="KlokTHREEjr-cache" part="Conn_01x01"/>
+      <libsource lib="KlokTHREEjr" part="Conn_01x01"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A486F90</tstamp>
     </comp>
     <comp ref="J5">
       <value>LDR3</value>
       <footprint>KlokTHREEjr_libs:1pin</footprint>
-      <libsource lib="KlokTHREEjr-cache" part="Conn_01x01"/>
+      <libsource lib="KlokTHREEjr" part="Conn_01x01"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A4872FB</tstamp>
     </comp>
     <comp ref="J6">
       <value>LDR4</value>
       <footprint>KlokTHREEjr_libs:1pin</footprint>
-      <libsource lib="KlokTHREEjr-cache" part="Conn_01x01"/>
+      <libsource lib="KlokTHREEjr" part="Conn_01x01"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A487301</tstamp>
     </comp>
     <comp ref="J7">
       <value>5V</value>
       <footprint>KlokTHREEjr_libs:1pin</footprint>
-      <libsource lib="KlokTHREEjr-cache" part="Conn_01x01"/>
+      <libsource lib="KlokTHREEjr" part="Conn_01x01"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A487307</tstamp>
     </comp>
     <comp ref="J8">
       <value>GND</value>
       <footprint>KlokTHREEjr_libs:1pin</footprint>
-      <libsource lib="KlokTHREEjr-cache" part="Conn_01x01"/>
+      <libsource lib="KlokTHREEjr" part="Conn_01x01"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A48730D</tstamp>
     </comp>
     <comp ref="J9">
       <value>CLK_IN</value>
       <footprint>KlokTHREEjr_libs:1pin</footprint>
-      <libsource lib="KlokTHREEjr-cache" part="Conn_01x01"/>
+      <libsource lib="KlokTHREEjr" part="Conn_01x01"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A4877A0</tstamp>
     </comp>
     <comp ref="J10">
       <value>DAT_IN</value>
       <footprint>KlokTHREEjr_libs:1pin</footprint>
-      <libsource lib="KlokTHREEjr-cache" part="Conn_01x01"/>
+      <libsource lib="KlokTHREEjr" part="Conn_01x01"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A4877A6</tstamp>
     </comp>
     <comp ref="J11">
       <value>LDR1</value>
       <footprint>KlokTHREEjr_libs:1pin</footprint>
-      <libsource lib="KlokTHREEjr-cache" part="Conn_01x01"/>
+      <libsource lib="KlokTHREEjr" part="Conn_01x01"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A4877AC</tstamp>
     </comp>
     <comp ref="J12">
       <value>LDR2</value>
       <footprint>KlokTHREEjr_libs:1pin</footprint>
-      <libsource lib="KlokTHREEjr-cache" part="Conn_01x01"/>
+      <libsource lib="KlokTHREEjr" part="Conn_01x01"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A4877B2</tstamp>
     </comp>
     <comp ref="J13">
       <value>LDR3</value>
       <footprint>KlokTHREEjr_libs:1pin</footprint>
-      <libsource lib="KlokTHREEjr-cache" part="Conn_01x01"/>
+      <libsource lib="KlokTHREEjr" part="Conn_01x01"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A4877B8</tstamp>
     </comp>
     <comp ref="J14">
       <value>LDR4</value>
       <footprint>KlokTHREEjr_libs:1pin</footprint>
-      <libsource lib="KlokTHREEjr-cache" part="Conn_01x01"/>
+      <libsource lib="KlokTHREEjr" part="Conn_01x01"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A4877BE</tstamp>
     </comp>
     <comp ref="J15">
       <value>5V</value>
       <footprint>KlokTHREEjr_libs:1pin</footprint>
-      <libsource lib="KlokTHREEjr-cache" part="Conn_01x01"/>
+      <libsource lib="KlokTHREEjr" part="Conn_01x01"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A4877C4</tstamp>
     </comp>
     <comp ref="J16">
       <value>GND</value>
       <footprint>KlokTHREEjr_libs:1pin</footprint>
-      <libsource lib="KlokTHREEjr-cache" part="Conn_01x01"/>
+      <libsource lib="KlokTHREEjr" part="Conn_01x01"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A4877CA</tstamp>
     </comp>
@@ -2410,7 +2410,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="SCREW"/>
+      <libsource lib="KlokTHREEjr" part="SCREW"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A736F2B</tstamp>
     </comp>
@@ -2420,7 +2420,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="SCREW"/>
+      <libsource lib="KlokTHREEjr" part="SCREW"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A736F32</tstamp>
     </comp>
@@ -2430,7 +2430,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="SCREW"/>
+      <libsource lib="KlokTHREEjr" part="SCREW"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A736F39</tstamp>
     </comp>
@@ -2440,7 +2440,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="SCREW"/>
+      <libsource lib="KlokTHREEjr" part="SCREW"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A736F40</tstamp>
     </comp>
@@ -2450,7 +2450,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="Mouse_Bite"/>
+      <libsource lib="KlokTHREEjr" part="Mouse_Bite"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A49F376</tstamp>
     </comp>
@@ -2460,7 +2460,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="Mouse_Bite"/>
+      <libsource lib="KlokTHREEjr" part="Mouse_Bite"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A4A147E</tstamp>
     </comp>
@@ -2470,7 +2470,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="Mouse_Bite"/>
+      <libsource lib="KlokTHREEjr" part="Mouse_Bite"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A4A2BA0</tstamp>
     </comp>
@@ -2480,7 +2480,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="Mouse_Bite"/>
+      <libsource lib="KlokTHREEjr" part="Mouse_Bite"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A4A2BA6</tstamp>
     </comp>
@@ -2490,7 +2490,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="Mouse_Bite"/>
+      <libsource lib="KlokTHREEjr" part="Mouse_Bite"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A4A2F4F</tstamp>
     </comp>
@@ -2500,7 +2500,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="Mouse_Bite"/>
+      <libsource lib="KlokTHREEjr" part="Mouse_Bite"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A4A2F55</tstamp>
     </comp>
@@ -2510,7 +2510,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="Mouse_Bite"/>
+      <libsource lib="KlokTHREEjr" part="Mouse_Bite"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A4A335C</tstamp>
     </comp>
@@ -2520,7 +2520,7 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="Mouse_Bite"/>
+      <libsource lib="KlokTHREEjr" part="Mouse_Bite"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A4A3362</tstamp>
     </comp>
@@ -2530,7 +2530,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="KiCad"/>
+      <libsource lib="KlokTHREEjr" part="KiCad"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A50766D</tstamp>
     </comp>
@@ -2540,7 +2540,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="OSHW"/>
+      <libsource lib="KlokTHREEjr" part="OSHW"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A5077CE</tstamp>
     </comp>
@@ -2550,42 +2550,42 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="LOGO_WL"/>
+      <libsource lib="KlokTHREEjr" part="LOGO_WL"/>
       <sheetpath names="/mechanical/" tstamps="/5A47432D/"/>
       <tstamp>5A5079CB</tstamp>
     </comp>
     <comp ref="R8">
       <value>4K7</value>
       <footprint>KlokTHREEjr_libs:r_0805</footprint>
-      <libsource lib="KlokTHREEjr-cache" part="R"/>
+      <libsource lib="KlokTHREEjr" part="R"/>
       <sheetpath names="/rtc_ds3231/" tstamps="/5A447BD8/"/>
       <tstamp>5A448924</tstamp>
     </comp>
     <comp ref="R6">
       <value>10k</value>
       <footprint>KlokTHREEjr_libs:r_0805</footprint>
-      <libsource lib="KlokTHREEjr-cache" part="R"/>
+      <libsource lib="KlokTHREEjr" part="R"/>
       <sheetpath names="/rtc_ds3231/" tstamps="/5A447BD8/"/>
       <tstamp>5A448933</tstamp>
     </comp>
     <comp ref="R7">
       <value>10k</value>
       <footprint>KlokTHREEjr_libs:r_0805</footprint>
-      <libsource lib="KlokTHREEjr-cache" part="R"/>
+      <libsource lib="KlokTHREEjr" part="R"/>
       <sheetpath names="/rtc_ds3231/" tstamps="/5A447BD8/"/>
       <tstamp>5A44893A</tstamp>
     </comp>
     <comp ref="U130">
       <value>DS3231N</value>
       <footprint>KlokTHREEjr_libs:DS3231</footprint>
-      <libsource lib="KlokTHREEjr-cache" part="DS3231N"/>
+      <libsource lib="KlokTHREEjr" part="DS3231N"/>
       <sheetpath names="/rtc_ds3231/" tstamps="/5A447BD8/"/>
       <tstamp>5A448948</tstamp>
     </comp>
     <comp ref="R9">
       <value>4K7</value>
       <footprint>KlokTHREEjr_libs:r_0805</footprint>
-      <libsource lib="KlokTHREEjr-cache" part="R"/>
+      <libsource lib="KlokTHREEjr" part="R"/>
       <sheetpath names="/rtc_ds3231/" tstamps="/5A447BD8/"/>
       <tstamp>5A44894F</tstamp>
     </comp>
@@ -2595,28 +2595,57 @@
       <fields>
         <field name="Digikey">BU2032SM-HD-GCT-ND </field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="Batt_RTC"/>
+      <libsource lib="KlokTHREEjr" part="Batt_RTC"/>
       <sheetpath names="/rtc_ds3231/" tstamps="/5A447BD8/"/>
       <tstamp>5A448957</tstamp>
     </comp>
     <comp ref="C22">
       <value>100nF</value>
       <footprint>KlokTHREEjr_libs:c_0805</footprint>
-      <libsource lib="KlokTHREEjr-cache" part="C_NP"/>
+      <libsource lib="KlokTHREEjr" part="C_NP"/>
       <sheetpath names="/rtc_ds3231/" tstamps="/5A447BD8/"/>
       <tstamp>5A613CC0</tstamp>
     </comp>
     <comp ref="TP1">
       <value>~RST</value>
       <footprint>KlokTHREEjr_libs:BreakOutPad</footprint>
-      <libsource lib="KlokTHREEjr-cache" part="Conn_01x01"/>
+      <libsource lib="KlokTHREEjr" part="Conn_01x01"/>
       <sheetpath names="/rtc_ds3231/" tstamps="/5A447BD8/"/>
       <tstamp>5A48EA43</tstamp>
+    </comp>
+    <comp ref="U133">
+      <value>TXB0102DCU</value>
+      <footprint>Housings_SSOP:VSSOP-8_2.4x2.1mm_Pitch0.5mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/txb0102.pdf</datasheet>
+      <libsource lib="KlokTHREEjr" part="TXB0102DCU"/>
+      <sheetpath names="/rtc_ds3231/" tstamps="/5A447BD8/"/>
+      <tstamp>5A57AF6A</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>KlokTHREEjr_libs:r_0805</footprint>
+      <libsource lib="KlokTHREEjr" part="R"/>
+      <sheetpath names="/rtc_ds3231/" tstamps="/5A447BD8/"/>
+      <tstamp>5A59C780</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>100nF</value>
+      <footprint>KlokTHREEjr_libs:c_0805</footprint>
+      <libsource lib="KlokTHREEjr" part="C_NP"/>
+      <sheetpath names="/rtc_ds3231/" tstamps="/5A447BD8/"/>
+      <tstamp>5A5A129F</tstamp>
+    </comp>
+    <comp ref="C30">
+      <value>100nF</value>
+      <footprint>KlokTHREEjr_libs:c_0805</footprint>
+      <libsource lib="KlokTHREEjr" part="C_NP"/>
+      <sheetpath names="/rtc_ds3231/" tstamps="/5A447BD8/"/>
+      <tstamp>5A5A13BD</tstamp>
     </comp>
     <comp ref="R4">
       <value>1k</value>
       <footprint>KlokTHREEjr_libs:r_0805</footprint>
-      <libsource lib="KlokTHREEjr-cache" part="R"/>
+      <libsource lib="KlokTHREEjr" part="R"/>
       <sheetpath names="/esp_pwr_uart/" tstamps="/5A452227/"/>
       <tstamp>5A4511A4</tstamp>
     </comp>
@@ -2627,28 +2656,28 @@
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="AP1117-15"/>
+      <libsource lib="KlokTHREEjr" part="AP1117-15"/>
       <sheetpath names="/esp_pwr_uart/" tstamps="/5A452227/"/>
       <tstamp>5A4518D4</tstamp>
     </comp>
     <comp ref="JP1">
       <value>LED_PWR_EN</value>
       <footprint>KlokTHREEjr_libs:R_0402</footprint>
-      <libsource lib="KlokTHREEjr-cache" part="Jumper_NC_Small"/>
+      <libsource lib="KlokTHREEjr" part="Jumper_NC_Small"/>
       <sheetpath names="/esp_pwr_uart/" tstamps="/5A452227/"/>
       <tstamp>5A456474</tstamp>
     </comp>
     <comp ref="C17">
       <value>10uF/25V</value>
       <footprint>KlokTHREEjr_libs:c_2917</footprint>
-      <libsource lib="KlokTHREEjr-cache" part="C_POL"/>
+      <libsource lib="KlokTHREEjr" part="C_POL"/>
       <sheetpath names="/esp_pwr_uart/" tstamps="/5A452227/"/>
       <tstamp>5A6251BF</tstamp>
     </comp>
     <comp ref="C18">
       <value>22uF/25V</value>
       <footprint>KlokTHREEjr_libs:c_2917</footprint>
-      <libsource lib="KlokTHREEjr-cache" part="C_POL"/>
+      <libsource lib="KlokTHREEjr" part="C_POL"/>
       <sheetpath names="/esp_pwr_uart/" tstamps="/5A452227/"/>
       <tstamp>5A6254D5</tstamp>
     </comp>
@@ -2665,7 +2694,7 @@
         <field name="Field10">754-1264-ND</field>
         <field name="Field11">http://www.digikey.com/product-detail/en/WP7113ID/754-1264-ND/1747663</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="LED"/>
+      <libsource lib="KlokTHREEjr" part="LED"/>
       <sheetpath names="/esp_pwr_uart/" tstamps="/5A452227/"/>
       <tstamp>5A6340FA</tstamp>
     </comp>
@@ -2676,42 +2705,42 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="CP2102N-A01-GQFN28"/>
+      <libsource lib="KlokTHREEjr" part="CP2102N-A01-GQFN28"/>
       <sheetpath names="/esp_pwr_uart/" tstamps="/5A452227/"/>
       <tstamp>5A738B9C</tstamp>
     </comp>
     <comp ref="P1">
       <value>USB_micro</value>
       <footprint>KlokTHREEjr_libs:USB_Micro-B_Molex-105017-0001</footprint>
-      <libsource lib="KlokTHREEjr-cache" part="USB_micro"/>
+      <libsource lib="KlokTHREEjr" part="USB_micro"/>
       <sheetpath names="/esp_pwr_uart/" tstamps="/5A452227/"/>
       <tstamp>5A73BE05</tstamp>
     </comp>
     <comp ref="D3">
       <value>VESD05A1B</value>
       <footprint>KlokTHREEjr_libs:D_LLP1006-2L</footprint>
-      <libsource lib="KlokTHREEjr-cache" part="diode_sch"/>
+      <libsource lib="KlokTHREEjr" part="diode_sch"/>
       <sheetpath names="/esp_pwr_uart/" tstamps="/5A452227/"/>
       <tstamp>5A73F3F4</tstamp>
     </comp>
     <comp ref="D4">
       <value>VESD05A1B</value>
       <footprint>KlokTHREEjr_libs:D_LLP1006-2L</footprint>
-      <libsource lib="KlokTHREEjr-cache" part="diode_sch"/>
+      <libsource lib="KlokTHREEjr" part="diode_sch"/>
       <sheetpath names="/esp_pwr_uart/" tstamps="/5A452227/"/>
       <tstamp>5A73F4E3</tstamp>
     </comp>
     <comp ref="D1">
       <value>1N5819</value>
       <footprint>KlokTHREEjr_libs:D_SOD-123</footprint>
-      <libsource lib="KlokTHREEjr-cache" part="diode_zener"/>
+      <libsource lib="KlokTHREEjr" part="diode_zener"/>
       <sheetpath names="/esp_pwr_uart/" tstamps="/5A452227/"/>
       <tstamp>5A73F53E</tstamp>
     </comp>
     <comp ref="C23">
       <value>10uF/25V</value>
       <footprint>KlokTHREEjr_libs:c_2917</footprint>
-      <libsource lib="KlokTHREEjr-cache" part="C_POL"/>
+      <libsource lib="KlokTHREEjr" part="C_POL"/>
       <sheetpath names="/esp_pwr_uart/" tstamps="/5A452227/"/>
       <tstamp>5A451EDF</tstamp>
     </comp>
@@ -2721,14 +2750,14 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="C_NP"/>
+      <libsource lib="KlokTHREEjr" part="C_NP"/>
       <sheetpath names="/esp_pwr_uart/" tstamps="/5A452227/"/>
       <tstamp>5A4520AD</tstamp>
     </comp>
     <comp ref="C25">
       <value>10uF/25V</value>
       <footprint>KlokTHREEjr_libs:c_2917</footprint>
-      <libsource lib="KlokTHREEjr-cache" part="C_POL"/>
+      <libsource lib="KlokTHREEjr" part="C_POL"/>
       <sheetpath names="/esp_pwr_uart/" tstamps="/5A452227/"/>
       <tstamp>5A45212F</tstamp>
     </comp>
@@ -2738,7 +2767,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="C_NP"/>
+      <libsource lib="KlokTHREEjr" part="C_NP"/>
       <sheetpath names="/esp_pwr_uart/" tstamps="/5A452227/"/>
       <tstamp>5A452201</tstamp>
     </comp>
@@ -2748,7 +2777,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="R"/>
+      <libsource lib="KlokTHREEjr" part="R"/>
       <sheetpath names="/esp_pwr_uart/" tstamps="/5A452227/"/>
       <tstamp>5A453081</tstamp>
     </comp>
@@ -2758,7 +2787,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="R"/>
+      <libsource lib="KlokTHREEjr" part="R"/>
       <sheetpath names="/esp_pwr_uart/" tstamps="/5A452227/"/>
       <tstamp>5A4534CF</tstamp>
     </comp>
@@ -2768,7 +2797,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="R"/>
+      <libsource lib="KlokTHREEjr" part="R"/>
       <sheetpath names="/esp_pwr_uart/" tstamps="/5A452227/"/>
       <tstamp>5A4535C0</tstamp>
     </comp>
@@ -2778,7 +2807,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="R"/>
+      <libsource lib="KlokTHREEjr" part="R"/>
       <sheetpath names="/esp_pwr_uart/" tstamps="/5A452227/"/>
       <tstamp>5A45360A</tstamp>
     </comp>
@@ -2788,7 +2817,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="R"/>
+      <libsource lib="KlokTHREEjr" part="R"/>
       <sheetpath names="/esp_pwr_uart/" tstamps="/5A452227/"/>
       <tstamp>5A4536A6</tstamp>
     </comp>
@@ -2798,7 +2827,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="R"/>
+      <libsource lib="KlokTHREEjr" part="R"/>
       <sheetpath names="/esp_pwr_uart/" tstamps="/5A452227/"/>
       <tstamp>5A458085</tstamp>
     </comp>
@@ -2808,7 +2837,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="C_NP"/>
+      <libsource lib="KlokTHREEjr" part="C_NP"/>
       <sheetpath names="/esp_pwr_uart/" tstamps="/5A452227/"/>
       <tstamp>5A4583E7</tstamp>
     </comp>
@@ -2818,7 +2847,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="R"/>
+      <libsource lib="KlokTHREEjr" part="R"/>
       <sheetpath names="/esp_pwr_uart/" tstamps="/5A452227/"/>
       <tstamp>5A458830</tstamp>
     </comp>
@@ -2828,7 +2857,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="C_NP"/>
+      <libsource lib="KlokTHREEjr" part="C_NP"/>
       <sheetpath names="/esp_pwr_uart/" tstamps="/5A452227/"/>
       <tstamp>5A4588F3</tstamp>
     </comp>
@@ -2838,7 +2867,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="SW-SPST-M"/>
+      <libsource lib="KlokTHREEjr" part="SW-SPST-M"/>
       <sheetpath names="/esp_pwr_uart/" tstamps="/5A452227/"/>
       <tstamp>5A45898C</tstamp>
     </comp>
@@ -2848,7 +2877,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="R"/>
+      <libsource lib="KlokTHREEjr" part="R"/>
       <sheetpath names="/esp_pwr_uart/" tstamps="/5A452227/"/>
       <tstamp>5A4599CC</tstamp>
     </comp>
@@ -2858,7 +2887,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="C_NP"/>
+      <libsource lib="KlokTHREEjr" part="C_NP"/>
       <sheetpath names="/esp_pwr_uart/" tstamps="/5A452227/"/>
       <tstamp>5A4599D2</tstamp>
     </comp>
@@ -2868,7 +2897,7 @@
       <fields>
         <field name="manf#">Value</field>
       </fields>
-      <libsource lib="KlokTHREEjr-cache" part="SW-SPST-M"/>
+      <libsource lib="KlokTHREEjr" part="SW-SPST-M"/>
       <sheetpath names="/esp_pwr_uart/" tstamps="/5A452227/"/>
       <tstamp>5A4599D8</tstamp>
     </comp>
@@ -2876,13 +2905,13 @@
       <value>DDC114TU</value>
       <footprint>KlokTHREEjr_libs:SOT-363_SC-70-6</footprint>
       <datasheet>https://www.diodes.com/assets/Datasheets/ds30345.pdf</datasheet>
-      <libsource lib="KlokTHREEjr-cache" part="DDC114TU"/>
+      <libsource lib="KlokTHREEjr" part="DDC114TU"/>
       <sheetpath names="/esp_pwr_uart/" tstamps="/5A452227/"/>
       <tstamp>5A602C3C</tstamp>
     </comp>
   </components>
   <libparts>
-    <libpart lib="KlokTHREEjr-cache" part="chromogram:AP1117-15">
+    <libpart lib="KlokTHREEjr" part="AP1117-15">
       <aliases>
         <alias>AP1117-18</alias>
         <alias>AP1117-25</alias>
@@ -2902,12 +2931,14 @@
         <alias>NCP1117-3.3_SOT223</alias>
         <alias>NCP1117-5.0_SOT223</alias>
       </aliases>
+      <description>1A Low Dropout regulator, positive, 1.5V fixed output, SOT-223</description>
+      <docs>http://www.diodes.com/datasheets/AP1117.pdf</docs>
       <footprints>
         <fp>SOT?223*TabPin2*</fp>
       </footprints>
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">chromogram:AP1117-15</field>
+        <field name="Value">AP1117-15</field>
         <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
       </fields>
       <pins>
@@ -2916,10 +2947,10 @@
         <pin num="3" name="VI" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="KlokTHREEjr-cache" part="chromogram:APA102">
+    <libpart lib="KlokTHREEjr" part="APA102">
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">chromogram:APA102</field>
+        <field name="Value">APA102</field>
       </fields>
       <pins>
         <pin num="1" name="DI" type="input"/>
@@ -2930,33 +2961,33 @@
         <pin num="6" name="DO" type="output"/>
       </pins>
     </libpart>
-    <libpart lib="KlokTHREEjr-cache" part="chromogram:Batt_RTC">
+    <libpart lib="KlokTHREEjr" part="Batt_RTC">
       <fields>
         <field name="Reference">BT</field>
-        <field name="Value">chromogram:Batt_RTC</field>
+        <field name="Value">Batt_RTC</field>
       </fields>
       <pins>
         <pin num="1" name="+" type="passive"/>
         <pin num="2" name="-" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="KlokTHREEjr-cache" part="chromogram:CONN_2">
+    <libpart lib="KlokTHREEjr" part="CONN_2">
       <fields>
         <field name="Reference">P</field>
-        <field name="Value">chromogram:CONN_2</field>
+        <field name="Value">CONN_2</field>
       </fields>
       <pins>
         <pin num="1" name="P1" type="passive"/>
         <pin num="2" name="PM" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="KlokTHREEjr-cache" part="chromogram:CP2102N-A01-GQFN28">
+    <libpart lib="KlokTHREEjr" part="CP2102N-A01-GQFN28">
       <footprints>
         <fp>QFN*4x4mm*Pitch0.5mm*</fp>
       </footprints>
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">chromogram:CP2102N-A01-GQFN28</field>
+        <field name="Value">CP2102N-A01-GQFN28</field>
         <field name="Footprint">Housings_DFN_QFN:QFN-28-1EP_5x5mm_Pitch0.5mm</field>
         <field name="manf#">Value</field>
       </fields>
@@ -2992,7 +3023,7 @@
         <pin num="29" name="GND" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="KlokTHREEjr-cache" part="chromogram:C_NP">
+    <libpart lib="KlokTHREEjr" part="C_NP">
       <footprints>
         <fp>SM*</fp>
         <fp>C?</fp>
@@ -3000,14 +3031,14 @@
       </footprints>
       <fields>
         <field name="Reference">C</field>
-        <field name="Value">chromogram:C_NP</field>
+        <field name="Value">C_NP</field>
       </fields>
       <pins>
         <pin num="1" name="+" type="passive"/>
         <pin num="2" name="-" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="KlokTHREEjr-cache" part="chromogram:C_POL">
+    <libpart lib="KlokTHREEjr" part="C_POL">
       <footprints>
         <fp>SM*</fp>
         <fp>C?</fp>
@@ -3015,14 +3046,16 @@
       </footprints>
       <fields>
         <field name="Reference">C</field>
-        <field name="Value">chromogram:C_POL</field>
+        <field name="Value">C_POL</field>
       </fields>
       <pins>
         <pin num="1" name="+" type="passive"/>
         <pin num="2" name="-" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="KlokTHREEjr-cache" part="chromogram:Conn_01x01">
+    <libpart lib="KlokTHREEjr" part="Conn_01x01">
+      <description>Generic connector, single row, 01x01</description>
+      <docs>~</docs>
       <footprints>
         <fp>Connector*:*_??x*mm*</fp>
         <fp>Connector*:*1x??x*mm*</fp>
@@ -3033,13 +3066,15 @@
       </footprints>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">chromogram:Conn_01x01</field>
+        <field name="Value">Conn_01x01</field>
       </fields>
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="KlokTHREEjr-cache" part="chromogram:DDC114TU">
+    <libpart lib="KlokTHREEjr" part="DDC114TU">
+      <description>Pre-Biased Bipolar Transistor (BJT) 2 NPN - Pre-Biased (Dual) 50V 100mA 250MHz 200mW Surface Mount SOT-363</description>
+      <docs>https://www.diodes.com/assets/Datasheets/ds30345.pdf</docs>
       <footprints>
         <fp>SC?70*</fp>
         <fp>SC?88*</fp>
@@ -3047,7 +3082,7 @@
       </footprints>
       <fields>
         <field name="Reference">Q</field>
-        <field name="Value">chromogram:DDC114TU</field>
+        <field name="Value">DDC114TU</field>
         <field name="Footprint">TO_SOT_Packages_SMD:SOT-363_SC-70-6</field>
       </fields>
       <pins>
@@ -3059,10 +3094,10 @@
         <pin num="6" name="C1" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="KlokTHREEjr-cache" part="chromogram:DS3231N">
+    <libpart lib="KlokTHREEjr" part="DS3231N">
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">chromogram:DS3231N</field>
+        <field name="Value">DS3231N</field>
       </fields>
       <pins>
         <pin num="1" name="32KHz" type="output"/>
@@ -3083,10 +3118,10 @@
         <pin num="16" name="SCL" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="KlokTHREEjr-cache" part="chromogram:ESP-wroom-32">
+    <libpart lib="KlokTHREEjr" part="ESP-wroom-32">
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">chromogram:ESP-wroom-32</field>
+        <field name="Value">ESP-wroom-32</field>
       </fields>
       <pins>
         <pin num="1" name="GND" type="passive"/>
@@ -3120,7 +3155,7 @@
         <pin num="29" name="IO5" type="passive"/>
         <pin num="30" name="IO18" type="passive"/>
         <pin num="31" name="IO19" type="passive"/>
-        <pin num="32" name="NC" type="passive"/>
+        <pin num="32" name="NC" type="NotConnected"/>
         <pin num="33" name="IO21" type="passive"/>
         <pin num="34" name="RXD0" type="passive"/>
         <pin num="35" name="TXD0" type="passive"/>
@@ -3130,29 +3165,29 @@
         <pin num="39" name="GND_PAD" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="KlokTHREEjr-cache" part="chromogram:Jumper_NC_Small">
+    <libpart lib="KlokTHREEjr" part="Jumper_NC_Small">
       <fields>
         <field name="Reference">JP</field>
-        <field name="Value">chromogram:Jumper_NC_Small</field>
+        <field name="Value">Jumper_NC_Small</field>
       </fields>
       <pins>
         <pin num="1" name="1" type="passive"/>
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="KlokTHREEjr-cache" part="chromogram:KiCad">
+    <libpart lib="KlokTHREEjr" part="KiCad">
       <fields>
         <field name="Reference">#G</field>
-        <field name="Value">chromogram:KiCad</field>
+        <field name="Value">KiCad</field>
       </fields>
     </libpart>
-    <libpart lib="KlokTHREEjr-cache" part="chromogram:LDR03">
+    <libpart lib="KlokTHREEjr" part="LDR03">
       <footprints>
         <fp>Resistor*LDR*10x8.5*RM7.6*</fp>
       </footprints>
       <fields>
         <field name="Reference">R</field>
-        <field name="Value">chromogram:LDR03</field>
+        <field name="Value">LDR03</field>
         <field name="Footprint">Opto-Devices:Resistor_LDR_10x8.5_RM7.6</field>
       </fields>
       <pins>
@@ -3160,7 +3195,7 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="KlokTHREEjr-cache" part="chromogram:LED">
+    <libpart lib="KlokTHREEjr" part="LED">
       <footprints>
         <fp>LED-3MM</fp>
         <fp>LED-5MM</fp>
@@ -3172,7 +3207,7 @@
       </footprints>
       <fields>
         <field name="Reference">D</field>
-        <field name="Value">chromogram:LED</field>
+        <field name="Value">LED</field>
         <field name="Field4">LED SS 5MM 625NM RED DIFF</field>
         <field name="Field5">2V, 10mA</field>
         <field name="Field6">Round with Domed Top, 5mm, T-1 3/4</field>
@@ -3187,48 +3222,48 @@
         <pin num="2" name="K" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="KlokTHREEjr-cache" part="chromogram:LOGO_WL">
+    <libpart lib="KlokTHREEjr" part="LOGO_WL">
       <fields>
         <field name="Reference">#G</field>
-        <field name="Value">chromogram:LOGO_WL</field>
+        <field name="Value">LOGO_WL</field>
       </fields>
     </libpart>
-    <libpart lib="KlokTHREEjr-cache" part="chromogram:Mouse_Bite">
+    <libpart lib="KlokTHREEjr" part="Mouse_Bite">
       <fields>
         <field name="Reference">P</field>
-        <field name="Value">chromogram:Mouse_Bite</field>
+        <field name="Value">Mouse_Bite</field>
       </fields>
     </libpart>
-    <libpart lib="KlokTHREEjr-cache" part="chromogram:OSHW">
+    <libpart lib="KlokTHREEjr" part="OSHW">
       <fields>
         <field name="Reference">#G</field>
-        <field name="Value">chromogram:OSHW</field>
+        <field name="Value">OSHW</field>
       </fields>
     </libpart>
-    <libpart lib="KlokTHREEjr-cache" part="chromogram:R">
+    <libpart lib="KlokTHREEjr" part="R">
       <footprints>
         <fp>R_*</fp>
         <fp>Resistor_*</fp>
       </footprints>
       <fields>
         <field name="Reference">R</field>
-        <field name="Value">chromogram:R</field>
+        <field name="Value">R</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="passive"/>
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="KlokTHREEjr-cache" part="chromogram:SCREW">
+    <libpart lib="KlokTHREEjr" part="SCREW">
       <fields>
         <field name="Reference">SC</field>
-        <field name="Value">chromogram:SCREW</field>
+        <field name="Value">SCREW</field>
       </fields>
     </libpart>
-    <libpart lib="KlokTHREEjr-cache" part="chromogram:SW-SPST-M">
+    <libpart lib="KlokTHREEjr" part="SW-SPST-M">
       <fields>
         <field name="Reference">S</field>
-        <field name="Value">chromogram:SW-SPST-M</field>
+        <field name="Value">SW-SPST-M</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="passive"/>
@@ -3237,13 +3272,35 @@
         <pin num="4" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="KlokTHREEjr-cache" part="chromogram:USB_micro">
+    <libpart lib="KlokTHREEjr" part="TXB0102DCU">
+      <description>2-Bit Bidirectional Voltage-Level Translator in VSSOP Package With Auto Direction Sensing and ±15-kV ESD Protection</description>
+      <docs>http://www.ti.com/lit/ds/symlink/txb0102.pdf</docs>
+      <footprints>
+        <fp>VSSOP*Pitch0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TXB0102DCU</field>
+        <field name="Footprint">Package_SSOP:VSSOP-8_2.4x2.1mm_P0.5mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B2" type="BiDi"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VCCA" type="power_in"/>
+        <pin num="4" name="A2" type="BiDi"/>
+        <pin num="5" name="A1" type="BiDi"/>
+        <pin num="6" name="OE" type="input"/>
+        <pin num="7" name="VCCB" type="power_in"/>
+        <pin num="8" name="B1" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="KlokTHREEjr" part="USB_micro">
       <footprints>
         <fp>USB*</fp>
       </footprints>
       <fields>
         <field name="Reference">P</field>
-        <field name="Value">chromogram:USB_micro</field>
+        <field name="Value">USB_micro</field>
       </fields>
       <pins>
         <pin num="1" name="VBUS" type="power_out"/>
@@ -3254,28 +3311,28 @@
         <pin num="6" name="shield" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="KlokTHREEjr-cache" part="chromogram:diode_sch">
+    <libpart lib="KlokTHREEjr" part="diode_sch">
       <footprints>
         <fp>D?</fp>
         <fp>S*</fp>
       </footprints>
       <fields>
         <field name="Reference">D</field>
-        <field name="Value">chromogram:diode_sch</field>
+        <field name="Value">diode_sch</field>
       </fields>
       <pins>
         <pin num="1" name="A" type="passive"/>
         <pin num="2" name="K" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="KlokTHREEjr-cache" part="chromogram:diode_zener">
+    <libpart lib="KlokTHREEjr" part="diode_zener">
       <footprints>
         <fp>D?</fp>
         <fp>S*</fp>
       </footprints>
       <fields>
         <field name="Reference">D</field>
-        <field name="Value">chromogram:diode_zener</field>
+        <field name="Value">diode_zener</field>
       </fields>
       <pins>
         <pin num="1" name="A" type="passive"/>
@@ -3283,418 +3340,426 @@
       </pins>
     </libpart>
   </libparts>
-  <libraries/>
+  <libraries>
+    <library logical="KlokTHREEjr">
+      <uri>/home/samata/projects-git/KlokTHREEjr/kicad/KlokTHREEjr_libs/KlokTHREEjr.lib</uri>
+    </library>
+  </libraries>
   <nets>
-    <net code="1" name="/SW_M">
-      <node ref="S6" pin="2"/>
-      <node ref="U129" pin="30"/>
-      <node ref="S6" pin="4"/>
-      <node ref="R25" pin="1"/>
-    </net>
-    <net code="2" name="/CLK_IN">
-      <node ref="J1" pin="1"/>
-      <node ref="J9" pin="1"/>
-      <node ref="U129" pin="29"/>
+    <net code="1" name="/CLK_IN">
       <node ref="R2" pin="1"/>
+      <node ref="J9" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="U129" pin="27"/>
     </net>
-    <net code="3" name="/IO4">
-      <node ref="U129" pin="26"/>
+    <net code="2" name="/3V3">
+      <node ref="R5" pin="1"/>
+      <node ref="U131" pin="2"/>
+      <node ref="C30" pin="1"/>
+      <node ref="C24" pin="1"/>
+      <node ref="U132" pin="7"/>
+      <node ref="C27" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="U133" pin="6"/>
+      <node ref="C28" pin="1"/>
+      <node ref="U133" pin="3"/>
+      <node ref="U129" pin="2"/>
+      <node ref="C18" pin="1"/>
+      <node ref="C23" pin="1"/>
+      <node ref="U132" pin="6"/>
     </net>
-    <net code="4" name="/DTR">
-      <node ref="U132" pin="28"/>
-      <node ref="Q1" pin="2"/>
-      <node ref="Q1" pin="4"/>
-    </net>
-    <net code="5" name="/RXD0">
-      <node ref="U129" pin="34"/>
-      <node ref="R23" pin="1"/>
-    </net>
-    <net code="6" name="/EN">
+    <net code="3" name="/EN">
       <node ref="Q1" pin="6"/>
       <node ref="R3" pin="2"/>
+      <node ref="R16" pin="1"/>
       <node ref="C19" pin="1"/>
       <node ref="U129" pin="3"/>
-      <node ref="R16" pin="1"/>
     </net>
-    <net code="7" name="/IO0">
-      <node ref="R18" pin="1"/>
+    <net code="4" name="/IO0">
       <node ref="U129" pin="25"/>
+      <node ref="R18" pin="1"/>
       <node ref="Q1" pin="3"/>
     </net>
-    <net code="8" name="/IO15">
-      <node ref="R19" pin="1"/>
+    <net code="5" name="/IO15">
       <node ref="U129" pin="23"/>
+      <node ref="R19" pin="1"/>
     </net>
-    <net code="9" name="/IO13">
+    <net code="6" name="/IO13">
       <node ref="U129" pin="16"/>
       <node ref="R20" pin="1"/>
     </net>
-    <net code="10" name="/TXD0">
-      <node ref="U129" pin="35"/>
+    <net code="7" name="/TXD0">
       <node ref="R21" pin="1"/>
+      <node ref="U129" pin="35"/>
     </net>
-    <net code="11" name="/SW_D">
-      <node ref="U129" pin="31"/>
-      <node ref="R24" pin="1"/>
-      <node ref="S5" pin="2"/>
-      <node ref="S5" pin="4"/>
+    <net code="8" name="/RXD0">
+      <node ref="U129" pin="34"/>
+      <node ref="R23" pin="1"/>
     </net>
-    <net code="12" name="/5V">
-      <node ref="U74" pin="4"/>
-      <node ref="U78" pin="4"/>
+    <net code="9" name="/DTR">
+      <node ref="Q1" pin="2"/>
+      <node ref="Q1" pin="4"/>
+      <node ref="U132" pin="28"/>
+    </net>
+    <net code="10" name="/SW_M">
+      <node ref="U129" pin="28"/>
+      <node ref="S6" pin="2"/>
+      <node ref="S6" pin="4"/>
+      <node ref="R25" pin="1"/>
+    </net>
+    <net code="11" name="/DAT_IN">
+      <node ref="U129" pin="26"/>
+      <node ref="J2" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="J10" pin="1"/>
+    </net>
+    <net code="12" name="/LDR1">
+      <node ref="U129" pin="11"/>
+      <node ref="R12" pin="1"/>
+      <node ref="J3" pin="1"/>
+      <node ref="J11" pin="1"/>
+      <node ref="LDR1" pin="2"/>
+    </net>
+    <net code="13" name="/LDR2">
+      <node ref="J4" pin="1"/>
+      <node ref="J12" pin="1"/>
+      <node ref="R13" pin="1"/>
+      <node ref="U129" pin="8"/>
+      <node ref="LDR2" pin="2"/>
+    </net>
+    <net code="14" name="/LDR3">
+      <node ref="U129" pin="9"/>
+      <node ref="R14" pin="1"/>
+      <node ref="J13" pin="1"/>
+      <node ref="LDR3" pin="2"/>
+      <node ref="J5" pin="1"/>
+    </net>
+    <net code="15" name="/5V">
+      <node ref="U70" pin="4"/>
       <node ref="U79" pin="4"/>
       <node ref="U80" pin="4"/>
+      <node ref="U78" pin="4"/>
+      <node ref="U32" pin="4"/>
+      <node ref="C10" pin="2"/>
+      <node ref="U9" pin="4"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C9" pin="2"/>
       <node ref="U75" pin="4"/>
       <node ref="U76" pin="4"/>
       <node ref="U77" pin="4"/>
-      <node ref="U51" pin="4"/>
-      <node ref="U49" pin="4"/>
-      <node ref="U55" pin="4"/>
-      <node ref="U56" pin="4"/>
-      <node ref="U52" pin="4"/>
-      <node ref="U53" pin="4"/>
-      <node ref="U54" pin="4"/>
-      <node ref="U4" pin="4"/>
-      <node ref="U8" pin="4"/>
-      <node ref="U7" pin="4"/>
-      <node ref="U57" pin="4"/>
+      <node ref="U74" pin="4"/>
       <node ref="U6" pin="4"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C12" pin="2"/>
       <node ref="U5" pin="4"/>
-      <node ref="U50" pin="4"/>
-      <node ref="U66" pin="4"/>
-      <node ref="U13" pin="4"/>
-      <node ref="U67" pin="4"/>
-      <node ref="U10" pin="4"/>
+      <node ref="U81" pin="4"/>
+      <node ref="U87" pin="4"/>
+      <node ref="U88" pin="4"/>
+      <node ref="U4" pin="4"/>
+      <node ref="U84" pin="4"/>
+      <node ref="U85" pin="4"/>
+      <node ref="U86" pin="4"/>
       <node ref="U73" pin="4"/>
-      <node ref="U69" pin="4"/>
-      <node ref="U12" pin="4"/>
-      <node ref="U70" pin="4"/>
-      <node ref="U68" pin="4"/>
-      <node ref="U72" pin="4"/>
-      <node ref="U71" pin="4"/>
-      <node ref="U65" pin="4"/>
-      <node ref="U14" pin="4"/>
-      <node ref="C10" pin="2"/>
-      <node ref="U96" pin="4"/>
-      <node ref="U95" pin="4"/>
-      <node ref="U94" pin="4"/>
-      <node ref="U90" pin="4"/>
-      <node ref="U15" pin="4"/>
-      <node ref="U93" pin="4"/>
-      <node ref="U92" pin="4"/>
-      <node ref="U91" pin="4"/>
-      <node ref="U16" pin="4"/>
-      <node ref="U11" pin="4"/>
-      <node ref="C9" pin="2"/>
-      <node ref="U44" pin="4"/>
-      <node ref="U45" pin="4"/>
-      <node ref="U42" pin="4"/>
-      <node ref="U48" pin="4"/>
-      <node ref="U46" pin="4"/>
-      <node ref="U47" pin="4"/>
-      <node ref="U43" pin="4"/>
-      <node ref="U26" pin="4"/>
-      <node ref="U25" pin="4"/>
-      <node ref="C5" pin="2"/>
-      <node ref="U32" pin="4"/>
-      <node ref="U31" pin="4"/>
-      <node ref="U30" pin="4"/>
-      <node ref="C6" pin="2"/>
-      <node ref="C4" pin="2"/>
-      <node ref="C3" pin="2"/>
-      <node ref="U19" pin="4"/>
-      <node ref="U29" pin="4"/>
-      <node ref="U18" pin="4"/>
-      <node ref="U28" pin="4"/>
-      <node ref="U17" pin="4"/>
-      <node ref="U23" pin="4"/>
-      <node ref="U27" pin="4"/>
-      <node ref="U24" pin="4"/>
-      <node ref="U20" pin="4"/>
-      <node ref="U21" pin="4"/>
-      <node ref="U22" pin="4"/>
-      <node ref="U58" pin="4"/>
-      <node ref="U64" pin="4"/>
-      <node ref="U62" pin="4"/>
-      <node ref="U63" pin="4"/>
-      <node ref="U61" pin="4"/>
-      <node ref="C1" pin="2"/>
       <node ref="U1" pin="4"/>
-      <node ref="C7" pin="2"/>
+      <node ref="C1" pin="2"/>
       <node ref="U2" pin="4"/>
-      <node ref="C8" pin="2"/>
+      <node ref="U56" pin="4"/>
       <node ref="U3" pin="4"/>
-      <node ref="U59" pin="4"/>
-      <node ref="U60" pin="4"/>
-      <node ref="U39" pin="4"/>
-      <node ref="U40" pin="4"/>
-      <node ref="U36" pin="4"/>
+      <node ref="U66" pin="4"/>
+      <node ref="U67" pin="4"/>
+      <node ref="U65" pin="4"/>
+      <node ref="U71" pin="4"/>
+      <node ref="U72" pin="4"/>
+      <node ref="U68" pin="4"/>
+      <node ref="U8" pin="4"/>
+      <node ref="U91" pin="4"/>
+      <node ref="U92" pin="4"/>
+      <node ref="U93" pin="4"/>
+      <node ref="U90" pin="4"/>
+      <node ref="U94" pin="4"/>
+      <node ref="U95" pin="4"/>
+      <node ref="U96" pin="4"/>
+      <node ref="U69" pin="4"/>
+      <node ref="U7" pin="4"/>
       <node ref="U37" pin="4"/>
       <node ref="U38" pin="4"/>
-      <node ref="U41" pin="4"/>
-      <node ref="U9" pin="4"/>
-      <node ref="C2" pin="2"/>
+      <node ref="U22" pin="4"/>
+      <node ref="U21" pin="4"/>
+      <node ref="C5" pin="2"/>
       <node ref="U34" pin="4"/>
       <node ref="U35" pin="4"/>
       <node ref="U33" pin="4"/>
-      <node ref="U122" pin="4"/>
-      <node ref="U123" pin="4"/>
-      <node ref="U121" pin="4"/>
-      <node ref="C16" pin="2"/>
-      <node ref="U115" pin="4"/>
+      <node ref="U39" pin="4"/>
+      <node ref="U40" pin="4"/>
+      <node ref="U36" pin="4"/>
+      <node ref="U19" pin="4"/>
+      <node ref="U18" pin="4"/>
+      <node ref="U25" pin="4"/>
+      <node ref="U43" pin="4"/>
+      <node ref="U20" pin="4"/>
+      <node ref="U24" pin="4"/>
+      <node ref="C6" pin="2"/>
+      <node ref="U23" pin="4"/>
+      <node ref="U44" pin="4"/>
+      <node ref="U45" pin="4"/>
+      <node ref="U42" pin="4"/>
+      <node ref="U17" pin="4"/>
+      <node ref="U48" pin="4"/>
+      <node ref="U46" pin="4"/>
+      <node ref="U47" pin="4"/>
+      <node ref="U26" pin="4"/>
+      <node ref="C7" pin="2"/>
+      <node ref="U29" pin="4"/>
+      <node ref="C8" pin="2"/>
+      <node ref="U50" pin="4"/>
+      <node ref="U31" pin="4"/>
+      <node ref="U30" pin="4"/>
+      <node ref="U51" pin="4"/>
+      <node ref="U49" pin="4"/>
+      <node ref="U55" pin="4"/>
+      <node ref="U52" pin="4"/>
+      <node ref="U53" pin="4"/>
+      <node ref="U54" pin="4"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U41" pin="4"/>
+      <node ref="U58" pin="4"/>
+      <node ref="U28" pin="4"/>
+      <node ref="U59" pin="4"/>
+      <node ref="U60" pin="4"/>
+      <node ref="U61" pin="4"/>
+      <node ref="U27" pin="4"/>
+      <node ref="U57" pin="4"/>
+      <node ref="U64" pin="4"/>
+      <node ref="U62" pin="4"/>
+      <node ref="U63" pin="4"/>
+      <node ref="R6" pin="1"/>
+      <node ref="J15" pin="1"/>
+      <node ref="C29" pin="1"/>
+      <node ref="U83" pin="4"/>
+      <node ref="U120" pin="4"/>
+      <node ref="U116" pin="4"/>
+      <node ref="U117" pin="4"/>
+      <node ref="U119" pin="4"/>
+      <node ref="LDR1" pin="1"/>
+      <node ref="LDR3" pin="1"/>
       <node ref="U114" pin="4"/>
       <node ref="U113" pin="4"/>
       <node ref="C15" pin="2"/>
-      <node ref="U118" pin="4"/>
-      <node ref="U120" pin="4"/>
-      <node ref="U119" pin="4"/>
-      <node ref="U116" pin="4"/>
-      <node ref="U117" pin="4"/>
-      <node ref="J15" pin="1"/>
-      <node ref="D1" pin="2"/>
-      <node ref="U132" pin="8"/>
-      <node ref="C26" pin="1"/>
-      <node ref="C25" pin="1"/>
-      <node ref="J7" pin="1"/>
-      <node ref="LDR4" pin="1"/>
-      <node ref="S5" pin="1"/>
-      <node ref="S5" pin="3"/>
-      <node ref="S6" pin="1"/>
-      <node ref="LDR3" pin="1"/>
-      <node ref="S6" pin="3"/>
-      <node ref="LDR1" pin="1"/>
       <node ref="LDR2" pin="1"/>
-      <node ref="U131" pin="3"/>
-      <node ref="U130" pin="2"/>
-      <node ref="S2" pin="3"/>
+      <node ref="U118" pin="4"/>
+      <node ref="C26" pin="1"/>
       <node ref="S1" pin="1"/>
-      <node ref="S2" pin="1"/>
-      <node ref="R9" pin="1"/>
-      <node ref="R7" pin="1"/>
-      <node ref="R6" pin="1"/>
-      <node ref="R8" pin="1"/>
+      <node ref="S1" pin="3"/>
+      <node ref="C25" pin="1"/>
+      <node ref="U132" pin="8"/>
+      <node ref="D1" pin="2"/>
+      <node ref="S2" pin="3"/>
+      <node ref="U131" pin="3"/>
       <node ref="R4" pin="1"/>
       <node ref="C17" pin="1"/>
-      <node ref="C11" pin="2"/>
-      <node ref="S1" pin="3"/>
+      <node ref="R8" pin="1"/>
+      <node ref="J7" pin="1"/>
+      <node ref="R9" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="U130" pin="2"/>
+      <node ref="U133" pin="7"/>
+      <node ref="U115" pin="4"/>
+      <node ref="S2" pin="1"/>
+      <node ref="U11" pin="4"/>
+      <node ref="U102" pin="4"/>
+      <node ref="U97" pin="4"/>
+      <node ref="U103" pin="4"/>
+      <node ref="U104" pin="4"/>
+      <node ref="U15" pin="4"/>
+      <node ref="U100" pin="4"/>
+      <node ref="U101" pin="4"/>
       <node ref="U89" pin="4"/>
-      <node ref="U107" pin="4"/>
-      <node ref="C13" pin="2"/>
       <node ref="U108" pin="4"/>
+      <node ref="C13" pin="2"/>
+      <node ref="U13" pin="4"/>
+      <node ref="U14" pin="4"/>
+      <node ref="U107" pin="4"/>
+      <node ref="U12" pin="4"/>
       <node ref="U109" pin="4"/>
       <node ref="U106" pin="4"/>
       <node ref="U112" pin="4"/>
       <node ref="U110" pin="4"/>
       <node ref="U111" pin="4"/>
-      <node ref="C12" pin="2"/>
-      <node ref="U82" pin="4"/>
-      <node ref="U83" pin="4"/>
-      <node ref="U81" pin="4"/>
-      <node ref="U87" pin="4"/>
-      <node ref="U88" pin="4"/>
-      <node ref="U84" pin="4"/>
-      <node ref="U85" pin="4"/>
-      <node ref="U86" pin="4"/>
-      <node ref="U105" pin="4"/>
-      <node ref="U125" pin="4"/>
+      <node ref="C14" pin="2"/>
+      <node ref="U10" pin="4"/>
+      <node ref="U16" pin="4"/>
+      <node ref="S6" pin="3"/>
+      <node ref="C16" pin="2"/>
+      <node ref="LDR4" pin="1"/>
       <node ref="U127" pin="4"/>
-      <node ref="U126" pin="4"/>
       <node ref="U128" pin="4"/>
       <node ref="U124" pin="4"/>
-      <node ref="C14" pin="2"/>
-      <node ref="U99" pin="4"/>
-      <node ref="U97" pin="4"/>
-      <node ref="U103" pin="4"/>
-      <node ref="U104" pin="4"/>
-      <node ref="U100" pin="4"/>
-      <node ref="U101" pin="4"/>
-      <node ref="U102" pin="4"/>
+      <node ref="U125" pin="4"/>
+      <node ref="U122" pin="4"/>
+      <node ref="U123" pin="4"/>
+      <node ref="U121" pin="4"/>
+      <node ref="U82" pin="4"/>
+      <node ref="U105" pin="4"/>
       <node ref="U98" pin="4"/>
+      <node ref="U99" pin="4"/>
+      <node ref="S5" pin="1"/>
+      <node ref="S6" pin="1"/>
+      <node ref="U126" pin="4"/>
+      <node ref="S5" pin="3"/>
     </net>
-    <net code="13" name="/DAT_IN">
-      <node ref="U129" pin="28"/>
-      <node ref="J2" pin="1"/>
-      <node ref="J10" pin="1"/>
-      <node ref="R1" pin="1"/>
-    </net>
-    <net code="14" name="/LDR2">
-      <node ref="LDR2" pin="2"/>
-      <node ref="R13" pin="1"/>
-      <node ref="J12" pin="1"/>
-      <node ref="J4" pin="1"/>
-      <node ref="U129" pin="8"/>
-    </net>
-    <net code="15" name="/LDR4">
-      <node ref="J14" pin="1"/>
-      <node ref="LDR4" pin="2"/>
-      <node ref="U129" pin="10"/>
-      <node ref="R15" pin="1"/>
-      <node ref="J6" pin="1"/>
-    </net>
-    <net code="16" name="/LDR3">
-      <node ref="J13" pin="1"/>
-      <node ref="J5" pin="1"/>
-      <node ref="LDR3" pin="2"/>
-      <node ref="U129" pin="9"/>
-      <node ref="R14" pin="1"/>
-    </net>
-    <net code="17" name="/SDA">
-      <node ref="R9" pin="2"/>
-      <node ref="U130" pin="15"/>
+    <net code="16" name="/SDA">
       <node ref="U129" pin="7"/>
+      <node ref="U133" pin="5"/>
     </net>
-    <net code="18" name="/SCL">
-      <node ref="U130" pin="16"/>
+    <net code="17" name="/SCL">
+      <node ref="U133" pin="4"/>
       <node ref="U129" pin="6"/>
-      <node ref="R8" pin="2"/>
     </net>
-    <net code="19" name="/SD2">
-      <node ref="U129" pin="17"/>
+    <net code="18" name="/SW_D">
+      <node ref="S5" pin="2"/>
+      <node ref="S5" pin="4"/>
+      <node ref="U129" pin="29"/>
+      <node ref="R24" pin="1"/>
     </net>
-    <net code="20" name="/IO23">
-      <node ref="U129" pin="37"/>
-    </net>
-    <net code="21" name="/IO22">
+    <net code="19" name="/IO22">
       <node ref="U129" pin="36"/>
     </net>
-    <net code="22" name="/IO16">
-      <node ref="U129" pin="27"/>
-    </net>
-    <net code="23" name="/IO12">
+    <net code="20" name="/IO12">
       <node ref="U129" pin="14"/>
     </net>
-    <net code="24" name="/LDR1">
-      <node ref="LDR1" pin="2"/>
-      <node ref="U129" pin="11"/>
-      <node ref="J11" pin="1"/>
-      <node ref="R12" pin="1"/>
-      <node ref="J3" pin="1"/>
-    </net>
-    <net code="25" name="/SD3">
-      <node ref="U129" pin="18"/>
-    </net>
-    <net code="26" name="/IO14">
-      <node ref="U129" pin="13"/>
-    </net>
-    <net code="27" name="/IO27">
-      <node ref="U129" pin="12"/>
-    </net>
-    <net code="28" name="/SW_E">
-      <node ref="S1" pin="2"/>
-      <node ref="S1" pin="4"/>
-      <node ref="R10" pin="1"/>
+    <net code="21" name="/IO21">
       <node ref="U129" pin="33"/>
     </net>
-    <net code="29" name="/SW_I">
-      <node ref="S2" pin="2"/>
-      <node ref="S2" pin="4"/>
-      <node ref="U129" pin="32"/>
+    <net code="22" name="/LDR4">
+      <node ref="LDR4" pin="2"/>
+      <node ref="J14" pin="1"/>
+      <node ref="J6" pin="1"/>
+      <node ref="U129" pin="10"/>
+      <node ref="R15" pin="1"/>
+    </net>
+    <net code="23" name="/IO23">
+      <node ref="U129" pin="37"/>
+    </net>
+    <net code="24" name="/IO14">
+      <node ref="U129" pin="13"/>
+    </net>
+    <net code="25" name="/IO27">
+      <node ref="U129" pin="12"/>
+    </net>
+    <net code="26" name="/SW_E">
+      <node ref="S1" pin="2"/>
+      <node ref="S1" pin="4"/>
+      <node ref="U129" pin="31"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="27" name="/SW_I">
       <node ref="R11" pin="1"/>
+      <node ref="S2" pin="4"/>
+      <node ref="S2" pin="2"/>
+      <node ref="U129" pin="30"/>
     </net>
-    <net code="30" name="/3V3">
-      <node ref="R3" pin="1"/>
-      <node ref="C28" pin="1"/>
-      <node ref="C27" pin="1"/>
-      <node ref="U129" pin="2"/>
-      <node ref="U132" pin="7"/>
-      <node ref="U131" pin="2"/>
-      <node ref="C18" pin="1"/>
-      <node ref="U132" pin="6"/>
-      <node ref="C23" pin="1"/>
-      <node ref="C24" pin="1"/>
-    </net>
-    <net code="31" name="/SENSOR_VP">
-      <node ref="U129" pin="4"/>
-    </net>
-    <net code="32" name="/SENSOR_VN">
+    <net code="28" name="/SENSOR_VN">
       <node ref="U129" pin="5"/>
     </net>
-    <net code="33" name="/IO2">
+    <net code="29" name="/SENSOR_VP">
+      <node ref="U129" pin="4"/>
+    </net>
+    <net code="30" name="/IO2">
       <node ref="U129" pin="24"/>
     </net>
-    <net code="34" name="/SDI">
+    <net code="31" name="/SDI">
       <node ref="U129" pin="22"/>
     </net>
-    <net code="35" name="/SDO">
+    <net code="32" name="/SDO">
       <node ref="U129" pin="21"/>
     </net>
-    <net code="36" name="/CLK">
+    <net code="33" name="/CLK">
       <node ref="U129" pin="20"/>
     </net>
-    <net code="37" name="/CMD">
+    <net code="34" name="/CMD">
       <node ref="U129" pin="19"/>
     </net>
-    <net code="38" name="/DI_D">
-      <node ref="U49" pin="1"/>
-      <node ref="U48" pin="6"/>
+    <net code="35" name="/SD3">
+      <node ref="U129" pin="18"/>
     </net>
-    <net code="39" name="/DI_F">
+    <net code="36" name="/SD2">
+      <node ref="U129" pin="17"/>
+    </net>
+    <net code="37" name="/DI_D">
+      <node ref="U48" pin="6"/>
+      <node ref="U49" pin="1"/>
+    </net>
+    <net code="38" name="/DI_F">
       <node ref="U81" pin="1"/>
       <node ref="U80" pin="6"/>
     </net>
-    <net code="40" name="/DI_G">
+    <net code="39" name="/DI_G">
       <node ref="U96" pin="6"/>
       <node ref="U97" pin="1"/>
     </net>
-    <net code="41" name="/DI_H">
+    <net code="40" name="/DI_H">
       <node ref="U113" pin="1"/>
       <node ref="U112" pin="6"/>
     </net>
-    <net code="42" name="/DI_E">
+    <net code="41" name="/DI_E">
       <node ref="U64" pin="6"/>
       <node ref="U65" pin="1"/>
     </net>
-    <net code="43" name="/DI_C">
-      <node ref="U33" pin="1"/>
+    <net code="42" name="/DI_C">
       <node ref="U32" pin="6"/>
+      <node ref="U33" pin="1"/>
     </net>
-    <net code="44" name="/DI_B">
-      <node ref="U17" pin="1"/>
+    <net code="43" name="/DI_B">
       <node ref="U16" pin="6"/>
+      <node ref="U17" pin="1"/>
     </net>
-    <net code="45" name="/CI_E">
-      <node ref="U65" pin="2"/>
-      <node ref="U64" pin="5"/>
-    </net>
-    <net code="46" name="/CI_D">
-      <node ref="U49" pin="2"/>
+    <net code="44" name="/CI_D">
       <node ref="U48" pin="5"/>
+      <node ref="U49" pin="2"/>
     </net>
-    <net code="47" name="/CI_F">
-      <node ref="U81" pin="2"/>
+    <net code="45" name="/CI_F">
       <node ref="U80" pin="5"/>
+      <node ref="U81" pin="2"/>
     </net>
-    <net code="48" name="/CI_B">
+    <net code="46" name="/CI_B">
       <node ref="U16" pin="5"/>
       <node ref="U17" pin="2"/>
     </net>
-    <net code="49" name="/CI_C">
-      <node ref="U32" pin="5"/>
+    <net code="47" name="/CI_C">
       <node ref="U33" pin="2"/>
+      <node ref="U32" pin="5"/>
     </net>
-    <net code="50" name="/DI_A">
+    <net code="48" name="/DI_A">
       <node ref="U1" pin="1"/>
       <node ref="R1" pin="2"/>
     </net>
-    <net code="51" name="/CI_H">
-      <node ref="U112" pin="5"/>
+    <net code="49" name="/CI_H">
       <node ref="U113" pin="2"/>
+      <node ref="U112" pin="5"/>
     </net>
-    <net code="52" name="/CI_G">
-      <node ref="U96" pin="5"/>
+    <net code="50" name="/CI_G">
       <node ref="U97" pin="2"/>
+      <node ref="U96" pin="5"/>
     </net>
-    <net code="53" name="/CLK_OUT">
-      <node ref="U128" pin="5"/>
-      <node ref="P2" pin="2"/>
+    <net code="51" name="/NC">
+      <node ref="U129" pin="32"/>
     </net>
-    <net code="54" name="/DAT_OUT">
+    <net code="52" name="/DAT_OUT">
       <node ref="U128" pin="6"/>
       <node ref="P2" pin="1"/>
     </net>
-    <net code="55" name="/CI_A">
+    <net code="53" name="/CLK_OUT">
+      <node ref="P2" pin="2"/>
+      <node ref="U128" pin="5"/>
+    </net>
+    <net code="54" name="/CI_A">
       <node ref="U1" pin="2"/>
       <node ref="R2" pin="2"/>
+    </net>
+    <net code="55" name="/CI_E">
+      <node ref="U65" pin="2"/>
+      <node ref="U64" pin="5"/>
     </net>
     <net code="56" name="Net-(U12-Pad5)">
       <node ref="U13" pin="2"/>
@@ -3717,28 +3782,28 @@
       <node ref="U11" pin="2"/>
     </net>
     <net code="61" name="Net-(U10-Pad2)">
-      <node ref="U9" pin="5"/>
       <node ref="U10" pin="2"/>
+      <node ref="U9" pin="5"/>
     </net>
     <net code="62" name="Net-(U10-Pad6)">
       <node ref="U10" pin="6"/>
       <node ref="U11" pin="1"/>
     </net>
     <net code="63" name="Net-(U10-Pad1)">
-      <node ref="U10" pin="1"/>
       <node ref="U9" pin="6"/>
+      <node ref="U10" pin="1"/>
     </net>
     <net code="64" name="Net-(U15-Pad6)">
-      <node ref="U16" pin="1"/>
       <node ref="U15" pin="6"/>
+      <node ref="U16" pin="1"/>
     </net>
     <net code="65" name="Net-(U15-Pad5)">
-      <node ref="U16" pin="2"/>
       <node ref="U15" pin="5"/>
+      <node ref="U16" pin="2"/>
     </net>
     <net code="66" name="Net-(U13-Pad6)">
-      <node ref="U14" pin="1"/>
       <node ref="U13" pin="6"/>
+      <node ref="U14" pin="1"/>
     </net>
     <net code="67" name="Net-(U14-Pad5)">
       <node ref="U14" pin="5"/>
@@ -3769,8 +3834,8 @@
       <node ref="U6" pin="5"/>
     </net>
     <net code="74" name="Net-(U5-Pad5)">
-      <node ref="U6" pin="2"/>
       <node ref="U5" pin="5"/>
+      <node ref="U6" pin="2"/>
     </net>
     <net code="75" name="Net-(U5-Pad6)">
       <node ref="U5" pin="6"/>
@@ -3781,8 +3846,8 @@
       <node ref="U4" pin="6"/>
     </net>
     <net code="77" name="Net-(U4-Pad5)">
-      <node ref="U5" pin="2"/>
       <node ref="U4" pin="5"/>
+      <node ref="U5" pin="2"/>
     </net>
     <net code="78" name="Net-(U3-Pad5)">
       <node ref="U4" pin="2"/>
@@ -3797,20 +3862,20 @@
       <node ref="U2" pin="5"/>
     </net>
     <net code="81" name="Net-(U1-Pad5)">
-      <node ref="U1" pin="5"/>
       <node ref="U2" pin="2"/>
+      <node ref="U1" pin="5"/>
     </net>
     <net code="82" name="Net-(U2-Pad6)">
-      <node ref="U2" pin="6"/>
       <node ref="U3" pin="1"/>
+      <node ref="U2" pin="6"/>
     </net>
     <net code="83" name="Net-(U1-Pad6)">
       <node ref="U1" pin="6"/>
       <node ref="U2" pin="1"/>
     </net>
     <net code="84" name="Net-(U7-Pad6)">
-      <node ref="U8" pin="1"/>
       <node ref="U7" pin="6"/>
+      <node ref="U8" pin="1"/>
     </net>
     <net code="85" name="Net-(U7-Pad5)">
       <node ref="U7" pin="5"/>
@@ -3821,24 +3886,24 @@
       <node ref="U31" pin="6"/>
     </net>
     <net code="87" name="Net-(U31-Pad5)">
-      <node ref="U31" pin="5"/>
       <node ref="U32" pin="2"/>
+      <node ref="U31" pin="5"/>
     </net>
     <net code="88" name="Net-(U30-Pad6)">
       <node ref="U31" pin="1"/>
       <node ref="U30" pin="6"/>
     </net>
     <net code="89" name="Net-(U30-Pad5)">
-      <node ref="U31" pin="2"/>
       <node ref="U30" pin="5"/>
+      <node ref="U31" pin="2"/>
     </net>
     <net code="90" name="Net-(U29-Pad5)">
-      <node ref="U29" pin="5"/>
       <node ref="U30" pin="2"/>
+      <node ref="U29" pin="5"/>
     </net>
     <net code="91" name="Net-(U29-Pad6)">
-      <node ref="U29" pin="6"/>
       <node ref="U30" pin="1"/>
+      <node ref="U29" pin="6"/>
     </net>
     <net code="92" name="Net-(U28-Pad6)">
       <node ref="U28" pin="6"/>
@@ -3849,24 +3914,24 @@
       <node ref="U29" pin="2"/>
     </net>
     <net code="94" name="Net-(U27-Pad5)">
-      <node ref="U27" pin="5"/>
       <node ref="U28" pin="2"/>
+      <node ref="U27" pin="5"/>
     </net>
     <net code="95" name="Net-(U27-Pad6)">
-      <node ref="U27" pin="6"/>
       <node ref="U28" pin="1"/>
+      <node ref="U27" pin="6"/>
     </net>
     <net code="96" name="Net-(U26-Pad5)">
-      <node ref="U26" pin="5"/>
       <node ref="U27" pin="2"/>
+      <node ref="U26" pin="5"/>
     </net>
     <net code="97" name="Net-(U25-Pad5)">
-      <node ref="U26" pin="2"/>
       <node ref="U25" pin="5"/>
+      <node ref="U26" pin="2"/>
     </net>
     <net code="98" name="Net-(U26-Pad6)">
-      <node ref="U26" pin="6"/>
       <node ref="U27" pin="1"/>
+      <node ref="U26" pin="6"/>
     </net>
     <net code="99" name="Net-(U25-Pad6)">
       <node ref="U25" pin="6"/>
@@ -3881,16 +3946,16 @@
       <node ref="U24" pin="5"/>
     </net>
     <net code="102" name="Net-(U22-Pad6)">
-      <node ref="U22" pin="6"/>
       <node ref="U23" pin="1"/>
+      <node ref="U22" pin="6"/>
     </net>
     <net code="103" name="Net-(U22-Pad5)">
       <node ref="U23" pin="2"/>
       <node ref="U22" pin="5"/>
     </net>
     <net code="104" name="Net-(U21-Pad6)">
-      <node ref="U22" pin="1"/>
       <node ref="U21" pin="6"/>
+      <node ref="U22" pin="1"/>
     </net>
     <net code="105" name="Net-(U21-Pad5)">
       <node ref="U22" pin="2"/>
@@ -3905,8 +3970,8 @@
       <node ref="U21" pin="2"/>
     </net>
     <net code="108" name="Net-(U19-Pad5)">
-      <node ref="U19" pin="5"/>
       <node ref="U20" pin="2"/>
+      <node ref="U19" pin="5"/>
     </net>
     <net code="109" name="Net-(U19-Pad6)">
       <node ref="U19" pin="6"/>
@@ -3917,56 +3982,56 @@
       <node ref="U19" pin="2"/>
     </net>
     <net code="111" name="Net-(U17-Pad5)">
-      <node ref="U17" pin="5"/>
       <node ref="U18" pin="2"/>
+      <node ref="U17" pin="5"/>
     </net>
     <net code="112" name="Net-(U18-Pad6)">
-      <node ref="U19" pin="1"/>
       <node ref="U18" pin="6"/>
+      <node ref="U19" pin="1"/>
     </net>
     <net code="113" name="Net-(U17-Pad6)">
-      <node ref="U17" pin="6"/>
       <node ref="U18" pin="1"/>
+      <node ref="U17" pin="6"/>
     </net>
     <net code="114" name="Net-(U23-Pad6)">
-      <node ref="U24" pin="1"/>
       <node ref="U23" pin="6"/>
+      <node ref="U24" pin="1"/>
     </net>
     <net code="115" name="Net-(U23-Pad5)">
       <node ref="U23" pin="5"/>
       <node ref="U24" pin="2"/>
     </net>
     <net code="116" name="Net-(U47-Pad6)">
-      <node ref="U47" pin="6"/>
       <node ref="U48" pin="1"/>
+      <node ref="U47" pin="6"/>
     </net>
     <net code="117" name="Net-(U47-Pad5)">
-      <node ref="U48" pin="2"/>
       <node ref="U47" pin="5"/>
+      <node ref="U48" pin="2"/>
     </net>
     <net code="118" name="Net-(U46-Pad6)">
       <node ref="U46" pin="6"/>
       <node ref="U47" pin="1"/>
     </net>
     <net code="119" name="Net-(U46-Pad5)">
-      <node ref="U47" pin="2"/>
       <node ref="U46" pin="5"/>
+      <node ref="U47" pin="2"/>
     </net>
     <net code="120" name="Net-(U45-Pad5)">
       <node ref="U45" pin="5"/>
       <node ref="U46" pin="2"/>
     </net>
     <net code="121" name="Net-(U45-Pad6)">
-      <node ref="U46" pin="1"/>
       <node ref="U45" pin="6"/>
+      <node ref="U46" pin="1"/>
     </net>
     <net code="122" name="Net-(U43-Pad5)">
-      <node ref="U43" pin="5"/>
       <node ref="U44" pin="2"/>
+      <node ref="U43" pin="5"/>
     </net>
     <net code="123" name="Net-(U44-Pad5)">
-      <node ref="U45" pin="2"/>
       <node ref="U44" pin="5"/>
+      <node ref="U45" pin="2"/>
     </net>
     <net code="124" name="Net-(U44-Pad6)">
       <node ref="U45" pin="1"/>
@@ -3977,36 +4042,36 @@
       <node ref="U44" pin="1"/>
     </net>
     <net code="126" name="Net-(U42-Pad5)">
-      <node ref="U42" pin="5"/>
       <node ref="U43" pin="2"/>
+      <node ref="U42" pin="5"/>
     </net>
     <net code="127" name="Net-(U41-Pad5)">
       <node ref="U41" pin="5"/>
       <node ref="U42" pin="2"/>
     </net>
     <net code="128" name="Net-(U42-Pad6)">
-      <node ref="U42" pin="6"/>
       <node ref="U43" pin="1"/>
+      <node ref="U42" pin="6"/>
     </net>
     <net code="129" name="Net-(U41-Pad6)">
       <node ref="U41" pin="6"/>
       <node ref="U42" pin="1"/>
     </net>
     <net code="130" name="Net-(U40-Pad6)">
-      <node ref="U41" pin="1"/>
       <node ref="U40" pin="6"/>
+      <node ref="U41" pin="1"/>
     </net>
     <net code="131" name="Net-(U40-Pad5)">
-      <node ref="U41" pin="2"/>
       <node ref="U40" pin="5"/>
+      <node ref="U41" pin="2"/>
     </net>
     <net code="132" name="Net-(U38-Pad6)">
-      <node ref="U38" pin="6"/>
       <node ref="U39" pin="1"/>
+      <node ref="U38" pin="6"/>
     </net>
     <net code="133" name="Net-(U37-Pad5)">
-      <node ref="U38" pin="2"/>
       <node ref="U37" pin="5"/>
+      <node ref="U38" pin="2"/>
     </net>
     <net code="134" name="Net-(U37-Pad6)">
       <node ref="U38" pin="1"/>
@@ -4021,80 +4086,80 @@
       <node ref="U37" pin="1"/>
     </net>
     <net code="137" name="Net-(U36-Pad5)">
-      <node ref="U36" pin="5"/>
       <node ref="U37" pin="2"/>
+      <node ref="U36" pin="5"/>
     </net>
     <net code="138" name="Net-(U35-Pad5)">
-      <node ref="U36" pin="2"/>
       <node ref="U35" pin="5"/>
+      <node ref="U36" pin="2"/>
     </net>
     <net code="139" name="Net-(U35-Pad6)">
       <node ref="U35" pin="6"/>
       <node ref="U36" pin="1"/>
     </net>
     <net code="140" name="Net-(U34-Pad5)">
-      <node ref="U34" pin="5"/>
       <node ref="U35" pin="2"/>
+      <node ref="U34" pin="5"/>
     </net>
     <net code="141" name="Net-(U33-Pad5)">
-      <node ref="U33" pin="5"/>
       <node ref="U34" pin="2"/>
+      <node ref="U33" pin="5"/>
     </net>
     <net code="142" name="Net-(U34-Pad6)">
       <node ref="U34" pin="6"/>
       <node ref="U35" pin="1"/>
     </net>
     <net code="143" name="Net-(U33-Pad6)">
-      <node ref="U33" pin="6"/>
       <node ref="U34" pin="1"/>
+      <node ref="U33" pin="6"/>
     </net>
     <net code="144" name="Net-(U39-Pad6)">
       <node ref="U39" pin="6"/>
       <node ref="U40" pin="1"/>
     </net>
     <net code="145" name="Net-(U39-Pad5)">
-      <node ref="U40" pin="2"/>
       <node ref="U39" pin="5"/>
+      <node ref="U40" pin="2"/>
     </net>
     <net code="146" name="Net-(U63-Pad6)">
-      <node ref="U63" pin="6"/>
       <node ref="U64" pin="1"/>
+      <node ref="U63" pin="6"/>
     </net>
     <net code="147" name="Net-(U63-Pad5)">
-      <node ref="U63" pin="5"/>
       <node ref="U64" pin="2"/>
+      <node ref="U63" pin="5"/>
     </net>
     <net code="148" name="Net-(U62-Pad6)">
-      <node ref="U63" pin="1"/>
       <node ref="U62" pin="6"/>
+      <node ref="U63" pin="1"/>
     </net>
     <net code="149" name="Net-(U62-Pad5)">
-      <node ref="U62" pin="5"/>
       <node ref="U63" pin="2"/>
+      <node ref="U62" pin="5"/>
     </net>
     <net code="150" name="Net-(U61-Pad5)">
       <node ref="U62" pin="2"/>
       <node ref="U61" pin="5"/>
     </net>
     <net code="151" name="Net-(U61-Pad6)">
-      <node ref="U62" pin="1"/>
       <node ref="U61" pin="6"/>
+      <node ref="U62" pin="1"/>
     </net>
     <net code="152" name="Net-(U59-Pad5)">
-      <node ref="U60" pin="2"/>
       <node ref="U59" pin="5"/>
+      <node ref="U60" pin="2"/>
     </net>
     <net code="153" name="Net-(U60-Pad5)">
-      <node ref="U61" pin="2"/>
       <node ref="U60" pin="5"/>
+      <node ref="U61" pin="2"/>
     </net>
     <net code="154" name="Net-(U60-Pad6)">
       <node ref="U61" pin="1"/>
       <node ref="U60" pin="6"/>
     </net>
     <net code="155" name="Net-(U59-Pad6)">
-      <node ref="U60" pin="1"/>
       <node ref="U59" pin="6"/>
+      <node ref="U60" pin="1"/>
     </net>
     <net code="156" name="Net-(U58-Pad5)">
       <node ref="U58" pin="5"/>
@@ -4105,8 +4170,8 @@
       <node ref="U58" pin="2"/>
     </net>
     <net code="158" name="Net-(U58-Pad6)">
-      <node ref="U59" pin="1"/>
       <node ref="U58" pin="6"/>
+      <node ref="U59" pin="1"/>
     </net>
     <net code="159" name="Net-(U57-Pad6)">
       <node ref="U58" pin="1"/>
@@ -4121,52 +4186,52 @@
       <node ref="U57" pin="2"/>
     </net>
     <net code="162" name="Net-(U54-Pad6)">
-      <node ref="U55" pin="1"/>
       <node ref="U54" pin="6"/>
+      <node ref="U55" pin="1"/>
     </net>
     <net code="163" name="Net-(U53-Pad5)">
-      <node ref="U53" pin="5"/>
       <node ref="U54" pin="2"/>
+      <node ref="U53" pin="5"/>
     </net>
     <net code="164" name="Net-(U53-Pad6)">
-      <node ref="U53" pin="6"/>
       <node ref="U54" pin="1"/>
+      <node ref="U53" pin="6"/>
     </net>
     <net code="165" name="Net-(U54-Pad5)">
       <node ref="U54" pin="5"/>
       <node ref="U55" pin="2"/>
     </net>
     <net code="166" name="Net-(U52-Pad6)">
-      <node ref="U52" pin="6"/>
       <node ref="U53" pin="1"/>
+      <node ref="U52" pin="6"/>
     </net>
     <net code="167" name="Net-(U52-Pad5)">
-      <node ref="U52" pin="5"/>
       <node ref="U53" pin="2"/>
+      <node ref="U52" pin="5"/>
     </net>
     <net code="168" name="Net-(U51-Pad5)">
-      <node ref="U52" pin="2"/>
       <node ref="U51" pin="5"/>
+      <node ref="U52" pin="2"/>
     </net>
     <net code="169" name="Net-(U51-Pad6)">
-      <node ref="U52" pin="1"/>
       <node ref="U51" pin="6"/>
+      <node ref="U52" pin="1"/>
     </net>
     <net code="170" name="Net-(U50-Pad5)">
-      <node ref="U51" pin="2"/>
       <node ref="U50" pin="5"/>
+      <node ref="U51" pin="2"/>
     </net>
     <net code="171" name="Net-(U49-Pad5)">
       <node ref="U50" pin="2"/>
       <node ref="U49" pin="5"/>
     </net>
     <net code="172" name="Net-(U50-Pad6)">
-      <node ref="U50" pin="6"/>
       <node ref="U51" pin="1"/>
+      <node ref="U50" pin="6"/>
     </net>
     <net code="173" name="Net-(U49-Pad6)">
-      <node ref="U49" pin="6"/>
       <node ref="U50" pin="1"/>
+      <node ref="U49" pin="6"/>
     </net>
     <net code="174" name="Net-(U55-Pad6)">
       <node ref="U56" pin="1"/>
@@ -4177,44 +4242,44 @@
       <node ref="U55" pin="5"/>
     </net>
     <net code="176" name="Net-(U79-Pad6)">
-      <node ref="U79" pin="6"/>
       <node ref="U80" pin="1"/>
+      <node ref="U79" pin="6"/>
     </net>
     <net code="177" name="Net-(U79-Pad5)">
       <node ref="U79" pin="5"/>
       <node ref="U80" pin="2"/>
     </net>
     <net code="178" name="Net-(U78-Pad6)">
-      <node ref="U79" pin="1"/>
       <node ref="U78" pin="6"/>
+      <node ref="U79" pin="1"/>
     </net>
     <net code="179" name="Net-(U78-Pad5)">
-      <node ref="U79" pin="2"/>
       <node ref="U78" pin="5"/>
+      <node ref="U79" pin="2"/>
     </net>
     <net code="180" name="Net-(U77-Pad5)">
-      <node ref="U78" pin="2"/>
       <node ref="U77" pin="5"/>
+      <node ref="U78" pin="2"/>
     </net>
     <net code="181" name="Net-(U77-Pad6)">
       <node ref="U78" pin="1"/>
       <node ref="U77" pin="6"/>
     </net>
     <net code="182" name="Net-(U76-Pad6)">
-      <node ref="U76" pin="6"/>
       <node ref="U77" pin="1"/>
+      <node ref="U76" pin="6"/>
     </net>
     <net code="183" name="Net-(U76-Pad5)">
-      <node ref="U76" pin="5"/>
       <node ref="U77" pin="2"/>
+      <node ref="U76" pin="5"/>
     </net>
     <net code="184" name="Net-(U75-Pad5)">
-      <node ref="U75" pin="5"/>
       <node ref="U76" pin="2"/>
+      <node ref="U75" pin="5"/>
     </net>
     <net code="185" name="Net-(U75-Pad6)">
-      <node ref="U75" pin="6"/>
       <node ref="U76" pin="1"/>
+      <node ref="U75" pin="6"/>
     </net>
     <net code="186" name="Net-(U74-Pad5)">
       <node ref="U75" pin="2"/>
@@ -4237,56 +4302,56 @@
       <node ref="U73" pin="1"/>
     </net>
     <net code="191" name="Net-(U72-Pad5)">
-      <node ref="U72" pin="5"/>
       <node ref="U73" pin="2"/>
+      <node ref="U72" pin="5"/>
     </net>
     <net code="192" name="Net-(U70-Pad6)">
-      <node ref="U71" pin="1"/>
       <node ref="U70" pin="6"/>
+      <node ref="U71" pin="1"/>
     </net>
     <net code="193" name="Net-(U70-Pad5)">
-      <node ref="U70" pin="5"/>
       <node ref="U71" pin="2"/>
+      <node ref="U70" pin="5"/>
     </net>
     <net code="194" name="Net-(U69-Pad6)">
-      <node ref="U70" pin="1"/>
       <node ref="U69" pin="6"/>
+      <node ref="U70" pin="1"/>
     </net>
     <net code="195" name="Net-(U69-Pad5)">
-      <node ref="U70" pin="2"/>
       <node ref="U69" pin="5"/>
+      <node ref="U70" pin="2"/>
     </net>
     <net code="196" name="Net-(U68-Pad6)">
-      <node ref="U69" pin="1"/>
       <node ref="U68" pin="6"/>
+      <node ref="U69" pin="1"/>
     </net>
     <net code="197" name="Net-(U68-Pad5)">
       <node ref="U68" pin="5"/>
       <node ref="U69" pin="2"/>
     </net>
     <net code="198" name="Net-(U67-Pad5)">
-      <node ref="U67" pin="5"/>
       <node ref="U68" pin="2"/>
+      <node ref="U67" pin="5"/>
     </net>
     <net code="199" name="Net-(U67-Pad6)">
-      <node ref="U68" pin="1"/>
       <node ref="U67" pin="6"/>
+      <node ref="U68" pin="1"/>
     </net>
     <net code="200" name="Net-(U66-Pad5)">
       <node ref="U67" pin="2"/>
       <node ref="U66" pin="5"/>
     </net>
     <net code="201" name="Net-(U65-Pad5)">
-      <node ref="U66" pin="2"/>
       <node ref="U65" pin="5"/>
+      <node ref="U66" pin="2"/>
     </net>
     <net code="202" name="Net-(U66-Pad6)">
-      <node ref="U66" pin="6"/>
       <node ref="U67" pin="1"/>
+      <node ref="U66" pin="6"/>
     </net>
     <net code="203" name="Net-(U65-Pad6)">
-      <node ref="U66" pin="1"/>
       <node ref="U65" pin="6"/>
+      <node ref="U66" pin="1"/>
     </net>
     <net code="204" name="Net-(U71-Pad6)">
       <node ref="U72" pin="1"/>
@@ -4297,16 +4362,16 @@
       <node ref="U71" pin="5"/>
     </net>
     <net code="206" name="Net-(U95-Pad6)">
-      <node ref="U95" pin="6"/>
       <node ref="U96" pin="1"/>
+      <node ref="U95" pin="6"/>
     </net>
     <net code="207" name="Net-(U95-Pad5)">
-      <node ref="U96" pin="2"/>
       <node ref="U95" pin="5"/>
+      <node ref="U96" pin="2"/>
     </net>
     <net code="208" name="Net-(U94-Pad6)">
-      <node ref="U94" pin="6"/>
       <node ref="U95" pin="1"/>
+      <node ref="U94" pin="6"/>
     </net>
     <net code="209" name="Net-(U94-Pad5)">
       <node ref="U94" pin="5"/>
@@ -4317,72 +4382,72 @@
       <node ref="U93" pin="5"/>
     </net>
     <net code="211" name="Net-(U93-Pad6)">
-      <node ref="U94" pin="1"/>
       <node ref="U93" pin="6"/>
+      <node ref="U94" pin="1"/>
     </net>
     <net code="212" name="Net-(U92-Pad6)">
       <node ref="U93" pin="1"/>
       <node ref="U92" pin="6"/>
     </net>
     <net code="213" name="Net-(U92-Pad5)">
-      <node ref="U93" pin="2"/>
       <node ref="U92" pin="5"/>
+      <node ref="U93" pin="2"/>
     </net>
     <net code="214" name="Net-(U91-Pad5)">
-      <node ref="U91" pin="5"/>
       <node ref="U92" pin="2"/>
+      <node ref="U91" pin="5"/>
     </net>
     <net code="215" name="Net-(U91-Pad6)">
-      <node ref="U91" pin="6"/>
       <node ref="U92" pin="1"/>
+      <node ref="U91" pin="6"/>
     </net>
     <net code="216" name="Net-(U90-Pad5)">
-      <node ref="U90" pin="5"/>
       <node ref="U91" pin="2"/>
+      <node ref="U90" pin="5"/>
     </net>
     <net code="217" name="Net-(U89-Pad5)">
       <node ref="U89" pin="5"/>
       <node ref="U90" pin="2"/>
     </net>
     <net code="218" name="Net-(U90-Pad6)">
-      <node ref="U90" pin="6"/>
       <node ref="U91" pin="1"/>
+      <node ref="U90" pin="6"/>
     </net>
     <net code="219" name="Net-(U89-Pad6)">
       <node ref="U90" pin="1"/>
       <node ref="U89" pin="6"/>
     </net>
     <net code="220" name="Net-(U88-Pad6)">
-      <node ref="U89" pin="1"/>
       <node ref="U88" pin="6"/>
+      <node ref="U89" pin="1"/>
     </net>
     <net code="221" name="Net-(U88-Pad5)">
       <node ref="U89" pin="2"/>
       <node ref="U88" pin="5"/>
     </net>
     <net code="222" name="Net-(U86-Pad6)">
-      <node ref="U87" pin="1"/>
       <node ref="U86" pin="6"/>
+      <node ref="U87" pin="1"/>
     </net>
     <net code="223" name="Net-(U86-Pad5)">
-      <node ref="U87" pin="2"/>
       <node ref="U86" pin="5"/>
+      <node ref="U87" pin="2"/>
     </net>
     <net code="224" name="Net-(U85-Pad6)">
-      <node ref="U85" pin="6"/>
       <node ref="U86" pin="1"/>
+      <node ref="U85" pin="6"/>
     </net>
     <net code="225" name="Net-(U85-Pad5)">
-      <node ref="U86" pin="2"/>
       <node ref="U85" pin="5"/>
+      <node ref="U86" pin="2"/>
     </net>
     <net code="226" name="Net-(U84-Pad6)">
-      <node ref="U85" pin="1"/>
       <node ref="U84" pin="6"/>
+      <node ref="U85" pin="1"/>
     </net>
     <net code="227" name="Net-(U84-Pad5)">
-      <node ref="U85" pin="2"/>
       <node ref="U84" pin="5"/>
+      <node ref="U85" pin="2"/>
     </net>
     <net code="228" name="Net-(U83-Pad5)">
       <node ref="U84" pin="2"/>
@@ -4401,8 +4466,8 @@
       <node ref="U81" pin="5"/>
     </net>
     <net code="232" name="Net-(U82-Pad6)">
-      <node ref="U83" pin="1"/>
       <node ref="U82" pin="6"/>
+      <node ref="U83" pin="1"/>
     </net>
     <net code="233" name="Net-(U81-Pad6)">
       <node ref="U81" pin="6"/>
@@ -4413,12 +4478,12 @@
       <node ref="U88" pin="1"/>
     </net>
     <net code="235" name="Net-(U87-Pad5)">
-      <node ref="U87" pin="5"/>
       <node ref="U88" pin="2"/>
+      <node ref="U87" pin="5"/>
     </net>
     <net code="236" name="Net-(U111-Pad6)">
-      <node ref="U112" pin="1"/>
       <node ref="U111" pin="6"/>
+      <node ref="U112" pin="1"/>
     </net>
     <net code="237" name="Net-(U111-Pad5)">
       <node ref="U111" pin="5"/>
@@ -4437,20 +4502,20 @@
       <node ref="U109" pin="5"/>
     </net>
     <net code="241" name="Net-(U109-Pad6)">
-      <node ref="U110" pin="1"/>
       <node ref="U109" pin="6"/>
+      <node ref="U110" pin="1"/>
     </net>
     <net code="242" name="Net-(U107-Pad5)">
       <node ref="U108" pin="2"/>
       <node ref="U107" pin="5"/>
     </net>
     <net code="243" name="Net-(U108-Pad5)">
-      <node ref="U109" pin="2"/>
       <node ref="U108" pin="5"/>
+      <node ref="U109" pin="2"/>
     </net>
     <net code="244" name="Net-(U108-Pad6)">
-      <node ref="U108" pin="6"/>
       <node ref="U109" pin="1"/>
+      <node ref="U108" pin="6"/>
     </net>
     <net code="245" name="Net-(U107-Pad6)">
       <node ref="U108" pin="1"/>
@@ -4465,20 +4530,20 @@
       <node ref="U106" pin="2"/>
     </net>
     <net code="248" name="Net-(U106-Pad6)">
-      <node ref="U106" pin="6"/>
       <node ref="U107" pin="1"/>
+      <node ref="U106" pin="6"/>
     </net>
     <net code="249" name="Net-(U105-Pad6)">
       <node ref="U105" pin="6"/>
       <node ref="U106" pin="1"/>
     </net>
     <net code="250" name="Net-(U104-Pad6)">
-      <node ref="U104" pin="6"/>
       <node ref="U105" pin="1"/>
+      <node ref="U104" pin="6"/>
     </net>
     <net code="251" name="Net-(U104-Pad5)">
-      <node ref="U104" pin="5"/>
       <node ref="U105" pin="2"/>
+      <node ref="U104" pin="5"/>
     </net>
     <net code="252" name="Net-(U102-Pad6)">
       <node ref="U102" pin="6"/>
@@ -4489,20 +4554,20 @@
       <node ref="U102" pin="2"/>
     </net>
     <net code="254" name="Net-(U101-Pad6)">
-      <node ref="U101" pin="6"/>
       <node ref="U102" pin="1"/>
+      <node ref="U101" pin="6"/>
     </net>
     <net code="255" name="Net-(U102-Pad5)">
-      <node ref="U103" pin="2"/>
       <node ref="U102" pin="5"/>
+      <node ref="U103" pin="2"/>
     </net>
     <net code="256" name="Net-(U100-Pad6)">
       <node ref="U101" pin="1"/>
       <node ref="U100" pin="6"/>
     </net>
     <net code="257" name="Net-(U100-Pad5)">
-      <node ref="U100" pin="5"/>
       <node ref="U101" pin="2"/>
+      <node ref="U100" pin="5"/>
     </net>
     <net code="258" name="Net-(U100-Pad2)">
       <node ref="U99" pin="5"/>
@@ -4513,20 +4578,20 @@
       <node ref="U100" pin="1"/>
     </net>
     <net code="260" name="Net-(U98-Pad5)">
-      <node ref="U99" pin="2"/>
       <node ref="U98" pin="5"/>
+      <node ref="U99" pin="2"/>
     </net>
     <net code="261" name="Net-(U97-Pad5)">
       <node ref="U97" pin="5"/>
       <node ref="U98" pin="2"/>
     </net>
     <net code="262" name="Net-(U98-Pad6)">
-      <node ref="U99" pin="1"/>
       <node ref="U98" pin="6"/>
+      <node ref="U99" pin="1"/>
     </net>
     <net code="263" name="Net-(U97-Pad6)">
-      <node ref="U98" pin="1"/>
       <node ref="U97" pin="6"/>
+      <node ref="U98" pin="1"/>
     </net>
     <net code="264" name="Net-(U103-Pad6)">
       <node ref="U103" pin="6"/>
@@ -4537,8 +4602,8 @@
       <node ref="U104" pin="2"/>
     </net>
     <net code="266" name="Net-(U125-Pad6)">
-      <node ref="U125" pin="6"/>
       <node ref="U126" pin="1"/>
+      <node ref="U125" pin="6"/>
     </net>
     <net code="267" name="Net-(U125-Pad5)">
       <node ref="U126" pin="2"/>
@@ -4549,12 +4614,12 @@
       <node ref="U124" pin="6"/>
     </net>
     <net code="269" name="Net-(U124-Pad5)">
-      <node ref="U124" pin="5"/>
       <node ref="U125" pin="2"/>
+      <node ref="U124" pin="5"/>
     </net>
-    <net code="270" name="Net-(U123-Pad6)">
-      <node ref="U123" pin="6"/>
-      <node ref="U124" pin="1"/>
+    <net code="270" name="Net-(U121-Pad5)">
+      <node ref="U122" pin="2"/>
+      <node ref="U121" pin="5"/>
     </net>
     <net code="271" name="Net-(U122-Pad6)">
       <node ref="U122" pin="6"/>
@@ -4565,32 +4630,32 @@
       <node ref="U122" pin="1"/>
     </net>
     <net code="273" name="Net-(U127-Pad6)">
-      <node ref="U128" pin="1"/>
       <node ref="U127" pin="6"/>
+      <node ref="U128" pin="1"/>
     </net>
     <net code="274" name="Net-(U127-Pad5)">
-      <node ref="U128" pin="2"/>
       <node ref="U127" pin="5"/>
+      <node ref="U128" pin="2"/>
     </net>
-    <net code="275" name="Net-(U126-Pad6)">
-      <node ref="U127" pin="1"/>
-      <node ref="U126" pin="6"/>
-    </net>
-    <net code="276" name="Net-(U126-Pad5)">
-      <node ref="U127" pin="2"/>
+    <net code="275" name="Net-(U126-Pad5)">
       <node ref="U126" pin="5"/>
+      <node ref="U127" pin="2"/>
     </net>
-    <net code="277" name="Net-(U121-Pad5)">
-      <node ref="U121" pin="5"/>
-      <node ref="U122" pin="2"/>
+    <net code="276" name="Net-(U126-Pad6)">
+      <node ref="U126" pin="6"/>
+      <node ref="U127" pin="1"/>
+    </net>
+    <net code="277" name="Net-(U123-Pad5)">
+      <node ref="U123" pin="5"/>
+      <node ref="U124" pin="2"/>
     </net>
     <net code="278" name="Net-(U122-Pad5)">
-      <node ref="U123" pin="2"/>
       <node ref="U122" pin="5"/>
+      <node ref="U123" pin="2"/>
     </net>
-    <net code="279" name="Net-(U123-Pad5)">
-      <node ref="U124" pin="2"/>
-      <node ref="U123" pin="5"/>
+    <net code="279" name="Net-(U123-Pad6)">
+      <node ref="U124" pin="1"/>
+      <node ref="U123" pin="6"/>
     </net>
     <net code="280" name="Net-(U120-Pad5)">
       <node ref="U120" pin="5"/>
@@ -4604,17 +4669,17 @@
       <node ref="U118" pin="1"/>
       <node ref="U117" pin="6"/>
     </net>
-    <net code="283" name="Net-(U116-Pad5)">
-      <node ref="U116" pin="5"/>
-      <node ref="U117" pin="2"/>
+    <net code="283" name="Net-(U117-Pad5)">
+      <node ref="U118" pin="2"/>
+      <node ref="U117" pin="5"/>
     </net>
     <net code="284" name="Net-(U116-Pad6)">
       <node ref="U117" pin="1"/>
       <node ref="U116" pin="6"/>
     </net>
-    <net code="285" name="Net-(U117-Pad5)">
-      <node ref="U117" pin="5"/>
-      <node ref="U118" pin="2"/>
+    <net code="285" name="Net-(U116-Pad5)">
+      <node ref="U116" pin="5"/>
+      <node ref="U117" pin="2"/>
     </net>
     <net code="286" name="Net-(U115-Pad6)">
       <node ref="U116" pin="1"/>
@@ -4624,70 +4689,70 @@
       <node ref="U116" pin="2"/>
       <node ref="U115" pin="5"/>
     </net>
-    <net code="288" name="Net-(U119-Pad6)">
-      <node ref="U119" pin="6"/>
-      <node ref="U120" pin="1"/>
-    </net>
-    <net code="289" name="Net-(U119-Pad5)">
-      <node ref="U119" pin="5"/>
-      <node ref="U120" pin="2"/>
-    </net>
-    <net code="290" name="Net-(U118-Pad6)">
-      <node ref="U119" pin="1"/>
-      <node ref="U118" pin="6"/>
-    </net>
-    <net code="291" name="Net-(U118-Pad5)">
-      <node ref="U118" pin="5"/>
-      <node ref="U119" pin="2"/>
-    </net>
-    <net code="292" name="Net-(U114-Pad6)">
-      <node ref="U114" pin="6"/>
-      <node ref="U115" pin="1"/>
-    </net>
-    <net code="293" name="Net-(U114-Pad5)">
-      <node ref="U114" pin="5"/>
-      <node ref="U115" pin="2"/>
-    </net>
-    <net code="294" name="Net-(U113-Pad5)">
-      <node ref="U113" pin="5"/>
-      <node ref="U114" pin="2"/>
-    </net>
-    <net code="295" name="Net-(U113-Pad6)">
+    <net code="288" name="Net-(U113-Pad6)">
       <node ref="U114" pin="1"/>
       <node ref="U113" pin="6"/>
     </net>
-    <net code="296" name="/rtc_ds3231/BAT">
-      <node ref="C22" pin="1"/>
-      <node ref="U130" pin="14"/>
-      <node ref="BT1" pin="1"/>
+    <net code="289" name="Net-(U119-Pad5)">
+      <node ref="U120" pin="2"/>
+      <node ref="U119" pin="5"/>
     </net>
-    <net code="297" name="/rtc_ds3231/SQR">
-      <node ref="R6" pin="2"/>
+    <net code="290" name="Net-(U119-Pad6)">
+      <node ref="U119" pin="6"/>
+      <node ref="U120" pin="1"/>
+    </net>
+    <net code="291" name="Net-(U118-Pad6)">
+      <node ref="U118" pin="6"/>
+      <node ref="U119" pin="1"/>
+    </net>
+    <net code="292" name="Net-(U118-Pad5)">
+      <node ref="U118" pin="5"/>
+      <node ref="U119" pin="2"/>
+    </net>
+    <net code="293" name="Net-(U114-Pad6)">
+      <node ref="U114" pin="6"/>
+      <node ref="U115" pin="1"/>
+    </net>
+    <net code="294" name="Net-(U114-Pad5)">
+      <node ref="U114" pin="5"/>
+      <node ref="U115" pin="2"/>
+    </net>
+    <net code="295" name="Net-(U113-Pad5)">
+      <node ref="U114" pin="2"/>
+      <node ref="U113" pin="5"/>
+    </net>
+    <net code="296" name="/rtc_ds3231/SQR">
       <node ref="U130" pin="3"/>
+      <node ref="R6" pin="2"/>
     </net>
-    <net code="298" name="/rtc_ds3231/32kHz">
-      <node ref="R7" pin="2"/>
+    <net code="297" name="/rtc_ds3231/32kHz">
       <node ref="U130" pin="1"/>
+      <node ref="R7" pin="2"/>
     </net>
-    <net code="299" name="/rtc_ds3231/RESET">
+    <net code="298" name="/rtc_ds3231/RESET">
       <node ref="TP1" pin="1"/>
       <node ref="U130" pin="4"/>
     </net>
-    <net code="300" name="/esp_pwr_uart/RTS">
-      <node ref="Q1" pin="5"/>
-      <node ref="U132" pin="24"/>
-      <node ref="R20" pin="2"/>
-      <node ref="Q1" pin="1"/>
+    <net code="299" name="/rtc_ds3231/SCL_5V">
+      <node ref="R8" pin="2"/>
+      <node ref="U133" pin="1"/>
+      <node ref="U130" pin="16"/>
     </net>
-    <net code="301" name="Net-(C20-Pad1)">
+    <net code="300" name="/rtc_ds3231/SDA_5V">
+      <node ref="U130" pin="15"/>
+      <node ref="R9" pin="2"/>
+      <node ref="U133" pin="8"/>
+    </net>
+    <net code="301" name="/rtc_ds3231/BAT">
+      <node ref="U130" pin="14"/>
+      <node ref="BT1" pin="1"/>
+      <node ref="C22" pin="1"/>
+    </net>
+    <net code="302" name="Net-(C20-Pad1)">
       <node ref="R16" pin="2"/>
-      <node ref="C20" pin="1"/>
-      <node ref="S3" pin="1"/>
       <node ref="S3" pin="3"/>
-    </net>
-    <net code="302" name="Net-(R22-Pad2)">
-      <node ref="R22" pin="2"/>
-      <node ref="U132" pin="26"/>
+      <node ref="S3" pin="1"/>
+      <node ref="C20" pin="1"/>
     </net>
     <net code="303" name="/esp_pwr_uart/ACTIVE">
       <node ref="U132" pin="11"/>
@@ -4698,284 +4763,298 @@
     <net code="305" name="Net-(U132-Pad9)">
       <node ref="U132" pin="9"/>
     </net>
-    <net code="306" name="/esp_pwr_uart/DSR">
+    <net code="306" name="Net-(R22-Pad2)">
+      <node ref="U132" pin="26"/>
+      <node ref="R22" pin="2"/>
+    </net>
+    <net code="307" name="/esp_pwr_uart/DSR">
       <node ref="U132" pin="27"/>
     </net>
-    <net code="307" name="/esp_pwr_uart/TXD">
-      <node ref="R22" pin="1"/>
+    <net code="308" name="/esp_pwr_uart/TXD">
       <node ref="R23" pin="2"/>
+      <node ref="R22" pin="1"/>
     </net>
-    <net code="308" name="/esp_pwr_uart/RXD">
+    <net code="309" name="/esp_pwr_uart/RXD">
       <node ref="R21" pin="2"/>
       <node ref="U132" pin="25"/>
     </net>
-    <net code="309" name="/esp_pwr_uart/CTS">
-      <node ref="U132" pin="23"/>
+    <net code="310" name="/esp_pwr_uart/CTS">
       <node ref="R19" pin="2"/>
+      <node ref="U132" pin="23"/>
     </net>
-    <net code="310" name="Net-(C21-Pad1)">
+    <net code="311" name="/esp_pwr_uart/RTS">
+      <node ref="R20" pin="2"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="Q1" pin="5"/>
+      <node ref="U132" pin="24"/>
+    </net>
+    <net code="312" name="Net-(C21-Pad1)">
       <node ref="R18" pin="2"/>
       <node ref="C21" pin="1"/>
       <node ref="S4" pin="1"/>
       <node ref="S4" pin="3"/>
     </net>
-    <net code="311" name="Net-(U132-Pad17)">
+    <net code="313" name="Net-(U132-Pad17)">
       <node ref="U132" pin="17"/>
     </net>
-    <net code="312" name="Net-(D2-Pad2)">
+    <net code="314" name="Net-(D2-Pad2)">
       <node ref="JP1" pin="2"/>
       <node ref="D2" pin="2"/>
     </net>
-    <net code="313" name="/esp_pwr_uart/DCD">
+    <net code="315" name="/esp_pwr_uart/DCD">
       <node ref="U132" pin="1"/>
     </net>
-    <net code="314" name="Net-(U132-Pad10)">
+    <net code="316" name="Net-(U132-Pad10)">
       <node ref="U132" pin="10"/>
     </net>
-    <net code="315" name="Net-(U132-Pad13)">
+    <net code="317" name="Net-(U132-Pad13)">
       <node ref="U132" pin="13"/>
     </net>
-    <net code="316" name="Net-(U132-Pad14)">
+    <net code="318" name="Net-(U132-Pad14)">
       <node ref="U132" pin="14"/>
     </net>
-    <net code="317" name="Net-(U132-Pad15)">
+    <net code="319" name="Net-(U132-Pad15)">
       <node ref="U132" pin="15"/>
     </net>
-    <net code="318" name="Net-(U132-Pad16)">
+    <net code="320" name="Net-(U132-Pad16)">
       <node ref="U132" pin="16"/>
     </net>
-    <net code="319" name="Net-(U132-Pad18)">
+    <net code="321" name="Net-(U132-Pad18)">
       <node ref="U132" pin="18"/>
     </net>
-    <net code="320" name="Net-(U132-Pad19)">
+    <net code="322" name="Net-(U132-Pad19)">
       <node ref="U132" pin="19"/>
     </net>
-    <net code="321" name="/esp_pwr_uart/RI">
+    <net code="323" name="/esp_pwr_uart/RI">
       <node ref="U132" pin="2"/>
     </net>
-    <net code="322" name="Net-(U132-Pad20)">
+    <net code="324" name="Net-(U132-Pad20)">
       <node ref="U132" pin="20"/>
     </net>
-    <net code="323" name="Net-(U132-Pad21)">
+    <net code="325" name="Net-(U132-Pad21)">
       <node ref="U132" pin="21"/>
     </net>
-    <net code="324" name="Net-(U132-Pad22)">
+    <net code="326" name="Net-(U132-Pad22)">
       <node ref="U132" pin="22"/>
     </net>
-    <net code="325" name="Net-(D2-Pad1)">
-      <node ref="D2" pin="1"/>
+    <net code="327" name="Net-(D2-Pad1)">
       <node ref="R4" pin="2"/>
+      <node ref="D2" pin="1"/>
     </net>
-    <net code="326" name="Net-(P1-Pad4)">
+    <net code="328" name="Net-(P1-Pad4)">
       <node ref="P1" pin="4"/>
     </net>
-    <net code="327" name="/esp_pwr_uart/USB_D+">
-      <node ref="P1" pin="3"/>
-      <node ref="D3" pin="2"/>
+    <net code="329" name="/esp_pwr_uart/USB_D+">
       <node ref="U132" pin="4"/>
+      <node ref="D3" pin="2"/>
+      <node ref="P1" pin="3"/>
     </net>
-    <net code="328" name="Net-(D1-Pad1)">
-      <node ref="D1" pin="1"/>
+    <net code="330" name="Net-(D1-Pad1)">
       <node ref="P1" pin="1"/>
+      <node ref="D1" pin="1"/>
     </net>
-    <net code="329" name="/esp_pwr_uart/USB_D-">
-      <node ref="D4" pin="2"/>
-      <node ref="U132" pin="5"/>
+    <net code="331" name="/esp_pwr_uart/USB_D-">
       <node ref="P1" pin="2"/>
+      <node ref="U132" pin="5"/>
+      <node ref="D4" pin="2"/>
     </net>
-    <net code="330" name="GND">
-      <node ref="U130" pin="10"/>
-      <node ref="U130" pin="12"/>
-      <node ref="U47" pin="3"/>
-      <node ref="U130" pin="6"/>
-      <node ref="U130" pin="11"/>
-      <node ref="U130" pin="9"/>
-      <node ref="U130" pin="5"/>
-      <node ref="U130" pin="7"/>
-      <node ref="BT1" pin="2"/>
-      <node ref="U130" pin="8"/>
-      <node ref="U78" pin="3"/>
-      <node ref="C27" pin="2"/>
-      <node ref="U45" pin="3"/>
-      <node ref="U42" pin="3"/>
-      <node ref="U79" pin="3"/>
-      <node ref="U72" pin="3"/>
-      <node ref="U80" pin="3"/>
-      <node ref="C22" pin="2"/>
-      <node ref="U46" pin="3"/>
-      <node ref="U24" pin="3"/>
-      <node ref="U27" pin="3"/>
-      <node ref="U7" pin="3"/>
-      <node ref="U5" pin="3"/>
+    <net code="332" name="GND">
+      <node ref="U132" pin="3"/>
+      <node ref="U132" pin="29"/>
+      <node ref="U113" pin="3"/>
+      <node ref="S4" pin="2"/>
+      <node ref="D4" pin="1"/>
+      <node ref="J8" pin="1"/>
+      <node ref="R10" pin="2"/>
+      <node ref="U129" pin="38"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="U129" pin="39"/>
+      <node ref="J16" pin="1"/>
+      <node ref="R11" pin="2"/>
+      <node ref="JP1" pin="1"/>
+      <node ref="U115" pin="3"/>
+      <node ref="U114" pin="3"/>
       <node ref="C23" pin="2"/>
-      <node ref="U49" pin="3"/>
       <node ref="C24" pin="2"/>
       <node ref="P1" pin="5"/>
       <node ref="P1" pin="6"/>
       <node ref="D3" pin="1"/>
-      <node ref="D4" pin="1"/>
-      <node ref="U69" pin="3"/>
-      <node ref="JP1" pin="1"/>
-      <node ref="U132" pin="29"/>
-      <node ref="U132" pin="3"/>
       <node ref="U131" pin="1"/>
       <node ref="C25" pin="2"/>
-      <node ref="R10" pin="2"/>
-      <node ref="C4" pin="1"/>
-      <node ref="C3" pin="1"/>
-      <node ref="U70" pin="3"/>
-      <node ref="U21" pin="3"/>
-      <node ref="J16" pin="1"/>
-      <node ref="U50" pin="3"/>
-      <node ref="U23" pin="3"/>
-      <node ref="U13" pin="3"/>
-      <node ref="U22" pin="3"/>
-      <node ref="C18" pin="2"/>
-      <node ref="U71" pin="3"/>
-      <node ref="U51" pin="3"/>
-      <node ref="U4" pin="3"/>
-      <node ref="J8" pin="1"/>
-      <node ref="U26" pin="3"/>
-      <node ref="U52" pin="3"/>
-      <node ref="U56" pin="3"/>
-      <node ref="U25" pin="3"/>
-      <node ref="C28" pin="2"/>
-      <node ref="U48" pin="3"/>
-      <node ref="R11" pin="2"/>
-      <node ref="C26" pin="2"/>
-      <node ref="S3" pin="4"/>
-      <node ref="S3" pin="2"/>
+      <node ref="U130" pin="12"/>
+      <node ref="U130" pin="8"/>
+      <node ref="U130" pin="9"/>
+      <node ref="U130" pin="10"/>
+      <node ref="U130" pin="11"/>
+      <node ref="U130" pin="13"/>
+      <node ref="U130" pin="5"/>
+      <node ref="U130" pin="6"/>
+      <node ref="U130" pin="7"/>
+      <node ref="C22" pin="2"/>
       <node ref="C20" pin="2"/>
-      <node ref="C19" pin="2"/>
+      <node ref="S3" pin="2"/>
+      <node ref="S3" pin="4"/>
+      <node ref="C26" pin="2"/>
+      <node ref="BT1" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="C29" pin="2"/>
+      <node ref="C30" pin="2"/>
+      <node ref="U133" pin="2"/>
+      <node ref="C28" pin="2"/>
       <node ref="S4" pin="4"/>
-      <node ref="S4" pin="2"/>
       <node ref="C21" pin="2"/>
-      <node ref="U20" pin="3"/>
-      <node ref="U6" pin="3"/>
+      <node ref="R25" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="R24" pin="2"/>
+      <node ref="C27" pin="2"/>
+      <node ref="U30" pin="3"/>
+      <node ref="U50" pin="3"/>
+      <node ref="U51" pin="3"/>
+      <node ref="U49" pin="3"/>
+      <node ref="U55" pin="3"/>
+      <node ref="U56" pin="3"/>
+      <node ref="U32" pin="3"/>
       <node ref="U57" pin="3"/>
-      <node ref="C17" pin="2"/>
-      <node ref="U17" pin="3"/>
+      <node ref="U31" pin="3"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C8" pin="1"/>
       <node ref="U28" pin="3"/>
       <node ref="U29" pin="3"/>
-      <node ref="U130" pin="13"/>
-      <node ref="U18" pin="3"/>
-      <node ref="U55" pin="3"/>
-      <node ref="U19" pin="3"/>
-      <node ref="U62" pin="3"/>
-      <node ref="R13" pin="2"/>
-      <node ref="R14" pin="2"/>
-      <node ref="U82" pin="3"/>
-      <node ref="U83" pin="3"/>
-      <node ref="U84" pin="3"/>
+      <node ref="U52" pin="3"/>
+      <node ref="U53" pin="3"/>
+      <node ref="U54" pin="3"/>
+      <node ref="U26" pin="3"/>
       <node ref="C9" pin="1"/>
-      <node ref="U89" pin="3"/>
       <node ref="C10" pin="1"/>
+      <node ref="U2" pin="3"/>
+      <node ref="U72" pin="3"/>
+      <node ref="U69" pin="3"/>
+      <node ref="U71" pin="3"/>
+      <node ref="U70" pin="3"/>
+      <node ref="U74" pin="3"/>
+      <node ref="U78" pin="3"/>
+      <node ref="U79" pin="3"/>
+      <node ref="U80" pin="3"/>
+      <node ref="U75" pin="3"/>
+      <node ref="U9" pin="3"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U59" pin="3"/>
+      <node ref="U77" pin="3"/>
+      <node ref="U76" pin="3"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="U24" pin="3"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U43" pin="3"/>
+      <node ref="U44" pin="3"/>
+      <node ref="U45" pin="3"/>
+      <node ref="U22" pin="3"/>
+      <node ref="U23" pin="3"/>
+      <node ref="U21" pin="3"/>
+      <node ref="U18" pin="3"/>
+      <node ref="U19" pin="3"/>
+      <node ref="U25" pin="3"/>
+      <node ref="U48" pin="3"/>
+      <node ref="U42" pin="3"/>
+      <node ref="U17" pin="3"/>
+      <node ref="U46" pin="3"/>
+      <node ref="U47" pin="3"/>
+      <node ref="U20" pin="3"/>
+      <node ref="C4" pin="1"/>
+      <node ref="U41" pin="3"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U60" pin="3"/>
+      <node ref="U61" pin="3"/>
+      <node ref="U27" pin="3"/>
+      <node ref="U58" pin="3"/>
+      <node ref="U62" pin="3"/>
       <node ref="U63" pin="3"/>
       <node ref="U64" pin="3"/>
-      <node ref="U88" pin="3"/>
-      <node ref="U129" pin="15"/>
-      <node ref="U86" pin="3"/>
-      <node ref="U87" pin="3"/>
-      <node ref="U85" pin="3"/>
-      <node ref="R12" pin="2"/>
-      <node ref="U81" pin="3"/>
+      <node ref="U33" pin="3"/>
+      <node ref="U39" pin="3"/>
+      <node ref="U40" pin="3"/>
+      <node ref="U36" pin="3"/>
+      <node ref="U37" pin="3"/>
+      <node ref="U38" pin="3"/>
+      <node ref="U34" pin="3"/>
+      <node ref="U35" pin="3"/>
+      <node ref="U100" pin="3"/>
+      <node ref="U15" pin="3"/>
+      <node ref="U101" pin="3"/>
+      <node ref="U102" pin="3"/>
+      <node ref="U104" pin="3"/>
+      <node ref="U98" pin="3"/>
+      <node ref="U99" pin="3"/>
+      <node ref="U97" pin="3"/>
+      <node ref="U16" pin="3"/>
+      <node ref="U103" pin="3"/>
       <node ref="U107" pin="3"/>
+      <node ref="U14" pin="3"/>
       <node ref="U108" pin="3"/>
       <node ref="U109" pin="3"/>
       <node ref="U106" pin="3"/>
-      <node ref="U41" pin="3"/>
-      <node ref="U112" pin="3"/>
-      <node ref="U111" pin="3"/>
+      <node ref="U13" pin="3"/>
       <node ref="U110" pin="3"/>
-      <node ref="U96" pin="3"/>
-      <node ref="U95" pin="3"/>
-      <node ref="U94" pin="3"/>
-      <node ref="U3" pin="3"/>
-      <node ref="U90" pin="3"/>
-      <node ref="U15" pin="3"/>
-      <node ref="U8" pin="3"/>
-      <node ref="U73" pin="3"/>
-      <node ref="C7" pin="1"/>
-      <node ref="U1" pin="3"/>
-      <node ref="C8" pin="1"/>
-      <node ref="U11" pin="3"/>
+      <node ref="U111" pin="3"/>
+      <node ref="U112" pin="3"/>
       <node ref="U10" pin="3"/>
-      <node ref="C12" pin="1"/>
-      <node ref="C11" pin="1"/>
-      <node ref="U129" pin="1"/>
-      <node ref="R15" pin="2"/>
-      <node ref="U58" pin="3"/>
-      <node ref="U92" pin="3"/>
-      <node ref="U59" pin="3"/>
-      <node ref="U93" pin="3"/>
-      <node ref="U91" pin="3"/>
-      <node ref="U16" pin="3"/>
-      <node ref="U12" pin="3"/>
-      <node ref="U60" pin="3"/>
-      <node ref="U61" pin="3"/>
-      <node ref="U2" pin="3"/>
-      <node ref="U32" pin="3"/>
-      <node ref="C16" pin="1"/>
-      <node ref="U121" pin="3"/>
+      <node ref="U11" pin="3"/>
+      <node ref="C14" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="R13" pin="2"/>
       <node ref="U123" pin="3"/>
       <node ref="U122" pin="3"/>
-      <node ref="U43" pin="3"/>
-      <node ref="R24" pin="2"/>
-      <node ref="U114" pin="3"/>
-      <node ref="R25" pin="2"/>
-      <node ref="U44" pin="3"/>
-      <node ref="U65" pin="3"/>
-      <node ref="U14" pin="3"/>
-      <node ref="C5" pin="1"/>
-      <node ref="U117" pin="3"/>
-      <node ref="U31" pin="3"/>
-      <node ref="U116" pin="3"/>
-      <node ref="C6" pin="1"/>
-      <node ref="U120" pin="3"/>
-      <node ref="U115" pin="3"/>
       <node ref="U119" pin="3"/>
+      <node ref="U120" pin="3"/>
+      <node ref="U116" pin="3"/>
       <node ref="U118" pin="3"/>
-      <node ref="C15" pin="1"/>
-      <node ref="U30" pin="3"/>
-      <node ref="U113" pin="3"/>
-      <node ref="U33" pin="3"/>
-      <node ref="U104" pin="3"/>
-      <node ref="U100" pin="3"/>
-      <node ref="U101" pin="3"/>
-      <node ref="U102" pin="3"/>
-      <node ref="U66" pin="3"/>
-      <node ref="U103" pin="3"/>
-      <node ref="U35" pin="3"/>
-      <node ref="U75" pin="3"/>
-      <node ref="U97" pin="3"/>
-      <node ref="U99" pin="3"/>
-      <node ref="C13" pin="1"/>
-      <node ref="U129" pin="39"/>
-      <node ref="U129" pin="38"/>
-      <node ref="C14" pin="1"/>
-      <node ref="U9" pin="3"/>
-      <node ref="U54" pin="3"/>
-      <node ref="U34" pin="3"/>
-      <node ref="C2" pin="1"/>
-      <node ref="U126" pin="3"/>
-      <node ref="U37" pin="3"/>
-      <node ref="U125" pin="3"/>
-      <node ref="U124" pin="3"/>
-      <node ref="U74" pin="3"/>
-      <node ref="U128" pin="3"/>
-      <node ref="U68" pin="3"/>
-      <node ref="U127" pin="3"/>
-      <node ref="U38" pin="3"/>
-      <node ref="U98" pin="3"/>
-      <node ref="U39" pin="3"/>
-      <node ref="C1" pin="1"/>
-      <node ref="U67" pin="3"/>
-      <node ref="U77" pin="3"/>
+      <node ref="U117" pin="3"/>
+      <node ref="U121" pin="3"/>
+      <node ref="R15" pin="2"/>
       <node ref="U105" pin="3"/>
-      <node ref="U40" pin="3"/>
-      <node ref="U36" pin="3"/>
-      <node ref="U76" pin="3"/>
-      <node ref="U53" pin="3"/>
+      <node ref="U129" pin="1"/>
+      <node ref="R14" pin="2"/>
+      <node ref="C16" pin="1"/>
+      <node ref="R12" pin="2"/>
+      <node ref="U127" pin="3"/>
+      <node ref="U128" pin="3"/>
+      <node ref="U124" pin="3"/>
+      <node ref="U125" pin="3"/>
+      <node ref="U129" pin="15"/>
+      <node ref="U126" pin="3"/>
+      <node ref="U4" pin="3"/>
+      <node ref="U91" pin="3"/>
+      <node ref="U93" pin="3"/>
+      <node ref="U92" pin="3"/>
+      <node ref="U90" pin="3"/>
+      <node ref="U94" pin="3"/>
+      <node ref="U95" pin="3"/>
+      <node ref="U96" pin="3"/>
+      <node ref="C11" pin="1"/>
+      <node ref="U6" pin="3"/>
+      <node ref="C12" pin="1"/>
+      <node ref="U7" pin="3"/>
+      <node ref="U5" pin="3"/>
+      <node ref="U1" pin="3"/>
+      <node ref="U66" pin="3"/>
+      <node ref="U3" pin="3"/>
+      <node ref="U67" pin="3"/>
+      <node ref="U68" pin="3"/>
+      <node ref="U65" pin="3"/>
+      <node ref="U8" pin="3"/>
+      <node ref="U73" pin="3"/>
+      <node ref="U89" pin="3"/>
+      <node ref="U12" pin="3"/>
+      <node ref="U88" pin="3"/>
+      <node ref="U85" pin="3"/>
+      <node ref="U87" pin="3"/>
+      <node ref="U86" pin="3"/>
+      <node ref="U82" pin="3"/>
+      <node ref="U83" pin="3"/>
+      <node ref="U84" pin="3"/>
+      <node ref="U81" pin="3"/>
+      <node ref="C15" pin="1"/>
     </net>
   </nets>
 </export>
