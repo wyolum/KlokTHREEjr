@@ -36,6 +36,18 @@ K connector
 F ~
 $ENDCMP
 #
+$CMP Conn_01x02
+D Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_02x03_Odd_Even
+D Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
 $CMP DDC114TU
 D Pre-Biased Bipolar Transistor (BJT) 2 NPN - Pre-Biased (Dual) 50V 100mA 250MHz 200mW Surface Mount SOT-363
 K NPN Transistor/NPN
