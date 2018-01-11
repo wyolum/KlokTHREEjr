@@ -1690,8 +1690,8 @@ Wire Wire Line
 	5725 1975 5425 1975
 Text Label 5425 1975 0    40   ~ 0
 3V3
-Text Notes 2275 5100 0    40   ~ 0
-Native SPI pins are (clk, mosi, miso, cs):\nSPI1: 6, 8, 7, 11\nHSPI: 14,13,12,15\nVSPI: 18,23,19, 5\nIf using native pins maximum \nSPI clock can be set to 80 MHZ.\nOnly HSPI & VSPI are supported by esp-idf driver.
+Text Notes 2200 5350 0    40   ~ 0
+Native SPI pins are (clk, mosi, miso, cs):\nSPI1: 6, 8, 7, 11\nHSPI: 14,13,12,15\nVSPI: 18,23,19, 5\nIf using native pins max SPI clock can be set to 80 MHZ.\nOnly HSPI & VSPI are supported by esp-idf driver.
 $Comp
 L KlokTHREEjr:Conn_02x03_Odd_Even J20
 U 1 1 5A590BB3
@@ -1804,8 +1804,8 @@ F 4 "mfr_pn" H 3825 4150 50  0001 C CNN "manf#"
 	1    3825 4150
 	1    0    0    -1  
 $EndComp
-Text Notes 2275 5375 0    40   ~ 0
-SPI header with breakour pins.\nConnect with wire to appropriate\npins on ESP32
+Text Notes 2200 4900 0    40   ~ 0
+SPI header with breakout pins.\nConnect with wire to appropriate\npins on ESP32
 Wire Notes Line
 	5375 3325 7375 3325
 Wire Notes Line
