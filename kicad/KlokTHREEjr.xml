@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/home/anool/projects-git/KlokTHREEjr/kicad/KlokTHREEjr.sch</source>
-    <date>Thu Jan 11 15:55:00 2018</date>
+    <source>/home/samata/projects-git/KlokTHREEjr/kicad/KlokTHREEjr.sch</source>
+    <date>Thu Jan 11 23:50:53 2018</date>
     <tool>Eeschema no-vcs-found-bf44d39~61~ubuntu16.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -3445,7 +3445,7 @@
   </libparts>
   <libraries>
     <library logical="KlokTHREEjr">
-      <uri>/home/anool/projects-git/KlokTHREEjr/kicad/KlokTHREEjr_libs/KlokTHREEjr.lib</uri>
+      <uri>/home/samata/projects-git/KlokTHREEjr/kicad/KlokTHREEjr_libs/KlokTHREEjr.lib</uri>
     </library>
   </libraries>
   <nets>
