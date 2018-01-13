@@ -19,7 +19,7 @@ FASTLED_USING_NAMESPACE
 #define CLK_PIN   12
 #define LED_TYPE    APA102
 #define COLOR_ORDER GRB
-#define NUM_LEDS    64
+#define NUM_LEDS    (64*3)
 CRGB leds[NUM_LEDS];
 
 #define BRIGHTNESS          10

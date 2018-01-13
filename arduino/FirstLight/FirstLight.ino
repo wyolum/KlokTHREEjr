@@ -12,7 +12,8 @@
 // 
 
 // How many leds are in the strip?
-#define NUM_LEDS 64
+#define N_BOARD 3
+#define NUM_LEDS 64 * N_BOARD
 
 // Data pin that led data will be written out over
 #define DATA_PIN 13
@@ -26,7 +27,7 @@ CRGB leds[NUM_LEDS];
 void setup() {
 	// sanity check delay - allows reprogramming if accidently blowing power w/leds
    	delay(2000);
-
+	FastLED.setBrightness(4);
       // Uncomment one of the following lines for your leds arrangement.
       // FastLED.addLeds<TM1803, DATA_PIN, RGB>(leds, NUM_LEDS);
       // FastLED.addLeds<TM1804, DATA_PIN, RGB>(leds, NUM_LEDS);
@@ -59,19 +60,29 @@ void setup() {
 
 // This function runs over and over, and is where you do the magic to light
 // your leds.
+
+const struct CRGB color = CRGB::White;
+int count = 0;
+int numToFill = 16;
+
 void loop() {
-   // Move a single white led 
-   for(int whiteLed = 0; whiteLed < NUM_LEDS; whiteLed = whiteLed + 1) {
+    // hsv.hue += deltahue;
+  
+   // Move a single white led
+   for(int whiteLed = 0; whiteLed < NUM_LEDS - numToFill + 1; whiteLed = whiteLed + 1) {
       // Turn our current led on to white, then show the leds
-      leds[whiteLed] = CRGB::White;
+     fill_rainbow(&leds[whiteLed], numToFill, whiteLed + count, 8); 
+     //leds[whiteLed] = color;
 
       // Show the leds (only one of which is set to white, from above)
       FastLED.show();
 
       // Wait a little bit
-      delay(100);
+      //delay(1);
 
       // Turn our current led back to black for the next loop around
-      leds[whiteLed] = CRGB::Black;
+      fill_solid(&leds[whiteLed], numToFill, CRGB::Black);
+      //leds[whiteLed] = CRGB::Black;
    }
+   count += NUM_LEDS;
 }
