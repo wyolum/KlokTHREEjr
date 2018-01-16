@@ -60,10 +60,17 @@ const uint8_t MAX_BRIGHTNESS = 50;
 #define NUM_LEDS 64 * N_BOARD
 bool mask[N_DISPLAY * NUM_LEDS];
 
+//// LOLIN32
+/*
 // Data pin that led data will be written out over
 #define DATA_PIN 13
 // Clock pin only needed for SPI based chipsets when not using hardware SPI
 #define CLOCK_PIN 12
+*/
+
+// huzzah
+#define DATA_PIN      13
+#define CLOCK_PIN       14
 
 // This is an array of leds.  One item for each led in your strip.
 CRGB leds[NUM_LEDS];
@@ -150,54 +157,38 @@ void saveSettings(){
 
 void handleTimezone(AdafruitIO_Data *message){
   char *data = (char*)message->value();
-  Serial.print("received <- ");
-  Serial.println(data);
-
   int dataLen = strlen(data);
-  Serial.print("Got: ");
-  Serial.println(data);
-  if (dataLen < 1) {
-  // Stop processing if not enough data was received.
-     return;
-  }
-  String dataStr = String(data);
-  int new_timezone = (int)dataStr.toInt();
-  if (new_timezone != configuration.timezone && -1440/2 < new_timezone && new_timezone <= 1440/2){
-    configuration.timezone = new_timezone;
-    saveSettings();
-  }
-  
+  if (dataLen >= 0) {
+    String dataStr = String(data);
+    int new_timezone = (int)dataStr.toInt();
+    if (new_timezone != configuration.timezone && -1440/2 < new_timezone && new_timezone <= 1440/2){
+      configuration.timezone = new_timezone;
+      saveSettings();
+    }
+  }  
+
+  // print out the received value
   Serial.print(message->feedName());
   Serial.print(" ");
-
-  // print out the received count or counter-two value
   Serial.println(message->value());
 }
 
 void handleBrightness(AdafruitIO_Data *message){
   char *data = (char*)message->value();
-  Serial.print("received <- ");
-  Serial.println(data);
 
   int dataLen = strlen(data);
-  Serial.print("Got: ");
-  Serial.println(data);
-  if (dataLen < 1) {
-  // Stop processing if not enough data was received.
-     return;
+  if (dataLen > 0) {
+    String dataStr = String(data);
+    int new_brightness = (int)dataStr.toInt();
+    if (new_brightness != configuration.brightness && 0 <= new_brightness && new_brightness <= MAX_BRIGHTNESS){
+      configuration.brightness = new_brightness;
+      FastLED.setBrightness(configuration.brightness);
+      saveSettings();
+    }
   }
-  String dataStr = String(data);
-  int new_brightness = (int)dataStr.toInt();
-  if (new_brightness != configuration.brightness && 0 <= new_brightness && new_brightness <= MAX_BRIGHTNESS){
-    configuration.brightness = new_brightness;
-    FastLED.setBrightness(configuration.brightness);
-    saveSettings();
-  }
-
+  // print out the received value
   Serial.print(message->feedName());
   Serial.print(" ");
-
-  // print out the received count or counter-two value
   Serial.println(message->value());
 }
 
@@ -372,12 +363,19 @@ void apply_mask(){
 void minutes_hack(uint8_t i, bool *out);
 void getdisplay(int i);
 
+const int32_t PING_INTERVAL_MS = 60000;
+int32_t last_ping_ms= 0;
+
 void loop(){
   
   io.run();
-  //MQTT_connect();
-  mqtt.processPackets(100);
-  //mqtt.ping();
+  mqtt.processPackets(1);
+  if(millis() - last_ping_ms > PING_INTERVAL_MS){
+    //MQTT_connect();
+    Serial.println("ping server");
+    mqtt.ping();
+    last_ping_ms = millis();
+  }
 
   rainbow();
   fillMask(false);
