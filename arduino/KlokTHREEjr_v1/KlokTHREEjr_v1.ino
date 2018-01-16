@@ -5,7 +5,6 @@
 #include <EEPROM.h>
 #include <EEPROMAnything.h>
 #include "config.h"
-#include "Faceplate.h"
 
 /* ---- credentials.h ----
 char ssid[] = "XXX";  // your network SSID (name)
