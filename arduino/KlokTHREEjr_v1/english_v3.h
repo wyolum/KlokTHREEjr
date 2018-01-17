@@ -10,6 +10,7 @@
  *    
  * 
  */
+
 static const uint8_t WORDS[] PROGMEM = {
      32, // # words
       0,  0,  2,       3,  0,  2,       6,  0,  3,       9,  0,  6,     // words

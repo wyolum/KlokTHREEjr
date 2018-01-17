@@ -148,30 +148,38 @@ Adafruit_MQTT::Adafruit_MQTT(const char *server,
 
 int8_t Adafruit_MQTT::connect() {
   // Connect to the server.
+  Serial.println("Adafruit_MQTT::connect()");
   if (!connectServer())
     return -1;
 
+  Serial.println("1");
   // Construct and send connect packet.
   uint8_t len = connectPacket(buffer);
   if (!sendPacket(buffer, len))
     return -1;
 
+  Serial.println("2");
   // Read connect response packet and verify it
   len = readFullPacket(buffer, MAXBUFFERSIZE, CONNECT_TIMEOUT_MS);
+  Serial.println("3");
   if (len != 4)
     return -1;
+  Serial.println("4");
   if ((buffer[0] != (MQTT_CTRL_CONNECTACK << 4)) || (buffer[1] != 2))
     return -1;
   if (buffer[3] != 0)
     return buffer[3];
+  Serial.println("5");
 
   // Setup subscriptions once connected.
   for (uint8_t i=0; i<MAXSUBSCRIPTIONS; i++) {
     // Ignore subscriptions that aren't defined.
     if (subscriptions[i] == 0) continue;
-
+    Serial.println(" 6...");
+  
     boolean success = false;
     for (uint8_t retry=0; (retry<3) && !success; retry++) { // retry until we get a suback    
+      Serial.println("  7...");
       // Construct and send subscription packet.
       uint8_t len = subscribePacket(buffer, subscriptions[i]->topic, subscriptions[i]->qos);
       if (!sendPacket(buffer, len))

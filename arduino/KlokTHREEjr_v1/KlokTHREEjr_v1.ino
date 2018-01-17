@@ -1,6 +1,6 @@
 #include <FastLED.h>
 #include <credentials.h>
-#include <ArduinoHttpClient.h>
+//#include <ArduinoHttpClient.h>
 #include <AdafruitIO_WiFi.h>
 #include <EEPROM.h>
 #include <EEPROMAnything.h>
@@ -60,16 +60,15 @@ const uint8_t MAX_BRIGHTNESS = 50;
 bool mask[N_DISPLAY * NUM_LEDS];
 
 //// LOLIN32
-/*
-// Data pin that led data will be written out over
-#define DATA_PIN 13
 // Clock pin only needed for SPI based chipsets when not using hardware SPI
-#define CLOCK_PIN 12
-*/
+//#define CLK_PIN 12
 
-// huzzah
-#define DATA_PIN      13
-#define CLOCK_PIN       14
+#define DATA_PIN     13
+#define CLK_PIN      14
+
+#define COLOR_ORDER BGR
+#define LED_TYPE APA102
+#define MILLI_AMPS 1000  // IMPORTANT: set the max milli-Amps of your power supply (4A = 4000mA)
 
 // This is an array of leds.  One item for each led in your strip.
 CRGB leds[NUM_LEDS];
@@ -124,20 +123,55 @@ void MQTT_connect() {
 void setup(){
   Serial.begin(115200);
   delay(200);
+
+  FastLED.addLeds<LED_TYPE, DATA_PIN, CLK_PIN, COLOR_ORDER>(leds, NUM_LEDS);
+  FastLED.setDither(true);
+  FastLED.setCorrection(TypicalLEDStrip);
   FastLED.setBrightness(8);
-  FastLED.addLeds<DOTSTAR, DATA_PIN, CLOCK_PIN, RGB>(leds, NUM_LEDS);
+  FastLED.setMaxPowerInVoltsAndMilliamps(5, MILLI_AMPS);
+  fill_solid(leds, NUM_LEDS, CRGB::Black);
 
   io.connect();
-
+  
+  fill_solid(leds, NUM_LEDS, CRGB::Red);
+  FastLED.show();
+  delay(1000);
+  fill_solid(leds, NUM_LEDS, CRGB::Blue);
+  FastLED.show();
+  delay(1000);
+  fill_solid(leds, NUM_LEDS, CRGB::Red);
+  FastLED.show();
+  int iii=0;
+  Serial.print("Wait for IO connect.");
   while(io.status() < AIO_CONNECTED) {
     Serial.print(".");
+    if(io.status() < AIO_CONNECTED){
+      fill_solid(leds, NUM_LEDS, CRGB::Red);
+    }
+    else{
+      fill_solid(leds, NUM_LEDS, CRGB::Blue);
+    }
+    FastLED.show();
     delay(500);
   }
-  Serial.println(io.statusText());//  Serial.println("Connected to IO");
-
+  Serial.println(io.statusText());Serial.println("Connected to IO");
+  fill_solid(leds, NUM_LEDS, CRGB::Green);
+  FastLED.show();
+  delay(1000);
+  fill_solid(leds, NUM_LEDS, CRGB::Red);
+  FastLED.show();
   time_seconds.setCallback(handleTimeSeconds);
+  fill_solid(leds, NUM_LEDS, CRGB::Blue);
+  FastLED.show();
+  Serial.println("mqtt.subscribe()");
   mqtt.subscribe(&time_seconds);
-  MQTT_connect();
+  Serial.println("mqtt subscribed");
+  fill_solid(leds, NUM_LEDS, CRGB::Green);
+  FastLED.show();
+  delay(1000);
+  Serial.print("MQTT connect:");
+  //MQTT_connect();
+  Serial.println("mqtt connected");
   timezone->onMessage(handleTimezone);
   brightness->onMessage(handleBrightness);
 
@@ -378,7 +412,7 @@ void loop(){
 
   rainbow();
   fillMask(false);
-  getdisplay((current_time / 300) % 288);
+  getdisplay((millis() / 3000) % 288);
   count++;
   apply_mask();
   FastLED.show();
