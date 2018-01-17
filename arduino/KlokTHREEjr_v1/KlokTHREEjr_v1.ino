@@ -5,6 +5,8 @@
 #include <EEPROM.h>
 #include <EEPROMAnything.h>
 #include "config.h"
+#include <NTPClient.h>
+#include <WiFiUdp.h>
 
 /* ---- credentials.h ----
 char ssid[] = "XXX";  // your network SSID (name)
@@ -27,6 +29,13 @@ char pass[] = "YYY";  // your network password
 // #include "hungarian_v2.h"
 // #include "irish_v1.h"
 // #include "spanish_v1.h"
+
+// You can specify the time server pool and the offset (in seconds, can be
+// changed later with setTimeOffset() ). Additionaly you can specify the
+// update interval (in milliseconds, can be changed using setUpdateInterval() ).
+WiFiUDP ntpUDP;
+
+NTPClient timeClient(ntpUDP, "us.pool.ntp.org", 3600, 60000);
 
 struct config_t
 {
@@ -73,7 +82,6 @@ bool mask[N_DISPLAY * NUM_LEDS];
 // This is an array of leds.  One item for each led in your strip.
 CRGB leds[NUM_LEDS];
 
-// AdafruitIO_Feed *time_seconds = io.feed("setTemp");
 uint32_t current_time;
 void printTime(uint32_t tm){
   uint8_t hh, mm, ss;
@@ -92,34 +100,6 @@ void handleTimeSeconds(uint32_t gmt){
   printTime(current_time);
 }
 
-// Function to connect and reconnect as necessary to the MQTT server.
-// Should be called in the loop function and it will take care if connecting.
-void MQTT_connect() {
-  int8_t ret;
-
-  // Stop if already connected.
-  if (mqtt.connected()) {
-    return;
-  }
-
-  Serial.print("Connecting to MQTT... ");
-
-  uint8_t retries = 3;
-  while ((ret = mqtt.connect()) != 0) { // connect will return 0 for connected
-       Serial.println(mqtt.connectErrorString(ret));
-       Serial.println("Retrying MQTT connection in 5 seconds...");
-       mqtt.disconnect();
-       delay(5000);  // wait 5 seconds
-       retries--;
-       if (retries == 0) {
-         // basically die and wait for WDT to reset me
-         while (1);
-       }
-  }
-
-  Serial.println("MQTT Connected!");
-}
-
 void setup(){
   Serial.begin(115200);
   delay(200);
@@ -133,15 +113,9 @@ void setup(){
 
   io.connect();
   
-  fill_solid(leds, NUM_LEDS, CRGB::Red);
+  fill_solid(leds, NUM_LEDS, CRGB::Black);
   FastLED.show();
-  delay(1000);
-  fill_solid(leds, NUM_LEDS, CRGB::Blue);
-  FastLED.show();
-  delay(1000);
-  fill_solid(leds, NUM_LEDS, CRGB::Red);
-  FastLED.show();
-  int iii=0;
+
   Serial.print("Wait for IO connect.");
   while(io.status() < AIO_CONNECTED) {
     Serial.print(".");
@@ -155,28 +129,13 @@ void setup(){
     delay(500);
   }
   Serial.println(io.statusText());Serial.println("Connected to IO");
-  fill_solid(leds, NUM_LEDS, CRGB::Green);
-  FastLED.show();
-  delay(1000);
-  fill_solid(leds, NUM_LEDS, CRGB::Red);
-  FastLED.show();
-  time_seconds.setCallback(handleTimeSeconds);
-  fill_solid(leds, NUM_LEDS, CRGB::Blue);
-  FastLED.show();
-  Serial.println("mqtt.subscribe()");
-  mqtt.subscribe(&time_seconds);
-  Serial.println("mqtt subscribed");
-  fill_solid(leds, NUM_LEDS, CRGB::Green);
-  FastLED.show();
-  delay(1000);
-  Serial.print("MQTT connect:");
-  //MQTT_connect();
-  Serial.println("mqtt connected");
+
   timezone->onMessage(handleTimezone);
   brightness->onMessage(handleBrightness);
 
   EEPROM.begin(512);
   loadSettings();
+  timeClient.begin();
 }
 
 void loadSettings(){
@@ -396,23 +355,22 @@ void apply_mask(){
 void minutes_hack(uint8_t i, bool *out);
 void getdisplay(int i);
 
-const int32_t PING_INTERVAL_MS = 60000;
-int32_t last_ping_ms= 0;
+const int32_t UPDATE_INTERVAL_MS = 1000;
+int32_t last_update_ms= 0;
 
 void loop(){
   
   io.run();
-  mqtt.processPackets(1);
-  if(millis() - last_ping_ms > PING_INTERVAL_MS){
-    //MQTT_connect();
-    Serial.println("ping server");
-    mqtt.ping();
-    last_ping_ms = millis();
+
+  if(millis() - last_update_ms > UPDATE_INTERVAL_MS){
+    timeClient.update();
+    handleTimeSeconds(timeClient.getEpochTime());
+    last_update_ms = millis();
   }
 
   rainbow();
   fillMask(false);
-  getdisplay((millis() / 3000) % 288);
+  getdisplay((current_time / 300) % 288);
   count++;
   apply_mask();
   FastLED.show();
