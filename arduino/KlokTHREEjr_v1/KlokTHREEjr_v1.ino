@@ -35,7 +35,7 @@ char pass[] = "YYY";  // your network password
 // update interval (in milliseconds, can be changed using setUpdateInterval() ).
 WiFiUDP ntpUDP;
 
-NTPClient timeClient(ntpUDP, "us.pool.ntp.org", 3600, 60000);
+NTPClient timeClient(ntpUDP, "us.pool.ntp.org", 0, 60000);
 
 struct config_t
 {
@@ -59,7 +59,7 @@ uint16_t last_time_inc = 289;
  */
 const uint8_t N_DISPLAY = 3;
 const uint8_t MAX_BRIGHTNESS = 50;
-#define ULTIM8x24
+#define ULTIM8x16
 #include <MatrixMaps.h>
 
 
@@ -95,8 +95,8 @@ void printTime(uint32_t tm){
   Serial.println(s);
 }
 
-void handleTimeSeconds(uint32_t gmt){
-  current_time = gmt + configuration.timezone * 60;
+void handleTimeSeconds(uint32_t tm){
+  current_time = tm;
   printTime(current_time);
 }
 
@@ -119,13 +119,6 @@ void setup(){
   Serial.print("Wait for IO connect.");
   while(io.status() < AIO_CONNECTED) {
     Serial.print(".");
-    if(io.status() < AIO_CONNECTED){
-      fill_solid(leds, NUM_LEDS, CRGB::Red);
-    }
-    else{
-      fill_solid(leds, NUM_LEDS, CRGB::Blue);
-    }
-    FastLED.show();
     delay(500);
   }
   Serial.println(io.statusText());Serial.println("Connected to IO");
@@ -135,6 +128,7 @@ void setup(){
 
   EEPROM.begin(512);
   loadSettings();
+  timeClient.setTimeOffset(configuration.timezone * 60);
   timeClient.begin();
 }
 
@@ -155,6 +149,7 @@ void handleTimezone(AdafruitIO_Data *message){
     int new_timezone = (int)dataStr.toInt();
     if (new_timezone != configuration.timezone && -1440/2 < new_timezone && new_timezone <= 1440/2){
       configuration.timezone = new_timezone;
+      timeClient.setTimeOffset(configuration.timezone * 60);
       saveSettings();
     }
   }  
@@ -187,7 +182,7 @@ void handleBrightness(AdafruitIO_Data *message){
 const struct CRGB color = CRGB::White;
 int count = 0;
 
-bool FLIP_DISPLAY = false;
+bool FLIP_DISPLAY = true;
 uint16_t XY( uint8_t x, uint8_t y)
 {
   if(FLIP_DISPLAY){
