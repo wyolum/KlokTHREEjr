@@ -10,7 +10,7 @@ L = 8 * ds;
 W = 16 * ds;
 
 //baffle height
-bh=2;
+bh=3;
 echo (ds);
 module chip_block(){
     rotate([0,0,45])translate([-cw/2,-cw/2,-1])cube([cw,cw,led_h+2]);
@@ -21,10 +21,10 @@ module light_cone(){
 
 
 for(yl = [0:ds:17*ds]){
-    translate([-cw/2, -ds/2 + yl-.5, led_h])cube([L, 1, 2]);
+    translate([-cw/2, -ds/2 + yl-.5, led_h])cube([L, 1, bh]);
 } 
 for(xl = [0:ds:8*ds]){
-    translate([-cw/2 + xl-.8, -ds/2-.5, led_h])cube([1, W+1, 2]);
+    translate([-cw/2 + xl-.8, -ds/2-.5, led_h])cube([1, W+1, bh]);
 } 
 
 w = .2*inch;

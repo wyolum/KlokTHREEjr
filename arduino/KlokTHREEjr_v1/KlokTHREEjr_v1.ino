@@ -110,12 +110,9 @@ void setup(){
   FastLED.setBrightness(8);
   FastLED.setMaxPowerInVoltsAndMilliamps(5, MILLI_AMPS);
   fill_solid(leds, NUM_LEDS, CRGB::Black);
-
-  io.connect();
-  
-  fill_solid(leds, NUM_LEDS, CRGB::Black);
   FastLED.show();
 
+  io.connect();
   Serial.print("Wait for IO connect.");
   while(io.status() < AIO_CONNECTED) {
     Serial.print(".");

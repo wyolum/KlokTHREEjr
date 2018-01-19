@@ -10,6 +10,3 @@ Adafruit_MQTT_Client mqtt(&client, IO_SERVER, IO_SERVERPORT, IO_USERNAME, IO_USE
 //Adafruit_MQTT_Subscribe time_seconds = Adafruit_MQTT_Subscribe(&mqtt, "time/seconds"); // used NTPClient instead
 AdafruitIO_Feed *timezone = io.feed("Timezone1");
 AdafruitIO_Feed *brightness = io.feed("klok_brightness");
-
-
-
