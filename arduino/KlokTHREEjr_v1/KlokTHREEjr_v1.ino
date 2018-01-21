@@ -1,4 +1,3 @@
-#include <FastLED.h>
 #include <credentials.h>
 //#include <ArduinoHttpClient.h>
 #include <AdafruitIO_WiFi.h>
@@ -7,6 +6,7 @@
 #include "config.h"
 #include <NTPClient.h>
 #include <WiFiUdp.h>
+#include <FastLED.h>
 
 /* ---- credentials.h ----
 char ssid[] = "XXX";  // your network SSID (name)
