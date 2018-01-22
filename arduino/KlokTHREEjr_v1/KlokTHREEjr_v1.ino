@@ -1,5 +1,4 @@
 #include <credentials.h>
-//#include <ArduinoHttpClient.h>
 #include <AdafruitIO_WiFi.h>
 #include <EEPROM.h>
 #include <EEPROMAnything.h>
@@ -313,16 +312,16 @@ void rainbow() {
   //delay(100);
 }
 
-void fillMask(bool b){
-  fillMask(b, 0, NUM_LEDS);
+void fillMask(bool* mask, bool b){
+  fillMask(mask, b, 0, NUM_LEDS);
 }
 
-void fillMask(bool b, int start, int stop){
+void fillMask(bool* mask, bool b, int start, int stop){
   for(int i = start; i < stop && i < NUM_LEDS; i++){
     mask[i] = b;
   }
 }
-void setPixelMask(uint8_t row, uint8_t col, bool b){
+void setPixelMask(bool* mask, uint8_t row, uint8_t col, bool b){
   if(row >= MatrixHeight){
   }
   else if(col >= MatrixWidth){
@@ -335,7 +334,7 @@ void setPixelMask(uint8_t row, uint8_t col, bool b){
   }
 }
 
-void apply_mask(){
+void apply_mask(bool* mask){
   uint16_t b, k;
   for(uint16_t i=0; i < NUM_LEDS; i++){
     if(!mask[i]){
@@ -345,13 +344,17 @@ void apply_mask(){
 }
 
 void minutes_hack(uint8_t i, bool *out);
-void getdisplay(int i);
+void get_time_display(bool* mask, int i);
 
 const int32_t UPDATE_INTERVAL_MS = 1000;
 int32_t last_update_ms= 0;
 
 void loop(){
-  
+  clock();
+  FastLED.show();
+}
+
+void clock(){
   io.run();
 
   if(millis() - last_update_ms > UPDATE_INTERVAL_MS){
@@ -361,11 +364,10 @@ void loop(){
   }
 
   rainbow();
-  fillMask(false);
-  getdisplay((current_time / 300) % 288);
+  fillMask(mask, false);
+  get_time_display(mask, (current_time / 300) % 288);
   count++;
-  apply_mask();
-  FastLED.show();
+  apply_mask(mask);
 }
 
 void Normal_loop(void) {
@@ -390,17 +392,13 @@ void Normal_loop(void) {
   if(minute_hack_inc != last_min_hack_inc || time_inc != last_time_inc){
     
     // prepare other display on change
-    display_idx++;
-    display_idx %= 2;
     bool* tmp_d = mask + MatrixWidth * MatrixHeight * (display_idx % 2);
 
     // clear the new display
-    for(int ii = 0; ii < MatrixWidth; ii++){
-      tmp_d[ii] = 0;
-    }
+    fillMask(tmp_d, false);
 
     // read display for next time incement
-    getdisplay(time_inc);
+    get_time_display(mask, time_inc);
   
     // read minutes hack for next time incement
     minutes_hack(minute_hack_inc, tmp_d);
@@ -435,7 +433,7 @@ uint32_t getminutebits(uint8_t i){
   return pgm_read_dword(MINUTES_HACK + i);
 }
 
-void getdisplay(int i){
+void get_time_display(bool* mask, int i){
   uint8_t bits;     // holds the on off state for 8 words at a time
   uint8_t word[3];  // start columm, start row, length of the current word
 
@@ -447,7 +445,7 @@ void getdisplay(int i){
       if((bits >> k) & 1){                              // check to see if word is on or off
 	getword(j * 8 + k, word);                       // if on, read location and length
 	for(int m=word[0]; m < word[0] + word[2]; m++){ // and display it
-	  setPixelMask(word[1], m, true);
+	  setPixelMask(mask, word[1], m, true);
 	}
       }
     }
