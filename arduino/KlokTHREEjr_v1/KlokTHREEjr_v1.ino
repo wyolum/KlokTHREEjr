@@ -1,4 +1,3 @@
-#include <credentials.h>
 #include <AdafruitIO_WiFi.h>
 #include <EEPROM.h>
 #include <EEPROMAnything.h>
@@ -6,11 +5,7 @@
 #include <NTPClient.h>
 #include <WiFiUdp.h>
 #include <FastLED.h>
-
-/* ---- credentials.h ----
-char ssid[] = "XXX";  // your network SSID (name)
-char pass[] = "YYY";  // your network password
-*/
+#include <credentials.h> //see arduino/libraries/credentials/README for a credentials.h template
 
 //#include "dutch_v1.h"
 // #include "english_v0.h"
