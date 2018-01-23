@@ -161,7 +161,7 @@ void handleBrightness(AdafruitIO_Data *message){
   if (dataLen > 0) {
     String dataStr = String(data);
     int new_brightness = (int)dataStr.toInt();
-    if (new_brightness != configuration.brightness && 0 <= new_brightness && new_brightness <= MAX_BRIGHTNESS){
+    if (new_brightness != configuration.brightness && (0 <= new_brightness) && (new_brightness <= MAX_BRIGHTNESS)){
       configuration.brightness = new_brightness;
       FastLED.setBrightness(configuration.brightness);
       saveSettings();
