@@ -29,7 +29,8 @@ class AdafruitIO_ESP8266 : public AdafruitIO {
 
     aio_status_t networkStatus();
     const char* connectionType();
-
+    WiFiClientSecure *get_client();
+    
   protected:
     void _connect();
 

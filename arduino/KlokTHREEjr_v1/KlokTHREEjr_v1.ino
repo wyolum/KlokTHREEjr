@@ -5,7 +5,10 @@
 #include <NTPClient.h>
 #include <WiFiUdp.h>
 #include <FastLED.h>
+#include <WiFiClientSecure.h>
 #include <credentials.h> //see arduino/libraries/credentials/README for a credentials.h template
+
+WiFiClientSecure *client_p;
 
 //#include "dutch_v1.h"
 // #include "english_v0.h"
@@ -173,7 +176,6 @@ void handleBrightness(AdafruitIO_Data *message){
 const struct CRGB color = CRGB::White;
 int count = 0;
 
-bool FLIP_DISPLAY = true;
 uint16_t XY( uint8_t x, uint8_t y)
 {
   if(FLIP_DISPLAY){

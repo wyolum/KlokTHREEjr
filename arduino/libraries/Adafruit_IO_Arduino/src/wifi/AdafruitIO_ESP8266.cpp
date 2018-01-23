@@ -22,6 +22,9 @@ AdafruitIO_ESP8266::AdafruitIO_ESP8266(const char *user, const char *key, const 
   _http = new HttpClient(*_client, _host, _http_port);
 }
 
+WiFiClientSecure *AdafruitIO_ESP8266::get_client(){
+  return _client;
+}
 AdafruitIO_ESP8266::~AdafruitIO_ESP8266()
 {
   if(_client)
