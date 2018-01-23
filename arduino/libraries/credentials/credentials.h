@@ -1,4 +1,5 @@
 // This file should not be added to your public repository
+// after editing
 // ---- credentials.h ----
 #ifndef __CREDENTIALS_H
 #define __CREDENTIALS_H
