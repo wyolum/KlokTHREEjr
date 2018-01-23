@@ -5,7 +5,8 @@
 #define __CREDENTIALS_H
 char ssid[] = "XXXXXXXXXX";  // your network SSID (name)
 char pass[] = "YYYYYYYYYY";  // your network password
-
+#define WIFI_SSID ssid
+#define WIFI_PASS pass
 /************************* Adafruit.io Setup *********************************/
 #define IO_SERVER      "io.adafruit.com"
 #define IO_SERVERPORT  8883
