@@ -169,7 +169,7 @@ int8_t Adafruit_MQTT::connect() {
   for (uint8_t i=0; i<MAXSUBSCRIPTIONS; i++) {
     // Ignore subscriptions that aren't defined.
     if (subscriptions[i] == 0) continue;
-  
+
     boolean success = false;
     for (uint8_t retry=0; (retry<3) && !success; retry++) { // retry until we get a suback    
       // Construct and send subscription packet.

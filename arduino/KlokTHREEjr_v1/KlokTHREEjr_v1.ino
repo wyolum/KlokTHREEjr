@@ -54,7 +54,6 @@ uint16_t last_time_inc = 289;
 /* The display memory buffer is larger than physical display for screen 
  * staging and fast display.
  */
-const uint8_t N_DISPLAY = 3;
 const uint8_t MAX_BRIGHTNESS = 50;
 #define ULTIM8x16
 #include <MatrixMaps.h>
@@ -63,7 +62,8 @@ const uint8_t MAX_BRIGHTNESS = 50;
 // How many leds are in the strip?
 #define N_BOARD 2
 #define NUM_LEDS 64 * N_BOARD
-bool mask[N_DISPLAY * NUM_LEDS];
+bool mask[NUM_LEDS];
+bool wipe[NUM_LEDS];
 
 //// LOLIN32
 // Clock pin only needed for SPI based chipsets when not using hardware SPI
@@ -331,6 +331,27 @@ void setPixelMask(bool* mask, uint8_t row, uint8_t col, bool b){
   }
 }
 
+void logical_and(int n, bool* mask, bool* wipe, bool* out){
+  int i;
+  for(i = 0; i < n; i++){
+    out[i] = mask[i] && wipe[i];
+  }
+}
+
+void logical_or(int n, bool* mask, bool* wipe, bool* out){
+  int i;
+  for(i = 0; i < n; i++){
+    out[i] = mask[i] || wipe[i];
+  }
+}
+
+void logical_not(int n, bool* mask, bool* out){
+  int i;
+  for(i = 0; i < n; i++){
+    out[i] = !mask[i];
+  }
+}
+
 void apply_mask(bool* mask){
   uint16_t b, k;
   for(uint16_t i=0; i < NUM_LEDS; i++){
@@ -351,6 +372,35 @@ void loop(){
   FastLED.show();
 }
 
+void wipe_left_on(){
+  int col;
+  bool tmp[NUM_LEDS];
+  
+  fillMask(wipe, false);
+  for(col=0; col<MatrixWidth; col++){
+    fillMask(wipe, true, col * MatrixHeight, (col + 1) * MatrixHeight);
+    logical_or(NUM_LEDS, wipe, mask, tmp);
+    rainbow();
+    apply_mask(tmp);
+    FastLED.show();
+    delay(10);
+  }
+}
+
+void wipe_left_off(){
+  int col;
+  bool tmp[NUM_LEDS];
+  
+  fillMask(wipe, true);
+  for(col=0; col<MatrixWidth; col++){
+    fillMask(wipe, false, col * MatrixHeight, (col + 1) * MatrixHeight);
+    logical_or(NUM_LEDS, wipe, mask, tmp);
+    rainbow();
+    apply_mask(tmp);
+    FastLED.show();
+    delay(10);
+  }
+}
 void clock(){
   io.run();
 
