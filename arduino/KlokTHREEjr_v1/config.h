@@ -12,4 +12,4 @@ AdafruitIO_Feed *timezone = io.feed("Timezone1");
 AdafruitIO_Feed *brightness = io.feed("klok_brightness");
 
 
-bool FLIP_DISPLAY = false; // true: cord out bottom, false: cord out top
+bool FLIP_DISPLAY = true; // true: cord out bottom, false: cord out top

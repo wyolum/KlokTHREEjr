@@ -55,6 +55,9 @@ uint16_t last_time_inc = 289;
  * staging and fast display.
  */
 const uint8_t MAX_BRIGHTNESS = 50;
+const bool ON = true;
+const bool OFF = false;
+
 #define ULTIM8x16
 #include <MatrixMaps.h>
 
@@ -161,7 +164,7 @@ void handleBrightness(AdafruitIO_Data *message){
   if (dataLen > 0) {
     String dataStr = String(data);
     int new_brightness = (int)dataStr.toInt();
-    if (new_brightness != configuration.brightness && (0 <= new_brightness) && (new_brightness <= MAX_BRIGHTNESS)){
+    if ((new_brightness != configuration.brightness) && (0 <= new_brightness) && (new_brightness <= MAX_BRIGHTNESS)){
       configuration.brightness = new_brightness;
       FastLED.setBrightness(configuration.brightness);
       saveSettings();
@@ -301,7 +304,7 @@ void rainbow() {
       dist = sqrt(dx * dx + dy * dy);
       i = XY(col, row);
       //hsv.hue =  ((int)(dist * 16) - count) % 256;
-      hsv.hue =  (count + MatrixWidth * row + col) % 256;
+      hsv.hue =  (count + (MatrixWidth * row + col) * 2) % 256;
       leds[i] = hsv;
     }
   }
@@ -372,13 +375,112 @@ void loop(){
   FastLED.show();
 }
 
-void wipe_left_on(){
-  int col;
+void word_drop_in(){
+  uint16_t time_inc = (current_time % 86400) / 300;  // 5-minute time increment are we in
+  uint8_t bits;     // holds the on off state for 8 words at a time
+  uint8_t word[3];  // start columm, start row, length of the current word
+
+  fillMask(mask, false);
+  for(uint8_t j = 0; j < n_byte_per_display; j++){ // j is a byte index 
+    // read the state for the next set of 8 words
+    bits = pgm_read_byte(DISPLAYS + 1 + (time_inc * n_byte_per_display) + j);
+    for(uint8_t k = 0; k < 8; k++){                     // k is a bit index
+      if((bits >> k) & 1){                              // check to see if word is on or off
+	getword(j * 8 + k, word);                       // if on, read location and length
+	for(int rr = 0; rr <= word[1]; rr++){
+	  for(int m=word[0]; m < word[0] + word[2]; m++){ // and display it
+	    setPixelMask(mask, rr, m, true);
+	  }
+	  rainbow();
+	  apply_mask(mask);
+	  FastLED.show();
+	  delay(100);
+	}
+	for(int rr = 0; rr < word[1]; rr++){
+	  for(int m=word[0]; m < word[0] + word[2]; m++){ // and display it
+	    setPixelMask(mask, rr, m, false);
+	  }
+	  
+	  rainbow();
+	  apply_mask(mask);
+	  FastLED.show();
+	  delay(100);
+	}
+      }
+    }
+  }
+}
+
+void wipe_around(bool val){
+  float dtheta = 31.4 / 180;
+  float theta = -3.14 - dtheta;
+  int row, col;
+  bool tmp[NUM_LEDS];
+
+  int cx = random(0, MatrixWidth-1);
+  int cy = random(0, MatrixHeight-1);
+  cx = 8;
+  cy = 4;
+  
+  fillMask(wipe, !val);
+  while (theta < 3.14 + dtheta){
+    for(row=0; row < MatrixHeight; row++){
+      for(col=0; col < MatrixWidth; col++){
+	if(atan2(row - cy, col - cx) < theta){
+	  setPixelMask(wipe, row, col, val);
+	}
+      }
+    }
+    logical_or(NUM_LEDS, wipe, mask, tmp);    
+    rainbow();
+    apply_mask(tmp);
+    FastLED.show();
+    theta += dtheta;
+  }
+}
+void wipe_down(bool val){
+  int col, row;
   bool tmp[NUM_LEDS];
   
-  fillMask(wipe, false);
-  for(col=0; col<MatrixWidth; col++){
-    fillMask(wipe, true, col * MatrixHeight, (col + 1) * MatrixHeight);
+  fillMask(wipe, !val);
+  for(row=0; row < MatrixHeight; row++){
+    for(col = MatrixWidth - 1; col >= 0; col--){
+      setPixelMask(wipe, row, col, val);
+    }
+    logical_or(NUM_LEDS, wipe, mask, tmp);
+    rainbow();
+    apply_mask(tmp);
+    FastLED.show();
+    delay(20);
+  }
+}
+
+void wipe_up(bool val){
+  int col, row;
+  bool tmp[NUM_LEDS];
+  
+  fillMask(wipe, !val);
+  for(row = MatrixHeight - 1; row >= 0; row--){
+    for(col = MatrixWidth - 1; col >= 0; col--){
+      setPixelMask(wipe, row, col, val);
+    }
+    logical_or(NUM_LEDS, wipe, mask, tmp);
+    rainbow();
+    apply_mask(tmp);
+    FastLED.show();
+    delay(20);
+  }
+}
+
+void wipe_left(bool val){
+  int col, row;
+  bool tmp[NUM_LEDS];
+  
+  fillMask(wipe, !val);
+  for(col = MatrixWidth - 1; col >= 0; col--){
+    for(row=0; row < MatrixHeight; row++){
+      setPixelMask(wipe, row, col, val);
+    }
     logical_or(NUM_LEDS, wipe, mask, tmp);
     rainbow();
     apply_mask(tmp);
@@ -387,39 +489,22 @@ void wipe_left_on(){
   }
 }
 
-void wipe_left_off(){
-  int col;
-  bool tmp[NUM_LEDS];
-  
-  fillMask(wipe, true);
-  for(col=0; col<MatrixWidth; col++){
-    fillMask(wipe, false, col * MatrixHeight, (col + 1) * MatrixHeight);
-    logical_or(NUM_LEDS, wipe, mask, tmp);
-    rainbow();
-    apply_mask(tmp);
-    FastLED.show();
-    delay(10);
-  }
-}
 void clock(){
-  io.run();
-
+  rainbow();
+  count = (((current_time % 300) * 256)/ 300);
+  Normal_loop();
   if(millis() - last_update_ms > UPDATE_INTERVAL_MS){
     timeClient.update();
     handleTimeSeconds(timeClient.getEpochTime());
     last_update_ms = millis();
+    //io.run();
   }
-
-  rainbow();
-  fillMask(mask, false);
-  get_time_display(mask, (current_time / 300) % 288);
-  count++;
-  apply_mask(mask);
+  return;
 }
 
 void Normal_loop(void) {
-  time_t standard_time = 0;
-
+  time_t standard_time = current_time;
+  bool* tmp_d;
   uint8_t word[3];                // will store start_x, start_y, length of word
   time_t spm = standard_time % 86400; // seconds past midnight
 
@@ -436,10 +521,21 @@ void Normal_loop(void) {
   uint8_t minute_hack_inc = (spm % 300) / (300. / float(n_minute_state));
 
   // if minute hack or time has changed, update the display
-  if(minute_hack_inc != last_min_hack_inc || time_inc != last_time_inc){
+  if(minute_hack_inc != last_min_hack_inc){
+    // read display for next time incement
+    get_time_display(mask, time_inc);
+  
+    // read minutes hack for next time incement
+    minutes_hack(minute_hack_inc, tmp_d);
+    last_min_hack_inc = minute_hack_inc;
+  }
+  if(true || time_inc != last_time_inc){
+    // swipe rainbow from the left
+    wipe_around(ON);
+    delay(1000);
     
     // prepare other display on change
-    bool* tmp_d = mask + MatrixWidth * MatrixHeight * (display_idx % 2);
+    tmp_d = mask + MatrixWidth * MatrixHeight * (display_idx % 2);
 
     // clear the new display
     fillMask(tmp_d, false);
@@ -449,13 +545,15 @@ void Normal_loop(void) {
   
     // read minutes hack for next time incement
     minutes_hack(minute_hack_inc, tmp_d);
-    //c3.fadeto(tmp_d, 32); // 32 fade steps to new display
 
-    last_min_hack_inc = minute_hack_inc;
+    // clear rainbow to reveal the time
+    //wipe_off_left();
+    //wipe_around(OFF);
+    word_drop_in();
+
     last_time_inc = time_inc;
   }
-  // Keep active LEDs lit
-  // my_refresh(1000);
+  apply_mask(mask);
 }
 
 
