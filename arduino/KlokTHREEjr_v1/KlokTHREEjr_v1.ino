@@ -334,6 +334,13 @@ void setPixelMask(bool* mask, uint8_t row, uint8_t col, bool b){
   }
 }
 
+void setWordMask(bool *mask, uint8_t* word, bool b){
+  // word = [row, col, len]
+  for(int i=0; i < word[2]; i++){
+    setPixelMask(mask, word[1], word[0] + i, b);
+  }
+}
+
 void logical_and(int n, bool* mask, bool* wipe, bool* out){
   int i;
   for(i = 0; i < n; i++){
@@ -348,11 +355,27 @@ void logical_or(int n, bool* mask, bool* wipe, bool* out){
   }
 }
 
+void logical_copy(int n, bool* mask, bool* out){
+  int i;
+  for(i = 0; i < n; i++){
+    out[i] = mask[i];
+  }
+}
+  
 void logical_not(int n, bool* mask, bool* out){
   int i;
   for(i = 0; i < n; i++){
     out[i] = !mask[i];
   }
+}
+
+bool any_fasle(int n, bool* mask){
+  int i = 0;
+  
+  while(mask[i] && i < n){
+    i++;
+  }
+  return i == n;
 }
 
 void apply_mask(bool* mask){
@@ -375,40 +398,97 @@ void loop(){
   FastLED.show();
 }
 
-void word_drop_in(){
-  uint16_t time_inc = (current_time % 86400) / 300;  // 5-minute time increment are we in
+void word_drop_in(uint16_t time_inc){
   uint8_t bits;     // holds the on off state for 8 words at a time
   uint8_t word[3];  // start columm, start row, length of the current word
-
+  bool tmp_mask[NUM_LEDS];
+  uint8_t tmp_word[3];
+  
   fillMask(mask, false);
+  fillMask(wipe, false);
+  fillMask(tmp_mask, false);
+  
   for(uint8_t j = 0; j < n_byte_per_display; j++){ // j is a byte index 
     // read the state for the next set of 8 words
     bits = pgm_read_byte(DISPLAYS + 1 + (time_inc * n_byte_per_display) + j);
     for(uint8_t k = 0; k < 8; k++){                     // k is a bit index
       if((bits >> k) & 1){                              // check to see if word is on or off
 	getword(j * 8 + k, word);                       // if on, read location and length
+	tmp_word[0] = word[0];
+	tmp_word[1] = word[1];
+	tmp_word[2] = word[2];
 	for(int rr = 0; rr <= word[1]; rr++){
-	  for(int m=word[0]; m < word[0] + word[2]; m++){ // and display it
-	    setPixelMask(mask, rr, m, true);
-	  }
+	  tmp_word[1] = rr;
+	  setWordMask(wipe, tmp_word, true);
+	  logical_or(NUM_LEDS, mask, wipe, tmp_mask);
 	  rainbow();
-	  apply_mask(mask);
+	  apply_mask(tmp_mask);
 	  FastLED.show();
-	  delay(100);
+	  delay(25);
 	}
+	setWordMask(mask, word, true);
 	for(int rr = 0; rr < word[1]; rr++){
-	  for(int m=word[0]; m < word[0] + word[2]; m++){ // and display it
-	    setPixelMask(mask, rr, m, false);
-	  }
+	  tmp_word[1] = rr;
+	  setWordMask(wipe, tmp_word, false);
+	  logical_or(NUM_LEDS, mask, wipe, tmp_mask);
 	  
 	  rainbow();
-	  apply_mask(mask);
+	  apply_mask(tmp_mask);
 	  FastLED.show();
-	  delay(100);
+	  delay(25);
 	}
       }
     }
   }
+}
+void word_drop_out(uint16_t time_inc){
+  uint8_t bits;     // holds the on off state for 8 words at a time
+  uint8_t word[3];  // start columm, start row, length of the current word
+  bool tmp_mask[NUM_LEDS];
+  uint8_t tmp_word[3];
+  
+  //fillMask(mask, false);
+  //fillMask(wipe, false);
+  //fillMask(tmp_mask, false);
+  logical_copy(NUM_LEDS, mask, wipe);
+  logical_copy(NUM_LEDS, mask, tmp_mask);
+  
+  for(uint8_t j = 0; j < n_byte_per_display; j++){ // j is a byte index 
+    // read the state for the next set of 8 words
+    bits = pgm_read_byte(DISPLAYS + 1 + (time_inc * n_byte_per_display) + j);
+    for(uint8_t k = 0; k < 8; k++){                     // k is a bit index
+      if((bits >> k) & 1){                              // check to see if word is on or off
+	getword(j * 8 + k, word);                       // if on, read location and length
+	tmp_word[0] = word[0];
+	tmp_word[1] = word[1];
+	tmp_word[2] = word[2];
+	for(int rr = word[1]; rr <= 8; rr++){
+	  tmp_word[1] = rr;
+	  setWordMask(wipe, tmp_word, true);
+	  logical_or(NUM_LEDS, mask, wipe, tmp_mask);
+	  rainbow();
+	  apply_mask(tmp_mask);
+	  FastLED.show();
+	  delay(25);
+	}
+	setWordMask(mask, word, false);
+	for(int rr = word[1]; rr <= 8; rr++){
+	  tmp_word[1] = rr;
+	  setWordMask(wipe, tmp_word, false);
+	  logical_or(NUM_LEDS, mask, wipe, tmp_mask);
+	  
+	  rainbow();
+	  apply_mask(tmp_mask);
+	  FastLED.show();
+	  delay(25);
+	}
+      }
+    }
+  }
+}
+
+void TheMatrix(uint16_t last_time_inc, uint16_t time_inc){
+  
 }
 
 void wipe_around(bool val){
@@ -438,6 +518,7 @@ void wipe_around(bool val){
     theta += dtheta;
   }
 }
+
 void wipe_down(bool val){
   int col, row;
   bool tmp[NUM_LEDS];
@@ -490,21 +571,21 @@ void wipe_left(bool val){
 }
 
 void clock(){
-  rainbow();
-  count = (((current_time % 300) * 256)/ 300);
-  Normal_loop();
   if(millis() - last_update_ms > UPDATE_INTERVAL_MS){
     timeClient.update();
     handleTimeSeconds(timeClient.getEpochTime());
     last_update_ms = millis();
     //io.run();
   }
+  rainbow();
+  count = (((current_time % 300) * 256)/ 300);
+  Normal_loop();
   return;
 }
 
 void Normal_loop(void) {
   time_t standard_time = current_time;
-  bool* tmp_d;
+  bool tmp_d[NUM_LEDS];
   uint8_t word[3];                // will store start_x, start_y, length of word
   time_t spm = standard_time % 86400; // seconds past midnight
 
@@ -529,14 +610,14 @@ void Normal_loop(void) {
     minutes_hack(minute_hack_inc, tmp_d);
     last_min_hack_inc = minute_hack_inc;
   }
-  if(true || time_inc != last_time_inc){
+  if(time_inc != last_time_inc){
     // swipe rainbow from the left
-    wipe_around(ON);
-    delay(1000);
+    //wipe_around(ON);
+    //delay(1000);
+    if(last_time_inc != 289){
+      word_drop_out(last_time_inc);
+    }
     
-    // prepare other display on change
-    tmp_d = mask + MatrixWidth * MatrixHeight * (display_idx % 2);
-
     // clear the new display
     fillMask(tmp_d, false);
 
@@ -549,13 +630,21 @@ void Normal_loop(void) {
     // clear rainbow to reveal the time
     //wipe_off_left();
     //wipe_around(OFF);
-    word_drop_in();
-
+    word_drop_in(time_inc);
     last_time_inc = time_inc;
   }
   apply_mask(mask);
 }
 
+void JustUpdateTime(bool *mask, uint16_t time_inc){
+  fillMask(mask, false);
+  
+  // read display for next time incement
+  get_time_display(mask, time_inc);
+
+  apply_mask(mask);
+  FastLED.show();
+}
 
 /*
  * DISPLAYS: 288 32 bit settings.  one for each 5-minute period.  up to 32 words per setting.
