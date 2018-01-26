@@ -2,7 +2,7 @@
 
 // comment out the following two lines if you are using fona or ethernet
 #include "AdafruitIO_WiFi.h"
-AdafruitIO_WiFi io(IO_USERNAME, IO_KEY, WIFI_SSID, WIFI_PASS);
+AdafruitIO_WiFi io(IO_USERNAME, IO_KEY, ssid, pass);
 
 /************************* IO Setup *********************************/
 //WiFiClientSecure client;
@@ -12,4 +12,4 @@ AdafruitIO_Feed *timezone = io.feed("Timezone1");
 AdafruitIO_Feed *brightness = io.feed("klok_brightness");
 
 
-bool FLIP_DISPLAY = true; // true: cord out bottom, false: cord out top
+bool FLIP_DISPLAY = false; // true: cord out bottom, false: cord out top
