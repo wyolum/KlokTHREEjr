@@ -81,6 +81,7 @@ bool wipe[NUM_LEDS];
 
 // This is an array of leds.  One item for each led in your strip.
 CRGB leds[NUM_LEDS];
+CRGB buffer[2 * NUM_LEDS];
 
 uint32_t current_time;
 void printTime(uint32_t tm){
@@ -107,7 +108,7 @@ void setup(){
   FastLED.addLeds<LED_TYPE, DATA_PIN, CLK_PIN, COLOR_ORDER>(leds, NUM_LEDS);
   FastLED.setDither(true);
   FastLED.setCorrection(TypicalLEDStrip);
-  FastLED.setBrightness(8);
+  FastLED.setBrightness(MAX_BRIGHTNESS);
   FastLED.setMaxPowerInVoltsAndMilliamps(5, MILLI_AMPS);
   fill_solid(leds, NUM_LEDS, CRGB::Black);
   FastLED.show();
@@ -297,6 +298,7 @@ void rainbow() {
   hsv.hue = 0;
   hsv.val = 255;
   hsv.sat = 240;
+  count = ((current_time % 300) * 255) / 300;
   for( int row = 0; row < MatrixHeight; row++) {
     for( int col = 0; col < MatrixWidth; col++) {
       dy = (row - 4) * 2;
@@ -369,14 +371,40 @@ void logical_not(int n, bool* mask, bool* out){
   }
 }
 
-bool any_fasle(int n, bool* mask){
+bool logical_equal(int n, bool* mask, bool* wipe){
+  bool out;
   int i = 0;
-  
-  while(mask[i] && i < n){
+  while(i < n && mask[i] == wipe[i]){
     i++;
   }
   return i == n;
 }
+bool all_true(int n, bool* mask){
+  int i = 0;
+  
+  while(i < n && mask[i]){
+    i++;
+  }
+  return i == n;
+}
+
+bool any_false(int n, bool* mask){
+  return !all_true(n, mask);
+}
+
+bool all_false(int n, bool* mask){
+  int i = 0;
+  
+  while(i < n && !mask[i]){
+    i++;
+  }
+  return i == n;
+}
+
+bool any_true(int n, bool* mask){
+  return !all_false(n, mask);
+}
+
 
 void apply_mask(bool* mask){
   uint16_t b, k;
@@ -395,7 +423,6 @@ int32_t last_update_ms= 0;
 
 void loop(){
   clock();
-  FastLED.show();
 }
 
 void word_drop_in(uint16_t time_inc){
@@ -487,7 +514,182 @@ void word_drop_out(uint16_t time_inc){
   }
 }
 
+void word_drop(uint16_t last_time_inc, uint16_t time_inc){
+  bool tmp_d[NUM_LEDS];
+
+  rainbow();
+
+  // swipe rainbow from the left
+  //wipe_around(ON);
+  //delay(1000);
+  if(last_time_inc != 289){
+    word_drop_out(last_time_inc);
+  }
+  
+  // clear the new display
+  fillMask(tmp_d, false);
+  
+  // read display for next time incement
+  get_time_display(mask, time_inc);
+  
+  // clear rainbow to reveal the time
+  //wipe_off_left();
+  //wipe_around(OFF);
+  word_drop_in(time_inc);
+}
+
+void fade_transition(uint16_t time_inc, uint16_t last_time_inc){
+  int i, j;
+  
+  fillMask(mask, false);
+  get_time_display(mask, last_time_inc);
+  rainbow();
+  apply_mask(mask); // fill leds with next time inc and copy to second half of buffer
+  for(j = 0; j < NUM_LEDS; j++){
+    buffer[j] = leds[j]; // buffer has new time
+  }
+
+  fillMask(mask, false);
+  get_time_display(mask, time_inc); // leds have old time
+  rainbow();
+  apply_mask(mask);
+
+  int rate = 1;
+  for(j = 0; j < 255; j++){
+    for(i=0; i < NUM_LEDS; i++){
+      leds[i].red   = blend8(leds[i].red,   buffer[i].red, rate);
+      leds[i].green = blend8(leds[i].green, buffer[i].green, rate);
+      leds[i].blue  = blend8(leds[i].blue,  buffer[i].blue, rate);
+    }
+    FastLED.show();
+    delay(1);
+  }
+}
+
 void TheMatrix(uint16_t last_time_inc, uint16_t time_inc){
+  int n_drop = 0;
+  int n_need = 8;
+  
+  const struct CRGB color = CRGB::Green;
+  uint8_t cols[NUM_LEDS];
+  uint8_t rows[NUM_LEDS];
+  uint8_t pause[NUM_LEDS];
+  bool have[NUM_LEDS];
+  int col;
+  int i, j;
+
+  // rainbow();
+  fillMask(mask, false);
+  fillMask(wipe, false);
+  fillMask(have, false);
+  get_time_display(mask, last_time_inc);
+  get_time_display(wipe, time_inc);
+  apply_mask(mask);
+  FastLED.show();
+  for(i=0; i < MatrixWidth; i++){
+    for(j=0; j < MatrixHeight; j++){
+      if(leds[XY(i, j)].red > 0 ||
+	 leds[XY(i, j)].green > 0 ||
+	 leds[XY(i, j)].blue > 0){
+	rows[n_drop] = j;
+	cols[n_drop] = i;
+	n_drop++;
+      }
+      if(wipe[XY(i, j)]){
+	n_need++;
+      }
+    }
+  }
+  
+  delay(10);
+  for(j = 0; j < 255 * 3; j++){
+    for(i=0; i < NUM_LEDS; i++){
+      leds[i].red   = blend8(leds[i].red, 0, 1);
+      leds[i].green = blend8(leds[i].green, 255, 1);
+      leds[i].blue  = blend8(leds[i].blue, 0, 1);
+    }
+    apply_mask(mask);
+    FastLED.show();
+    delay(5);
+  }
+
+  for(i = n_drop; i < n_need; i++){/// add enough drops to complete
+    cols[i] = random(0, MatrixWidth);
+    rows[i] = -random(0, MatrixHeight);
+    n_drop++;
+  }
+
+  int end = millis() + 5000; // go for 5 seconds
+  // while new display is not filled out
+  while(!logical_equal(NUM_LEDS, wipe, have)){
+      //  while(millis() < end){
+    fadeToBlackBy(leds, NUM_LEDS, 75);
+    for(i = 0; i < n_drop; i++){
+      if(millis() > end && wipe[XY(cols[i], rows[i])]){
+	if(random(0, 3) == 0){
+	  have[XY(cols[i], rows[i])] = true;
+	}
+      }
+      
+      if(random(0, 16) == 0){ // pause at random times
+	pause[i] = random(6, 9); // for random duration
+      }
+      if(pause[i] == 0){
+	rows[i]++;
+      }
+      else{
+	pause[i]--; 
+      }
+      if(rows[i] > MatrixHeight - 1){
+	if(n_drop > n_need){
+	  for(j = i; j < n_drop; j++){ // slide drops down by one
+	    rows[j] = rows[j + 1];
+	    cols[j] = cols[j + 1];
+	  }
+	  n_drop--;
+	  Serial.print("n_drop:");
+	  Serial.println(n_drop);
+	}
+	else{
+	  rows[i] = -random(0, MatrixHeight);
+	  cols[i] = random(0, MatrixWidth);
+	}
+      }
+      if(0 <= rows[i] && rows[i] <  MatrixHeight){
+	leds[XY(cols[i], rows[i])] = color;
+      }
+    }
+
+    for(int ii = 0; ii < NUM_LEDS; ii++){
+      if(have[ii]){
+	leds[ii] = CRGB::Blue;
+      }
+    }
+    FastLED.show();
+    delay(75);
+  }
+  for(int ii=0; ii< MatrixHeight * 10; ii++){
+      //  while(millis() < end){
+    fadeToBlackBy(leds, NUM_LEDS, 75);
+    for(i = 0; i < n_drop; i++){
+      rows[i]++;
+      if(0 <= rows[i] && rows[i] <  MatrixHeight){
+	leds[XY(cols[i], rows[i])] = color;
+      }
+    }
+    for(int ii = 0; ii < NUM_LEDS; ii++){
+      if(have[ii]){
+	leds[ii] = CRGB::Blue;
+      }
+    }
+    FastLED.show();
+    delay(75);
+  }
+
+  // fade to green
+  delay(1000);
+  
+  
   
 }
 
@@ -519,6 +721,20 @@ void wipe_around(bool val){
   }
 }
 
+void wipe_around_transition(uint16_t last_time_inc, uint16_t time_inc){
+  rainbow();
+  fillMask(mask, false);
+  get_time_display(mask, last_time_inc);
+  apply_mask(mask);
+  wipe_around(ON);
+  delay(10);
+
+  fillMask(mask, false);
+  get_time_display(mask, time_inc);
+  apply_mask(mask);
+  wipe_around(OFF);
+  delay(10);
+}
 void wipe_down(bool val){
   int col, row;
   bool tmp[NUM_LEDS];
@@ -577,8 +793,6 @@ void clock(){
     last_update_ms = millis();
     //io.run();
   }
-  rainbow();
-  count = (((current_time % 300) * 256)/ 300);
   Normal_loop();
   return;
 }
@@ -610,30 +824,29 @@ void Normal_loop(void) {
     minutes_hack(minute_hack_inc, tmp_d);
     last_min_hack_inc = minute_hack_inc;
   }
-  if(time_inc != last_time_inc){
-    // swipe rainbow from the left
-    //wipe_around(ON);
-    //delay(1000);
-    if(last_time_inc != 289){
-      word_drop_out(last_time_inc);
-    }
-    
-    // clear the new display
-    fillMask(tmp_d, false);
-
-    // read display for next time incement
-    get_time_display(mask, time_inc);
   
-    // read minutes hack for next time incement
-    minutes_hack(minute_hack_inc, tmp_d);
-
-    // clear rainbow to reveal the time
-    //wipe_off_left();
-    //wipe_around(OFF);
-    word_drop_in(time_inc);
+  if(time_inc != last_time_inc){
+    if(false){
+      //TheMatrix(last_time_inc, time_inc);
+      for(int iii=0; iii<287; iii++){
+	TheMatrix(iii, iii+1);
+      }
+    }
+    else{
+      word_drop(last_time_inc, time_inc);
+      //for(int iii=0; iii<287; iii++){
+	//wipe_around_transition(iii, iii + 1);
+	//word_drop(iii, iii + 1);
+	//delay(1000);
+      //}
+      ///wipe_around_transition(last_time_inc, time_inc);
+      //fade_transition(time_inc, last_time_inc);
+    }
     last_time_inc = time_inc;
   }
+  rainbow();
   apply_mask(mask);
+  FastLED.show();
 }
 
 void JustUpdateTime(bool *mask, uint16_t time_inc){
