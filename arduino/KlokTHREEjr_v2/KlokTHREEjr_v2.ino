@@ -7,6 +7,8 @@
 #include <FastLED.h>
 #include <WiFiClientSecure.h>
 #include <credentials.h> //see arduino/libraries/credentials/README for a credentials.h template
+#define ULTIM8x16
+#include <MatrixMaps.h>
 
 WiFiClientSecure *client_p;
 
@@ -41,6 +43,8 @@ struct config_t{
   uint8_t brightness;
 } configuration;
 
+uint32_t current_time;
+
 typedef void (*Init)();
 typedef void (*Background)();
 typedef void (*Transition)(uint16_t last_time_inc, uint16_t time_inc);
@@ -55,17 +59,30 @@ typedef struct{
   Background background;
   Transition transition;
   String     name;
+  int        id;
 } Display;
 
 typedef Display Displays[];
 
 void noop(){
 }
-Display WordDropDisplay = {noop, rainbow, word_drop, String("Word Drop")};
-Display WipeAroundDisplay = {noop, rainbow, wipe_around_transition, String("Wipe Around")};
-Display TheMatrixDisplay = {noop, fill_blue, TheMatrix, String("The Matrix")};
+void blend_to_rainbow();
+
+Display WordDropDisplay = {blend_to_rainbow, rainbow, word_drop, String("Word Drop"), 0};
+Display WipeAroundDisplay = {blend_to_rainbow, rainbow, wipe_around_transition, String("Wipe Around"), 1};
+Display TheMatrixDisplay = {blend_to_blue, fill_blue, TheMatrix, String("The Matrix"), 2};
+
+const int N_DISPLAY = 3;
+Display *Display_ps[N_DISPLAY] = {&WordDropDisplay,
+				  &WipeAroundDisplay,
+				  &TheMatrixDisplay};
 Display* CurrentDisplay_p = &WipeAroundDisplay;
-  
+
+void new_display(Display* Display_p){
+  Display_p->init();
+  CurrentDisplay_p = Display_p;
+}
+
 // language constants
 uint8_t n_minute_led;               // number of minute hack leds
 uint8_t n_minute_state;             // number of minute hack states to cycle through
@@ -81,10 +98,6 @@ uint16_t last_time_inc = 0;
 const uint8_t MAX_BRIGHTNESS = 50;
 const bool ON = true;
 const bool OFF = false;
-
-#define ULTIM8x16
-#include <MatrixMaps.h>
-
 
 // How many leds are in the strip?
 #define N_BOARD 2
@@ -107,6 +120,53 @@ bool wipe[NUM_LEDS];
 CRGB leds[NUM_LEDS];
 CRGB buffer[2 * NUM_LEDS];
 
+
+void blend_to_rainbow(){
+  int i;
+  CHSV newcolor;
+  int count = ((current_time % 300) * 255) / 300;
+  
+  newcolor.val = 255;
+  newcolor.sat = 255;
+  for(int ii=0; ii<NUM_LEDS; ii++){
+    for( int row = 0; row < MatrixHeight; row++) {
+      for( int col = 0; col < MatrixWidth; col++) {
+	i = XY(col, row);
+	if(mask[i]){
+	  newcolor.hue =  (count + (MatrixWidth * row + col) * 2) % 256;
+	  nblend(leds[XY(col, row)], newcolor, 1);
+	}
+      }
+    }
+    FastLED.show();
+    delay(1);
+  }
+}
+
+void blend_to_color(CRGB color){
+  for(int kk=0; kk<128; kk++){
+    for(int ii=0; ii<NUM_LEDS; ii++){
+      if(mask[ii]){
+	nblend(leds[ii], color, 1);
+      }
+    }
+    FastLED.show();
+    delay(1);
+  }
+}
+
+void blend_to_red(){
+  blend_to_color(CRGB::Red);
+}
+
+void blend_to_green(){
+  blend_to_color(CRGB::Green);
+}
+
+void blend_to_blue(){
+  blend_to_color(CRGB::Blue);
+}
+
 void fill_red(){
   fill_solid(leds, NUM_LEDS, CRGB::Red);
 }
@@ -117,7 +177,6 @@ void fill_blue(){
   fill_solid(leds, NUM_LEDS, CRGB::Blue);
 }
 
-uint32_t current_time;
 void printTime(uint32_t tm){
   uint8_t hh, mm, ss;
   char s[8];
@@ -147,6 +206,9 @@ void setup(){
   fill_solid(leds, NUM_LEDS, CRGB::Black);
   FastLED.show();
 
+  new_display(&WipeAroundDisplay);
+
+#ifndef CONNECT_TO_ADA_IO  
   io.connect();
   Serial.print("Wait for IO connect.");
   while(io.status() < AIO_CONNECTED) {
@@ -154,7 +216,7 @@ void setup(){
     delay(500);
   }
   Serial.println(io.statusText());Serial.println("Connected to IO");
-
+#endif
   timezone->onMessage(handleTimezone);
   brightness->onMessage(handleBrightness);
 
@@ -213,7 +275,6 @@ void handleBrightness(AdafruitIO_Data *message){
 }
 
 const struct CRGB color = CRGB::White;
-int count = 0;
 
 uint16_t XY( uint8_t x, uint8_t y)
 {
@@ -333,7 +394,7 @@ void rainbow() {
   hsv.hue = 0;
   hsv.val = 255;
   hsv.sat = 240;
-  count = ((current_time % 300) * 255) / 300;
+  int count = ((current_time % 300) * 255) / 300;
   for( int row = 0; row < MatrixHeight; row++) {
     for( int col = 0; col < MatrixWidth; col++) {
       dy = (row - 4) * 2;
@@ -820,12 +881,32 @@ void wipe_left(bool val){
   }
 }
 
+void next_display(){
+  Serial.println("Next Display");
+  String name = CurrentDisplay_p->name;
+  Serial.println(name);
+  int next_display_i = CurrentDisplay_p->id + 1;
+  next_display_i %= N_DISPLAY;
+  CurrentDisplay_p = Display_ps[next_display_i];
+  CurrentDisplay_p->init();
+  Serial.println(CurrentDisplay_p->name);
+}
+
+bool display_changed = false;
 void clock(){
   bool tmp_d[NUM_LEDS];
   uint8_t word[3];                // will store start_x, start_y, length of word
   time_t spm;                     // seconds past midnight
   uint16_t time_inc;              // 5-minute time increment are we in
   uint8_t minute_hack_inc;        // minute hack
+
+  if(current_time % 3600 == 0 && !display_changed){
+    next_display();
+    display_changed=true;
+  }
+  else{
+    display_changed = false;
+  }
 
   if(millis() - last_update_ms > UPDATE_INTERVAL_MS){
     timeClient.update();
