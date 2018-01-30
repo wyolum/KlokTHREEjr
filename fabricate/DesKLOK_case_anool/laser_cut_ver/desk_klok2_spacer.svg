@@ -8,9 +8,9 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
-   width="55.848999mm"
+   width="85.719398mm"
    height="25.877001mm"
-   viewBox="0 0 55.848999 25.877001"
+   viewBox="0 0 85.719398 25.877001"
    id="svg62"
    sodipodi:docname="desk_klok2_spacer.svg"
    inkscape:version="0.92.2 (unknown)">
@@ -43,9 +43,9 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:zoom="3.3640324"
-     inkscape:cx="89.376377"
-     inkscape:cy="81.54939"
+     inkscape:zoom="2.3787302"
+     inkscape:cx="193.20471"
+     inkscape:cy="23.199942"
      inkscape:window-x="0"
      inkscape:window-y="30"
      inkscape:window-maximized="1"
@@ -89,172 +89,172 @@
   <!-- Set display:none to hide FreeCAD Logo -->
   <g
      id="Ortho_0_0"
-     transform="rotate(-90,9.28725,-18.63725)"
-     style="fill:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none">
+     transform="rotate(-90,16.75485,-26.10485)"
+     style="stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none">
     <g
        transform="scale(1,-1)"
        id="g59"
        style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none">
       <path
          id="1"
-         d="m -32.004,25.2095 v -1.27"
+         d="M -32.004,40.1447 V 23.8887"
          inkscape:connector-curvature="0"
-         style="fill:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
+         style="stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
       <path
-         d="m -32.004,25.2095 a 2.54,2.54 0 0 0 2.54,2.54"
+         d="m -32.004,40.1447 a 2.54,2.54 0 0 0 2.54,2.54"
          id="path20"
          inkscape:connector-curvature="0"
-         style="fill:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
+         style="stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
       <path
          id="3"
-         d="m -32.004,23.9395 h -3.048"
+         d="M -32.004,23.8887 -35.052,23.622"
          inkscape:connector-curvature="0"
-         style="fill:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
+         style="stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
       <path
          id="4"
-         d="M -15.113,27.7495 H -29.464"
+         d="M -15.113,42.6847 H -29.464"
          inkscape:connector-curvature="0"
-         style="fill:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
+         style="stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
       <path
          id="5"
-         d="m -35.052,23.9395 v -2.159"
+         d="M -35.052,23.622 V 22.0472"
          inkscape:connector-curvature="0"
-         style="fill:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
+         style="stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
       <path
-         d="m -12.573,25.2095 a 2.54,2.54 0 0 1 -2.54,2.54"
+         d="m -12.573,40.1447 a 2.54,2.54 0 0 1 -2.54,2.54"
          id="path25"
          inkscape:connector-curvature="0"
-         style="fill:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
+         style="stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
       <path
          id="7"
-         d="m -35.052,21.7805 h 3.048"
+         d="m -35.052,22.0472 3.048,-0.2667"
          inkscape:connector-curvature="0"
-         style="fill:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
+         style="stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
       <path
          id="8"
-         d="m -12.573,23.9395 v 1.27"
+         d="m -12.573,23.8887 v 16.256"
          inkscape:connector-curvature="0"
-         style="fill:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
+         style="stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
       <path
          id="9"
          d="m -32.004,21.7805 v -43.561"
          inkscape:connector-curvature="0"
-         style="fill:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
+         style="stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
       <path
          id="10"
-         d="m -9.525,23.9395 h -3.048"
+         d="m -9.525,23.622 -3.048,0.2667"
          inkscape:connector-curvature="0"
-         style="fill:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
+         style="stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
       <path
          id="11"
-         d="m -32.004,-21.7805 h -3.048"
+         d="m -32.004,-21.7805 -3.048,-0.2667"
          inkscape:connector-curvature="0"
-         style="fill:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
+         style="stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
       <path
          id="12"
-         d="m -9.525,21.7805 v 2.159"
+         d="M -9.525,22.0472 V 23.622"
          inkscape:connector-curvature="0"
-         style="fill:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
+         style="stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
       <path
          id="13"
-         d="m -35.052,-21.7805 v -2.159"
+         d="M -35.052,-22.0472 V -23.622"
          inkscape:connector-curvature="0"
-         style="fill:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
+         style="stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
       <path
          id="14"
-         d="m -12.573,21.7805 h 3.048"
+         d="m -12.573,21.7805 3.048,0.2667"
          inkscape:connector-curvature="0"
-         style="fill:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
+         style="stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
       <path
          id="15"
-         d="m -35.052,-23.9395 h 3.048"
+         d="m -35.052,-23.622 3.048,-0.2667"
          inkscape:connector-curvature="0"
-         style="fill:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
+         style="stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
       <path
          id="16"
          d="m -12.573,21.59 v 0.1905"
          inkscape:connector-curvature="0"
-         style="fill:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
+         style="stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
       <path
          id="17"
-         d="m -32.004,-23.9395 v -1.27"
+         d="m -32.004,-23.8887 v -16.256"
          inkscape:connector-curvature="0"
-         style="fill:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
+         style="stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
       <path
          d="m -15.113,19.05 a 2.54,2.54 0 0 1 2.54,2.54"
          id="path38"
          inkscape:connector-curvature="0"
-         style="fill:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
+         style="stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
       <path
-         d="m -32.004,-25.2095 a 2.54,2.54 0 0 1 2.54,-2.54"
+         d="m -32.004,-40.1447 a 2.54,2.54 0 0 1 2.54,-2.54"
          id="path40"
          inkscape:connector-curvature="0"
-         style="fill:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
+         style="stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
       <path
          id="20"
          d="m -16.129,19.05 h 1.016"
          inkscape:connector-curvature="0"
-         style="fill:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
+         style="stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
       <path
          id="21"
-         d="m -29.464,-27.7495 h 14.351"
+         d="m -29.464,-42.6847 h 14.351"
          inkscape:connector-curvature="0"
-         style="fill:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
+         style="stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
       <path
          d="m -18.669,16.51 a 2.54,2.54 0 0 0 2.54,2.54"
          id="path44"
          inkscape:connector-curvature="0"
-         style="fill:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
+         style="stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
       <path
-         d="m -15.113,-27.7495 a 2.54,2.54 0 0 1 2.54,2.54"
+         d="m -15.113,-42.6847 a 2.54,2.54 0 0 1 2.54,2.54"
          id="path46"
          inkscape:connector-curvature="0"
-         style="fill:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
+         style="stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
       <path
          id="24"
          d="M -18.669,-16.51 V 16.51"
          inkscape:connector-curvature="0"
-         style="fill:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
+         style="stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
       <path
          id="25"
-         d="m -12.573,-25.2095 v 1.27"
+         d="m -12.573,-40.1447 v 16.256"
          inkscape:connector-curvature="0"
-         style="fill:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
+         style="stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
       <path
          d="m -16.129,-19.05 a 2.54,2.54 0 0 0 -2.54,2.54"
          id="path50"
          inkscape:connector-curvature="0"
-         style="fill:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
+         style="stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
       <path
          id="27"
-         d="m -12.573,-23.9395 h 3.048"
+         d="m -12.573,-23.8887 3.048,0.2667"
          inkscape:connector-curvature="0"
-         style="fill:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
+         style="stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
       <path
          id="28"
          d="m -15.113,-19.05 h -1.016"
          inkscape:connector-curvature="0"
-         style="fill:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
+         style="stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
       <path
          id="29"
-         d="m -9.525,-23.9395 v 2.159"
+         d="m -9.525,-23.622 v 1.5748"
          inkscape:connector-curvature="0"
-         style="fill:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
+         style="stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
       <path
          d="m -12.573,-21.59 a 2.54,2.54 0 0 1 -2.54,2.54"
          id="path55"
          inkscape:connector-curvature="0"
-         style="fill:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
+         style="stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
       <path
          id="31"
-         d="m -9.525,-21.7805 h -3.048"
+         d="m -9.525,-22.0472 -3.048,0.2667"
          inkscape:connector-curvature="0"
-         style="fill:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
+         style="stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
       <path
          id="32"
          d="M -12.573,-21.7805 V -21.59"
          inkscape:connector-curvature="0"
-         style="fill:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
+         style="stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
     </g>
   </g>
 </svg>
