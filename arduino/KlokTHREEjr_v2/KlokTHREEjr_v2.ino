@@ -41,6 +41,7 @@ struct config_t{
   long alarm;
   int mode;
   uint8_t brightness;
+  uint8_t display_idx;
 } configuration;
 
 uint32_t current_time;
@@ -201,12 +202,10 @@ void setup(){
   FastLED.addLeds<LED_TYPE, DATA_PIN, CLK_PIN, COLOR_ORDER>(leds, NUM_LEDS);
   FastLED.setDither(true);
   FastLED.setCorrection(TypicalLEDStrip);
-  FastLED.setBrightness(MAX_BRIGHTNESS);
   FastLED.setMaxPowerInVoltsAndMilliamps(5, MILLI_AMPS);
   fill_solid(leds, NUM_LEDS, CRGB::Black);
   FastLED.show();
 
-  new_display(&WipeAroundDisplay);
 
 #ifndef CONNECT_TO_ADA_IO  
   io.connect();
@@ -219,9 +218,13 @@ void setup(){
 #endif
   timezone->onMessage(handleTimezone);
   brightness->onMessage(handleBrightness);
-
+  display_idx_io->onMessage(handleDisplayIdx);
   EEPROM.begin(512);
   loadSettings();
+  new_display(Display_ps[configuration.display_idx % N_DISPLAY]);
+  
+  FastLED.setBrightness(configuration.brightness);
+  
   timeClient.setTimeOffset(configuration.timezone * 60);
   timeClient.begin();
   CurrentDisplay_p->init();
@@ -265,6 +268,25 @@ void handleBrightness(AdafruitIO_Data *message){
     if ((new_brightness != configuration.brightness) && (0 <= new_brightness) && (new_brightness <= MAX_BRIGHTNESS)){
       configuration.brightness = new_brightness;
       FastLED.setBrightness(configuration.brightness);
+      saveSettings();
+    }
+  }
+  // print out the received value
+  Serial.print(message->feedName());
+  Serial.print(" ");
+  Serial.println(message->value());
+}
+
+void handleDisplayIdx(AdafruitIO_Data *message){
+  char *data = (char*)message->value();
+
+  int dataLen = strlen(data);
+  if (dataLen > 0) {
+    String dataStr = String(data);
+    int new_idx = (int)dataStr.toInt() % N_DISPLAY;
+    if ((new_idx != configuration.display_idx) && (0 <= new_idx) && (new_idx <= MAX_BRIGHTNESS)){
+      configuration.display_idx = new_idx;
+      new_display(Display_ps[new_idx]);
       saveSettings();
     }
   }
@@ -892,21 +914,12 @@ void next_display(){
   Serial.println(CurrentDisplay_p->name);
 }
 
-bool display_changed = false;
 void clock(){
   bool tmp_d[NUM_LEDS];
   uint8_t word[3];                // will store start_x, start_y, length of word
   time_t spm;                     // seconds past midnight
   uint16_t time_inc;              // 5-minute time increment are we in
   uint8_t minute_hack_inc;        // minute hack
-
-  if(current_time % 3600 == 0 && !display_changed){
-    next_display();
-    display_changed=true;
-  }
-  else{
-    display_changed = false;
-  }
 
   if(millis() - last_update_ms > UPDATE_INTERVAL_MS){
     timeClient.update();

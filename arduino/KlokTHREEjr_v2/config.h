@@ -10,6 +10,7 @@ AdafruitIO_WiFi io(IO_USERNAME, IO_KEY, ssid, pass);
 //Adafruit_MQTT_Subscribe time_seconds = Adafruit_MQTT_Subscribe(&mqtt, "time/seconds"); // used NTPClient instead
 AdafruitIO_Feed *timezone = io.feed("Timezone1");
 AdafruitIO_Feed *brightness = io.feed("klok_brightness");
+AdafruitIO_Feed *display_idx_io = io.feed("klok_display_idx");
 
 
 bool FLIP_DISPLAY = true; // true: cord out bottom, false: cord out top
