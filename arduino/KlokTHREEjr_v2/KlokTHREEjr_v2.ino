@@ -206,8 +206,8 @@ void setup(){
   fill_solid(leds, NUM_LEDS, CRGB::Black);
   FastLED.show();
 
-
-#ifndef CONNECT_TO_ADA_IO  
+#define CONNECT_TO_ADA_IO
+#ifdef CONNECT_TO_ADA_IO  
   io.connect();
   Serial.print("Wait for IO connect.");
   while(io.status() < AIO_CONNECTED) {
@@ -215,10 +215,11 @@ void setup(){
     delay(500);
   }
   Serial.println(io.statusText());Serial.println("Connected to IO");
-#endif
+
   timezone->onMessage(handleTimezone);
   brightness->onMessage(handleBrightness);
   display_idx_io->onMessage(handleDisplayIdx);
+#endif
   EEPROM.begin(512);
   loadSettings();
   new_display(Display_ps[configuration.display_idx % N_DISPLAY]);
