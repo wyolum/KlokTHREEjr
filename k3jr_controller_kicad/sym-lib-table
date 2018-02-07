@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name KlokTHREEjr)(type Legacy)(uri ${KIPRJMOD}/k3jr_controller_libs/KlokTHREEjr.lib)(options "")(descr ""))
+  (lib (name MAPPYDOT)(type Legacy)(uri ${KIPRJMOD}/k3jr_controller_libs/MAPPYDOT.lib)(options "")(descr ""))
+)
