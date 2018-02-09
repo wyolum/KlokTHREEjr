@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="147.67mm"
+   height="86.709999mm"
+   viewBox="0 0 147.67 86.709999"
+   id="svg131"
+   sodipodi:docname="desk_klok2_baffle1_acrylic3.svg"
+   inkscape:version="0.92.2 (unknown)">
+  <metadata
+     id="metadata135">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1050"
+     id="namedview133"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="1.4151296"
+     inkscape:cx="291.03627"
+     inkscape:cy="116.69782"
+     inkscape:window-x="0"
+     inkscape:window-y="30"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg131" />
+  <!-- Working space 0 0 297 210 -->
+  <defs
+     id="defs12">
+    <radialGradient
+       id="radialGradient3661"
+       gradientUnits="userSpaceOnUse"
+       cy="29.149"
+       cx="282.64999"
+       gradientTransform="matrix(0.14777,0.23089,-0.2468,0.15795,-26.318,-62.617)"
+       r="19.570999">
+      <stop
+         stop-color="#71b2f8"
+         offset="0"
+         id="stop2" />
+      <stop
+         stop-color="#002795"
+         offset="1"
+         id="stop4" />
+    </radialGradient>
+    <radialGradient
+       id="radialGradient3817"
+       gradientUnits="userSpaceOnUse"
+       cy="33.900002"
+       cx="270.57999"
+       gradientTransform="matrix(0.26631,0.065024,-0.17931,0.73438,-60.668,-36.938)"
+       r="19.570999">
+      <stop
+         stop-color="#ff6d0f"
+         offset="0"
+         id="stop7" />
+      <stop
+         stop-color="#ff1000"
+         offset="1"
+         id="stop9" />
+    </radialGradient>
+  </defs>
+  <!-- Set display:none to hide FreeCAD Logo -->
+  <g
+     id="Ortho_0_1"
+     transform="translate(73.835,43.355)">
+    <g
+       transform="scale(1,-1)"
+       id="g128"
+       style="fill:none;stroke:#000000;stroke-width:0.34999999;stroke-linecap:butt;stroke-linejoin:miter">
+      <path
+         d="m -73.66,-30.48 a 12.7,12.7 0 0 1 12.7,-12.7"
+         id="path34"
+         inkscape:connector-curvature="0" />
+      <path
+         id="2"
+         d="M 60.96,-43.18 H -60.96"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 60.96,-43.18 a 12.7,12.7 0 0 1 12.7,12.7"
+         id="path37"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path39"
+         d="M 73.66,30.48 V -30.48"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 73.66,30.48 a 12.7,12.7 0 0 1 -12.7,12.7"
+         id="path41"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path43"
+         d="M -60.96,43.18 H 60.96"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m -60.96,43.18 a 12.7,12.7 0 0 1 -12.7,-12.7"
+         id="path45"
+         inkscape:connector-curvature="0" />
+      <path
+         id="8"
+         d="M -73.66,-30.48 V 30.48"
+         inkscape:connector-curvature="0" />
+      <path
+         id="9"
+         d="m 1.27,30.48 h 12.7"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m -1.27,30.48 a 1.27,1.27 0 1 1 2.54,0"
+         id="path49"
+         inkscape:connector-curvature="0" />
+      <path
+         id="11"
+         d="m -13.97,30.48 h 12.7"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m -16.51,30.48 a 1.27,1.27 0 1 1 2.54,0"
+         id="path52"
+         inkscape:connector-curvature="0" />
+      <path
+         id="13"
+         d="m -29.21,30.48 h 12.7"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m -31.75,30.48 a 1.27,1.27 0 1 1 2.54,0"
+         id="path55"
+         inkscape:connector-curvature="0" />
+      <path
+         id="15"
+         d="m -44.45,30.48 h 12.7"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m -46.99,30.48 a 1.27,1.27 0 1 1 2.54,0"
+         id="path58"
+         inkscape:connector-curvature="0" />
+      <path
+         id="17"
+         d="m -59.69,30.48 h 12.7"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m -60.96,29.21 a 1.27,1.27 0 0 1 1.27,1.27"
+         id="path61"
+         inkscape:connector-curvature="0" />
+      <path
+         id="19"
+         d="m -60.96,16.51 v 12.7"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m -60.96,13.97 a 1.27,1.27 0 0 1 0,2.54"
+         id="path64"
+         inkscape:connector-curvature="0" />
+      <path
+         id="21"
+         d="m -60.96,1.27 v 12.7"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m -60.96,-1.27 a 1.27,1.27 0 0 1 0,2.54"
+         id="path67"
+         inkscape:connector-curvature="0" />
+      <path
+         id="23"
+         d="m -60.96,-13.97 v 12.7"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m -60.96,-16.51 a 1.27,1.27 0 1 1 0,2.54"
+         id="path70"
+         inkscape:connector-curvature="0" />
+      <path
+         id="25"
+         d="m -60.96,-29.21 v 12.7"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m -59.69,-30.48 a 1.27,1.27 0 0 1 -1.27,1.27"
+         id="path73"
+         inkscape:connector-curvature="0" />
+      <path
+         id="27"
+         d="m -46.99,-30.48 h -12.7"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m -44.45,-30.48 a 1.27,1.27 0 1 1 -2.54,0"
+         id="path76"
+         inkscape:connector-curvature="0" />
+      <path
+         id="29"
+         d="m -31.75,-30.48 h -12.7"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m -29.21,-30.48 a 1.27,1.27 0 1 1 -2.54,0"
+         id="path79"
+         inkscape:connector-curvature="0" />
+      <path
+         id="31"
+         d="m -16.51,-30.48 h -12.7"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m -13.97,-30.48 a 1.27,1.27 0 1 1 -2.54,0"
+         id="path82"
+         inkscape:connector-curvature="0" />
+      <path
+         id="33"
+         d="m -1.27,-30.48 h -12.7"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 1.27,-30.48 a 1.27,1.27 0 1 1 -2.54,0"
+         id="path85"
+         inkscape:connector-curvature="0" />
+      <path
+         id="35"
+         d="M 13.97,-30.48 H 1.27"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 16.51,-30.48 a 1.27,1.27 0 1 1 -2.54,0"
+         id="path88"
+         inkscape:connector-curvature="0" />
+      <path
+         id="37"
+         d="M 29.21,-30.48 H 16.51"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 31.75,-30.48 a 1.27,1.27 0 1 1 -2.54,0"
+         id="path91"
+         inkscape:connector-curvature="0" />
+      <path
+         id="39"
+         d="M 44.45,-30.48 H 31.75"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 46.99,-30.48 a 1.27,1.27 0 1 1 -2.54,0"
+         id="path94"
+         inkscape:connector-curvature="0" />
+      <path
+         id="41"
+         d="M 59.69,-30.48 H 46.99"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 60.96,-29.21 a 1.27,1.27 0 0 1 -1.27,-1.27"
+         id="path97"
+         inkscape:connector-curvature="0" />
+      <path
+         id="43"
+         d="m 60.96,-16.51 v -12.7"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 60.96,-13.97 a 1.27,1.27 0 1 1 0,-2.54"
+         id="path100"
+         inkscape:connector-curvature="0" />
+      <path
+         id="45"
+         d="m 60.96,-1.27 v -12.7"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 60.96,1.27 a 1.27,1.27 0 1 1 0,-2.54"
+         id="path103"
+         inkscape:connector-curvature="0" />
+      <path
+         id="47"
+         d="M 60.96,13.97 V 1.27"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 60.96,16.51 a 1.27,1.27 0 0 1 0,-2.54"
+         id="path106"
+         inkscape:connector-curvature="0" />
+      <path
+         id="49"
+         d="M 60.96,29.21 V 16.51"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 59.69,30.48 a 1.27,1.27 0 0 1 1.27,-1.27"
+         id="path109"
+         inkscape:connector-curvature="0" />
+      <path
+         id="51"
+         d="m 46.99,30.48 h 12.7"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 44.45,30.48 a 1.27,1.27 0 1 1 2.54,0"
+         id="path112"
+         inkscape:connector-curvature="0" />
+      <path
+         id="53"
+         d="m 31.75,30.48 h 12.7"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 29.21,30.48 a 1.27,1.27 0 1 1 2.54,0"
+         id="path115"
+         inkscape:connector-curvature="0" />
+      <path
+         id="55"
+         d="m 16.51,30.48 h 12.7"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 13.97,30.48 a 1.27,1.27 0 1 1 2.54,0"
+         id="path118"
+         inkscape:connector-curvature="0" />
+      <circle
+         cx="63.5"
+         cy="33.02"
+         r="1.524"
+         id="circle120" />
+      <circle
+         cx="63.5"
+         cy="-33.02"
+         r="1.524"
+         id="circle122" />
+      <circle
+         cx="-63.5"
+         cy="-33.02"
+         r="1.524"
+         id="circle124" />
+      <circle
+         cx="-63.5"
+         cy="33.02"
+         r="1.524"
+         id="circle126" />
+    </g>
+  </g>
+</svg>
