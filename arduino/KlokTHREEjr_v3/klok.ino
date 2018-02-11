@@ -813,7 +813,12 @@ void next_display(){
 }
 
 void set_display(int display_idx){
-  if(display_idx < N_DISPLAY){
+  if(0 <= display_idx && display_idx < N_DISPLAY){
+    if ((display_idx != configuration.display_idx)){
+      configuration.display_idx = display_idx;
+      saveSettings();
+    }
+    
     CurrentDisplay_p = Display_ps[display_idx];
     CurrentDisplay_p->init();
   }

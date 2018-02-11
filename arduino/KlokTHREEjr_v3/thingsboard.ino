@@ -131,7 +131,7 @@ void InitWiFi_orig() {
 }
 void InitWiFi() {
   WiFiManager wifiManager;
-  //wifiManager.resetSettings();// forget previous wifi manager settings
+  //wifiManager.resetSettings();// uncomment to forget previous wifi manager settings
   
   wifiManager.autoConnect("KLOK");
   Serial.println("yay connected");
