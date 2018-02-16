@@ -700,12 +700,6 @@ void TheMatrix(uint16_t last_time_inc, uint16_t time_inc){
     FastLED.show();
     delay(75);
   }
-
-  // fade to green
-  delay(1000);
-  
-  
-  
 }
 
 void wipe_around(bool val){
