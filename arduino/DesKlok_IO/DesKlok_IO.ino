@@ -10,6 +10,8 @@
 #define ULTIM8x16
 #include <MatrixMaps.h>
 
+#define WIFI_MANAGER
+
 WiFiClientSecure *client_p;
 
 //#include "dutch_v1.h"
