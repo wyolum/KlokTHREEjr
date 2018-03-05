@@ -1,8 +1,8 @@
 (export (version D)
   (design
     (source /home/samata/projects-git/KlokTHREEjr/k3jr_controller_kicad/k3jr_controller.sch)
-    (date "Wed Feb  7 22:44:34 2018")
-    (tool "Eeschema no-vcs-found-3ad3869~61~ubuntu16.04.1")
+    (date "Sun Mar  4 22:09:14 2018")
+    (tool "Eeschema no-vcs-found-67ccf76~61~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "KlokTHREEjr Controller")
@@ -400,7 +400,7 @@
       (datasheet http://www.diodes.com/datasheets/AP1117.pdf)
       (fields
         (field (name manf#) mfr_pn))
-      (libsource (lib KlokTHREEjr) (part AP1117-15))
+      (libsource (lib KlokTHREEjr) (part AP1117-33))
       (sheetpath (names /esp_pwr_uart/) (tstamps /5A452227/))
       (tstamp 5A4518D4))
     (comp (ref JP1)
@@ -933,7 +933,7 @@
         (pin (num 2) (name K) (type passive)))))
   (libraries
     (library (logical KlokTHREEjr)
-      (uri /home/samata/projects-git/KlokTHREEjr/k3jr_controller_kicad/k3jr_controller_libs/KlokTHREEjr.lib)))
+      (uri /home/samata/projects-git/KlokTHREEjr/k3jr_controller_kicad/library/KlokTHREEjr.lib)))
   (nets
     (net (code 1) (name /IO22)
       (node (ref U129) (pin 36)))
