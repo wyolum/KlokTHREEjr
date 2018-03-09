@@ -1,3 +1,3 @@
 (sym_lib_table
-  (lib (name KlokTHREEjr)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/library/KlokTHREEjr.lib)(options "")(descr ""))
+  (lib (name KlokTHREEjr)(type Legacy)(uri ${KIPRJMOD}/library/KlokTHREEjr.lib)(options "")(descr ""))
 )
