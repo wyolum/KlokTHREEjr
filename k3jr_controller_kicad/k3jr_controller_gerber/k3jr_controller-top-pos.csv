@@ -1,0 +1,5 @@
+Ref,Val,Package,PosX,PosY,Rot,Side
+"G4","LOGO_WL","Logo-WL3",31.750000,-1.270000,0.000000,top
+"G6","OSHW","OSHW_6mm",69.850000,-3.810000,0.000000,top
+"J24","I2C_ext1","Header_4x1",144.145000,-36.830000,0.000000,top
+"J25","I2C_ext2","Header_4x1",17.145000,-36.830000,180.000000,top

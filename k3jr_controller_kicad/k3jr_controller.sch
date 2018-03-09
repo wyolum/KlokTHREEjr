@@ -1378,4 +1378,8 @@ Wire Notes Line
 	4400 1625 4400 1925
 Wire Notes Line
 	4400 1925 4100 1925
+Text Label 2075 1925 2    40   ~ 0
+IO34
+Text Label 2075 2025 2    40   ~ 0
+IO35
 $EndSCHEMATC

@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 4
+Sheet 3 4
 Title "KlokTHREEjr Controller"
 Date "2018-02-07"
 Rev "rev 1"
