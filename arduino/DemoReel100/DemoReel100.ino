@@ -16,13 +16,15 @@ FASTLED_USING_NAMESPACE
 #endif
 
 #define DATA_PIN    13
-#define CLK_PIN   12
+#define CLK_PIN     14
 #define LED_TYPE    APA102
-#define COLOR_ORDER GRB
-#define NUM_LEDS    (64*3)
+#define COLOR_ORDER BGR
+#define NUM_LEDS    (64*24)
+#define MILLI_AMPS 1000  // IMPORTANT: set the max milli-Amps of your power supply (4A = 4000mA)
+
 CRGB leds[NUM_LEDS];
 
-#define BRIGHTNESS          10
+#define BRIGHTNESS          1
 #define FRAMES_PER_SECOND  120
 
 void setup() {
@@ -30,16 +32,21 @@ void setup() {
   
   // tell FastLED about the LED strip configuration
   //FastLED.addLeds<LED_TYPE,DATA_PIN,COLOR_ORDER>(leds, NUM_LEDS).setCorrection(TypicalLEDStrip);
-  FastLED.addLeds<LED_TYPE,DATA_PIN,CLK_PIN,COLOR_ORDER>(leds, NUM_LEDS).setCorrection(TypicalLEDStrip);
-
-  // set master brightness control
-  FastLED.setBrightness(BRIGHTNESS);
+  FastLED.addLeds<LED_TYPE, DATA_PIN, CLK_PIN, COLOR_ORDER>(leds, NUM_LEDS);
+  FastLED.setDither(true);
+  FastLED.setCorrection(TypicalLEDStrip);
+  FastLED.setMaxPowerInVoltsAndMilliamps(5, MILLI_AMPS);
+  fill_solid(leds, NUM_LEDS, CRGB::Black);
+  FastLED.show();
+  FastLED.show();
+  FastLED.show();
 }
 
 
 // List of patterns to cycle through.  Each is defined as a separate function below.
 typedef void (*SimplePatternList[])();
 SimplePatternList gPatterns = { rainbow, rainbowWithGlitter, confetti, sinelon, juggle, bpm };
+//SimplePatternList gPatterns = { confetti, sinelon};
 
 uint8_t gCurrentPatternNumber = 0; // Index number of which pattern is current
 uint8_t gHue = 0; // rotating "base color" used by many of the patterns

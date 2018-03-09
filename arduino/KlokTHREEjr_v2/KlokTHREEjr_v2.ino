@@ -640,6 +640,7 @@ void word_drop_in(uint16_t time_inc){
     }
   }
 }
+
 void word_drop_out(uint16_t time_inc){
   uint8_t bits;     // holds the on off state for 8 words at a time
   uint8_t word[3];  // start columm, start row, length of the current word

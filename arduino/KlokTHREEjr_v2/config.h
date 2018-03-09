@@ -13,4 +13,4 @@ AdafruitIO_Feed *brightness = io.feed("klok_brightness");
 AdafruitIO_Feed *display_idx_io = io.feed("klok_display_idx");
 
 
-bool FLIP_DISPLAY = true; // true: cord out bottom, false: cord out top
+bool FLIP_DISPLAY = false; // true: cord out bottom, false: cord out top
