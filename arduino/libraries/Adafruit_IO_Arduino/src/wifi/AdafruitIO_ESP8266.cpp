@@ -9,13 +9,9 @@
 //
 // All text above must be included in any redistribution.
 //
-#define MAC_HACK // use WiFi Manager
 #ifdef ESP8266
 
 #include "AdafruitIO_ESP8266.h"
-#ifdef MAC_HACK
-#include <WiFiManager.h>         //https://github.com/tzapu/WiFiManager
-#endif
 
 AdafruitIO_ESP8266::AdafruitIO_ESP8266(const char *user, const char *key, const char *ssid, const char *pass):AdafruitIO(user, key)
 {
@@ -26,9 +22,6 @@ AdafruitIO_ESP8266::AdafruitIO_ESP8266(const char *user, const char *key, const 
   _http = new HttpClient(*_client, _host, _http_port);
 }
 
-WiFiClientSecure *AdafruitIO_ESP8266::get_client(){
-  return _client;
-}
 AdafruitIO_ESP8266::~AdafruitIO_ESP8266()
 {
   if(_client)
@@ -39,6 +32,7 @@ AdafruitIO_ESP8266::~AdafruitIO_ESP8266()
 
 void AdafruitIO_ESP8266::_connect()
 {
+<<<<<<< HEAD
 #ifdef MAC_HACK /// TJS: Use WiFi Manager hack
   // ### hacked in for Mac's kock... and it worked!!!
   WiFiManager wifiManager;
@@ -46,11 +40,14 @@ void AdafruitIO_ESP8266::_connect()
   wifiManager.autoConnect("KLOK");
   Serial.println("yay connected");
 #else
+=======
+
+>>>>>>> 0bae385c2a5eed7f09df1ef643a2fe61ad68d9d0
   delay(100);
   WiFi.begin(_ssid, _pass);
   delay(100);
   _status = AIO_NET_DISCONNECTED;
-#endif
+
 }
 
 aio_status_t AdafruitIO_ESP8266::networkStatus()

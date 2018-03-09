@@ -515,9 +515,9 @@ E4 23 8F 3C 52 B0 F1 D9 2E 76 F1 FF 03 17 ED 19 47 28 92 59 FB 00 00 00 00 49 45
 82 
 EndData
 $EndBitmap
-Text Label 1825 1925 0    40   ~ 0
+Text Label 4025 1625 2    40   ~ 0
 SCL
-Text Label 1825 2025 0    40   ~ 0
+Text Label 4025 1925 2    40   ~ 0
 SDA
 Text Label 1825 2425 0    40   ~ 0
 LDR1
@@ -667,10 +667,6 @@ Wire Wire Line
 	2075 2325 1825 2325
 Wire Wire Line
 	1825 2425 2075 2425
-Wire Wire Line
-	2075 1925 1825 1925
-Wire Wire Line
-	1825 2025 2075 2025
 Wire Wire Line
 	4025 1425 3775 1425
 Wire Wire Line
@@ -903,17 +899,11 @@ Wire Notes Line
 	4150 2525 4150 2625
 Wire Notes Line
 	4150 2625 4100 2625
-Wire Notes Line
-	1725 1925 1675 1925
-Wire Notes Line
-	1675 1925 1675 2025
-Wire Notes Line
-	1675 2025 1725 2025
 Text Notes 4150 2175 0    40   ~ 0
 BUTTONS
 Text Notes 4150 2575 0    40   ~ 0
 LED CLK/DAT
-Text Notes 1650 1975 2    40   ~ 0
+Text Notes 4525 1675 2    40   ~ 0
 I2C
 Wire Notes Line
 	4100 1725 4150 1725
@@ -978,7 +968,6 @@ NoConn ~ 2875 3125
 NoConn ~ 2775 3125
 NoConn ~ 2675 3125
 NoConn ~ 3775 1525
-NoConn ~ 3775 1625
 Wire Wire Line
 	3775 1325 4025 1325
 Text Label 4025 1325 2    40   ~ 0
@@ -1106,13 +1095,8 @@ Text Label 3175 3125 3    40   ~ 0
 SDI
 Text Label 3375 3125 3    40   ~ 0
 IO2
-Text Label 3775 1625 0    40   ~ 0
-IO22
 Text Label 3775 1525 0    40   ~ 0
 IO23
-NoConn ~ 3775 1925
-Text Label 3775 1925 0    40   ~ 0
-IO21
 Text Label 3775 2025 0    40   ~ 0
 NC
 Wire Wire Line
@@ -1254,9 +1238,9 @@ F 3 "~" H 2925 5900 50  0001 C CNN
 	1    2925 5900
 	1    0    0    -1  
 $EndComp
-Text Label 2425 5800 0    40   ~ 0
-SDA
 Text Label 2425 5900 0    40   ~ 0
+SDA
+Text Label 2425 5800 0    40   ~ 0
 SCL
 Text Label 2425 6000 0    40   ~ 0
 3V3
@@ -1279,9 +1263,9 @@ F 3 "~" H 3975 5900 50  0001 C CNN
 	1    3975 5900
 	1    0    0    -1  
 $EndComp
-Text Label 3475 5800 0    40   ~ 0
-SDA
 Text Label 3475 5900 0    40   ~ 0
+SDA
+Text Label 3475 5800 0    40   ~ 0
 SCL
 Text Label 3475 6000 0    40   ~ 0
 3V3
@@ -1382,4 +1366,20 @@ Wire Wire Line
 Connection ~ 3400 4350
 Wire Wire Line
 	3400 4350 3625 4350
+Wire Wire Line
+	4025 1925 3775 1925
+Wire Wire Line
+	4025 1625 3775 1625
+NoConn ~ 2075 1925
+NoConn ~ 2075 2025
+Wire Notes Line
+	4100 1625 4400 1625
+Wire Notes Line
+	4400 1625 4400 1925
+Wire Notes Line
+	4400 1925 4100 1925
+Text Label 2075 1925 2    40   ~ 0
+IO34
+Text Label 2075 2025 2    40   ~ 0
+IO35
 $EndSCHEMATC

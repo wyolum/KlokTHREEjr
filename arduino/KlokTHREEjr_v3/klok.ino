@@ -199,7 +199,7 @@ const struct CRGB color = CRGB::White;
 
 uint16_t XY( uint8_t x, uint8_t y)
 {
-  bool FLIP_DISPLAY = true;
+  bool FLIP_DISPLAY = false;
   if(FLIP_DISPLAY){
     x = MatrixWidth - x - 1;
     y = MatrixHeight - y - 1;
