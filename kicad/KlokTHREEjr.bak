@@ -1819,9 +1819,9 @@ F 3 "~" H 2925 5900 50  0001 C CNN
 	1    2925 5900
 	1    0    0    -1  
 $EndComp
-Text Label 2425 5800 0    40   ~ 0
-SDA
 Text Label 2425 5900 0    40   ~ 0
+SDA
+Text Label 2425 5800 0    40   ~ 0
 SCL
 Text Label 2425 6000 0    40   ~ 0
 3V3
@@ -1844,9 +1844,9 @@ F 3 "~" H 3975 5900 50  0001 C CNN
 	1    3975 5900
 	1    0    0    -1  
 $EndComp
-Text Label 3475 5800 0    40   ~ 0
-SDA
 Text Label 3475 5900 0    40   ~ 0
+SDA
+Text Label 3475 5800 0    40   ~ 0
 SCL
 Text Label 3475 6000 0    40   ~ 0
 3V3

@@ -1,8 +1,8 @@
 (export (version D)
   (design
-    (source /home/samata/projects-git/KlokTHREEjr/kicad/KlokTHREEjr.sch)
-    (date "Sat Mar 10 09:25:43 2018")
-    (tool "Eeschema no-vcs-found-67ccf76~61~ubuntu16.04.1")
+    (source /home/anool/projects-git/KlokTHREEjr/kicad/KlokTHREEjr.sch)
+    (date "Sat Mar 10 15:40:31 2018")
+    (tool "Eeschema 5.0.0-rc2-dev-unknown-30a78f0~62~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title KlokTHREEjr)
@@ -2789,7 +2789,7 @@
         (pin (num 2) (name K) (type passive)))))
   (libraries
     (library (logical KlokTHREEjr)
-      (uri /home/samata/projects-git/KlokTHREEjr/kicad/KlokTHREEjr_libs/KlokTHREEjr.lib)))
+      (uri /home/anool/projects-git/KlokTHREEjr/kicad/KlokTHREEjr_libs/KlokTHREEjr.lib)))
   (nets
     (net (code 1) (name /SW_E)
       (node (ref R10) (pin 1))

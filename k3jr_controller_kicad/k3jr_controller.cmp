@@ -1,11 +1,11 @@
-Cmp-Mod V01 Created by PcbNew   date = Fri Mar  9 22:37:02 2018
+Cmp-Mod V01 Created by PcbNew   date = Sat Mar 10 16:29:55 2018
 
 BeginCmp
 TimeStamp = 5A619AAA
 Path = /5A452227/5A73BE05
 Reference = P1;
 ValeurCmp = USB_micro;
-IdModule  = k3jr_controller_libs:USB_Micro-B_Molex-105017-0001_round;
+IdModule  = k3jr_controller_libs:USB_Micro-B_Molex-105017-0001;
 EndCmp
 
 BeginCmp
