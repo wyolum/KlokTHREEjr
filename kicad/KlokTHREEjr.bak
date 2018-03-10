@@ -618,9 +618,9 @@ F7 "DO_H" O R 9725 6200 40
 $EndSheet
 Text Notes 8175 550  0    40   ~ 8
 16 x 8 pixel matrix
-Text Label 1825 1925 0    40   ~ 0
+Text Label 4025 1625 2    40   ~ 0
 SCL
-Text Label 1825 2025 0    40   ~ 0
+Text Label 4025 1925 2    40   ~ 0
 SDA
 Text Label 8400 1300 0    40   ~ 0
 DI_A
@@ -1159,10 +1159,6 @@ Wire Wire Line
 Wire Wire Line
 	1825 2425 2075 2425
 Wire Wire Line
-	2075 1925 1825 1925
-Wire Wire Line
-	1825 2025 2075 2025
-Wire Wire Line
 	4025 1425 3775 1425
 Wire Wire Line
 	3775 1725 4025 1725
@@ -1454,17 +1450,11 @@ Wire Notes Line
 	4150 2525 4150 2625
 Wire Notes Line
 	4150 2625 4100 2625
-Wire Notes Line
-	1725 1925 1675 1925
-Wire Notes Line
-	1675 1925 1675 2025
-Wire Notes Line
-	1675 2025 1725 2025
 Text Notes 4150 2175 0    40   ~ 0
 BUTTONS
 Text Notes 4150 2575 0    40   ~ 0
 LED CLK/DAT
-Text Notes 1650 1975 2    40   ~ 0
+Text Notes 4500 1675 2    40   ~ 0
 I2C
 Wire Notes Line
 	4100 1725 4150 1725
@@ -1533,7 +1523,7 @@ NoConn ~ 2875 3125
 NoConn ~ 2775 3125
 NoConn ~ 2675 3125
 NoConn ~ 3775 1525
-NoConn ~ 3775 1625
+NoConn ~ 2075 1925
 Wire Wire Line
 	3775 1325 4025 1325
 Text Label 4025 1325 2    40   ~ 0
@@ -1677,21 +1667,17 @@ Text Label 3175 3125 3    40   ~ 0
 SDI
 Text Label 3375 3125 3    40   ~ 0
 IO2
-Text Label 3775 1625 0    40   ~ 0
-IO22
 Text Label 3775 1525 0    40   ~ 0
 IO23
-NoConn ~ 3775 1925
-Text Label 3775 1925 0    40   ~ 0
-IO21
+NoConn ~ 2075 2025
 Text Label 3775 2025 0    40   ~ 0
 NC
 Wire Wire Line
 	5725 1975 5425 1975
 Text Label 5425 1975 0    40   ~ 0
 3V3
-Text Notes 2275 5100 0    40   ~ 0
-Native SPI pins are (clk, mosi, miso, cs):\nSPI1: 6, 8, 7, 11\nHSPI: 14,13,12,15\nVSPI: 18,23,19, 5\nIf using native pins maximum \nSPI clock can be set to 80 MHZ.\nOnly HSPI & VSPI are supported by esp-idf driver.
+Text Notes 2200 5350 0    40   ~ 0
+Native SPI pins are (clk, mosi, miso, cs):\nSPI1: 6, 8, 7, 11\nHSPI: 14,13,12,15\nVSPI: 18,23,19, 5\nIf using native pins max SPI clock can be set to 80 MHZ.\nOnly HSPI & VSPI are supported by esp-idf driver.
 $Comp
 L KlokTHREEjr:Conn_02x03_Odd_Even J20
 U 1 1 5A590BB3
@@ -1804,8 +1790,8 @@ F 4 "mfr_pn" H 3825 4150 50  0001 C CNN "manf#"
 	1    3825 4150
 	1    0    0    -1  
 $EndComp
-Text Notes 2275 5375 0    40   ~ 0
-SPI header with breakour pins.\nConnect with wire to appropriate\npins on ESP32
+Text Notes 2200 4900 0    40   ~ 0
+SPI header with breakout pins.\nConnect with wire to appropriate\npins on ESP32
 Wire Notes Line
 	5375 3325 7375 3325
 Wire Notes Line
@@ -1961,4 +1947,18 @@ Wire Wire Line
 Connection ~ 3400 4350
 Wire Wire Line
 	3400 4350 3625 4350
+Text Label 2075 1925 2    40   ~ 0
+IO34
+Text Label 2075 2025 2    40   ~ 0
+IO35
+Wire Wire Line
+	4025 1625 3775 1625
+Wire Wire Line
+	3775 1925 4025 1925
+Wire Notes Line
+	4100 1625 4375 1625
+Wire Notes Line
+	4375 1625 4375 1925
+Wire Notes Line
+	4375 1925 4100 1925
 $EndSCHEMATC
