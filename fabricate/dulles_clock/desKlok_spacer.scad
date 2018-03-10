@@ -1,4 +1,4 @@
-H = 10;
+H = 8;
 // H = 37.5 - 20 // with 10mm spacer
 difference(){
   cylinder(h=H, d=4 + 1.4, $fn=30);

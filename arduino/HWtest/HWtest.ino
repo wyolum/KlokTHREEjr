@@ -5,12 +5,16 @@
 #define DECR 5
 #define MODE 17
 void setup() {
+  
+  Serial.begin(115200);
+  delay(200);
+  Serial.println("hey there");
+  //while(1){
+    Serial.println("hey there");
+    delay(1000);
+    //}
+    Wire.begin(4, 5);
 
-Serial.begin(115200);
-Serial.println("hey there");
-
- Wire.begin(7,6);
-delay(1000);
   // clear /EOSC bit
   // Sometimes necessary to ensure that the clock
   // keeps running on just battery power. Once set,
@@ -20,7 +24,7 @@ delay(1000);
   Wire.write(0x0E);             // select register
   Wire.write(0b00011100);       // write register bitmap, bit 7 is /EOSC
   Wire.endTransmission();
-
+  
 }
 
 

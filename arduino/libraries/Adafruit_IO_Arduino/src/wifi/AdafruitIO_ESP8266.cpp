@@ -32,7 +32,17 @@ AdafruitIO_ESP8266::~AdafruitIO_ESP8266()
 
 void AdafruitIO_ESP8266::_connect()
 {
+<<<<<<< HEAD
+#ifdef MAC_HACK /// TJS: Use WiFi Manager hack
+  // ### hacked in for Mac's kock... and it worked!!!
+  WiFiManager wifiManager;
+  wifiManager.resetSettings();// uncomment to forget previous wifi manager settings
+  wifiManager.autoConnect("KLOK");
+  Serial.println("yay connected");
+#else
+=======
 
+>>>>>>> 0bae385c2a5eed7f09df1ef643a2fe61ad68d9d0
   delay(100);
   WiFi.begin(_ssid, _pass);
   delay(100);
