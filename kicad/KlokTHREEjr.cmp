@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew   date = Sat Mar 10 15:40:11 2018
+Cmp-Mod V01 Created by PcbNew   date = Sun Mar 11 02:11:19 2018
 
 BeginCmp
 TimeStamp = 5AA3A018
@@ -6,22 +6,6 @@ Path = /5A452227/5A73BE05
 Reference = P1;
 ValeurCmp = USB_micro;
 IdModule  = KlokTHREEjr_libs:USB_Micro-B_Molex-105017-0001;
-EndCmp
-
-BeginCmp
-TimeStamp = 5AA3FAE9
-Path = /5A4DB491
-Reference = G3;
-ValeurCmp = OSHW;
-IdModule  = KlokTHREEjr_libs:OSHW_6mm;
-EndCmp
-
-BeginCmp
-TimeStamp = 5AA3FAD2
-Path = /5A5061ED
-Reference = G2;
-ValeurCmp = KiCad;
-IdModule  = KlokTHREEjr_libs:KiCad-Logo2_6mm_SilkScreen;
 EndCmp
 
 BeginCmp
@@ -108,7 +92,7 @@ BeginCmp
 TimeStamp = 5AA3FA1E
 Path = /5A452227/5A4599D8
 Reference = S4;
-ValeurCmp = BOOT;
+ValeurCmp = SW-BOOT;
 IdModule  = KlokTHREEjr_libs:SW_SMD;
 EndCmp
 
@@ -137,9 +121,9 @@ IdModule  = KlokTHREEjr_libs:D_LLP1006-2L;
 EndCmp
 
 BeginCmp
-TimeStamp = 5AA3CEA0
-Path = /5A47432D/5A5079CB
-Reference = G4;
+TimeStamp = 5AC2881E
+Path = /5A4DA853
+Reference = G1;
 ValeurCmp = LOGO_WL;
 IdModule  = KlokTHREEjr_libs:Logo-WL3;
 EndCmp
@@ -393,7 +377,7 @@ IdModule  = KlokTHREEjr_libs:CR2032_SMD2;
 EndCmp
 
 BeginCmp
-TimeStamp = 5AA3CCB4
+TimeStamp = 5AA3F172
 Path = /5A447BD8/5A448948
 Reference = U130;
 ValeurCmp = DS3231N;
@@ -404,7 +388,7 @@ BeginCmp
 TimeStamp = 5AA3CCA4
 Path = /5A452227/5A45898C
 Reference = S3;
-ValeurCmp = EN;
+ValeurCmp = SW-EN;
 IdModule  = KlokTHREEjr_libs:SW_SMD;
 EndCmp
 
@@ -422,14 +406,6 @@ Path = /5A47432D/5A487307
 Reference = J7;
 ValeurCmp = 5V;
 IdModule  = KlokTHREEjr_libs:1pin;
-EndCmp
-
-BeginCmp
-TimeStamp = 5AA3A139
-Path = /5A4DA853
-Reference = G1;
-ValeurCmp = LOGO_WL;
-IdModule  = KlokTHREEjr_libs:Logo-WL3;
 EndCmp
 
 BeginCmp
@@ -538,16 +514,16 @@ EndCmp
 
 BeginCmp
 TimeStamp = 5AA3A06C
-Path = /5A47432D/5A5077CE
-Reference = G6;
+Path = /5A4DB491
+Reference = G3;
 ValeurCmp = OSHW;
 IdModule  = KlokTHREEjr_libs:OSHW_6mm;
 EndCmp
 
 BeginCmp
 TimeStamp = 5AA3A058
-Path = /5A47432D/5A50766D
-Reference = G5;
+Path = /5A5061ED
+Reference = G2;
 ValeurCmp = KiCad;
 IdModule  = KlokTHREEjr_libs:KiCad-Logo2_6mm_SilkScreen;
 EndCmp
@@ -2410,24 +2386,24 @@ EndCmp
 
 BeginCmp
 TimeStamp = 5A94BFDD
-Path = /5A4DA853
-Reference = G1;
+Path = /5A452227/5AA760BF
+Reference = G7;
 ValeurCmp = LOGO_WL;
 IdModule  = KlokTHREEjr_libs:Logo-WL3;
 EndCmp
 
 BeginCmp
-TimeStamp = 5A94BFF2
-Path = /5A5061ED
-Reference = G2;
+TimeStamp = 5ACE5D66
+Path = /5A452227/5AA75FE2
+Reference = G8;
 ValeurCmp = KiCad;
 IdModule  = KlokTHREEjr_libs:KiCad-Logo2_6mm_SilkScreen;
 EndCmp
 
 BeginCmp
-TimeStamp = 5A94BFF7
-Path = /5A4DB491
-Reference = G3;
+TimeStamp = 5ACE5D4A
+Path = /5A452227/5AA76142
+Reference = G9;
 ValeurCmp = OSHW;
 IdModule  = KlokTHREEjr_libs:OSHW_6mm;
 EndCmp
