@@ -23,8 +23,8 @@
 #include "config.h"
 
 
-const bool ON = true;
-const bool OFF = !ON;
+//const bool ON = true;
+//const bool OFF = !ON;
 
 // How many leds are in the strip?
 const uint8_t N_BOARD = 2;
@@ -198,6 +198,8 @@ void led_setup(){
 }
 
 NTPClock ntp_clock;
+DS3231Clock ds3231_clock();
+
 WiFiManager wifiManager;
 WiFiUDP ntpUDP;
 

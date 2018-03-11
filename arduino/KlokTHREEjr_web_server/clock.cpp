@@ -11,7 +11,6 @@ uint32_t DummyClock::now(){
 
 NTPClock::NTPClock(){
 }
-
 void NTPClock::setup(NTPClient *_timeClient){
   this->timeClient = _timeClient;
   this->timeClient->setTimeOffset(-240 * 60);
@@ -20,5 +19,13 @@ void NTPClock::setup(NTPClient *_timeClient){
 uint32_t NTPClock::now(){
   this->timeClient->update();
   return this->timeClient->getEpochTime();
+}
+
+DS3231Clock::DS3231Clock(){
+}
+void DS3231Clock::setup(){
+}
+uint32_t DS3231Clock::now(){
+  return rtc.now().unixtime();
 }
 
