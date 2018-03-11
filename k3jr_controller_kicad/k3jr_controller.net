@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/samata/projects-git/KlokTHREEjr/k3jr_controller_kicad/k3jr_controller.sch)
-    (date "Fri Mar  9 22:06:50 2018")
+    (date "Sun Mar 11 14:46:16 2018")
     (tool "Eeschema no-vcs-found-67ccf76~61~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -447,7 +447,7 @@
       (tstamp 5A738B9C))
     (comp (ref P1)
       (value USB_micro)
-      (footprint k3jr_controller_libs:USB_Micro-B_Molex-105017-0001_round)
+      (footprint k3jr_controller_libs:USB_Micro-B_Molex-105017-0001)
       (libsource (lib KlokTHREEjr) (part USB_micro))
       (sheetpath (names /esp_pwr_uart/) (tstamps /5A452227/))
       (tstamp 5A73BE05))
