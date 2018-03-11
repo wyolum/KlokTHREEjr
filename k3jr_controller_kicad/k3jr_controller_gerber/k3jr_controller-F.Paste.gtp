@@ -1,12 +1,12 @@
-G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,5.0.0-rc2-dev-unknown-30a78f0~62~ubuntu16.04.1*
-G04 #@! TF.CreationDate,2018-03-10T16:31:00+05:30*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,no-vcs-found-67ccf76~61~ubuntu16.04.1*
+G04 #@! TF.CreationDate,2018-03-11T14:56:02+05:30*
 G04 #@! TF.ProjectId,k3jr_controller,6B336A725F636F6E74726F6C6C65722E,rev 1*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Paste,Top*
 G04 #@! TF.FilePolarity,Positive*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 5.0.0-rc2-dev-unknown-30a78f0~62~ubuntu16.04.1) date Sat Mar 10 16:31:00 2018*
+G04 Created by KiCad (PCBNEW no-vcs-found-67ccf76~61~ubuntu16.04.1) date Sun Mar 11 14:56:02 2018*
 %MOMM*%
 %LPD*%
 G01*

@@ -160,7 +160,7 @@ U 1 1 5A73BE05
 P 1475 4000
 F 0 "P1" H 1527 4148 40  0000 C CNB
 F 1 "USB_micro" H 1527 4073 40  0000 C CNB
-F 2 "k3jr_controller_libs:USB_Micro-B_Molex-105017-0001_round" H 1475 4000 60  0001 C CNN
+F 2 "k3jr_controller_libs:USB_Micro-B_Molex-105017-0001" H 1475 4000 60  0001 C CNN
 F 3 "" H 1475 4050 60  0000 C CNN
 	1    1475 4000
 	1    0    0    -1  
