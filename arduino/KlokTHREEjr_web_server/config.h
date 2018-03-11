@@ -1,3 +1,3 @@
 #include <credentials.h>
 
-bool FLIP_DISPLAY = false; // true: cord out bottom, false: cord out top
+bool FLIP_DISPLAY = true; // true: cord out bottom, false: cord out top

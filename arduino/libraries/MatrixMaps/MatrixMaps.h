@@ -1,3 +1,6 @@
+#ifndef MATRIX_MAPS_H
+#define MATRIX_MAPS_H
+
 #ifdef ULTIM8x8
 #define MatrixWidth 8
 #define MatrixHeight 8
@@ -182,3 +185,4 @@ uint16_t MatrixMap[MatrixHeight][MatrixWidth] = {
 };
 #endif
 
+#endif
