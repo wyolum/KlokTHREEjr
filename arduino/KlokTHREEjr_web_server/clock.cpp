@@ -10,11 +10,15 @@ uint32_t DummyClock::now(){
 }
 
 NTPClock::NTPClock(){
-  NTPClient timeClient(ntpUDP, "us.pool.ntp.org", 0, 60000);
-  timeClient.setTimeOffset(0);
+}
+
+void NTPClock::setup(NTPClient *_timeClient){
+  this->timeClient = _timeClient;
+  this->timeClient->setTimeOffset(-240 * 60);
+  this->timeClient->begin();
 }
 uint32_t NTPClock::now(){
-  //timeClient.update();
-  return timeClient.getEpochTime();
+  this->timeClient->update();
+  return this->timeClient->getEpochTime();
 }
 

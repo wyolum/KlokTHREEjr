@@ -3,6 +3,7 @@
 #include <EEPROMAnything.h>
 #define ULTIM8x16
 #include <MatrixMaps.h>
+#include <credentials.h>
 
 #include "textures.h"
 #include "logic.h"
@@ -197,6 +198,10 @@ void led_setup(){
 }
 
 NTPClock ntp_clock;
+WiFiManager wifiManager;
+WiFiUDP ntpUDP;
+
+NTPClient timeClient(ntpUDP, "us.pool.ntp.org", 0, 60000);
 
 void setup(){
   Serial.begin(115200);
@@ -209,25 +214,45 @@ void setup(){
     faceplates[ii].setup(MatrixWidth, MatrixHeight, XY);
   }
 
-  WiFiManager wifiManager;
+#ifdef USE_CREDENTIALS
+  WiFi.begin(ssid, password);
+
+  while ( WiFi.status() != WL_CONNECTED ) {
+    delay ( 500 );
+    Serial.print ( "." );
+  }
+#else
   wifiManager.autoConnect("KLOK");
   Serial.println("yay connected");
+#endif
+  ntp_clock.setup(&timeClient);
+  //timeClient.begin();
+  //timeClient.setTimeOffset(-240 * 60);
   
   Serial.println("setup() complete");
 }
 
 uint32_t count;
+uint32_t now(){
+  timeClient.update();
+  return timeClient.getEpochTime();
+}
 
 void loop(){
   uint8_t word[3];
-  //uint32_t current_time;
-
+  //uint32_t current_time = now();
   uint32_t current_time = ntp_clock.now();
+
   fillMask(mask, OFF);
   faceplates[0].maskTime(current_time, mask);
-  rainbow(leds, count, XY);
+  rainbow(leds, current_time, XY);
   apply_mask(mask);
   FastLED.show();
-  Serial.println(current_time);
+  Serial.print(timeClient.getHours());
+  Serial.print(":");
+  Serial.print(timeClient.getMinutes());
+  Serial.print(":");
+  Serial.print(timeClient.getSeconds());
+  Serial.println("");
   delay(1000);
 }

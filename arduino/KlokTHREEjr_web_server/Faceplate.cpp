@@ -36,7 +36,7 @@ void Faceplate::maskTime(uint32_t tm, bool* mask){
 
   uint8_t n_byte_per_display = displays[0];
   
-  time_inc = (tm % 86400) / 288;
+  time_inc = ((tm % 86400) / 300) % 288;
   for(uint8_t j = 0; j < n_byte_per_display; j++){ // j is a byte index 
     
     // read the state for the next set of 8 words

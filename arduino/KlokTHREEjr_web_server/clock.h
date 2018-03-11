@@ -17,10 +17,10 @@ class DummyClock : public Clock{
 };
 
 class NTPClock : public Clock{
-  WiFiUDP ntpUDP;
-  NTPClient timeClient;
  public:
   NTPClock();
+  void setup(NTPClient *_timeClient);
+  NTPClient *timeClient;
   uint32_t now();
 };
 #endif
