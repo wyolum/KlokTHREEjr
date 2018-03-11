@@ -27,6 +27,7 @@ class NTPClient {
     void          sendNTPPacket();
 
   public:
+    NTPClient();
     NTPClient(UDP& udp);
     NTPClient(UDP& udp, int timeOffset);
     NTPClient(UDP& udp, const char* poolServerName);
