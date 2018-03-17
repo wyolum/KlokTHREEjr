@@ -658,50 +658,6 @@ F 3 "~" H 7000 1825 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L KlokTHREEjr:Conn_01x01 J3
-U 1 1 5A486F0A
-P 7200 1825
-F 0 "J3" H 7025 1875 40  0000 L CNN
-F 1 "LDR1" H 7275 1850 40  0000 L CNN
-F 2 "KlokTHREEjr_libs:1pin" H 7200 1825 50  0001 C CNN
-F 3 "~" H 7200 1825 50  0001 C CNN
-	1    7200 1825
-	0    1    1    0   
-$EndComp
-$Comp
-L KlokTHREEjr:Conn_01x01 J4
-U 1 1 5A486F90
-P 7400 1825
-F 0 "J4" H 7225 1875 50  0000 L CNN
-F 1 "LDR2" H 7475 1850 40  0000 L CNN
-F 2 "KlokTHREEjr_libs:1pin" H 7400 1825 50  0001 C CNN
-F 3 "~" H 7400 1825 50  0001 C CNN
-	1    7400 1825
-	0    1    1    0   
-$EndComp
-$Comp
-L KlokTHREEjr:Conn_01x01 J5
-U 1 1 5A4872FB
-P 7600 1825
-F 0 "J5" H 7425 1875 40  0000 L CNN
-F 1 "LDR3" H 7675 1850 40  0000 L CNN
-F 2 "KlokTHREEjr_libs:1pin" H 7600 1825 50  0001 C CNN
-F 3 "~" H 7600 1825 50  0001 C CNN
-	1    7600 1825
-	0    1    1    0   
-$EndComp
-$Comp
-L KlokTHREEjr:Conn_01x01 J6
-U 1 1 5A487301
-P 7800 1825
-F 0 "J6" H 7625 1875 40  0000 L CNN
-F 1 "LDR4" H 7875 1850 40  0000 L CNN
-F 2 "KlokTHREEjr_libs:1pin" H 7800 1825 50  0001 C CNN
-F 3 "~" H 7800 1825 50  0001 C CNN
-	1    7800 1825
-	0    1    1    0   
-$EndComp
-$Comp
 L KlokTHREEjr:Conn_01x01 J7
 U 1 1 5A487307
 P 8000 1825
@@ -746,50 +702,6 @@ F 3 "~" H 7000 2450 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L KlokTHREEjr:Conn_01x01 J11
-U 1 1 5A4877AC
-P 7200 2450
-F 0 "J11" H 7025 2500 40  0000 L CNN
-F 1 "LDR1" H 7275 2475 40  0000 L CNN
-F 2 "KlokTHREEjr_libs:1pin" H 7200 2450 50  0001 C CNN
-F 3 "~" H 7200 2450 50  0001 C CNN
-	1    7200 2450
-	0    1    -1   0   
-$EndComp
-$Comp
-L KlokTHREEjr:Conn_01x01 J12
-U 1 1 5A4877B2
-P 7400 2450
-F 0 "J12" H 7225 2500 40  0000 L CNN
-F 1 "LDR2" H 7475 2475 40  0000 L CNN
-F 2 "KlokTHREEjr_libs:1pin" H 7400 2450 50  0001 C CNN
-F 3 "~" H 7400 2450 50  0001 C CNN
-	1    7400 2450
-	0    1    -1   0   
-$EndComp
-$Comp
-L KlokTHREEjr:Conn_01x01 J13
-U 1 1 5A4877B8
-P 7600 2450
-F 0 "J13" H 7425 2500 40  0000 L CNN
-F 1 "LDR3" H 7675 2475 40  0000 L CNN
-F 2 "KlokTHREEjr_libs:1pin" H 7600 2450 50  0001 C CNN
-F 3 "~" H 7600 2450 50  0001 C CNN
-	1    7600 2450
-	0    1    -1   0   
-$EndComp
-$Comp
-L KlokTHREEjr:Conn_01x01 J14
-U 1 1 5A4877BE
-P 7800 2450
-F 0 "J14" H 7625 2500 40  0000 L CNN
-F 1 "LDR4" H 7875 2475 40  0000 L CNN
-F 2 "KlokTHREEjr_libs:1pin" H 7800 2450 50  0001 C CNN
-F 3 "~" H 7800 2450 50  0001 C CNN
-	1    7800 2450
-	0    1    -1   0   
-$EndComp
-$Comp
 L KlokTHREEjr:Conn_01x01 J15
 U 1 1 5A4877C4
 P 8000 2450
@@ -816,14 +728,6 @@ Wire Wire Line
 Wire Wire Line
 	7000 1375 7000 1625
 Wire Wire Line
-	7200 1375 7200 1625
-Wire Wire Line
-	7400 1375 7400 1625
-Wire Wire Line
-	7600 1375 7600 1625
-Wire Wire Line
-	7800 1375 7800 1625
-Wire Wire Line
 	8000 1375 8000 1625
 Wire Wire Line
 	8200 1375 8200 1625
@@ -831,14 +735,6 @@ Text Label 6800 1375 3    40   ~ 0
 CLK_IN
 Text Label 7000 1375 3    40   ~ 0
 DAT_IN
-Text Label 7200 1375 3    40   ~ 0
-LDR1
-Text Label 7400 1375 3    40   ~ 0
-LDR2
-Text Label 7600 1375 3    40   ~ 0
-LDR3
-Text Label 7800 1375 3    40   ~ 0
-LDR4
 Text Label 8000 1375 3    40   ~ 0
 5V
 Text Label 8200 1375 3    40   ~ 0
@@ -848,14 +744,6 @@ Wire Wire Line
 Wire Wire Line
 	7000 2650 7000 2900
 Wire Wire Line
-	7200 2650 7200 2900
-Wire Wire Line
-	7400 2650 7400 2900
-Wire Wire Line
-	7600 2650 7600 2900
-Wire Wire Line
-	7800 2650 7800 2900
-Wire Wire Line
 	8000 2650 8000 2900
 Wire Wire Line
 	8200 2650 8200 2900
@@ -863,14 +751,6 @@ Text Label 6800 2900 1    40   ~ 0
 CLK_IN
 Text Label 7000 2900 1    40   ~ 0
 DAT_IN
-Text Label 7200 2900 1    40   ~ 0
-LDR1
-Text Label 7400 2900 1    40   ~ 0
-LDR2
-Text Label 7600 2900 1    40   ~ 0
-LDR3
-Text Label 7800 2900 1    40   ~ 0
-LDR4
 Text Label 8000 2900 1    40   ~ 0
 5V
 Text Label 8200 2900 1    40   ~ 0
@@ -881,14 +761,6 @@ Text HLabel 6800 1375 1    40   Input ~ 0
 CLK_IN
 Text HLabel 7000 1375 1    40   Input ~ 0
 DAT_IN
-Text HLabel 7200 1375 1    40   Input ~ 0
-LDR1
-Text HLabel 7400 1375 1    40   Input ~ 0
-LDR2
-Text HLabel 7800 1375 1    40   Input ~ 0
-LDR4
-Text HLabel 7600 1375 1    40   Input ~ 0
-LDR3
 Text HLabel 8000 1375 1    40   Input ~ 0
 5V
 Text HLabel 8200 1375 1    40   Input ~ 0
@@ -1063,40 +935,4 @@ F 4 "mfr_pn" H 7300 5700 50  0001 C CNN "manf#"
 $EndComp
 Text Notes 8150 5350 0    50   ~ 10
 MOUSEBITES\nfor board separation
-$Comp
-L KlokTHREEjr:KiCad G5
-U 1 1 5A50766D
-P 9700 6850
-F 0 "G5" H 9700 6582 60  0001 C CNN
-F 1 "KiCad" H 9700 7118 60  0001 C CNN
-F 2 "KlokTHREEjr_libs:KiCad-Logo2_6mm_SilkScreen" H 9700 6850 60  0001 C CNN
-F 3 "" H 9700 6850 60  0001 C CNN
-F 4 "Value" H 9700 6850 50  0001 C CNN "manf#"
-	1    9700 6850
-	1    0    0    -1  
-$EndComp
-$Comp
-L KlokTHREEjr:OSHW G6
-U 1 1 5A5077CE
-P 10850 7000
-F 0 "G6" H 10850 6950 40  0001 C CNN
-F 1 "OSHW" H 10850 7100 40  0001 C CNN
-F 2 "KlokTHREEjr_libs:OSHW_6mm" H 10850 7000 60  0001 C CNN
-F 3 "" H 10850 7000 60  0000 C CNN
-F 4 "Value" H 10850 7000 50  0001 C CNN "manf#"
-	1    10850 7000
-	1    0    0    -1  
-$EndComp
-$Comp
-L KlokTHREEjr:LOGO_WL G4
-U 1 1 5A5079CB
-P 8450 6700
-F 0 "G4" H 8450 6564 60  0001 C CNN
-F 1 "LOGO_WL" H 8450 6836 60  0001 C CNN
-F 2 "KlokTHREEjr_libs:Logo-WL3" H 8450 6700 60  0001 C CNN
-F 3 "" H 8450 6700 60  0001 C CNN
-F 4 "Value" H 8450 6700 50  0001 C CNN "manf#"
-	1    8450 6700
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC

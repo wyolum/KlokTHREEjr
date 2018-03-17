@@ -637,14 +637,12 @@ F 3 "" H 9025 650 30  0000 C CNN
 $EndComp
 Text Label 8325 650  0    40   ~ 0
 DAT_IN
-Text Label 1825 2425 0    40   ~ 0
-LDR1
 Text Label 4025 2625 2    40   ~ 0
 DAT_IN
+Text Label 1825 2225 0    40   ~ 0
+LDR1
 Text Label 1825 2125 0    40   ~ 0
 LDR2
-Text Label 1825 2225 0    40   ~ 0
-LDR3
 Text Label 8475 1850 0    40   ~ 0
 5V
 Text Label 8475 6050 0    40   ~ 0
@@ -844,10 +842,8 @@ F 3 "" H 5575 6000 30  0000 C CNN
 	1    5575 6000
 	1    0    0    -1  
 $EndComp
-Text Label 5675 5725 0    40   ~ 0
+Text Label 5825 5725 2    40   ~ 0
 LDR1
-Text Label 5575 5125 0    40   ~ 0
-5V
 Text Label 5575 6325 0    40   ~ 0
 GND
 Wire Wire Line
@@ -857,7 +853,7 @@ Wire Wire Line
 Wire Wire Line
 	5575 6150 5575 6325
 Wire Wire Line
-	5575 5725 5675 5725
+	5575 5725 5825 5725
 Connection ~ 5575 5725
 Wire Wire Line
 	5575 5125 6075 5125
@@ -874,7 +870,7 @@ F 3 "" H 6075 6000 30  0000 C CNN
 	1    6075 6000
 	1    0    0    -1  
 $EndComp
-Text Label 6175 5725 0    40   ~ 0
+Text Label 6325 5725 2    40   ~ 0
 LDR2
 Wire Wire Line
 	6075 5125 6075 5275
@@ -883,56 +879,10 @@ Wire Wire Line
 Wire Wire Line
 	6075 6325 6075 6150
 Wire Wire Line
-	6075 5725 6175 5725
+	6075 5725 6325 5725
 Connection ~ 6075 5725
 Text Notes 5400 5000 0    40   ~ 8
 Light sensors (LDR)
-$Comp
-L KlokTHREEjr:R R14
-U 1 1 54C1D9CF
-P 6575 6000
-F 0 "R14" H 6650 5850 40  0000 C CNN
-F 1 "10k" V 6582 6001 40  0000 C CNN
-F 2 "KlokTHREEjr_libs:r_0805" V 6505 6000 30  0001 C CNN
-F 3 "" H 6575 6000 30  0000 C CNN
-	1    6575 6000
-	1    0    0    -1  
-$EndComp
-Text Label 6675 5725 0    40   ~ 0
-LDR3
-Wire Wire Line
-	6575 5125 6575 5275
-Wire Wire Line
-	6575 5575 6575 5725
-Wire Wire Line
-	6575 6325 6575 6150
-Wire Wire Line
-	6575 5725 6675 5725
-Connection ~ 6575 5725
-$Comp
-L KlokTHREEjr:R R15
-U 1 1 56100223
-P 7075 6000
-F 0 "R15" H 7150 5850 40  0000 C CNN
-F 1 "10k" V 7082 6001 40  0000 C CNN
-F 2 "KlokTHREEjr_libs:r_0805" V 7005 6000 30  0001 C CNN
-F 3 "" H 7075 6000 30  0000 C CNN
-	1    7075 6000
-	1    0    0    -1  
-$EndComp
-Text Label 7175 5725 0    40   ~ 0
-LDR4
-Wire Wire Line
-	7075 5125 7075 5275
-Wire Wire Line
-	7075 5575 7075 5725
-Wire Wire Line
-	7075 6325 7075 6150
-Wire Wire Line
-	7075 5725 7175 5725
-Connection ~ 7075 5725
-Text Label 1825 2325 0    40   ~ 0
-LDR4
 $Comp
 L KlokTHREEjr:ESP-wroom-32 U129
 U 1 1 5A41BC22
@@ -1089,12 +1039,8 @@ F0 "mechanical" 40
 F1 "mechanical.sch" 40
 F2 "CLK_IN" I L 5725 2475 40 
 F3 "DAT_IN" I L 5725 2550 40 
-F4 "LDR1" I L 5725 2625 40 
-F5 "LDR2" I L 5725 2700 40 
-F6 "LDR4" I L 5725 2850 40 
-F7 "LDR3" I L 5725 2775 40 
-F8 "5V" I L 5725 2925 40 
-F9 "GND" I L 5725 3000 40 
+F4 "5V" I L 5725 2925 40 
+F5 "GND" I L 5725 3000 40 
 $EndSheet
 $Sheet
 S 5725 1750 1500 450 
@@ -1155,10 +1101,6 @@ Wire Wire Line
 Wire Wire Line
 	1825 2225 2075 2225
 Wire Wire Line
-	2075 2325 1825 2325
-Wire Wire Line
-	1825 2425 2075 2425
-Wire Wire Line
 	4025 1425 3775 1425
 Wire Wire Line
 	3775 1725 4025 1725
@@ -1212,28 +1154,6 @@ F 1 "LDR" V 6075 5375 40  0000 L CNN
 F 2 "KlokTHREEjr_libs:r_0805_ldr" V 6250 5425 50  0001 C CNN
 F 3 "" H 6075 5375 50  0000 C CNN
 	1    6075 5425
-	1    0    0    -1  
-$EndComp
-$Comp
-L KlokTHREEjr:LDR03 LDR3
-U 1 1 5A635AFD
-P 6575 5425
-F 0 "LDR3" H 6600 5275 40  0000 L CNN
-F 1 "LDR" V 6575 5375 40  0000 L CNN
-F 2 "KlokTHREEjr_libs:r_0805_ldr" V 6750 5425 50  0001 C CNN
-F 3 "" H 6575 5375 50  0000 C CNN
-	1    6575 5425
-	1    0    0    -1  
-$EndComp
-$Comp
-L KlokTHREEjr:LDR03 LDR4
-U 1 1 5A635C9D
-P 7075 5425
-F 0 "LDR4" H 7100 5275 40  0000 L CNN
-F 1 "LDR" V 7075 5375 40  0000 L CNN
-F 2 "KlokTHREEjr_libs:r_0805_ldr" V 7250 5425 50  0001 C CNN
-F 3 "" H 7075 5375 50  0000 C CNN
-	1    7075 5425
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1364,8 +1284,6 @@ Text Label 5725 4175 2    40   ~ 0
 SW_E
 Text Label 6225 4175 2    40   ~ 0
 SW_I
-Text Label 5550 3525 0    40   ~ 0
-5V
 Wire Wire Line
 	5525 4025 5525 4050
 Wire Wire Line
@@ -1465,17 +1383,11 @@ Wire Notes Line
 Text Notes 4150 1775 0    40   ~ 0
 SERIAL
 Wire Notes Line
-	1725 2425 1675 2425
-Wire Notes Line
-	1675 2425 1675 2125
+	1725 2225 1675 2225
 Wire Notes Line
 	1675 2125 1725 2125
 Text Notes 1650 2175 2    40   ~ 0
 LDR
-Connection ~ 6075 5125
-Connection ~ 6575 5125
-Connection ~ 6575 6325
-Connection ~ 6075 6325
 $Comp
 L KlokTHREEjr:C_POL C27
 U 1 1 5A7E92E4
@@ -1537,10 +1449,6 @@ Wire Wire Line
 Wire Wire Line
 	6075 5725 6075 5850
 Wire Wire Line
-	6575 5725 6575 5850
-Wire Wire Line
-	7075 5725 7075 5850
-Wire Wire Line
 	6525 4050 6525 4175
 Wire Wire Line
 	7025 4050 7025 4175
@@ -1569,27 +1477,11 @@ Wire Wire Line
 Wire Wire Line
 	6025 4725 6525 4725
 Wire Wire Line
-	6075 5125 6575 5125
-Wire Wire Line
-	6575 5125 7075 5125
-Wire Wire Line
-	6575 6325 7075 6325
-Wire Wire Line
-	6075 6325 6575 6325
-Wire Wire Line
 	1075 1525 2075 1525
 Wire Wire Line
 	5725 2475 5425 2475
 Wire Wire Line
 	5425 2550 5725 2550
-Wire Wire Line
-	5725 2625 5425 2625
-Wire Wire Line
-	5425 2700 5725 2700
-Wire Wire Line
-	5725 2775 5425 2775
-Wire Wire Line
-	5425 2850 5725 2850
 Wire Wire Line
 	5725 2925 5425 2925
 Wire Wire Line
@@ -1598,14 +1490,6 @@ Text Label 5425 2475 0    40   ~ 0
 CLK_IN
 Text Label 5425 2550 0    40   ~ 0
 DAT_IN
-Text Label 5425 2625 0    40   ~ 0
-LDR1
-Text Label 5425 2700 0    40   ~ 0
-LDR2
-Text Label 5425 2775 0    40   ~ 0
-LDR3
-Text Label 5425 2850 0    40   ~ 0
-LDR4
 Text Label 5425 2925 0    40   ~ 0
 5V
 Text Label 5425 3000 0    40   ~ 0
@@ -1961,4 +1845,16 @@ Wire Notes Line
 	4375 1625 4375 1925
 Wire Notes Line
 	4375 1925 4100 1925
+Text Label 5525 3525 0    40   ~ 0
+3V3
+Text Label 5575 5125 0    40   ~ 0
+3V3
+Wire Notes Line
+	1675 2125 1675 2225
+NoConn ~ 2075 2325
+NoConn ~ 2075 2425
+Text Label 2075 2325 2    40   ~ 0
+IO25
+Text Label 2075 2425 2    40   ~ 0
+IO26
 $EndSCHEMATC

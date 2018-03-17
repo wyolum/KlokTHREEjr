@@ -1,4 +1,28 @@
-Cmp-Mod V01 Created by PcbNew   date = Sun Mar 11 02:11:19 2018
+Cmp-Mod V01 Created by PcbNew   date = Sun Mar 18 02:47:16 2018
+
+BeginCmp
+TimeStamp = 5AE6A3EC
+Path = /5A452227/5AFE0C2C
+Reference = D1;
+ValeurCmp = RClamp0854P.TCT;
+IdModule  = KlokTHREEjr_libs:SOT-143;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A5BEB18
+Path = /5A6352DB
+Reference = LDR1;
+ValeurCmp = LDR;
+IdModule  = KlokTHREEjr_libs:r_0805_ldr_2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A592197
+Path = /5A63595F
+Reference = LDR2;
+ValeurCmp = LDR;
+IdModule  = KlokTHREEjr_libs:r_0805_ldr_2;
+EndCmp
 
 BeginCmp
 TimeStamp = 5AA3A018
@@ -22,30 +46,6 @@ Path = /5A6C3C89
 Reference = S6;
 ValeurCmp = SW-MODE;
 IdModule  = KlokTHREEjr_libs:SW_SMD;
-EndCmp
-
-BeginCmp
-TimeStamp = 5AA3FAAE
-Path = /5A47432D/5A487301
-Reference = J6;
-ValeurCmp = LDR4;
-IdModule  = KlokTHREEjr_libs:1pin;
-EndCmp
-
-BeginCmp
-TimeStamp = 5AA3FAA9
-Path = /5A47432D/5A4872FB
-Reference = J5;
-ValeurCmp = LDR3;
-IdModule  = KlokTHREEjr_libs:1pin;
-EndCmp
-
-BeginCmp
-TimeStamp = 5AA3FAA4
-Path = /5A47432D/5A486F90
-Reference = J4;
-ValeurCmp = LDR2;
-IdModule  = KlokTHREEjr_libs:1pin;
 EndCmp
 
 BeginCmp
@@ -110,14 +110,6 @@ Path = /5A47432D/5A4A8341
 Reference = HB46;
 ValeurCmp = mtg_hole_3mm_small;
 IdModule  = KlokTHREEjr_libs:MountingHole_3.2mm_M3;
-EndCmp
-
-BeginCmp
-TimeStamp = 5AA3FA01
-Path = /5A452227/5A73F3F4
-Reference = D3;
-ValeurCmp = VESD05A1B;
-IdModule  = KlokTHREEjr_libs:D_LLP1006-2L;
 EndCmp
 
 BeginCmp
@@ -529,22 +521,6 @@ IdModule  = KlokTHREEjr_libs:KiCad-Logo2_6mm_SilkScreen;
 EndCmp
 
 BeginCmp
-TimeStamp = 5AA3A040
-Path = /5A452227/5A73F53E
-Reference = D1;
-ValeurCmp = 1N5819;
-IdModule  = KlokTHREEjr_libs:D_SOD-123;
-EndCmp
-
-BeginCmp
-TimeStamp = 5AA3A009
-Path = /5A452227/5A73F4E3
-Reference = D4;
-ValeurCmp = VESD05A1B;
-IdModule  = KlokTHREEjr_libs:D_LLP1006-2L;
-EndCmp
-
-BeginCmp
 TimeStamp = 5AA3A004
 Path = /5A47432D/5A486E6A
 Reference = J2;
@@ -606,14 +582,6 @@ Path = /5A452227/5A6340FA
 Reference = D2;
 ValeurCmp = LED_PWR;
 IdModule  = KlokTHREEjr_libs:LED-0805;
-EndCmp
-
-BeginCmp
-TimeStamp = 5AA39F5A
-Path = /5A47432D/5A486F0A
-Reference = J3;
-ValeurCmp = LDR1;
-IdModule  = KlokTHREEjr_libs:1pin;
 EndCmp
 
 BeginCmp
@@ -701,38 +669,6 @@ TimeStamp = 5A51D9F7
 Path = /5A47432D/5A4877A6
 Reference = J10;
 ValeurCmp = DAT_IN;
-IdModule  = KlokTHREEjr_libs:1pin;
-EndCmp
-
-BeginCmp
-TimeStamp = 5A51D9FD
-Path = /5A47432D/5A4877AC
-Reference = J11;
-ValeurCmp = LDR1;
-IdModule  = KlokTHREEjr_libs:1pin;
-EndCmp
-
-BeginCmp
-TimeStamp = 5A51DA03
-Path = /5A47432D/5A4877B2
-Reference = J12;
-ValeurCmp = LDR2;
-IdModule  = KlokTHREEjr_libs:1pin;
-EndCmp
-
-BeginCmp
-TimeStamp = 5A51DA09
-Path = /5A47432D/5A4877B8
-Reference = J13;
-ValeurCmp = LDR3;
-IdModule  = KlokTHREEjr_libs:1pin;
-EndCmp
-
-BeginCmp
-TimeStamp = 5A51DA0F
-Path = /5A47432D/5A4877BE
-Reference = J14;
-ValeurCmp = LDR4;
 IdModule  = KlokTHREEjr_libs:1pin;
 EndCmp
 
@@ -825,14 +761,6 @@ IdModule  = KlokTHREEjr_libs:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp
-TimeStamp = 5A5BEB18
-Path = /5A6352DB
-Reference = LDR1;
-ValeurCmp = LDR;
-IdModule  = KlokTHREEjr_libs:r_0805_ldr;
-EndCmp
-
-BeginCmp
 TimeStamp = 5A9975BA
 Path = /54254DF9/5A470188
 Reference = U127;
@@ -868,22 +796,6 @@ BeginCmp
 TimeStamp = 5A9AB06B
 Path = /54C28558
 Reference = R13;
-ValeurCmp = 10k;
-IdModule  = KlokTHREEjr_libs:r_0805;
-EndCmp
-
-BeginCmp
-TimeStamp = 5A9AB078
-Path = /54C1D9CF
-Reference = R14;
-ValeurCmp = 10k;
-IdModule  = KlokTHREEjr_libs:r_0805;
-EndCmp
-
-BeginCmp
-TimeStamp = 5A5BA3D2
-Path = /56100223
-Reference = R15;
 ValeurCmp = 10k;
 IdModule  = KlokTHREEjr_libs:r_0805;
 EndCmp
@@ -1905,30 +1817,6 @@ IdModule  = KlokTHREEjr_libs:APA102;
 EndCmp
 
 BeginCmp
-TimeStamp = 5A5921B1
-Path = /5A635C9D
-Reference = LDR4;
-ValeurCmp = LDR;
-IdModule  = KlokTHREEjr_libs:r_0805_ldr;
-EndCmp
-
-BeginCmp
-TimeStamp = 5A5921A4
-Path = /5A635AFD
-Reference = LDR3;
-ValeurCmp = LDR;
-IdModule  = KlokTHREEjr_libs:r_0805_ldr;
-EndCmp
-
-BeginCmp
-TimeStamp = 5A592197
-Path = /5A63595F
-Reference = LDR2;
-ValeurCmp = LDR;
-IdModule  = KlokTHREEjr_libs:r_0805_ldr;
-EndCmp
-
-BeginCmp
 TimeStamp = 5A4EBBD8
 Path = /5A47432D/5A477952
 Reference = HB44;
@@ -2406,6 +2294,14 @@ Path = /5A452227/5AA76142
 Reference = G9;
 ValeurCmp = OSHW;
 IdModule  = KlokTHREEjr_libs:OSHW_6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AE6A3F9
+Path = /5A452227/5AFF9108
+Reference = L1;
+ValeurCmp = 330E;
+IdModule  = KlokTHREEjr_libs:r_0805;
 EndCmp
 
 EndListe
