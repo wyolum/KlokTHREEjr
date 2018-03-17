@@ -1,3 +1,5 @@
 (sym_lib_table
   (lib (name KlokTHREEjr)(type Legacy)(uri ${KIPRJMOD}/KlokTHREEjr_libs/KlokTHREEjr.lib)(options "")(descr ""))
+  (lib (name dh)(type Legacy)(uri /home/samata/projects-git/dh_v2/kicad/library/dh.lib)(options "")(descr ""))
+  (lib (name haathi)(type Legacy)(uri /home/samata/projects-git/haathi_cam/kicad/symbol_lib/haathi.lib)(options "")(descr ""))
 )

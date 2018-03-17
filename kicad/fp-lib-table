@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name KlokTHREEjr_libs)(type KiCad)(uri "$(KIPRJMOD)/KlokTHREEjr_libs.pretty")(options "")(descr ""))
+  (lib (name dh_v2)(type KiCad)(uri /home/samata/projects-git/dh_v2/kicad/dh_v2.pretty)(options "")(descr ""))
 )
