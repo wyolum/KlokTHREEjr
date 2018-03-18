@@ -1,12 +1,4 @@
-Cmp-Mod V01 Created by PcbNew   date = Sun Mar 18 02:47:16 2018
-
-BeginCmp
-TimeStamp = 5AE6A3EC
-Path = /5A452227/5AFE0C2C
-Reference = D1;
-ValeurCmp = RClamp0854P.TCT;
-IdModule  = KlokTHREEjr_libs:SOT-143;
-EndCmp
+Cmp-Mod V01 Created by PcbNew   date = Sun Mar 18 17:59:14 2018
 
 BeginCmp
 TimeStamp = 5A5BEB18
@@ -22,6 +14,30 @@ Path = /5A63595F
 Reference = LDR2;
 ValeurCmp = LDR;
 IdModule  = KlokTHREEjr_libs:r_0805_ldr_2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA3CD87
+Path = /5A6C34AE
+Reference = S5;
+ValeurCmp = SW-DEC;
+IdModule  = KlokTHREEjr_libs:SW_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA3CE66
+Path = /5A452227/5A6251BF
+Reference = C17;
+ValeurCmp = 10uF/25V;
+IdModule  = KlokTHREEjr_libs:c_2917;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AE6A3EC
+Path = /5A452227/5AFE0C2C
+Reference = D1;
+ValeurCmp = RClamp0854P.TCT;
+IdModule  = KlokTHREEjr_libs:SOT-143;
 EndCmp
 
 BeginCmp
@@ -121,18 +137,10 @@ IdModule  = KlokTHREEjr_libs:Logo-WL3;
 EndCmp
 
 BeginCmp
-TimeStamp = 5AA3CE83
+TimeStamp = 5AAE0EFF
 Path = /5A452227/5A6254D5
 Reference = C18;
 ValeurCmp = 22uF/25V;
-IdModule  = KlokTHREEjr_libs:c_2917;
-EndCmp
-
-BeginCmp
-TimeStamp = 5AA3CE66
-Path = /5A452227/5A6251BF
-Reference = C17;
-ValeurCmp = 10uF/25V;
 IdModule  = KlokTHREEjr_libs:c_2917;
 EndCmp
 
@@ -262,14 +270,6 @@ Path = /5A452227/5A452201
 Reference = C26;
 ValeurCmp = 100nF;
 IdModule  = KlokTHREEjr_libs:c_0805;
-EndCmp
-
-BeginCmp
-TimeStamp = 5AA3CD87
-Path = /5A6C34AE
-Reference = S5;
-ValeurCmp = SW-DEC;
-IdModule  = KlokTHREEjr_libs:SW_SMD;
 EndCmp
 
 BeginCmp
@@ -2300,6 +2300,14 @@ BeginCmp
 TimeStamp = 5AE6A3F9
 Path = /5A452227/5AFF9108
 Reference = L1;
+ValeurCmp = 330E;
+IdModule  = KlokTHREEjr_libs:r_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AAE46CF
+Path = /5A452227/5AB0DB2F
+Reference = L2;
 ValeurCmp = 330E;
 IdModule  = KlokTHREEjr_libs:r_0805;
 EndCmp

@@ -287,3 +287,4 @@ Reference, Value, Footprint, Datasheet, manf#, Digikey, Field4, Field5, Field6, 
 "G7","LOGO_WL","KlokTHREEjr_libs:Logo-WL3","","mfr_pn","","","","","","","","",""
 "D1","RClamp0854P.TCT","KlokTHREEjr_libs:SOT-143",""
 "L1","330E","KlokTHREEjr_libs:r_0805",""
+"L2","330E","KlokTHREEjr_libs:r_0805",""

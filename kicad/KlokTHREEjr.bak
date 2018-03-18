@@ -1348,13 +1348,13 @@ Connection ~ 6525 3525
 Connection ~ 6025 3525
 Connection ~ 6525 4725
 Connection ~ 6025 4725
-Text Label 4025 2125 2    40   ~ 0
-SW_E
-Text Label 4025 2225 2    40   ~ 0
-SW_I
-Text Label 4025 2325 2    40   ~ 0
-SW_D
 Text Label 4025 2425 2    40   ~ 0
+SW_E
+Text Label 4025 2325 2    40   ~ 0
+SW_I
+Text Label 4025 2225 2    40   ~ 0
+SW_D
+Text Label 4025 2125 2    40   ~ 0
 SW_M
 Wire Notes Line
 	4100 2125 4150 2125

@@ -1,4 +1,4 @@
-### Module positions - created on Sun Mar 18 02:46:55 2018 ###
+### Module positions - created on Sun Mar 18 17:58:58 2018 ###
 ### Printed by Pcbnew version kicad no-vcs-found-67ccf76~61~ubuntu16.04.1
 ## Unit = mm, Angle = deg.
 ## Side : bottom
@@ -20,34 +20,35 @@ C13       100nF               c_0805                            5.0800  -163.195
 C14       100nF               c_0805                           86.3600  -163.1950  270.0000  bottom
 C15       100nF               c_0805                          157.4800  -170.8150   90.0000  bottom
 C16       100nF               c_0805                           76.2000  -170.8150   90.0000  bottom
-C17       10uF/25V            c_2917                           36.1950   -21.5900    0.0000  bottom
-C18       22uF/25V            c_2917                           57.7850   -24.7650   90.0000  bottom
+C17       10uF/25V            c_2917                           45.7200   -21.5900    0.0000  bottom
+C18       22uF/25V            c_2917                           72.5170   -24.7650   90.0000  bottom
 C19       1nF                 c_0805                           81.2800   -23.4950  180.0000  bottom
-C20       1nF                 c_0805                           14.6050   -14.6050   90.0000  bottom
+C20       1nF                 c_0805                            5.0800   -17.2720  180.0000  bottom
 C21       1nF                 c_0805                           81.2800    -6.3500    0.0000  bottom
 C22       100nF               c_0805                          131.4450   -29.2100   90.0000  bottom
-C23       10uF/25V            c_2917                           10.7950   -21.5900    0.0000  bottom
-C24       100nF               c_0805                           14.6050   -17.7800   90.0000  bottom
-C25       10uF/25V            c_2917                           23.4950   -21.5900  180.0000  bottom
-C26       100nF               c_0805                           19.6850   -17.7800  270.0000  bottom
+C23       10uF/25V            c_2917                           20.3200   -21.5900    0.0000  bottom
+C24       100nF               c_0805                           24.1300   -17.7800   90.0000  bottom
+C25       10uF/25V            c_2917                           33.0200   -21.5900  180.0000  bottom
+C26       100nF               c_0805                           29.2100   -17.7800  270.0000  bottom
 C27       100uF/6V3           c_2917                          132.0800    -8.1280  180.0000  bottom
 C28       1uF/10V             c_0805                          134.6200    -3.8100  270.0000  bottom
 C29       100nF               c_0805                          135.8900   -36.1950  180.0000  bottom
 C30       100nF               c_0805                          147.3200   -34.9250  270.0000  bottom
-C31       100nF               c_0805                           10.6680   -38.2270    0.0000  bottom
-D1        RClamp0854P.TCT     SOT-143                          13.8430   -29.4640   90.0000  bottom
-D2        LED_PWR             LED-0805                         41.2750   -27.3050   90.0000  bottom
+C31       100nF               c_0805                           33.0200   -36.8300  180.0000  bottom
+D1        RClamp0854P.TCT     SOT-143                          23.6220   -29.8450   90.0000  bottom
+D2        LED_PWR             LED-0805                         53.3400   -27.3050    0.0000  bottom
 G7        LOGO_WL             Logo-WL3                        140.9700  -113.0300  180.0000  bottom
 G9        OSHW                OSHW_6mm                         20.3200  -111.7600  180.0000  bottom
 J20       SPI                 Header_ISP                      128.2700   -36.1950   90.0000  bottom
-JP1       LED_PWR_EN          R_0402                           38.7350   -27.3050   90.0000  bottom
-L1        330E                r_0805                            9.5250   -33.0200   90.0000  bottom
+JP1       LED_PWR_EN          R_0402                           57.5310   -27.3050  180.0000  bottom
+L1        330E                r_0805                           10.6680   -30.6070   90.0000  bottom
+L2        330E                r_0805                           10.6680   -21.5900  270.0000  bottom
 P1        USB_micro           USB_Micro-B_Molex-105017-0001     2.5400   -27.3050   90.0000  bottom
 Q1        DDC114TU            SOT-363_SC-70-6                  84.4550   -20.9550  270.0000  bottom
 R1        470R                r_0805                            3.8100   -46.3550   90.0000  bottom
 R2        470R                r_0805                            6.3500   -46.3550   90.0000  bottom
 R3        10k                 r_0805                           81.2800   -18.4150   90.0000  bottom
-R4        1k                  r_0805                           45.0850   -27.3050   90.0000  bottom
+R4        1k                  r_0805                           48.6410   -27.3050  180.0000  bottom
 R6        10k                 r_0805                          132.7150   -13.9700   90.0000  bottom
 R7        10k                 r_0805                          135.2550   -13.9700   90.0000  bottom
 R8        4K7                 r_0805                           27.0850   -36.8350   90.0000  bottom
@@ -72,6 +73,6 @@ S4        SW-BOOT             SW_SMD                           88.9000    -9.525
 S5        SW-DEC              SW_SMD                           43.1800    -9.5250  270.0000  bottom
 S6        SW-MODE             SW_SMD                           27.9400    -9.5250  270.0000  bottom
 U130      DS3231N             DS3231                          131.4450   -22.2250  270.0000  bottom
-U131      1117-33             SOT-223-3_TabPin2                50.8000   -23.4950   90.0000  bottom
-U132      CP2102N-A01-GQFN28  QFN-28-1EP_5x5mm_Pitch0.5mm      20.3200   -27.3050    0.0000  bottom
+U131      1117-33             SOT-223-3_TabPin2                63.5000   -23.4950   90.0000  bottom
+U132      CP2102N-A01-GQFN28  QFN-28-1EP_5x5mm_Pitch0.5mm      29.8450   -27.3050    0.0000  bottom
 ## End
