@@ -1,9 +1,9 @@
 (module Logo-WL3 (layer F.Cu) (tedit 4F42763E)
   (fp_text reference G1 (at 0 3.937) (layer F.SilkS) hide
-    (effects (font (thickness 0.3048)))
+    (effects (font (size 1.524 1.524) (thickness 0.3048)))
   )
   (fp_text value Logo-WL3 (at 0 -2.413) (layer F.SilkS) hide
-    (effects (font (thickness 0.3048)))
+    (effects (font (size 1.524 1.524) (thickness 0.3048)))
   )
   (fp_poly (pts (xy 7.3406 0.5588) (xy 7.366 0.5588) (xy 7.366 0.5842) (xy 7.3406 0.5842)
     (xy 7.3406 0.5588)) (layer F.SilkS) (width 0.00254))

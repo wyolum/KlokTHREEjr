@@ -31,7 +31,7 @@
   (pad 3 smd rect (at -1.143 -0.9525) (size 1.30048 1.04902) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at 1.143 0.9525) (size 1.30048 1.04902) (layers F.Cu F.Paste F.Mask))
   (model /home/anool/projects-git/ClockFOUR/KiCad/3d_modules/crystal_fa-128.wrl
-    (at (xyz 0 0 0.005))
+    (offset (xyz 0 0 0.1269999980926514))
     (scale (xyz 1.5 1.5 1.5))
     (rotate (xyz 0 0 0))
   )
