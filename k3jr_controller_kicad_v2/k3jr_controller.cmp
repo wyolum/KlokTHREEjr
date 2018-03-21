@@ -1,0 +1,643 @@
+Cmp-Mod V01 Created by PcbNew   date = Wed Mar 21 15:46:59 2018
+
+BeginCmp
+TimeStamp = 5AA3CCD0
+Path = /5A447BD8/5A448957
+Reference = BT1;
+ValeurCmp = Batt_RTC;
+IdModule  = k3jr_controller_libs:CR2032_SMD2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A5BEB18
+Path = /5A6352DB
+Reference = LDR1;
+ValeurCmp = LDR;
+IdModule  = k3jr_controller_libs:r_0805_ldr_2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A592197
+Path = /5A63595F
+Reference = LDR2;
+ValeurCmp = LDR;
+IdModule  = k3jr_controller_libs:r_0805_ldr_2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA3CD87
+Path = /5A6C34AE
+Reference = S5;
+ValeurCmp = SW-DEC;
+IdModule  = k3jr_controller_libs:SW_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA3CE66
+Path = /5A452227/5A6251BF
+Reference = C17;
+ValeurCmp = 10uF/25V;
+IdModule  = k3jr_controller_libs:c_2917;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AE6A3EC
+Path = /5A452227/5AFE0C2C
+Reference = D1;
+ValeurCmp = RClamp0854P.TCT;
+IdModule  = k3jr_controller_libs:SOT-143;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA3A018
+Path = /5A452227/5A73BE05
+Reference = P1;
+ValeurCmp = USB_micro;
+IdModule  = k3jr_controller_libs:USB_Micro-B_Molex-105017-0001;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA3FAC3
+Path = /5A47432D/5A4A8811
+Reference = HB47;
+ValeurCmp = mtg_hole_3mm;
+IdModule  = k3jr_controller_libs:MountingHole_3.2mm_M3_Pad_Via;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA3FAB3
+Path = /5A6C3C89
+Reference = S6;
+ValeurCmp = SW-MODE;
+IdModule  = k3jr_controller_libs:SW_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA3FA87
+Path = /5A7E92E4
+Reference = C27;
+ValeurCmp = 100uF/6V3;
+IdModule  = k3jr_controller_libs:c_2917;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA3FA4F
+Path = /5A452227/5A738B9C
+Reference = U132;
+ValeurCmp = CP2102N-A01-GQFN28;
+IdModule  = k3jr_controller_libs:QFN-28-1EP_5x5mm_Pitch0.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA3FA43
+Path = /543901BD
+Reference = R25;
+ValeurCmp = 10k;
+IdModule  = k3jr_controller_libs:r_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA3FA37
+Path = /5438FC61
+Reference = R24;
+ValeurCmp = 10k;
+IdModule  = k3jr_controller_libs:r_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA3FA2E
+Path = /5A8D7B2E
+Reference = C31;
+ValeurCmp = 100nF;
+IdModule  = k3jr_controller_libs:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA3FA1E
+Path = /5A452227/5A4599D8
+Reference = S4;
+ValeurCmp = SW-BOOT;
+IdModule  = k3jr_controller_libs:SW_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA3FA17
+Path = /5A47432D/5A4A80D0
+Reference = HB45;
+ValeurCmp = mtg_hole_3mm_small;
+IdModule  = k3jr_controller_libs:MountingHole_3.2mm_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA3FA10
+Path = /5A47432D/5A4A8341
+Reference = HB46;
+ValeurCmp = mtg_hole_3mm_small;
+IdModule  = k3jr_controller_libs:MountingHole_3.2mm_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AC2881E
+Path = /5A4DA853
+Reference = G1;
+ValeurCmp = LOGO_WL;
+IdModule  = k3jr_controller_libs:Logo-WL3;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AAE0EFF
+Path = /5A452227/5A6254D5
+Reference = C18;
+ValeurCmp = 22uF/25V;
+IdModule  = k3jr_controller_libs:c_2917;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA3CE5D
+Path = /5A447BD8/5A613CC0
+Reference = C22;
+ValeurCmp = 100nF;
+IdModule  = k3jr_controller_libs:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA3CE51
+Path = /5A47F369
+Reference = R11;
+ValeurCmp = 10k;
+IdModule  = k3jr_controller_libs:r_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA3CE45
+Path = /5A47F363
+Reference = R10;
+ValeurCmp = 10k;
+IdModule  = k3jr_controller_libs:r_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA3CE39
+Path = /5A447BD8/5A44894F
+Reference = R9;
+ValeurCmp = 4K7;
+IdModule  = k3jr_controller_libs:r_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA3CE1E
+Path = /5A452227/5A4518D4
+Reference = U131;
+ValeurCmp = 1117-33;
+IdModule  = k3jr_controller_libs:SOT-223-3_TabPin2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA3CE12
+Path = /5A452227/5A4535C0
+Reference = R23;
+ValeurCmp = 0R;
+IdModule  = k3jr_controller_libs:r_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA3CE06
+Path = /5A452227/5A453081
+Reference = R22;
+ValeurCmp = 470R;
+IdModule  = k3jr_controller_libs:r_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA3CDFA
+Path = /5A452227/5A45360A
+Reference = R20;
+ValeurCmp = 0R NC;
+IdModule  = k3jr_controller_libs:r_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA3CDEE
+Path = /5A452227/5A4536A6
+Reference = R19;
+ValeurCmp = 0R NC;
+IdModule  = k3jr_controller_libs:r_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA3CDE2
+Path = /5A452227/5A4599CC
+Reference = R18;
+ValeurCmp = 470R;
+IdModule  = k3jr_controller_libs:r_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA3CDD6
+Path = /5A452227/5A458830
+Reference = R16;
+ValeurCmp = 470R;
+IdModule  = k3jr_controller_libs:r_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA3CDCA
+Path = /5A452227/5A4511A4
+Reference = R4;
+ValeurCmp = 1k;
+IdModule  = k3jr_controller_libs:r_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA3CDBE
+Path = /5A452227/5A458085
+Reference = R3;
+ValeurCmp = 10k;
+IdModule  = k3jr_controller_libs:r_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA3CDA9
+Path = /5A452227/5A602C3C
+Reference = Q1;
+ValeurCmp = DDC114TU;
+IdModule  = k3jr_controller_libs:SOT-363_SC-70-6;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA3CDA0
+Path = /5A7E9733
+Reference = C28;
+ValeurCmp = 1uF/10V;
+IdModule  = k3jr_controller_libs:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA3CD97
+Path = /5A452227/5A452201
+Reference = C26;
+ValeurCmp = 100nF;
+IdModule  = k3jr_controller_libs:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA3CD6A
+Path = /5A452227/5A45212F
+Reference = C25;
+ValeurCmp = 10uF/25V;
+IdModule  = k3jr_controller_libs:c_2917;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA3CD61
+Path = /5A452227/5A4520AD
+Reference = C24;
+ValeurCmp = 100nF;
+IdModule  = k3jr_controller_libs:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA3CD44
+Path = /5A452227/5A451EDF
+Reference = C23;
+ValeurCmp = 10uF/25V;
+IdModule  = k3jr_controller_libs:c_2917;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA3CD3B
+Path = /5A452227/5A4599D2
+Reference = C21;
+ValeurCmp = 1nF;
+IdModule  = k3jr_controller_libs:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA3CD32
+Path = /5A452227/5A4588F3
+Reference = C20;
+ValeurCmp = 1nF;
+IdModule  = k3jr_controller_libs:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA3CD26
+Path = /5A447BD8/5A448924
+Reference = R8;
+ValeurCmp = 4K7;
+IdModule  = k3jr_controller_libs:r_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA3CD1A
+Path = /5A447BD8/5A44893A
+Reference = R7;
+ValeurCmp = 10k;
+IdModule  = k3jr_controller_libs:r_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA3CD0E
+Path = /5A447BD8/5A448933
+Reference = R6;
+ValeurCmp = 10k;
+IdModule  = k3jr_controller_libs:r_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA3CD06
+Path = /5A447BD8/5A48EA43
+Reference = TP1;
+ValeurCmp = ~RST;
+IdModule  = k3jr_controller_libs:BreakOutPad;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA3CCF6
+Path = /5A47F385
+Reference = S2;
+ValeurCmp = SW-INC;
+IdModule  = k3jr_controller_libs:SW_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA3CCE7
+Path = /5A47432D/5A4A8818
+Reference = HB48;
+ValeurCmp = mtg_hole_3mm;
+IdModule  = k3jr_controller_libs:MountingHole_3.2mm_M3_Pad_Via;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA3F172
+Path = /5A447BD8/5A448948
+Reference = U130;
+ValeurCmp = DS3231N;
+IdModule  = k3jr_controller_libs:DS3231;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA3CCA4
+Path = /5A452227/5A45898C
+Reference = S3;
+ValeurCmp = SW-EN;
+IdModule  = k3jr_controller_libs:SW_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA3CC9F
+Path = /5A47432D/5A48730D
+Reference = J8;
+ValeurCmp = GND;
+IdModule  = k3jr_controller_libs:1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA3CC9A
+Path = /5A47432D/5A487307
+Reference = J7;
+ValeurCmp = 5V;
+IdModule  = k3jr_controller_libs:1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA3A131
+Path = /5A63C3B0
+Reference = J23;
+ValeurCmp = GND;
+IdModule  = k3jr_controller_libs:BreakOutPad;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA3A129
+Path = /5A63BDD4
+Reference = J22;
+ValeurCmp = RST;
+IdModule  = k3jr_controller_libs:BreakOutPad;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA3A121
+Path = /5A63C933
+Reference = J21;
+ValeurCmp = MOSI;
+IdModule  = k3jr_controller_libs:BreakOutPad;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA3A0F8
+Path = /5A590BB3
+Reference = J20;
+ValeurCmp = SPI;
+IdModule  = k3jr_controller_libs:Header_ISP;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA3A0F0
+Path = /5A63BBF7
+Reference = J19;
+ValeurCmp = SCK;
+IdModule  = k3jr_controller_libs:BreakOutPad;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA3A0E8
+Path = /5A63CDCD
+Reference = J18;
+ValeurCmp = 3V3;
+IdModule  = k3jr_controller_libs:BreakOutPad;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA3A0E0
+Path = /5A6285C8
+Reference = J17;
+ValeurCmp = MISO;
+IdModule  = k3jr_controller_libs:BreakOutPad;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA3A0D7
+Path = /5A8D713D
+Reference = C29;
+ValeurCmp = 100nF;
+IdModule  = k3jr_controller_libs:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA3A0CF
+Path = /5A447BD8/5A95B721
+Reference = TP3;
+ValeurCmp = 32kHz;
+IdModule  = k3jr_controller_libs:BreakOutPad;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA3A0C7
+Path = /5A447BD8/5A95B66E
+Reference = TP2;
+ValeurCmp = SQR;
+IdModule  = k3jr_controller_libs:BreakOutPad;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA3A0A0
+Path = /5A7E9B9A
+Reference = J25;
+ValeurCmp = I2C_ext2;
+IdModule  = k3jr_controller_libs:Header_4x1;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA3A079
+Path = /5A79A9A1
+Reference = J24;
+ValeurCmp = I2C_ext1;
+IdModule  = k3jr_controller_libs:Header_4x1;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA3A070
+Path = /5A8D9740
+Reference = C30;
+ValeurCmp = 100nF;
+IdModule  = k3jr_controller_libs:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA3A06C
+Path = /5A4DB491
+Reference = G3;
+ValeurCmp = OSHW;
+IdModule  = k3jr_controller_libs:OSHW_6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA3A058
+Path = /5A5061ED
+Reference = G2;
+ValeurCmp = KiCad;
+IdModule  = k3jr_controller_libs:KiCad-Logo2_6mm_SilkScreen;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA3A004
+Path = /5A47432D/5A486E6A
+Reference = J2;
+ValeurCmp = DAT_IN;
+IdModule  = k3jr_controller_libs:1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA39FFF
+Path = /5A47432D/5A4866AD
+Reference = J1;
+ValeurCmp = CLK_IN;
+IdModule  = k3jr_controller_libs:1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA39FEF
+Path = /5A452227/5A456474
+Reference = JP1;
+ValeurCmp = LED_PWR_EN;
+IdModule  = k3jr_controller_libs:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA39F8C
+Path = /5A41BC22
+Reference = U129;
+ValeurCmp = ESP-wroom-32;
+IdModule  = k3jr_controller_libs:esp_wroom_32;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA39F80
+Path = /5A452227/5A4534CF
+Reference = R21;
+ValeurCmp = 0R;
+IdModule  = k3jr_controller_libs:r_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA39F77
+Path = /5A452227/5A4583E7
+Reference = C19;
+ValeurCmp = 1nF;
+IdModule  = k3jr_controller_libs:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA39F67
+Path = /5A47F37F
+Reference = S1;
+ValeurCmp = SW-ENTER;
+IdModule  = k3jr_controller_libs:SW_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA39F5F
+Path = /5A452227/5A6340FA
+Reference = D2;
+ValeurCmp = LED_PWR;
+IdModule  = k3jr_controller_libs:LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A9AB05E
+Path = /54C265D8
+Reference = R12;
+ValeurCmp = 10k;
+IdModule  = k3jr_controller_libs:r_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A9AB06B
+Path = /54C28558
+Reference = R13;
+ValeurCmp = 10k;
+IdModule  = k3jr_controller_libs:r_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AE6A3F9
+Path = /5A452227/5AFF9108
+Reference = L1;
+ValeurCmp = 330E;
+IdModule  = k3jr_controller_libs:r_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AAE46CF
+Path = /5A452227/5AB0DB2F
+Reference = L2;
+ValeurCmp = 330E;
+IdModule  = k3jr_controller_libs:r_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AD11538
+Path = /5A452227/5AA760BF
+Reference = G7;
+ValeurCmp = LOGO_WL;
+IdModule  = k3jr_controller_libs:Logo-WL3;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AD1154D
+Path = /5A452227/5AA75FE2
+Reference = G8;
+ValeurCmp = KiCad;
+IdModule  = k3jr_controller_libs:KiCad-Logo2_6mm_SilkScreen;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AD11552
+Path = /5A452227/5AA76142
+Reference = G9;
+ValeurCmp = OSHW;
+IdModule  = k3jr_controller_libs:OSHW_6mm;
+EndCmp
+
+EndListe

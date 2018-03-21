@@ -1,0 +1,12 @@
+### Module positions - created on Wed Mar 21 15:47:46 2018 ###
+### Printed by Pcbnew version kicad 5.0.0-rc2-dev-unknown-b5f1fdd~62~ubuntu16.04.1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val       Package                PosX       PosY       Rot  Side
+G1        LOGO_WL   Logo-WL3            16.5100    -1.9050    0.0000  top
+G3        OSHW      OSHW_6mm            81.9150    -4.4450    0.0000  top
+J24       I2C_ext1  Header_4x1         144.7800   -37.4650    0.0000  top
+J25       I2C_ext2  Header_4x1          17.7800   -37.4650  180.0000  top
+LDR1      LDR       r_0805_ldr_2        35.5600    -3.8100  180.0000  top
+LDR2      LDR       r_0805_ldr_2       127.0000    -3.8100    0.0000  top
+## End
