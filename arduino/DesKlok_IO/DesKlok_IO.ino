@@ -541,7 +541,7 @@ const int32_t UPDATE_IO_MS = 5000;
 int32_t last_io_update_ms= 0;
 
 void loop(){
-  clock();
+  desk_clock();
 }
 
 void word_drop_in(uint16_t time_inc){
@@ -916,7 +916,7 @@ void next_display(){
   Serial.println(CurrentDisplay_p->name);
 }
 
-void clock(){
+void desk_clock(){
   bool tmp_d[NUM_LEDS];
   uint8_t word[3];                // will store start_x, start_y, length of word
   time_t spm;                     // seconds past midnight
